@@ -1,0 +1,351 @@
+{
+  "generatedAt": "2026-05-14T09:14:49.283Z",
+  "totalPapers": 51960,
+  "yearStart": 2023,
+  "yearEnd": 2026,
+  "fullDataShards": [
+    "data/full/acl-2023.json",
+    "data/full/acl-2024.json",
+    "data/full/acl-2025.json",
+    "data/full/emnlp-2023.json",
+    "data/full/emnlp-2024.json",
+    "data/full/emnlp-2025.json",
+    "data/full/iclr-2023.json",
+    "data/full/iclr-2024.json",
+    "data/full/iclr-2025.json",
+    "data/full/iclr-2026.json",
+    "data/full/icml-2023.json",
+    "data/full/icml-2024.json",
+    "data/full/icml-2025.json",
+    "data/full/naacl-2024.json",
+    "data/full/naacl-2025.json",
+    "data/full/neurips-2023.json",
+    "data/full/neurips-2024.json",
+    "data/full/neurips-2025.json"
+  ],
+  "collected": [
+    {
+      "conference": "acl",
+      "conferenceName": "ACL",
+      "year": 2023,
+      "source": "ACL Anthology",
+      "url": "https://aclanthology.org/events/acl-2023/",
+      "status": "ok",
+      "papers": 1976,
+      "volumes": [
+        "2023.acl-long",
+        "2023.acl-short",
+        "2023.findings-acl"
+      ]
+    },
+    {
+      "conference": "acl",
+      "conferenceName": "ACL",
+      "year": 2024,
+      "source": "ACL Anthology",
+      "url": "https://aclanthology.org/events/acl-2024/",
+      "status": "ok",
+      "papers": 1915,
+      "volumes": [
+        "2024.acl-long",
+        "2024.acl-short",
+        "2024.findings-acl"
+      ]
+    },
+    {
+      "conference": "acl",
+      "conferenceName": "ACL",
+      "year": 2025,
+      "source": "ACL Anthology",
+      "url": "https://aclanthology.org/events/acl-2025/",
+      "status": "ok",
+      "papers": 3086,
+      "volumes": [
+        "2025.acl-long",
+        "2025.acl-short",
+        "2025.findings-acl"
+      ]
+    },
+    {
+      "conference": "emnlp",
+      "conferenceName": "EMNLP",
+      "year": 2023,
+      "source": "ACL Anthology",
+      "url": "https://aclanthology.org/events/emnlp-2023/",
+      "status": "ok",
+      "papers": 2106,
+      "volumes": [
+        "2023.emnlp-main",
+        "2023.findings-emnlp"
+      ]
+    },
+    {
+      "conference": "emnlp",
+      "conferenceName": "EMNLP",
+      "year": 2024,
+      "source": "ACL Anthology",
+      "url": "https://aclanthology.org/events/emnlp-2024/",
+      "status": "ok",
+      "papers": 2271,
+      "volumes": [
+        "2024.emnlp-main",
+        "2024.findings-emnlp"
+      ]
+    },
+    {
+      "conference": "emnlp",
+      "conferenceName": "EMNLP",
+      "year": 2025,
+      "source": "ACL Anthology",
+      "url": "https://aclanthology.org/events/emnlp-2025/",
+      "status": "ok",
+      "papers": 3214,
+      "volumes": [
+        "2025.emnlp-main",
+        "2025.findings-emnlp"
+      ]
+    },
+    {
+      "conference": "naacl",
+      "conferenceName": "NAACL",
+      "year": 2024,
+      "source": "ACL Anthology",
+      "url": "https://aclanthology.org/events/naacl-2024/",
+      "status": "ok",
+      "papers": 858,
+      "volumes": [
+        "2024.naacl-long",
+        "2024.naacl-short",
+        "2024.findings-naacl"
+      ]
+    },
+    {
+      "conference": "naacl",
+      "conferenceName": "NAACL",
+      "year": 2025,
+      "source": "ACL Anthology",
+      "url": "https://aclanthology.org/events/naacl-2025/",
+      "status": "ok",
+      "papers": 1193,
+      "volumes": [
+        "2025.naacl-long",
+        "2025.naacl-short",
+        "2025.findings-naacl"
+      ]
+    },
+    {
+      "conference": "iclr",
+      "conferenceName": "ICLR",
+      "year": 2023,
+      "source": "OpenReview",
+      "url": "https://openreview.net/group?id=ICLR.cc/2023/Conference",
+      "status": "ok",
+      "papers": 3792,
+      "venueId": "ICLR.cc/2023/Conference"
+    },
+    {
+      "conference": "iclr",
+      "conferenceName": "ICLR",
+      "year": 2024,
+      "source": "OpenReview",
+      "url": "https://openreview.net/group?id=ICLR.cc/2024/Conference",
+      "status": "ok",
+      "papers": 2260,
+      "venueId": "ICLR.cc/2024/Conference"
+    },
+    {
+      "conference": "iclr",
+      "conferenceName": "ICLR",
+      "year": 2025,
+      "source": "OpenReview",
+      "url": "https://openreview.net/group?id=ICLR.cc/2025/Conference",
+      "status": "ok",
+      "papers": 3703,
+      "venueId": "ICLR.cc/2025/Conference"
+    },
+    {
+      "conference": "iclr",
+      "conferenceName": "ICLR",
+      "year": 2026,
+      "source": "OpenReview",
+      "url": "https://openreview.net/group?id=ICLR.cc/2026/Conference",
+      "status": "ok",
+      "papers": 5352,
+      "venueId": "ICLR.cc/2026/Conference"
+    },
+    {
+      "conference": "icml",
+      "conferenceName": "ICML",
+      "year": 2023,
+      "source": "OpenReview",
+      "url": "https://openreview.net/group?id=ICML.cc/2023/Conference",
+      "status": "ok",
+      "papers": 1828,
+      "venueId": "ICML.cc/2023/Conference"
+    },
+    {
+      "conference": "icml",
+      "conferenceName": "ICML",
+      "year": 2024,
+      "source": "OpenReview",
+      "url": "https://openreview.net/group?id=ICML.cc/2024/Conference",
+      "status": "ok",
+      "papers": 2610,
+      "venueId": "ICML.cc/2024/Conference"
+    },
+    {
+      "conference": "icml",
+      "conferenceName": "ICML",
+      "year": 2025,
+      "source": "OpenReview",
+      "url": "https://openreview.net/group?id=ICML.cc/2025/Conference",
+      "status": "ok",
+      "papers": 3257,
+      "venueId": "ICML.cc/2025/Conference"
+    },
+    {
+      "conference": "neurips",
+      "conferenceName": "NeurIPS",
+      "year": 2023,
+      "source": "OpenReview",
+      "url": "https://openreview.net/group?id=NeurIPS.cc/2023/Conference",
+      "status": "ok",
+      "papers": 3218,
+      "venueId": "NeurIPS.cc/2023/Conference"
+    },
+    {
+      "conference": "neurips",
+      "conferenceName": "NeurIPS",
+      "year": 2024,
+      "source": "OpenReview",
+      "url": "https://openreview.net/group?id=NeurIPS.cc/2024/Conference",
+      "status": "ok",
+      "papers": 4035,
+      "venueId": "NeurIPS.cc/2024/Conference"
+    },
+    {
+      "conference": "neurips",
+      "conferenceName": "NeurIPS",
+      "year": 2025,
+      "source": "OpenReview",
+      "url": "https://openreview.net/group?id=NeurIPS.cc/2025/Conference",
+      "status": "ok",
+      "papers": 5286,
+      "venueId": "NeurIPS.cc/2025/Conference"
+    }
+  ],
+  "missingOrEmpty": [
+    {
+      "conference": "acl",
+      "conferenceName": "ACL",
+      "year": 2026,
+      "source": "ACL Anthology",
+      "url": "https://aclanthology.org/events/acl-2026/",
+      "status": "not_published",
+      "papers": 0,
+      "error": "HTTP 404 for https://aclanthology.org/events/acl-2026/"
+    },
+    {
+      "conference": "emnlp",
+      "conferenceName": "EMNLP",
+      "year": 2026,
+      "source": "ACL Anthology",
+      "url": "https://aclanthology.org/events/emnlp-2026/",
+      "status": "not_published",
+      "papers": 0,
+      "error": "HTTP 404 for https://aclanthology.org/events/emnlp-2026/"
+    },
+    {
+      "conference": "naacl",
+      "conferenceName": "NAACL",
+      "year": 2023,
+      "source": "ACL Anthology",
+      "url": "https://aclanthology.org/events/naacl-2023/",
+      "status": "not_published",
+      "papers": 0,
+      "error": "HTTP 404 for https://aclanthology.org/events/naacl-2023/"
+    },
+    {
+      "conference": "naacl",
+      "conferenceName": "NAACL",
+      "year": 2026,
+      "source": "ACL Anthology",
+      "url": "https://aclanthology.org/events/naacl-2026/",
+      "status": "not_published",
+      "papers": 0,
+      "error": "HTTP 404 for https://aclanthology.org/events/naacl-2026/"
+    },
+    {
+      "conference": "icml",
+      "conferenceName": "ICML",
+      "year": 2026,
+      "source": "OpenReview",
+      "url": "https://openreview.net/group?id=ICML.cc/2026/Conference",
+      "status": "empty",
+      "papers": 0,
+      "venueId": "ICML.cc/2026/Conference"
+    },
+    {
+      "conference": "neurips",
+      "conferenceName": "NeurIPS",
+      "year": 2026,
+      "source": "OpenReview",
+      "url": "https://openreview.net/group?id=NeurIPS.cc/2026/Conference",
+      "status": "empty",
+      "papers": 0,
+      "venueId": "NeurIPS.cc/2026/Conference"
+    }
+  ],
+  "topCategories": [
+    {
+      "topic": "Evaluation & Benchmarks",
+      "count": 5842,
+      "share": 0.11243264049268668
+    },
+    {
+      "topic": "Optimization & Theory",
+      "count": 5632,
+      "share": 0.10839107005388761
+    },
+    {
+      "topic": "LLMs & Foundation Models",
+      "count": 5454,
+      "share": 0.10496535796766744
+    },
+    {
+      "topic": "Efficient AI & Systems",
+      "count": 5168,
+      "share": 0.09946112394149345
+    },
+    {
+      "topic": "Alignment, Safety & Trust",
+      "count": 3994,
+      "share": 0.07686682063125481
+    },
+    {
+      "topic": "Generative Models",
+      "count": 3938,
+      "share": 0.07578906851424172
+    },
+    {
+      "topic": "Interpretability & Analysis",
+      "count": 3058,
+      "share": 0.058852963818321787
+    },
+    {
+      "topic": "RL, Robotics & Control",
+      "count": 3039,
+      "share": 0.05848729792147806
+    },
+    {
+      "topic": "Reasoning & Planning",
+      "count": 2940,
+      "share": 0.05658198614318707
+    },
+    {
+      "topic": "Retrieval & Knowledge",
+      "count": 2362,
+      "share": 0.045458044649730564
+    }
+  ]
+}
