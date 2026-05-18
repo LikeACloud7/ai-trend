@@ -47154,7 +47154,7 @@
       "Yifei Song",
       "William Soto Martinez",
       "Anna Nikiforovskaya",
-      "Evan Parker Kelly Chapple",
+      "Evan Chapple",
       "Claire Gardent"
     ],
     "abstract": "Most work on Knowledge Graph (KG) verbalisation is monolingual leaving open the question of how to scale KG-to-Text generation to languages with varying amounts of resources. In this work, we explore KG-to-Text generation on nine languages including five high-resource (HR) languages (English, Chinese, French, Spanish, Russian) and four low-resource (LR) languages (Breton, Irish, Maltese, Welsh). We first construct silver multilingual training data for all nine languages and new gold out-of-domain test data for the five HR languages. Using this data and already available in-domain test sets for 7 of our 9 languages, we then compare three strategies: (1) NLG+MT—a state-of-the-art KG-to-English model followed by Machine Translation (MT) into the target language; (2) FTMT—multilingual MT models fine-tuned end-to-end on the silver data; and (3) FewShot—few-shot LLM prompting comparing 4 LLMs. We explore different prompting strategies and show that our best prompting strategy performs the best on all 9 languages, discussing the relative performance of the three approaches on Low vs High Resource languages and on in- vs out-of-domain data.The models, the test set, and the silver training data are available at https://github.com/MeloS7/Multilingual-KG-Verbalisation.",
@@ -107393,7 +107393,7 @@
     "id": "2025.emnlp-main.912",
     "title": "From Surveys to Narratives: Rethinking Cultural Value Adaptation in LLM s",
     "authors": [
-      "Farid Adilazuarda",
+      "M. Farid Adilazuarda",
       "Chen Cecilia Liu",
       "Iryna Gurevych",
       "Alham Fikri Aji"
@@ -168161,9 +168161,9 @@
     "id": "2025.emnlp-main.399",
     "title": "XA uto LM : Efficient Fine-Tuning of Language Models via Meta-Learning and A uto ML",
     "authors": [
-      "Ernesto Luis Estevanell Valladares",
-      "Suilan Estevez-Velarde",
-      "Yoan Gutierrez",
+      "Ernesto L. Estevanell-Valladares",
+      "Suilan Estévez-Velarde",
+      "Yoan Gutiérrez",
       "Andrés Montoyo",
       "Ruslan Mitkov"
     ],

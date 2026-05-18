@@ -112479,7 +112479,7 @@
       "Bhavya Kailkhura",
       "Brian R. Bartoldson"
     ],
-    "abstract": "Models are susceptible to adversarially out-of-distribution (OOD) data despite large training-compute investments into their robustification. Zaremba et al. (2025) make progress on this problem at test time, showing LLM reasoning improves satisfaction of model specifications designed to thwart attacks, resulting in a correlation between reasoning effort and robustness to jailbreaks. However, this benefit of test compute fades when attackers are given access to gradients or multimodal inputs. We address this gap, clarifying that inference-compute offers benefits even in such cases. Our approach argues that compositional generalization, through which OOD data is understandable via its in-distribution (ID) components, enables adherence to defensive specifications on adversarially OOD inputs. Namely, we posit the Robustness from Inference Compute Hypothesis (RICH): inference-compute defenses profit as the model's training data better reflects the attacked data’s components. We empirically support this hypothesis across vision language model and attack types, finding robustness gains from test-time compute if specification following on OOD data is unlocked by compositional generalization. For example, InternVL 3.5 gpt-oss 20B gains little robustness when its test compute is scaled, but such scaling adds significant robustness if we first robustify its vision encoder. This correlation of inference-compute's robustness benefit with base model robustness is the rich-get-richer dynamic of the RICH: attacked data components are more ID for robustified models, aiding compositional generalization to OOD data. Thus, we advise layering train-time and test-time defenses to obtain their synergistic benefit.",
+    "abstract": "Test-time reasoning has raised benchmark performances and even shown promise in addressing the historically intractable problem of making models robust to adversarially out-of-distribution (OOD) data. Indeed, recent work used reasoning to aid satisfaction of model specifications designed to thwart attacks, finding a striking correlation between LLM reasoning effort and robustness to jailbreaks. However, this benefit fades when stronger (e.g. gradient-based or multimodal) attacks are used. This may be expected as models often can't follow instructions on the adversarially OOD data created by such attacks, and instruction following is needed to act in accordance with the attacker-thwarting spec. Thus, we hypothesize that the test-time robustness benefits of specs are unlocked by initial robustness sufficient to follow instructions on OOD data. Namely, we posit the Robustness from Inference Compute Hypothesis (RICH): inference-compute defenses profit as the model's training data better reflects the components of attacked data. Guided by the RICH, we test models of varying initial-robustness levels, finding inference-compute adds robustness even to white-box multimodal attacks, provided the model has sufficient initial robustness. Further evidencing a rich-get-richer dynamic, InternVL 3.5 gpt-oss 20B gains little robustness when its test compute is scaled, but such scaling adds significant robustness if we first robustify its vision encoder (creating the first adversarially robust reasoning VLM in the process). Robustifying models makes attacked components of data more in-distribution (ID), and the RICH suggests this fuels compositional generalization -- understanding OOD data via its ID components -- to following spec instructions on adversarial data. Consistently, we find test-time defenses both build and depend on train-time data and defenses.",
     "year": 2026,
     "conference": "iclr",
     "conferenceName": "ICLR",
@@ -112506,13 +112506,13 @@
         "id": "evaluation",
         "label": "Evaluation & Benchmarks",
         "color": "#4f46e5",
-        "score": 19
+        "score": 20
       },
       {
         "id": "efficient_ai",
         "label": "Efficient AI & Systems",
         "color": "#16a34a",
-        "score": 17
+        "score": 16
       },
       {
         "id": "reasoning",
@@ -112521,16 +112521,16 @@
         "score": 5
       },
       {
-        "id": "llms",
-        "label": "LLMs & Foundation Models",
-        "color": "#2563eb",
-        "score": 2
-      },
-      {
         "id": "multimodal",
         "label": "Multimodal & Vision-Language",
         "color": "#7c3aed",
-        "score": 2
+        "score": 3
+      },
+      {
+        "id": "llms",
+        "label": "LLMs & Foundation Models",
+        "color": "#2563eb",
+        "score": 1
       }
     ]
   },
@@ -129908,7 +129908,7 @@
       "Simon Shaolei Du",
       "Natasha Jaques"
     ],
-    "abstract": "Being able to cooperate with diverse humans is an important component of many economically valuable AI tasks, from household robotics to autonomous driving. However, generalizing to novel humans requires training on data that captures the diversity of human behaviors. Adversarial training is a promising method that allows dynamic data generation and ensures that agents are robust. It creates a feedback loop where the agent’s performance influences the generation of new adversarial data, which can be used immediately to train the agent. However, adversarial training is difficult to apply in a cooperative task; how can we train an adversarial cooperator? We propose a novel strategy that combines a pre-trained generative model to simulate valid cooperative agent policies with adversarial training to maximize regret. We call our method \\textbf{GOAT}: \\textbf{G}enerative \\textbf{O}nline \\textbf{A}dversarial \\textbf{T}raining. In this framework, the GOAT dynamically searches the latent space of the generative model for coordination strategies where the learning policy---the Cooperator agent---underperforms. GOAT enables better generalization by exposing the Cooperator to various challenging interaction scenarios. We maintain realistic coordination strategies by keeping the generative model frozen, thus avoiding adversarial exploitation. We evaluate GOAT with real human partners, and the results demonstrate state-of-the-art performance on the Overcooked benchmark, highlighting its effectiveness in generalizing to diverse human behaviors.",
+    "abstract": "Being able to cooperate with diverse humans is an important component of many economically valuable AI tasks, from household robotics to autonomous driving. However, generalizing to novel humans requires training on data that captures the diversity of human behaviors. Adversarial training is a promising method that allows dynamic data generation and ensures that agents are robust. It creates a feedback loop where the agent’s performance influences the generation of new adversarial data, which can be used immediately to train the agent. However, adversarial training is difficult to apply in a cooperative task; how can we train an adversarial cooperator? We propose a novel strategy that combines a pre-trained generative model to simulate valid cooperative agent policies with adversarial training to maximize regret. We call our method GOAT: Generative Online Adversarial Training. In this framework, the GOAT dynamically searches the latent space of the generative model for coordination strategies where the learning policy---the Cooperator agent---underperforms. GOAT enables better generalization by exposing the Cooperator to various challenging interaction scenarios. We maintain realistic coordination strategies by keeping the generative model frozen, thus avoiding adversarial exploitation. We evaluate GOAT with real human partners, and the results demonstrate state-of-the-art performance on the Overcooked benchmark, highlighting its effectiveness in generalizing to diverse human behaviors.",
     "year": 2026,
     "conference": "iclr",
     "conferenceName": "ICLR",
@@ -129944,7 +129944,7 @@
         "id": "generative_models",
         "label": "Generative Models",
         "color": "#db2777",
-        "score": 8
+        "score": 9
       },
       {
         "id": "rl_robotics",
@@ -138306,7 +138306,7 @@
       "Ruihua Song",
       "Liyun Ru"
     ],
-    "abstract": "Understanding videos inherently requires reasoning over both visual and auditory information. To properly evaluate Omni-Large Language Models (Omni-LLMs), which are capable of processing multi-modal information including vision and audio, an effective benchmark must comprehensively cover three key aspects: (1) multi-modal dependency (i.e., questions that cannot be answered using vision or audio alone), (2) diverse audio information types (e.g., speech, sound events), and (3) varying scene spans. However, existing datasets fall short in one or more of these dimensions, limiting strict and comprehensive evaluation. To address this gap, we introduce JointAVBench, a novel benchmark with strict audio-video correlation, spanning five cognitive dimensions, four audio information types (speech, sound events, music, vocal traits), and three scene spans (single-, cross-, and full-scene). Given the high cost of manual annotation, we propose an automated pipeline that leverages state-of-the-art vision-LLMs, audio-LLMs, and general-purpose LLMs to synthesize questions and answers that strictly require joint audio-visual understanding. We evaluate leading vision-only, audio-only, and Omni-LLMs on our dataset. Results show that even the best-performing Omni-LLM achieves only 62.6\\% average accuracy, outperforming uni-modal baselines but revealing substantial room for improvement, especially in cross-scene reasoning.",
+    "abstract": "Understanding videos inherently requires reasoning over both visual and auditory information. To properly evaluate Omni-Large Language Models (Omni-LLMs), which are capable of processing multi-modal information including vision and audio, an effective benchmark must comprehensively cover three key aspects: (1) multi-modal dependency (i.e., questions that cannot be answered using vision or audio alone), (2) diverse audio information types (e.g., speech, sound events), and (3) varying scene spans. However, existing datasets fall short in one or more of these dimensions, limiting strict and comprehensive evaluation. To address this gap, we introduce JointAVBench, a novel benchmark with strict audio-video correlation, spanning five cognitive dimensions, four audio information types (speech, sound events, music, vocal traits), and three scene spans (single-, cross-, and full-scene). Given the high cost of manual annotation, we propose an automated pipeline that leverages state-of-the-art vision-LLMs, audio-LLMs, and general-purpose LLMs to synthesize questions and answers that strictly require joint audio-visual understanding. We evaluate leading vision-only, audio-only, and Omni-LLMs on our dataset. Results show that even the best-performing Omni-LLM achieves only 65.3\\% average accuracy, outperforming uni-modal baselines but revealing substantial room for improvement, especially in cross-scene reasoning.",
     "year": 2026,
     "conference": "iclr",
     "conferenceName": "ICLR",
@@ -171044,7 +171044,7 @@
     "id": "DZcpnudp7f",
     "title": "MoCa: Modeling Object Consistency for 3D Camera Control in Video Generation",
     "authors": [
-      "Chengzhijing",
+      "Zhijing Cheng",
       "Xuancheng Zhang",
       "Donglin Di",
       "Chen Wei",
@@ -182843,7 +182843,9 @@
     "sourceVenueId": "ICLR.cc/2026/Conference",
     "url": "https://openreview.net/forum?id=GDA1yB6yDP",
     "keywords": [
-      "Multimodal Large Language Models; Academic Paper Reasoning; Scan-Oriented Reasoning"
+      "Multimodal Large Language Models",
+      "Academic Paper Reasoning",
+      "Scan-Oriented Reasoning"
     ],
     "ordinal": 28,
     "primaryCategory": "reasoning",
@@ -182946,7 +182948,7 @@
       "Andrea Vedaldi",
       "Daniel Cremers"
     ],
-    "abstract": "We present NOVA3R, an effective approach for non-pixel-aligned 3D reconstruction from a set of unposed images in a feed-forward manner. Unlike pixel-aligned methods that tie geometry to per-ray predictions, our formulation learns a global, view-agnostic scene representation that decouples reconstruction from pixel alignment. This addresses two key limitations in pixel-aligned 3D: (1) it recovers both visible and invisible regions with a complete scene representation, and (2) it produces physically plausible geometry with fewer duplicated structures in overlapping regions. To achieve this, we introduce a scene-token mechanism that aggregates information across unposed images and a diffusion-based 3D decoder that reconstructs complete, non-pixel-aligned point clouds. Extensive experiments on both scene-level and object-level datasets demonstrate that NOVA3R outperforms state-of-the-art methods in terms of reconstruction accuracy and completeness.",
+    "abstract": "We present NOVA3R, an effective approach for non-pixel-aligned 3D reconstruction from a set of unposed images in a feed-forward manner. Unlike pixel-aligned methods that tie geometry to per-ray predictions, our formulation learns a global, view-agnostic scene representation that decouples reconstruction from pixel alignment. This addresses two key limitations in pixel-aligned 3D: (1) it recovers both visible and invisible regions with a complete scene representation, and (2) it produces physically plausible geometry with fewer duplicated structures in overlapping regions. To achieve this, we introduce a scene-token mechanism that aggregates information across unposed images and a diffusion-based 3D decoder that reconstructs complete, non-pixel-aligned point clouds. Extensive experiments on both scene-level and object-level datasets demonstrate that NOVA3R outperforms state-of-the-art methods in terms of reconstruction accuracy and completeness. Project page: https://wrchen530.github.io/nova3r/.",
     "year": 2026,
     "conference": "iclr",
     "conferenceName": "ICLR",
@@ -182959,7 +182961,8 @@
     "keywords": [
       "Feed-forward 3D Reconstruction",
       "Non-pixel-aligned 3D Reconstruction",
-      "3D Completion"
+      "3D Completion",
+      "3D Tokenization"
     ],
     "ordinal": 1342,
     "primaryCategory": "interpretability",
@@ -187606,7 +187609,7 @@
   },
   {
     "id": "ta8BKRa1bl",
-    "title": "On the identifiability of causal graphs with multiple environments",
+    "title": "On the Identifiability of Causal Graphs with the Invariance Principle",
     "authors": [
       "Francesco Montagna"
     ],
@@ -214520,7 +214523,7 @@
       "Thomas Cass",
       "William F. Turner"
     ],
-    "abstract": "We introduce a training-efficient framework for time-series learning that combines random features with controlled differential equations (CDEs). In this approach, large randomly parameterized CDEs act as continuous-time reservoirs, mapping input paths to rich representations. Only a linear readout layer is trained, resulting in fast, scalable models with strong inductive bias. Building on this foundation, we propose two variants: (i) Random Fourier CDEs (RF-CDEs): these lift the input signal using random Fourier features prior to the dynamics, providing a kernel-free approximation of RBF-enhanced sequence models; (ii) Random Rough DEs (R-RDEs): these operate directly on rough-path inputs via a log-ODE discretisation, using log-signatures to capture higher-order temporal interactions while remaining stable and efficient. We prove that in the infinite-width limit, these models induce the RBF-lifted signature kernel and the rough signature kernel, respectively, offering a unified perspective on random-feature reservoirs, continuous-time deep architectures, and path-signature theory. We evaluate both models across a range of time-series benchmarks, demonstrating competitive or superior performance. These methods provide a practical alternative to explicit signature computations, retaining their inductive bias while benefiting from the efficiency of random features. Code is publicly available at: https://github.com/FrancescoPiatti/RandomSigJax.",
+    "abstract": "We introduce a training-efficient framework for time-series learning in which large randomly parameterized controlled and rough differential equations act as continuous-time reservoirs. These random dynamical systems map input paths to rich path-dependent representations, while only a linear readout layer is trained, yielding fast, scalable models with strong inductive bias. Building on this foundation, we propose two variants: (i) Random Fourier CDEs (RF-CDEs): these lift the input signal using random Fourier features prior to the dynamics, providing a kernel-free approximation of RBF-enhanced sequence models; (ii) Random Rough DEs (R-RDEs): these operate directly on rough-path inputs via a log-ODE discretisation, using log-signatures to capture higher-order temporal interactions while remaining stable and efficient. We prove that in the infinite-width limit, these models induce the RBF-lifted signature kernel and the rough signature kernel, respectively, offering a unified perspective on random-feature reservoirs, continuous-time deep architectures, and path-signature theory. We evaluate both models across a range of time-series benchmarks, demonstrating competitive or superior performance. These methods provide a practical alternative to explicit signature computations, retaining their inductive bias while benefiting from the efficiency of random features. Code is publicly available at: https://github.com/FrancescoPiatti/RandomSigJax.",
     "year": 2026,
     "conference": "iclr",
     "conferenceName": "ICLR",
@@ -215990,7 +215993,7 @@
       "Yisen Wang",
       "Lifeng Fan"
     ],
-    "abstract": "\"Read the room\", or the ability to infer others' mental states from subtle social cues, is a hallmark of human social intelligence, but remains a major challenge for current AI systems. Existing social reasoning datasets are limited in complexity, scale, and coverage of mental states, falling short of the rich causal dynamics found in real-life interactions. In this work, we introduce R$^3$-Bench, an evaluation benchmark with fine-grained annotations of belief, intent, desire, emotion, and their causal chains in complex scenarios. Furthermore, we introduce R$^3$-FDT, a large-scale training set generated through a novel automated pipeline with the same chain structure. We conduct a comprehensive evaluation of state-of-the-art (SOTA) large vision-language models (LVLMs) on R$^3$-Bench, revealing substantial deficiencies in consistent multi-step social reasoning. We also fine-tune a 7B model on R$^3$-FDT, achieving notable improvements across multiple relevant benchmarks. Our contributions are three-fold: (i) a novel benchmark with richly annotated, multi-step causal reasoning data; (ii) systematic evidence that SOTA LVLMs fall far short of human-level reasoning; (iii) a scalable training dataset that significantly enhances social reasoning performance. The datasets and code are available at: <https://github.com/LiXingNiu/Read-the-Room.git>.",
+    "abstract": "\"Read the room\", or the ability to infer others' mental states from subtle social cues, is a hallmark of human social intelligence, but remains a major challenge for current AI systems. Existing social reasoning datasets are limited in complexity, scale, and coverage of mental states, falling short of the rich causal dynamics found in real-life interactions. In this work, we introduce R$^3$-Bench, an evaluation benchmark with fine-grained annotations of belief, intent, desire, emotion, and their causal chains in complex scenarios. Furthermore, we introduce R$^3$-FDT, a large-scale training set generated through a novel automated pipeline with the same chain structure. We conduct a comprehensive evaluation of state-of-the-art (SOTA) large vision-language models (LVLMs) on R$^3$-Bench, revealing substantial deficiencies in consistent multi-step social reasoning. We also fine-tune a 7B model on R$^3$-FDT, achieving notable improvements across multiple relevant benchmarks. Our contributions are three-fold: (i) a novel benchmark with richly annotated, multi-step causal reasoning data; (ii) systematic evidence that SOTA LVLMs fall far short of human-level reasoning; (iii) a scalable training dataset that significantly enhances social reasoning performance. The datasets and codes are available at: <https://github.com/LiXingNiu/Read-the-Room.git>.",
     "year": 2026,
     "conference": "iclr",
     "conferenceName": "ICLR",
@@ -240447,57 +240450,6 @@
     ]
   },
   {
-    "id": "2A3Q2EtGTF",
-    "title": "Secondary Motion-Aware 3D Clothed Gaussian Avatars from Monocular Videos",
-    "authors": [
-      "Seungeun Lee",
-      "SeungJun Moon",
-      "Hah Min Lew",
-      "Ji-Su Kang",
-      "Gyeong-Moon Park"
-    ],
-    "abstract": "Recent advances in neural rendering, particularly 3D Gaussian Splatting (3DGS), have enabled animatable 3D human avatars from single videos with efficient rendering and high fidelity. However, current methods struggle with dynamic appearances, especially in loose garments (e.g., skirts), causing unrealistic cloth motion and needle artifacts. This paper introduces a novel approach to dynamic appearance modeling for 3DGS-based avatars, focusing on loose clothing. We identify two key challenges: (1) limited Gaussian deformation under pre-defined template articulation, and (2) a mismatch between body-template assumptions and the geometry of loose apparel. To address these issues, we propose a motion-aware autoregressive structural deformation framework for Gaussians. We structure Gaussians into an approximate graph and recursively predict structure-preserving updates, yielding realistic, template-free cloth dynamics. Our framework enables robust dynamic appearance modeling under the single-view constraint, producing accurate foreground silhouettes and precise alignment of Gaussian points with clothed shapes. To demonstrate the effectiveness of our method, we introduce an evaluation dataset featuring subjects performing dynamic movements in loose clothing, and extensive experiments validate that our approach significantly outperforms existing 3DGS-based methods in modeling dynamic appearances from monocular videos.",
-    "year": 2026,
-    "conference": "iclr",
-    "conferenceName": "ICLR",
-    "track": "main",
-    "subtype": "poster",
-    "source": "OpenReview",
-    "sourceApi": "OpenReview API2",
-    "sourceVenueId": "ICLR.cc/2026/Conference",
-    "url": "https://openreview.net/forum?id=2A3Q2EtGTF",
-    "keywords": [
-      "3D Computer Vision",
-      "Neural Rendering",
-      "3D Avatar Modeling"
-    ],
-    "ordinal": 1814,
-    "primaryCategory": "evaluation",
-    "categories": [
-      "evaluation"
-    ],
-    "categoryScores": [
-      {
-        "id": "evaluation",
-        "label": "Evaluation & Benchmarks",
-        "color": "#4f46e5",
-        "score": 2
-      },
-      {
-        "id": "alignment_safety",
-        "label": "Alignment, Safety & Trust",
-        "color": "#dc2626",
-        "score": 1
-      },
-      {
-        "id": "efficient_ai",
-        "label": "Efficient AI & Systems",
-        "color": "#16a34a",
-        "score": 1
-      }
-    ]
-  },
-  {
     "id": "iJNM7KY8FD",
     "title": "SecP-Tuning: Efficient Privacy-Preserving Prompt Tuning for Large Language Models via MPC",
     "authors": [
@@ -240842,7 +240794,7 @@
       "Qingjie Liu",
       "Qiyang Min"
     ],
-    "abstract": "Normalization layer constitutes an essential component in neural networks. In transformers, the predominantly used RMSNorm constrains vectors to a unit hypersphere, followed by dimension-wise rescaling through a learnable scaling coefficient $\\gamma$ to maintain the representational capacity of the model. However, RMSNorm discards the input norm information in forward pass and a static scaling factor $\\gamma$ may be insufficient to accommodate the wide variability of input data and distributional shifts, thereby limiting further performance improvements, particularly in zero-shot scenarios that large language models routinely encounter. To address this limitation, we propose SeeDNorm, which enhances the representational capability of the model by dynamically adjusting the scaling coefficient based on the current input, thereby preserving the input norm information and enabling data-dependent, self-rescaled dynamic normalization. During backpropagation, SeeDNorm retains the ability of RMSNorm to dynamically adjust gradient according to the input norm. We provide a detailed analysis of the training optimization for SeedNorm and proposed corresponding solutions to address potential instability issues that may arise when applying SeeDNorm. We validate the effectiveness of SeeDNorm across models of varying sizes in large language model pre-training as well as supervised and unsupervised computer vision tasks. By introducing a minimal number of parameters and with negligible impact on model efficiency, SeeDNorm achieves consistently superior performance compared to previously commonly used normalization layers such as RMSNorm and LayerNorm, as well as element-wise activation alternatives to normalization layers like DyT.",
+    "abstract": "Normalization layer constitutes an essential component in neural networks. In transformers, the predominantly used RMSNorm constrains vectors to a unit hypersphere, followed by dimension-wise rescaling through a learnable scaling coefficient $\\gamma$ to maintain the representational capacity of the model. However, RMSNorm discards the input norm information in forward pass and a static scaling factor $\\gamma$ may be insufficient to accommodate the wide variability of input data and distributional shifts, thereby limiting further performance improvements, particularly in zero-shot scenarios that large language models routinely encounter. To address this limitation, we propose SeeDNorm, which enhances the representational capability of the model by dynamically adjusting the scaling coefficient based on the current input, thereby preserving the input norm information and enabling data-dependent, self-rescaled dynamic normalization. During backpropagation, SeeDNorm retains the ability of RMSNorm to dynamically adjust gradient according to the input norm. We provide a detailed analysis of the training optimization for SeeDNorm and proposed corresponding solutions to address potential instability issues that may arise when applying SeeDNorm. We validate the effectiveness of SeeDNorm across models of varying sizes in large language model pre-training as well as supervised and unsupervised computer vision tasks. By introducing a minimal number of parameters and with negligible impact on model efficiency, SeeDNorm achieves consistently superior performance compared to previously commonly used normalization layers such as RMSNorm and LayerNorm, as well as element-wise activation alternatives to normalization layers like DyT.",
     "year": 2026,
     "conference": "iclr",
     "conferenceName": "ICLR",
@@ -240853,7 +240805,7 @@
     "sourceVenueId": "ICLR.cc/2026/Conference",
     "url": "https://openreview.net/forum?id=dFL7XExDvv",
     "keywords": [
-      "Normalization Layer"
+      "Normalization Layers"
     ],
     "ordinal": 4407,
     "primaryCategory": "llms",
@@ -248626,6 +248578,57 @@
         "label": "Optimization & Theory",
         "color": "#475569",
         "score": 9
+      },
+      {
+        "id": "efficient_ai",
+        "label": "Efficient AI & Systems",
+        "color": "#16a34a",
+        "score": 1
+      }
+    ]
+  },
+  {
+    "id": "2A3Q2EtGTF",
+    "title": "SMAGA: Secondary Motion-Aware 3D Clothed Gaussian Avatars from Monocular Videos",
+    "authors": [
+      "Seungeun Lee",
+      "SeungJun Moon",
+      "Hah Min Lew",
+      "Ji-Su Kang",
+      "Gyeong-Moon Park"
+    ],
+    "abstract": "Recent advances in neural rendering, particularly 3D Gaussian Splatting (3DGS), have enabled animatable 3D human avatars from single videos with efficient rendering and high fidelity. However, current methods struggle with dynamic appearances, especially in loose garments (e.g., skirts), causing unrealistic cloth motion and needle artifacts. This paper introduces a novel approach to dynamic appearance modeling for 3DGS-based avatars, focusing on loose clothing. We identify two key challenges: (1) limited Gaussian deformation under pre-defined template articulation, and (2) a mismatch between body-template assumptions and the geometry of loose apparel. To address these issues, we propose a motion-aware autoregressive structural deformation framework for Gaussians. We structure Gaussians into an approximate graph and recursively predict structure-preserving updates, yielding realistic, template-free cloth dynamics. Our framework enables robust dynamic appearance modeling under the single-view constraint, producing accurate foreground silhouettes and precise alignment of Gaussian points with clothed shapes. To demonstrate the effectiveness of our method, we introduce an evaluation dataset featuring subjects performing dynamic movements in loose clothing, and extensive experiments validate that our approach significantly outperforms existing 3DGS-based methods in modeling dynamic appearances from monocular videos.",
+    "year": 2026,
+    "conference": "iclr",
+    "conferenceName": "ICLR",
+    "track": "main",
+    "subtype": "poster",
+    "source": "OpenReview",
+    "sourceApi": "OpenReview API2",
+    "sourceVenueId": "ICLR.cc/2026/Conference",
+    "url": "https://openreview.net/forum?id=2A3Q2EtGTF",
+    "keywords": [
+      "3D Computer Vision",
+      "Neural Rendering",
+      "3D Avatar Modeling"
+    ],
+    "ordinal": 1814,
+    "primaryCategory": "evaluation",
+    "categories": [
+      "evaluation"
+    ],
+    "categoryScores": [
+      {
+        "id": "evaluation",
+        "label": "Evaluation & Benchmarks",
+        "color": "#4f46e5",
+        "score": 2
+      },
+      {
+        "id": "alignment_safety",
+        "label": "Alignment, Safety & Trust",
+        "color": "#dc2626",
+        "score": 1
       },
       {
         "id": "efficient_ai",
