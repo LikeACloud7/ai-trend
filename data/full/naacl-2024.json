@@ -13144,7 +13144,7 @@
     "authors": [
       "Yifu Qiu",
       "Varun Embar",
-      "Shay Cohen",
+      "Shay B. Cohen",
       "Benjamin Han"
     ],
     "abstract": "Knowledge-to-text generators often struggle to faithfully generate descriptions for the input facts: they may produce hallucinations that contradict the input, or describe facts not present in the input. To reduce hallucinations, we propose a decoding-only method, TWEAK (Think While Effectively Articulating Knowledge), which can be integrated with any generator without retraining. TWEAK treats the generated sequences at each decoding step and its future sequences as hypotheses, and ranks each generation candidate based on the extent to which their hypotheses are supported by the input facts using a Hypothesis Verification Model (HVM). We first demonstrate the effectiveness of TWEAK by using a Natural Language Inference (NLI) model as the HVM and report improved faithfulness with a minimal impact on the quality. We then replace the NLI model with a task-specific HVM trained with a first-of-a-kind dataset, FATE (Fact-Aligned Textual Entailment), which pairs input facts with their original and perturbed descriptions. We test TWEAK with two generators, and the best TWEAK variants improve on average for the two models by 2.24/7.17 points in faithfulness (FactKB) in in/out-of-distribution evaluations, respectively, and with only a 0.14/0.32-point decline in quality (BERTScore).",
@@ -17039,7 +17039,7 @@
       "Yftah Ziser",
       "Anna Korhonen",
       "Edoardo Ponti",
-      "Shay Cohen"
+      "Shay B. Cohen"
     ],
     "abstract": "Are Large Language Models (LLMs) temporally grounded? Since LLMs cannot perceive and interact with the environment, it is impossible to answer this question directly. Instead, we provide LLMs with textual narratives and probe them with respect to their common-sense knowledge of the structure and duration of events, their ability to order events along a timeline, and self-consistency within their temporal model (e.g., temporal relations such as after and before are mutually exclusive for any pair of events). We evaluate state-of-the-art LLMs (such as LLaMA 2 and GPT-4) on three tasks reflecting these abilities. Generally, we find that LLMs lag significantly behind both human performance as well as small-scale, specialised LMs. In-context learning, instruction tuning, and chain-of-thought prompting reduce this gap only to a limited degree. Crucially, LLMs struggle the most with self-consistency, displaying incoherent behaviour in at least 27.23% of their predictions. Contrary to expectations, we also find that scaling the model size does not guarantee positive gains in performance. To explain these results, we study the sources from which LLMs may gather temporal information: we find that sentence ordering in unlabelled texts, available during pre-training, is only weakly correlated with event ordering. Moreover, public instruction tuning mixtures contain few temporal tasks. Hence, we conclude that current LLMs lack a consistent temporal model of textual narratives.",
     "year": 2024,
@@ -28398,7 +28398,7 @@
     "authors": [
       "Dongwei Jiang",
       "Marcio Fonseca",
-      "Shay Cohen"
+      "Shay B. Cohen"
     ],
     "abstract": "Large language models (LLMs) often struggle with complex logical reasoning due to logical inconsistencies and the inherent difficulty ofsuch reasoning. We use Lean, a theorem proving framework, to address these challenges. By formalizing logical reasoning problems intotheorems within Lean, we can solve them by proving or disproving the corresponding theorems. This method reduces the risk of logical inconsistencies with the help of Lean’s symbolic solver. It also enhances our ability to treat complex reasoning tasks using Lean’s extensive library of theorem proofs. Our method achieves state-of-the-art performance on the FOLIO dataset and achieves performance near this level on ProofWriter. Notably, these results were accomplished by fine-tuning on fewer than 100 in-domain samples for each dataset",
     "year": 2024,

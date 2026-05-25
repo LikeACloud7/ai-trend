@@ -21352,7 +21352,7 @@
       "Varun R. Embar",
       "Yizhe Zhang",
       "Navdeep Jaitly",
-      "Shay B Cohen",
+      "Shay B. Cohen",
       "Benjamin Han"
     ],
     "abstract": "Recent advancements in long-context language models (LCLMs) promise to transform Retrieval-Augmented Generation (RAG) by simplifying pipelines. With their expanded context windows, LCLMs can process entire knowledge bases and perform retrieval and reasoning directly – a capability we define as In-Context Retrieval and Reasoning (ICR^2). However, existing benchmarks like LOFT often overestimate LCLM performance by providing overly simplified contexts. To address this, we introduce ICR^2, a benchmark that evaluates LCLMs in more realistic scenarios by including confounding passages retrieved with strong retrievers. We then propose three methods to enhance LCLM performance: (1) retrieve-then-generate fine-tuning, (2) retrieval-attention-probing, which uses attention heads to filter and de-noise long contexts during decoding, and (3) joint retrieval head training alongside the generation head. Our evaluation of five well-known LCLMs on LOFT and ICR^2 demonstrates significant gains with our best approach applied to Mistral-7B: +17 and +15 points by Exact Match on LOFT, and +13 and +2 points on ICR^2, compared to vanilla RAG and supervised fine-tuning, respectively. It even outperforms GPT-4-Turbo on most tasks despite being a much smaller model.",
@@ -47726,7 +47726,7 @@
       "Clara Vania",
       "Subhradeep Kayal",
       "Naila Khan",
-      "Shay B Cohen",
+      "Shay B. Cohen",
       "Emine Yilmaz"
     ],
     "abstract": "Large language models (LLMs) have advanced conversational AI assistants. However, systematically evaluating how well these assistants apply personalization—adapting to individual user preferences while completing tasks—remains challenging. Existing personalization benchmarks focus on chit-chat, non-conversational tasks, or narrow domains, failing to capture the complexities of personalized task-oriented assistance. To address this, we introduce PersonaLens, a comprehensive benchmark for evaluating personalization in task-oriented AI assistants. Our benchmark features diverse user profiles equipped with rich preferences and interaction histories, along with two specialized LLM-based agents: a user agent that engages in realistic task-oriented dialogues with AI assistants, and a judge agent that employs the LLM-as-a-Judge paradigm to assess personalization, response quality, and task success. Through extensive experiments with current LLM assistants across diverse tasks, we reveal significant variability in their personalization capabilities, providing crucial insights for advancing conversational AI systems.",
@@ -102391,7 +102391,7 @@
     "id": "2025.acl-long.1351",
     "title": "Evaluating Sequence Labeling on the basis of Information Theory",
     "authors": [
-      "Enrique Amigo",
+      "Enrique Amigó",
       "Elena Álvarez-Mellado",
       "Julio Gonzalo",
       "Jorge Carrillo-de-Albornoz"
@@ -151892,7 +151892,7 @@
       "Joshua Ong Jun Leang",
       "Giwon Hong",
       "Wenda Li",
-      "Shay B Cohen"
+      "Shay B. Cohen"
     ],
     "abstract": "The demand for synthetic data in mathematical reasoning has increased due to its potential to enhance the mathematical capabilities of large language models (LLMs). However, ensuring the validity of intermediate reasoning steps remains a significant challenge, affecting data quality. While formal verification via theorem provers effectively validates LLM reasoning, the autoformalisation of mathematical proofs remains error-prone. In response, we introduce *iterative autoformalisation*, an approach that iteratively refines theorem prover formalisation to mitigate errors, thereby increasing the execution rate on the Lean prover from 60% to 87%. Building upon that, we introduce *Theorem Prover as a Judge (TP-as-a-Judge)*, a method that employs theorem prover formalisation to rigorously assess LLM intermediate reasoning, effectively integrating autoformalisation with synthetic data generation. Finally, we present *Reinforcement Learning from Theorem Prover Feedback (RLTPF),* a framework that replaces human annotation with theorem prover feedback in Reinforcement Learning from Human Feedback (RLHF). Across multiple LLMs, applying *TP-as-a-Judge* and *RLTPF* improves benchmarks with only 3,508 samples, achieving 5.56% accuracy gain on Mistral-7B for MultiArith, 6.00% on Llama-2-7B for SVAMP, and 3.55% on Llama-3.1-8B for AQUA.",
     "year": 2025,

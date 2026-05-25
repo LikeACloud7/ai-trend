@@ -1011,7 +1011,7 @@
       "Zheng Zhao",
       "Yftah Ziser",
       "Bonnie Webber",
-      "Shay Cohen"
+      "Shay B. Cohen"
     ],
     "abstract": "We present an analysis tool based on joint matrix factorization for comparing latent representations of multilingual and monolingual models. An alternative to probing, this tool allows us to analyze multiple sets of representations in a joint manner. Using this tool, we study to what extent and how morphosyntactic features are reflected in the representations learned by multilingual pre-trained models. We conduct a large-scale empirical study of over 33 languages and 17 morphosyntactic categories. Our findings demonstrate variations in the encoding of morphosyntactic information across upper and lower layers, with category-specific differences influenced by language properties. Hierarchical clustering of the factorization outputs yields a tree structure that is related to phylogenetic trees manually crafted by linguists. Moreover, we find the factorization outputs exhibit strong associations with performance observed across different cross-lingual tasks. We release our code to facilitate future research.",
     "year": 2023,
@@ -36119,7 +36119,7 @@
       "Ashok Urlana",
       "Pinzhen Chen",
       "Zheng Zhao",
-      "Shay Cohen",
+      "Shay B. Cohen",
       "Manish Shrivastava",
       "Barry Haddow"
     ],
@@ -38762,14 +38762,14 @@
     "id": "2023.findings-emnlp.104",
     "title": "Remember what you did so you know what to do next",
     "authors": [
-      "Manuel Ciosici",
+      "Manuel R. Ciosici",
       "Alex Hedges",
       "Yash Kankanampati",
       "Justin Martin",
       "Marjorie Freedman",
       "Ralph Weischedel"
     ],
-    "abstract": "We explore using the 6B parameter GPT-J language model to create a plan for a simulated robot to achieve 30 classes of goals in ScienceWorld, a text game simulator for elementary science experiments and for which previously published empirical work has shown large language models (LLM)s to be a poor fit (Wang et al., 2022). Using the Markov assumption, the LLM outperforms the state-of-the-art based on reinforcement learning by a factor of 1.4. When we fill the LLM’s input buffer with as many prior steps as will fit, improvement rises to 3.3x. Even when training on only 6.5% of the training data, we observe a 2.3x improvement over the state-of-the-art. Our experiments show that performance varies widely across the 30 classes of actions, indicating that averaging over tasks can hide significant performance issues.",
+    "abstract": "We explore using a moderately sized large language model (GPT-J 6B parameters) to create a plan for a simulated robot to achieve 30 classes of goals in ScienceWorld, a text game simulator for elementary science experiments. Previously published empirical work claimed that large language models (LLMs) are a poor fit (Wang et al., 2022) compared to reinforcement learning. Using the Markov assumption (a single previous step), the LLM outperforms the reinforcement learning-based approach by a factor of 1.4. When we fill the LLM's input buffer with as many prior steps as possible, improvement rises to 3.5x. Even when training on only 6.5% of the training data, we observe a 2.2x improvement over the reinforcement-learning-based approach. Our experiments show that performance varies widely across the 30 classes of actions, indicating that averaging over tasks can hide significant performance issues.In work contemporaneous with ours, Lin et al. (2023) demonstrated a two-part approach (SwiftSage) that uses a small LLM (T5-large) complemented by OpenAI's massive LLMs to achieve outstanding results in ScienceWorld. Our 6-B parameter, single-stage GPT-J matches the performance of SwiftSage's two-stage architecture when it incorporates GPT-3.5 turbo which has 29-times more parameters than GPT-J.",
     "year": 2023,
     "conference": "emnlp",
     "conferenceName": "EMNLP",
@@ -38791,13 +38791,13 @@
         "id": "llms",
         "label": "LLMs & Foundation Models",
         "color": "#2563eb",
-        "score": 4
+        "score": 5
       },
       {
         "id": "rl_robotics",
         "label": "RL, Robotics & Control",
         "color": "#ea580c",
-        "score": 2
+        "score": 3
       },
       {
         "id": "domain_science",
@@ -53664,7 +53664,7 @@
     "title": "AMR Parsing is Far from Solved: G r APES , the Granular AMR Parsing Evaluation Suite",
     "authors": [
       "Jonas Groschwitz",
-      "Shay Cohen",
+      "Shay B. Cohen",
       "Lucia Donatelli",
       "Meaghan Fowlie"
     ],
@@ -63608,7 +63608,7 @@
       "Yftah Ziser",
       "Anna Korhonen",
       "Edoardo Ponti",
-      "Shay Cohen"
+      "Shay B. Cohen"
     ],
     "abstract": "Hallucinations pose a significant challenge to the reliability of neural models for abstractive summarisation. While automatically generated summaries may be fluent, they often lack faithfulness to the original document. This issue becomes even more pronounced in low-resource languages, where summarisation requires cross-lingual transfer. With the existing faithful metrics focusing on English, even measuring the extent of this phenomenon in cross-lingual settings is hard. To address this, we first develop a novel metric, mFACT, evaluating the faithfulness of non-English summaries, leveraging translation-based transfer from multiple English faithfulness metrics. Through extensive experiments in multiple languages, we demonstrate that mFACT is best suited to detect hallucinations compared to alternative metrics. With mFACT, we assess a broad range of multilingual large language models, and find that they all tend to hallucinate often in languages different from English. We then propose a simple but effective method to reduce hallucinations in cross-lingual transfer, which weighs the loss of each training example by its faithfulness score. This method drastically increases both performance and faithfulness according to both automatic and human evaluation when compared to strong baselines for cross-lingual transfer such as MAD-X. Our code and dataset are available at https://github.com/yfqiu-nlp/mfact-summ.",
     "year": 2023,
@@ -95269,12 +95269,12 @@
     "id": "2023.emnlp-main.848",
     "title": "The Sentiment Problem: A Critical Survey towards Deconstructing Sentiment Analysis",
     "authors": [
-      "Pranav Venkit",
+      "Pranav Narayanan Venkit",
       "Mukund Srinath",
       "Sanjana Gautam",
       "Saranya Venkatraman",
       "Vipul Gupta",
-      "Rebecca Passonneau",
+      "Rebecca J. Passonneau",
       "Shomir Wilson"
     ],
     "abstract": "We conduct an inquiry into the sociotechnical aspects of sentiment analysis (SA) by critically examining 189 peer-reviewed papers on their applications, models, and datasets. Our investigation stems from the recognition that SA has become an integral component of diverse sociotechnical systems, exerting influence on both social and technical users. By delving into sociological and technological literature on sentiment, we unveil distinct conceptualizations of this term in domains such as finance, government, and medicine. Our study exposes a lack of explicit definitions and frameworks for characterizing sentiment, resulting in potential challenges and biases. To tackle this issue, we propose an ethics sheet encompassing critical inquiries to guide practitioners in ensuring equitable utilization of SA. Our findings underscore the significance of adopting an interdisciplinary approach to defining sentiment in SA and offer a pragmatic solution for its implementation.",

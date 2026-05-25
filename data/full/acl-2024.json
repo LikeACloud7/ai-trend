@@ -7496,7 +7496,7 @@
     "title": "Can Large Language Model Summarizers Adapt to Diverse Scientific Communication Goals?",
     "authors": [
       "Marcio Fonseca",
-      "Shay Cohen"
+      "Shay B. Cohen"
     ],
     "abstract": "In this work, we investigate the controllability of large language models (LLMs) on scientific summarization tasks. We identify key stylistic and content coverage factors that characterize different types of summaries such as paper reviews, abstracts, and lay summaries. By controlling stylistic features, we find that non-fine-tuned LLMs outperform humans in the MuP review generation task, both in terms of similarity to reference summaries and human preferences. Also, we show that we can improve the controllability of LLMs with keyword-based classifier-free guidance (CFG) while achieving lexical overlap comparable to strong fine-tuned baselines on arXiv and PubMed. However, our results also indicate that LLMs cannot consistently generate long summaries with more than 8 sentences. Furthermore, these models exhibit limited capacity to produce highly abstractive lay summaries. Although LLMs demonstrate strong generic summarization competency, sophisticated content control without costly fine-tuning remains an open problem for domain-specific applications.",
     "year": 2024,
@@ -7540,7 +7540,7 @@
     "title": "Can Large Language Models Follow Concept Annotation Guidelines? A Case Study on Scientific and Financial Domains",
     "authors": [
       "Marcio Fonseca",
-      "Shay Cohen"
+      "Shay B. Cohen"
     ],
     "abstract": "Although large language models (LLMs) exhibit remarkable capacity to leverage in-context demonstrations, it is still unclear to what extent they can learn new facts or concept definitions via prompts. To address this question, we examine the capacity of instruction-tuned LLMs to follow in-context concept annotation guidelines for zero-shot sentence labeling tasks. We design guidelines that present different types of factual and counterfactual concept definitions, which are used as prompts for zero-shot sentence classification tasks. Our results show that although concept definitions consistently help in task performance, only the larger models (with 70B parameters or more) have limited ability to work under counterfactual contexts. Importantly, only proprietary models such as GPT-3.5 can recognize nonsensical guidelines, which we hypothesize is due to more sophisticated alignment methods. Finally, we find that Falcon-180B-chat is outperformed by Llama-2-70B-chat is most cases, which indicates that increasing model scale does not guarantee better adherence to guidelines. Altogether, our simple evaluation method reveals significant gaps in concept understanding between the most capable open-source language models and the leading proprietary APIs.",
     "year": 2024,
@@ -25409,7 +25409,7 @@
     "authors": [
       "Michelle Lo",
       "Fazl Barez",
-      "Shay Cohen"
+      "Shay B. Cohen"
     ],
     "abstract": "Advances in model editing through neuron pruning hold promise for removing undesirable concepts from large language models. However, it remains unclear whether models have the capacity to reacquire pruned concepts after editing. To investigate this, we evaluate concept relearning in models by tracking concept saliency and similarity in pruned neurons during retraining for named entity recognition tasks. Our findings reveal that models can quickly regain performance post-pruning by relocating advanced concepts to earlier layers and reallocating pruned concepts to primed neurons with similar semantics. This suggests that models exhibit polysemantic capacities and can blend old and new concepts in individual neurons. While neuron pruning provides interpretability into model concepts, our results highlight the challenges of permanent concept removal for improved model *safety*. Monitoring concept reemergence and developing techniques to mitigate relearning of unsafe concepts will be important directions for more robust model editing. Overall, our work strongly demonstrates the resilience and fluidity of concept representations in LLMs post concept removal.",
     "year": 2024,
