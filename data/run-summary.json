@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-01T08:49:18.996Z",
-  "totalPapers": 51960,
+  "generatedAt": "2026-06-08T08:26:47.921Z",
+  "totalPapers": 51959,
   "yearStart": 2023,
   "yearEnd": 2026,
   "fullDataShards": [
@@ -170,7 +170,7 @@
       "source": "OpenReview",
       "url": "https://openreview.net/group?id=ICLR.cc/2026/Conference",
       "status": "ok",
-      "papers": 5352,
+      "papers": 5351,
       "venueId": "ICLR.cc/2026/Conference"
     },
     {
@@ -300,52 +300,52 @@
     {
       "topic": "Evaluation & Benchmarks",
       "count": 5842,
-      "share": 0.11243264049268668
+      "share": 0.11243480436498009
     },
     {
       "topic": "Optimization & Theory",
       "count": 5632,
-      "share": 0.10839107005388761
+      "share": 0.108393156142343
     },
     {
       "topic": "LLMs & Foundation Models",
       "count": 5454,
-      "share": 0.10496535796766744
+      "share": 0.10496737812506014
     },
     {
       "topic": "Efficient AI & Systems",
       "count": 5168,
-      "share": 0.09946112394149345
+      "share": 0.0994630381647068
     },
     {
       "topic": "Alignment, Safety & Trust",
       "count": 3994,
-      "share": 0.07686682063125481
+      "share": 0.07686830000577378
     },
     {
       "topic": "Generative Models",
       "count": 3938,
-      "share": 0.07578906851424172
+      "share": 0.0757905271464039
     },
     {
       "topic": "Interpretability & Analysis",
-      "count": 3058,
-      "share": 0.058852963818321787
+      "count": 3057,
+      "share": 0.05883485055524548
     },
     {
       "topic": "RL, Robotics & Control",
       "count": 3039,
-      "share": 0.05848729792147806
+      "share": 0.05848842356473373
     },
     {
       "topic": "Reasoning & Planning",
       "count": 2940,
-      "share": 0.05658198614318707
+      "share": 0.05658307511691911
     },
     {
       "topic": "Retrieval & Knowledge",
       "count": 2362,
-      "share": 0.045458044649730564
+      "share": 0.04545891953270848
     }
   ]
 }
