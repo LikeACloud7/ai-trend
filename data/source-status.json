@@ -214,9 +214,10 @@
     "year": 2025,
     "source": "OpenReview",
     "url": "https://openreview.net/group?id=ICML.cc/2025/Conference",
-    "status": "ok",
-    "papers": 3257,
-    "venueId": "ICML.cc/2025/Conference"
+    "status": "error",
+    "papers": 0,
+    "venueId": "ICML.cc/2025/Conference",
+    "error": "HTTP 429 for https://api2.openreview.net/notes?content.venueid=ICML.cc%2F2025%2FConference&limit=1000&offset=3000"
   },
   {
     "conference": "icml",
@@ -224,9 +225,10 @@
     "year": 2026,
     "source": "OpenReview",
     "url": "https://openreview.net/group?id=ICML.cc/2026/Conference",
-    "status": "empty",
+    "status": "error",
     "papers": 0,
-    "venueId": "ICML.cc/2026/Conference"
+    "venueId": "ICML.cc/2026/Conference",
+    "error": "HTTP 429 for https://api2.openreview.net/notes?content.venueid=ICML.cc%2F2026%2FConference&limit=1000&offset=0"
   },
   {
     "conference": "neurips",
@@ -234,9 +236,10 @@
     "year": 2023,
     "source": "OpenReview",
     "url": "https://openreview.net/group?id=NeurIPS.cc/2023/Conference",
-    "status": "ok",
-    "papers": 3218,
-    "venueId": "NeurIPS.cc/2023/Conference"
+    "status": "error",
+    "papers": 0,
+    "venueId": "NeurIPS.cc/2023/Conference",
+    "error": "HTTP 429 for https://api2.openreview.net/notes?content.venueid=NeurIPS.cc%2F2023%2FConference&limit=1000&offset=0"
   },
   {
     "conference": "neurips",
@@ -244,9 +247,10 @@
     "year": 2024,
     "source": "OpenReview",
     "url": "https://openreview.net/group?id=NeurIPS.cc/2024/Conference",
-    "status": "ok",
-    "papers": 4035,
-    "venueId": "NeurIPS.cc/2024/Conference"
+    "status": "error",
+    "papers": 0,
+    "venueId": "NeurIPS.cc/2024/Conference",
+    "error": "HTTP 429 for https://api2.openreview.net/notes?content.venueid=NeurIPS.cc%2F2024%2FConference&limit=1000&offset=0"
   },
   {
     "conference": "neurips",
@@ -254,9 +258,10 @@
     "year": 2025,
     "source": "OpenReview",
     "url": "https://openreview.net/group?id=NeurIPS.cc/2025/Conference",
-    "status": "ok",
-    "papers": 5286,
-    "venueId": "NeurIPS.cc/2025/Conference"
+    "status": "error",
+    "papers": 0,
+    "venueId": "NeurIPS.cc/2025/Conference",
+    "error": "HTTP 429 for https://api2.openreview.net/notes?content.venueid=NeurIPS.cc%2F2025%2FConference&limit=1000&offset=0"
   },
   {
     "conference": "neurips",
@@ -264,8 +269,9 @@
     "year": 2026,
     "source": "OpenReview",
     "url": "https://openreview.net/group?id=NeurIPS.cc/2026/Conference",
-    "status": "empty",
+    "status": "error",
     "papers": 0,
-    "venueId": "NeurIPS.cc/2026/Conference"
+    "venueId": "NeurIPS.cc/2026/Conference",
+    "error": "HTTP 429 for https://api2.openreview.net/notes?content.venueid=NeurIPS.cc%2F2026%2FConference&limit=1000&offset=0"
   }
 ]

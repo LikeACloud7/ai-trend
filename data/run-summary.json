@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-08T08:26:47.921Z",
-  "totalPapers": 51959,
+  "generatedAt": "2026-06-15T09:41:39.095Z",
+  "totalPapers": 36163,
   "yearStart": 2023,
   "yearEnd": 2026,
   "fullDataShards": [
@@ -16,12 +16,8 @@
     "data/full/iclr-2026.json",
     "data/full/icml-2023.json",
     "data/full/icml-2024.json",
-    "data/full/icml-2025.json",
     "data/full/naacl-2024.json",
-    "data/full/naacl-2025.json",
-    "data/full/neurips-2023.json",
-    "data/full/neurips-2024.json",
-    "data/full/neurips-2025.json"
+    "data/full/naacl-2025.json"
   ],
   "collected": [
     {
@@ -192,46 +188,6 @@
       "status": "ok",
       "papers": 2610,
       "venueId": "ICML.cc/2024/Conference"
-    },
-    {
-      "conference": "icml",
-      "conferenceName": "ICML",
-      "year": 2025,
-      "source": "OpenReview",
-      "url": "https://openreview.net/group?id=ICML.cc/2025/Conference",
-      "status": "ok",
-      "papers": 3257,
-      "venueId": "ICML.cc/2025/Conference"
-    },
-    {
-      "conference": "neurips",
-      "conferenceName": "NeurIPS",
-      "year": 2023,
-      "source": "OpenReview",
-      "url": "https://openreview.net/group?id=NeurIPS.cc/2023/Conference",
-      "status": "ok",
-      "papers": 3218,
-      "venueId": "NeurIPS.cc/2023/Conference"
-    },
-    {
-      "conference": "neurips",
-      "conferenceName": "NeurIPS",
-      "year": 2024,
-      "source": "OpenReview",
-      "url": "https://openreview.net/group?id=NeurIPS.cc/2024/Conference",
-      "status": "ok",
-      "papers": 4035,
-      "venueId": "NeurIPS.cc/2024/Conference"
-    },
-    {
-      "conference": "neurips",
-      "conferenceName": "NeurIPS",
-      "year": 2025,
-      "source": "OpenReview",
-      "url": "https://openreview.net/group?id=NeurIPS.cc/2025/Conference",
-      "status": "ok",
-      "papers": 5286,
-      "venueId": "NeurIPS.cc/2025/Conference"
     }
   ],
   "missingOrEmpty": [
@@ -278,12 +234,57 @@
     {
       "conference": "icml",
       "conferenceName": "ICML",
+      "year": 2025,
+      "source": "OpenReview",
+      "url": "https://openreview.net/group?id=ICML.cc/2025/Conference",
+      "status": "error",
+      "papers": 0,
+      "venueId": "ICML.cc/2025/Conference",
+      "error": "HTTP 429 for https://api2.openreview.net/notes?content.venueid=ICML.cc%2F2025%2FConference&limit=1000&offset=3000"
+    },
+    {
+      "conference": "icml",
+      "conferenceName": "ICML",
       "year": 2026,
       "source": "OpenReview",
       "url": "https://openreview.net/group?id=ICML.cc/2026/Conference",
-      "status": "empty",
+      "status": "error",
       "papers": 0,
-      "venueId": "ICML.cc/2026/Conference"
+      "venueId": "ICML.cc/2026/Conference",
+      "error": "HTTP 429 for https://api2.openreview.net/notes?content.venueid=ICML.cc%2F2026%2FConference&limit=1000&offset=0"
+    },
+    {
+      "conference": "neurips",
+      "conferenceName": "NeurIPS",
+      "year": 2023,
+      "source": "OpenReview",
+      "url": "https://openreview.net/group?id=NeurIPS.cc/2023/Conference",
+      "status": "error",
+      "papers": 0,
+      "venueId": "NeurIPS.cc/2023/Conference",
+      "error": "HTTP 429 for https://api2.openreview.net/notes?content.venueid=NeurIPS.cc%2F2023%2FConference&limit=1000&offset=0"
+    },
+    {
+      "conference": "neurips",
+      "conferenceName": "NeurIPS",
+      "year": 2024,
+      "source": "OpenReview",
+      "url": "https://openreview.net/group?id=NeurIPS.cc/2024/Conference",
+      "status": "error",
+      "papers": 0,
+      "venueId": "NeurIPS.cc/2024/Conference",
+      "error": "HTTP 429 for https://api2.openreview.net/notes?content.venueid=NeurIPS.cc%2F2024%2FConference&limit=1000&offset=0"
+    },
+    {
+      "conference": "neurips",
+      "conferenceName": "NeurIPS",
+      "year": 2025,
+      "source": "OpenReview",
+      "url": "https://openreview.net/group?id=NeurIPS.cc/2025/Conference",
+      "status": "error",
+      "papers": 0,
+      "venueId": "NeurIPS.cc/2025/Conference",
+      "error": "HTTP 429 for https://api2.openreview.net/notes?content.venueid=NeurIPS.cc%2F2025%2FConference&limit=1000&offset=0"
     },
     {
       "conference": "neurips",
@@ -291,61 +292,62 @@
       "year": 2026,
       "source": "OpenReview",
       "url": "https://openreview.net/group?id=NeurIPS.cc/2026/Conference",
-      "status": "empty",
+      "status": "error",
       "papers": 0,
-      "venueId": "NeurIPS.cc/2026/Conference"
+      "venueId": "NeurIPS.cc/2026/Conference",
+      "error": "HTTP 429 for https://api2.openreview.net/notes?content.venueid=NeurIPS.cc%2F2026%2FConference&limit=1000&offset=0"
     }
   ],
   "topCategories": [
     {
       "topic": "Evaluation & Benchmarks",
-      "count": 5842,
-      "share": 0.11243480436498009
-    },
-    {
-      "topic": "Optimization & Theory",
-      "count": 5632,
-      "share": 0.108393156142343
+      "count": 4468,
+      "share": 0.12355169648535796
     },
     {
       "topic": "LLMs & Foundation Models",
-      "count": 5454,
-      "share": 0.10496737812506014
+      "count": 4256,
+      "share": 0.11768935099411
     },
     {
       "topic": "Efficient AI & Systems",
-      "count": 5168,
-      "share": 0.0994630381647068
+      "count": 3278,
+      "share": 0.090645134529768
+    },
+    {
+      "topic": "Optimization & Theory",
+      "count": 3037,
+      "share": 0.08398086441943423
     },
     {
       "topic": "Alignment, Safety & Trust",
-      "count": 3994,
-      "share": 0.07686830000577378
-    },
-    {
-      "topic": "Generative Models",
-      "count": 3938,
-      "share": 0.0757905271464039
-    },
-    {
-      "topic": "Interpretability & Analysis",
-      "count": 3057,
-      "share": 0.05883485055524548
-    },
-    {
-      "topic": "RL, Robotics & Control",
-      "count": 3039,
-      "share": 0.05848842356473373
+      "count": 2736,
+      "share": 0.075657439924785
     },
     {
       "topic": "Reasoning & Planning",
-      "count": 2940,
-      "share": 0.05658307511691911
+      "count": 2316,
+      "share": 0.06404335923457678
+    },
+    {
+      "topic": "Generative Models",
+      "count": 2204,
+      "share": 0.06094627105052125
+    },
+    {
+      "topic": "Interpretability & Analysis",
+      "count": 1985,
+      "share": 0.05489035754776982
+    },
+    {
+      "topic": "RL, Robotics & Control",
+      "count": 1883,
+      "share": 0.05206979509443354
     },
     {
       "topic": "Retrieval & Knowledge",
-      "count": 2362,
-      "share": 0.04545891953270848
+      "count": 1879,
+      "share": 0.05195918480214584
     }
   ]
 }
