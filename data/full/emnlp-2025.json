@@ -13762,7 +13762,7 @@
       "Lydia Chelala",
       "Christopher M Straus",
       "Reve Chahine",
-      "Samuel G. Armato Iii",
+      "Samuel G. Armato III",
       "Chenhao Tan"
     ],
     "abstract": "Existing metrics often lack the granularity and interpretability to capture nuanced clinical differences between candidate and ground-truth radiology reports, resulting in suboptimal evaluation. We introduce a **Cl**inically grounded tabular framework with **E**xpert-curated labels and **A**ttribute-level comparison for **R**adiology report evaluation (**CLEAR**). CLEAR not only examines whether a report can accurately identify the presence or absence of medical conditions, but it also assesses whether the report can precisely describe each positively identified condition across five key attributes: first occurrence, change, severity, descriptive location, and recommendation. Compared with prior works, CLEAR’s multi-dimensional, attribute-level outputs enable a more comprehensive and clinically interpretable evaluation of report quality. Additionally, to measure the clinical alignment of CLEAR, we collaborated with five board-certified radiologists to develop **CLEAR-Bench**, a dataset of 100 chest radiograph reports from MIMIC-CXR, annotated across 6 curated attributes and 13 CheXpert conditions. Our experiments demonstrated that CLEAR achieves high accuracy in extracting clinical attributes and provides automated metrics that are strongly aligned with clinical judgment.",
@@ -23872,7 +23872,7 @@
     "title": "Evaluating NL 2 SQL via SQL 2 NL",
     "authors": [
       "Mohammadtaher Safarzadeh",
-      "Afshin Oroojlooy",
+      "Afshin Oroojlooyjadid",
       "Dan Roth"
     ],
     "abstract": "Robust evaluation in the presence of linguistic variation is key to understanding the generalization capabilities of Natural Language to SQL (NL2SQL) models, yet existing benchmarks rarely address this factor in a systematic or controlled manner. We propose a novel schema-aligned paraphrasing framework that leverages SQL-to-NL (SQL2NL) to automatically generate semantically equivalent, lexically diverse queries while maintaining alignment with the original schema and intent. This enables the first targeted evaluation of NL2SQL robustness to linguistic variation in isolation-distinct from prior work that primarily investigates ambiguity or schema perturbations. Ouranalysis reveals that state-of-the-art models are far more brittle than standard benchmarks suggest. For example, LLaMa3.3-70B exhibits a 10.23% drop in execution accuracy (from 77.11% to 66.9%) on paraphrased Spider queries, while LLaMa3.1-8B suffers an even larger drop of nearly 20% (from 62.9% to 42.5%). Smaller models (e.g., GPT-4o mini) are disproportionately affected. We also find that robustness degradation varies significantly with query complexity, dataset, and domain- highlighting the need for evaluation frameworks that explicitly measure linguistic generalization to ensure reliable performance in real-world settings.",
@@ -35342,7 +35342,7 @@
       "Aashaka Desai",
       "Daniela Massiceti",
       "Richard Ladner",
-      "Hal Daumé Iii",
+      "Hal Daumé III",
       "Danielle Bragg",
       "Alex Xijie Lu"
     ],
@@ -72790,7 +72790,7 @@
     "authors": [
       "Calvin Bao",
       "Connor Baumler",
-      "Hal Daumé Iii",
+      "Hal Daumé III",
       "Marine Carpuat"
     ],
     "abstract": "Despite growing interest in explainable NLP, it remains unclear how explanation strategies shape user behavior in tasks like authorship identification, where relevant textual features may be difficult for lay users to pinpoint. To support their analysis of text style, we consider two explanation types: example-based style rewrites and feature-based rationales, generated using a LLM-based pipeline. We measured how explanations impact user behavior in a controlled study (n=95) where participants completed authorship identification tasks with our types of assistance. While no explanation type improved overall task accuracy, fine-grained reliance patterns (CITATION) revealed that rewrites supported appropriate reliance, whereas presenting both explanation types increased AI overreliance, minimizing participant self-reliance. We find that participants exhibiting better reliance behaviors had focused explanation needs, contrasting with the diffused preferences of those who overrelied on AI, or incorrectly self-relied. These findings highlight the need for adaptive explanation systems that tailor support based on specific user reliance behaviors.",
@@ -72830,11 +72830,11 @@
     "authors": [
       "Arnav Attri",
       "Anuj Attri",
+      "Pushpak Bhattacharyya",
       "Suman Banerjee",
       "Amey Patil",
       "Muthusamy Chelliah",
-      "Nikesh Garera",
-      "Pushpak Bhattacharyya"
+      "Nikesh Garera"
     ],
     "abstract": "Customer reviews on e-commerce platforms capture critical affective signals that drive purchasing decisions. However, no existing research has explored the joint task of emotion detection and explanatory span identification in e-commerce reviews - a crucial gap in understanding what triggers customer emotional responses. To bridge this gap, we propose a novel joint task unifying Emotion detection and Opinion Trigger extraction (EOT), which explicitly models the relationship between causal text spans (opinion triggers) and affective dimensions (emotion categories) grounded in Plutchik’s theory of 8 primary emotions.In the absence of labeled data, we introduce EOT-X, a human-annotated collection of 2,400 reviews with fine-grained emotions and opinion triggers. We evaluate 23 Large Language Models (LLMs) and present EOT-DETECT, a structured prompting framework with systematic reasoning and self-reflection. Our framework surpasses zero-shot and chain-of-thought techniques, across e-commerce domains.",
     "year": 2025,
@@ -75337,7 +75337,7 @@
       "Shi Feng",
       "Fumeng Yang",
       "Rachel Rudinger",
-      "Jordan Lee Boyd-Graber"
+      "Jordan Boyd-Graber"
     ],
     "abstract": "To assist users in complex tasks, LLMs generate plans: step-by-step instructions towards a goal. While alignment methods aim to ensure LLM plans are helpful, they train (RLHF) or evaluate (ChatbotArena) on what users prefer, assuming this reflects what helps them. We test this with Planorama: an interface where 126 users answer 300 multi-step questions with LLM plans. We get 4388 plan executions and 5584 comparisons to measure plan helpfulness (QA success) and user preferences on plans, and recreate the setup in agents and reward models to see if they simulate or prefer what helps users. We expose: 1) user/model preferences and agent success do not accurately predict which plans help users, so common alignment feedback can misalign with helpfulness; 2) this gap is not due to user-specific preferences, as users are similarly successful when using plans they prefer/disprefer; 3) surface-level cues like brevity and question similarity strongly link to preferences, but such biases fail to predict helpfulness. In all, we argue aligning helpful LLMs needs feedback from real user interactions—not just preferences of what looks helpful—so we discuss the plan NLP researchers can execute to solve this problem.",
     "year": 2025,
@@ -75999,7 +75999,7 @@
     "title": "A Necessary Step toward Faithfulness: Measuring and Improving Consistency in Free-Text Explanations",
     "authors": [
       "Lingjun Zhao",
-      "Hal Daumé Iii"
+      "Hal Daumé III"
     ],
     "abstract": "Faithful free-text explanations are important to ensure transparency in high-stakes AI decision-making contexts, but they are challenging to generate by language models and assess by humans. In this paper, we present a measure for Prediction-EXplanation (PEX) consistency, by extending the concept of weight of evidence. This measure quantifies how much a free-text explanation supports or opposes a prediction, serving as an important aspect of explanation faithfulness. Our analysis reveals that more than 62% explanations generated by large language models lack this consistency. We show that applying direct preference optimization improves the consistency of generated explanations across three model families, with improvement ranging from 43.1% to 292.3%. Furthermore, we demonstrate that optimizing this consistency measure can improve explanation faithfulness by up to 9.7%.",
     "year": 2025,
@@ -96853,7 +96853,7 @@
       "Karla Cantarero",
       "Alonso Madroñal de Mesa",
       "Jerónimo Arenas-García",
-      "Jordan Lee Boyd-Graber"
+      "Jordan Boyd-Graber"
     ],
     "abstract": "Multilingual question answering (QA) systems must ensure factual consistency across languages, especially for objective queries such as What is jaundice?, while also accounting for cultural variation in subjective responses. We propose MIND, a user-in-the-loop fact-checking pipeline to detect factual and cultural discrepancies in multilingual QA knowledge bases. MIND highlights divergent answers to culturally sensitive questions (e.g., Who assists in childbirth?) that vary by region and context. We evaluate MIND on a bilingual QA system in the maternal and infant health domain and release a dataset of bilingual questions annotated for factual and cultural inconsistencies. We further test MIND on datasets from other domains to assess generalization. In all cases, MIND reliably identifies inconsistencies, supporting the development of more culturally aware and factually consistent QA systems.",
     "year": 2025,
@@ -154256,7 +154256,7 @@
       "Souha Ben Hassine",
       "Asma Arrak",
       "Marouene Addhoum",
-      "Steven R Wilson"
+      "Steven R. Wilson"
     ],
     "abstract": "In this work, we introduce the first benchmark for evaluating the capabilities of large language models (LLMs) in understanding and generating responses in Tunisian Arabic. To achieve this, we construct a dataset of Tunisian Arabic instructions and prompt ten widely-used LLMs that claim to support Arabic. We then assess the LLM responses through both human and LLM-based evaluations across four criteria: quality, correctness, relevance, and dialectal adherence. We analyze the agreement and correlation between these judgments and identify GPT-4o as our automated judge model based on its high correlation with human ratings, and generate a final leaderboard using this model. Our error analysis reveals that most LLMs struggle with recognizing and properly responding in Tunisian Arabic. To facilitate further research, we release our dataset, along with gold-standard human-written responses for all 744 instructions, and our evaluation framework, allowing others to benchmark their own models.",
     "year": 2025,
@@ -156937,7 +156937,7 @@
     "title": "The Sound of Syntax: Finetuning and Comprehensive Evaluation of Language Models for Speech Pathology",
     "authors": [
       "Fagun Patel",
-      "Duc Quang Nguyen",
+      "Duc Q. Nguyen",
       "Sang T. Truong",
       "Jody Vaynshtok",
       "Sanmi Koyejo",

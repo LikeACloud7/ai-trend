@@ -11683,7 +11683,7 @@
       "Lingjun Zhao",
       "Mingyang Xie",
       "Paola Cascante-Bonilla",
-      "Hal Daumé Iii",
+      "Hal Daumé III",
       "Kwonjoon Lee"
     ],
     "abstract": "Large Vision-Language Models often generate hallucinated content that is not grounded in its visual inputs. While prior work focuses on mitigating hallucinations, we instead explore leveraging hallucination correction as a training objective to improve video-language alignment. We introduce HACA, a self-training framework learning to correct hallucinations in descriptions that do not align with the video content. By identifying and correcting inconsistencies, HACA enhances the model’s ability to align video and textual representations for spatio-temporal reasoning. Our experimental results show consistent gains in video-caption binding and text-to-video retrieval tasks, demonstrating that hallucination correction-inspired tasks serve as an effective strategy for improving vision and language alignment.",
@@ -46340,7 +46340,7 @@
       "Noémi Ligeti-Nagy",
       "Jiaxing Sun",
       "Yinfan Wang",
-      "Győző Zijian Yang",
+      "Zijian Győző Yang",
       "Junyuan Gao",
       "Jingchao Wang",
       "Bowen Jiang",
@@ -80646,7 +80646,7 @@
       "Jimson Paulo Layacan",
       "David Demitri Africa",
       "Richell Isaiah S. Flores",
-      "Michael T. Lopez Ii",
+      "Michael T. Lopez II",
       "Theresa Denise Magsajo",
       "Anjanette Cayabyab",
       "William Chandra Tjhi"
@@ -93662,7 +93662,7 @@
       "Jessica A Grieser",
       "Desmond U. Patton",
       "Shana Kleiner",
-      "James R. Shepard Iii",
+      "James R. Shepard III",
       "Kathleen McKeown"
     ],
     "abstract": "With a combination of quantitative experiments, human judgments, and qualitative analyses, we evaluate the quantity and quality of African American Language (AAL) representation in 12 predominantly English, open-source pretraining corpora. We specifically focus on the sources, variation, and naturalness of included AAL texts representing the AAL speaking community. We find that AAL is underrepresented in all evaluated pretraining corpora compared to US demographics, constituting as few as 0.007% and at most 0.18% of documents. We also find that more than 25% of AAL texts in C4 may be perceived as inappropriate for LLMs to generate and to reinforce harmful stereotypes. Finally, we find that most automated filters are more likely to conserve White Mainstream English (WME) texts over AAL in pretraining corpora.",
@@ -108532,7 +108532,7 @@
       "Eve Fleisig",
       "Yu Hou",
       "Ishan Upadhyay",
-      "Jordan Lee Boyd-Graber"
+      "Jordan Boyd-Graber"
     ],
     "abstract": "Language models are often miscalibrated, leading to confidently incorrect answers. We introduce GRACE, a benchmark for language model calibration that incorporates comparison with human calibration. GRACE consists of question-answer pairs, in which each question contains a series of clues that gradually become easier, all leading to the same answer; models must answer correctly as early as possible as the clues are revealed. This setting permits granular measurement of model calibration based on how early, accurately, and confidently a model answers. After collecting these questions, we host live human vs. model competitions to gather 1,749 data points on human and model teams’ timing, accuracy, and confidence. We propose a metric, CalScore, that uses GRACE to analyze model calibration errors and identify types of model miscalibration that differ from human behavior. We find that although humans are less accurate than models, humans are generally better calibrated. Since state-of-the-art models struggle on GRACE, it effectively evaluates progress on improving model calibration.",
     "year": 2025,
@@ -125847,8 +125847,8 @@
     "title": "Measuring the Effect of Transcription Noise on Downstream Language Understanding Tasks",
     "authors": [
       "Ori Shapira",
-      "Shlomo Chazan",
-      "Amir David Nissan Cohen"
+      "Shlomo E. Chazan",
+      "Amir DN Cohen"
     ],
     "abstract": "With the increasing prevalence of recorded human speech, spoken language understanding (SLU) is essential for its efficient processing. In order to process the speech, it is commonly transcribed using automatic speech recognition technology. This speech-to-text transition introduces errors into the transcripts, which subsequently propagate to downstream NLP tasks, such as dialogue summarization. While it is known that transcript noise affects downstream tasks, a general-purpose and systematic approach to analyzing its effects across different noise severities and types has not been addressed. We propose a configurable framework for assessing task models in diverse noisy settings, and for examining the impact of transcript-cleaning techniques. The framework facilitates the investigation of task model behavior, which can in turn support the development of effective SLU solutions. We exemplify the utility of our framework on three SLU tasks and four task models, offering insights regarding the effect of transcript noise on tasks in general and models in particular. For instance, we find that task models can tolerate a certain level of noise, and are affected differently by the types of errors in the transcript.",
     "year": 2025,
@@ -130597,7 +130597,7 @@
     "authors": [
       "Neha Srikanth",
       "Rachel Rudinger",
-      "Jordan Lee Boyd-Graber"
+      "Jordan Boyd-Graber"
     ],
     "abstract": "Questions help unlock information to satisfy users’ information needs. However, when the question is poorly posed, answerers (whether human or computer) may struggle to answer the question in a way that satisfies the asker, despite possibly knowing everything necessary to address the asker’s latent information need. Using Reddit question-answer interactions from r/NoStupidQuestions, we develop a computational framework grounded in linguistic theory to study poorly-posedness of questions by generating spaces of potential interpretations of questions and computing distributions over these spaces based on interpretations chosen by both human answerers in the Reddit question thread, as well as by a suite of large language models. Both humans and models struggle to converge on dominant interpretations when faced with poorly-posed questions, but employ different strategies: humans focus on specific interpretations through question negotiation, while models attempt comprehensive coverage by addressing many interpretations simultaneously.",
     "year": 2025,
@@ -140064,7 +140064,7 @@
     "authors": [
       "Ashkan Yousefpour",
       "Taeheon Kim",
-      "Ryan Sungmo Kwon",
+      "Ryan S. Kwon",
       "Seungbeen Lee",
       "Wonje Jeung",
       "Seungju Han",
@@ -145274,8 +145274,8 @@
     "authors": [
       "Danush Khanna",
       "Pratinav Seth",
-      "Sidhaarth Sredharan Murali",
-      "Aditya Kumar Guru",
+      "Sidhaarth Murali",
+      "Aditya Guru",
       "Siddharth Shukla",
       "Tanuj Tyagi",
       "Sandeep Chaurasia",
@@ -150870,6 +150870,7 @@
       "Luandrie Potgieter",
       "Jessica Ojo",
       "Atnafu Lambebo Tonja",
+      "Maushami Chetty",
       "Wilhelmina NdapewaOnyothi Nekoto",
       "Pelonomi Moiloa",
       "Jade Abbott",
@@ -153021,7 +153022,7 @@
       "Piyawat Lertvittayakumjorn",
       "David Kinney",
       "Vinodkumar Prabhakaran",
-      "Donald Martin Jr.",
+      "Donald Martin, Jr.",
       "Sunipa Dev"
     ],
     "abstract": "Generative large language models (LLMs) have demonstrated gaps in diverse cultural awareness across the globe. We investigate the effect of retrieval augmented generation and search-grounding techniques on LLMs’ ability to display familiarity with various national cultures. Specifically, we compare the performance of standard LLMs, LLMs augmented with retrievals from a bespoke knowledge base (i.e., KB grounding), and LLMs augmented with retrievals from a web search (i.e., search grounding) on multiple cultural awareness benchmarks. We find that search grounding significantly improves the LLM performance on multiple-choice benchmarks that test propositional knowledge (e.g., cultural norms, artifacts, and institutions), while KB grounding’s effectiveness is limited by inadequate knowledge base coverage and a suboptimal retriever. However, search grounding also increases the risk of stereotypical judgments by language models and fails to improve evaluators’ judgments of cultural familiarity in a human evaluation with adequate statistical power. These results highlight the distinction between propositional cultural knowledge and open-ended cultural fluency when it comes to evaluating LLMs’ cultural awareness.",
@@ -160137,7 +160138,7 @@
     "authors": [
       "Nishant Balepur",
       "Rachel Rudinger",
-      "Jordan Lee Boyd-Graber"
+      "Jordan Boyd-Graber"
     ],
     "abstract": "Multiple choice question answering (MCQA) is popular for LLM evaluation due to its simplicity and human-like testing, but we argue for its reform. We first reveal flaws in MCQA’s format, as it struggles to: 1) test generation/subjectivity; 2) match LLM use cases; and 3) fully test knowledge. We instead advocate for generative formats based on human testing—where LLMs construct and explain answers—better capturing user needs and knowledge while remaining easy to score. We then show even when MCQA is a useful format, its datasets suffer from: leakage; unanswerability; shortcuts; and saturation. In each issue, we give fixes from education, like rubrics to guide MCQ writing; scoring methods to bridle guessing; and Item Response Theory to build harder MCQs. Lastly, we discuss LLM errors in MCQA—robustness, biases, and unfaithful explanations—showing how our prior solutions better measure or address these issues. While we do not need to desert MCQA, we encourage more efforts in refining the task based on educational testing, advancing evaluations.",
     "year": 2025,
@@ -160293,7 +160294,7 @@
       "Fumeng Yang",
       "Shi Feng",
       "Rachel Rudinger",
-      "Jordan Lee Boyd-Graber"
+      "Jordan Boyd-Graber"
     ],
     "abstract": "LLMs are aligned to follow input instructions by learning which of two responses users prefer for a prompt. However, such preference data do not convey *why* users prefer responses that are chosen or rejected, so LLMs trained on these datasets cannot tailor responses to varied user needs. To surface these parameters of personalization, we apply *abductive reasoning* to preference data, inferring needs and interests of users, i.e., personas, that may prefer either response. We test this idea in two steps: **Persona Inference (PI)**—abductively inferring personas of users who prefer chosen or rejected outputs—and **Persona Tailoring (PT)**—training models to tailor outputs to personas from PI. We show: 1) LLMs infer personas accurately explaining why different users may prefer *both* chosen or rejected outputs; 2) Training on preference data augmented with PI personas via PT boosts personalization and generalizes to supporting user-written personas; and 3) Rejected response personas form harder personalization evaluations, showing PT better aids users with uncommon preferences versus typical alignment methods. We argue for an abductive view of preferences for personalization, asking not only which response is better but when, why, and for whom.",
     "year": 2025,
