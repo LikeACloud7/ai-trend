@@ -2111,7 +2111,7 @@
       "Ruofan Wang",
       "Zijian Huang",
       "Diana Benavides-Prado",
-      "Michael J. Witbrock"
+      "Michael Witbrock"
     ],
     "abstract": "Pun generation seeks to creatively modify linguistic elements in text to produce humour or evoke double meanings. It also aims to preserve coherence and contextual appropriateness, making it useful in creative writing and entertainment across various media and contexts. This field has been widely studied in computational linguistics, while there are currently no surveys that specifically focus on pun generation. To bridge this gap, this paper provides a comprehensive review of pun generation datasets and methods across different stages, including traditional approaches, deep learning techniques, and pre-trained language models. Additionally, we summarise both automated and human evaluation metrics used to assess the quality of pun generation. Finally, we discuss the research challenges and propose promising directions for future work.",
     "year": 2025,
@@ -3774,10 +3774,10 @@
     "id": "2025.findings-emnlp.679",
     "title": "Agentic Medical Knowledge Graphs Enhance Medical Question Answering: Bridging the Gap Between LLM s and Evolving Medical Knowledge",
     "authors": [
-      "Mohammad Reza Rezaei",
+      "Mohammad R. Rezaei",
       "Reza Saadati Fard",
-      "Jayson Lee Parker",
-      "Rahul G Krishnan",
+      "Jayson L. Parker",
+      "Rahul G. Krishnan",
       "Milad Lankarany"
     ],
     "abstract": "Large Language Models (LLMs) have greatly advanced medical Question Answering (QA) by leveraging vast clinical data and medical literature. However, the rapid evolution of medical knowledge and the labor-intensive process of manually updating domain-specific resources can undermine the reliability of these systems. We address this challenge with Agentic Medical Graph-RAG (AMG-RAG), a comprehensive framework that automates the construction and continuous updating of Medical Knowledge Graph (MKG), integrates reasoning, and retrieves current external evidence from the MKG for medical QA.Evaluations on the MEDQA and MEDMCQA benchmarks demonstrate the effectiveness of AMG-RAG, achieving an F1 score of 74.1% on MEDQA and an accuracy of 66.34% on MEDMCQA—surpassing both comparable models and those 10 to 100 times larger. By dynamically linking new findings and complex medical concepts, AMG-RAG not only boosts accuracy but also enhances interpretability for medical queries, which has a critical impact on delivering up-to-date, trustworthy medical insights.",
@@ -109626,10 +109626,10 @@
     "id": "2025.emnlp-main.1610",
     "title": "H ook M o E : A learnable performance compensation strategy of Mixture-of-Experts for LLM inference acceleration",
     "authors": [
-      "Cheng Longkai",
+      "Longkai Cheng",
       "Along He",
       "Mulin Li",
-      "Xie Xueshuo",
+      "Xueshuo Xie",
       "Tao Li"
     ],
     "abstract": "Mixture of Experts (MoE) architectures have emerged as a promising paradigm for scaling model capacity through top- k routing mechanisms. Although reducing the number of activated experts inherently enables inference acceleration, this efficiency gain typically comes at the cost of significant performance degradation. To address this trade-off between efficiency and performance, we propose HookMoE, a plug-and-play single-layer compensation framework that effectively restores performance using only a small post-training calibration set. Our method strategically inserts a lightweight trainable Hook module immediately preceding selected transformer blocks. Comprehensive evaluations on four popular MoE models, with an average performance degradation of only 2.5% across various benchmarks, our method reduces the number of activated experts by more than 50% and achieves a 1.42 × inference speed-up during the prefill stage. Through systematic analysis, we further reveal that the upper layers require fewer active experts, offering actionable insights for refining dynamic expert selection strategies and enhancing the overall efficiency of MoE models.",
@@ -128541,7 +128541,7 @@
     "id": "2025.emnlp-main.1709",
     "title": "Mondrian: A Framework for Logical Abstract (Re)Structuring",
     "authors": [
-      "Elizabeth Grace Orwig",
+      "Elizabeth Orwig",
       "Shinwoo Park",
       "Hyundong Jin",
       "Yo-Sub Han"
@@ -131308,6 +131308,7 @@
       "Kexin Yang",
       "Yu Wan",
       "Muyang Ye",
+      "Yue Fang",
       "Baosong Yang",
       "Fei Huang",
       "Junyang Lin",

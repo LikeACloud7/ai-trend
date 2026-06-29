@@ -9840,8 +9840,8 @@
       "Shivam Agarwal",
       "Karthik Venkat Ramanan",
       "Susik Yoon",
-      "Diyi Yang",
-      "Jiawei Han"
+      "Jiawei Han",
+      "Diyi Yang"
     ],
     "abstract": "Dynamic topic models (DTMs) analyze text streams to capture the evolution of topics. Despite their popularity, existing DTMs are either fully supervised, requiring expensive human annotations, or fully unsupervised, producing topic evolutions that often do not cater to a user’s needs. Further, the topic evolutions produced by DTMs tend to contain generic terms that are not indicative of their designated time steps. To address these issues, we propose the task of discriminative dynamic topic discovery. This task aims to discover topic evolutions from temporal corpora that distinctly align with a set of user-provided category names and uniquely capture topics at each time step. We solve this task by developing DynaMiTE, a framework that ensembles semantic similarity, category indicative, and time indicative scores to produce informative topic evolutions. Through experiments on three diverse datasets, including the use of a newly-designed human evaluation experiment, we demonstrate that DynaMiTE is a practical and efficient framework for helping users discover high-quality topic evolutions suited to their interests.",
     "year": 2023,
@@ -49004,7 +49004,7 @@
       "Christian Geishauser",
       "Hsien-chin Lin",
       "Carel van Niekerk",
-      "Milica Gasic"
+      "Milica Gašić"
     ],
     "abstract": "Recent research on dialog state tracking (DST) focuses on methods that allow few- and zero-shot transfer to new domains or schemas. However, performance gains heavily depend on aggressive data augmentation and fine-tuning of ever larger language model based architectures. In contrast, general purpose language models, trained on large amounts of diverse data, hold the promise of solving any kind of task without task-specific training. We present preliminary experimental results on the ChatGPT research preview, showing that ChatGPT achieves state-of-the-art performance in zero-shot DST. Despite our findings, we argue that properties inherent to general purpose models limit their ability to replace specialized systems. We further theorize that the in-context learning capabilities of such models will likely become powerful tools to support the development of dedicated dialog state trackers and enable dynamic methods.",
     "year": 2023,

@@ -20755,7 +20755,7 @@
     "title": "Hire a Linguist!: Learning Endangered Languages in LLM s with In-Context Linguistic Descriptions",
     "authors": [
       "Kexun Zhang",
-      "Yee Choi",
+      "Yee Man Choi",
       "Zhenqiao Song",
       "Taiqi He",
       "William Yang Wang",
@@ -41146,7 +41146,7 @@
       "Shutong Feng",
       "Dongcheng Jiang",
       "Chao Zhang",
-      "Milica Gasic",
+      "Milica Gašić",
       "Phil Woodland"
     ],
     "abstract": "Recently, advancements in large language models (LLMs) have shown an unprecedented ability across various language tasks. This paper investigates the potential application of LLMs to slot filling with noisy ASR transcriptions, via both in-context learning and task-specific fine-tuning. Dedicated prompt designs and noise-robust LoRA fine-tuning are proposed to improve the robustness of LLMs for slot filling with noisy ASR transcriptions. Moreover, a linearised knowledge injection (LKI) scheme is also proposed to integrate dynamic external knowledge into LLMs. Experiments were performed on SLURP to quantify the performance of LLMs, including GPT-3.5-turbo, GPT-4, LLaMA-13B, LLaMA-2-13B and Vicuna-13B (v1.1 and v1.5) with different ASR error rates. The use of the noise-robust fine-tuning together with LKI for Vicuna-13B-v1.5 achieved 6.7% and 17.6% absolute SLU-F1 improvements compared to a fully fine-tuned Flan-T5-XL model on the limited data setup and the zero-shot setup respectively.",
@@ -43285,13 +43285,13 @@
       "Shenglai Zeng",
       "Jiankun Zhang",
       "Pengfei He",
-      "Yiding Liu",
       "Yue Xing",
+      "Yiding Liu",
       "Han Xu",
       "Jie Ren",
-      "Yi Chang",
       "Shuaiqiang Wang",
       "Dawei Yin",
+      "Yi Chang",
       "Jiliang Tang"
     ],
     "abstract": "Retrieval-augmented generation (RAG) is a powerful technique to facilitate language model generation with proprietary and private data, where data privacy is a pivotal concern. Whereas extensive research has demonstrated the privacy risks of large language models (LLMs), the RAG technique could potentially reshape the inherent behaviors of LLM generation, posing new privacy issues that are currently under-explored. To this end, we conduct extensive empirical studies with novel attack methods, which demonstrate the vulnerability of RAG systems on leaking the private retrieval database. Despite the new risks brought by RAG on the retrieval data, we further discover that RAG can be used to mitigate the old risks, i.e., the leakage of the LLMs’ training data. In general, we reveal many new insights in this paper for privacy protection of retrieval-augmented LLMs, which could benefit both LLMs and RAG systems builders.",

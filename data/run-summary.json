@@ -1,12 +1,13 @@
 {
-  "generatedAt": "2026-06-22T09:26:01.243Z",
-  "totalPapers": 36163,
+  "generatedAt": "2026-06-29T08:30:45.284Z",
+  "totalPapers": 62759,
   "yearStart": 2023,
   "yearEnd": 2026,
   "fullDataShards": [
     "data/full/acl-2023.json",
     "data/full/acl-2024.json",
     "data/full/acl-2025.json",
+    "data/full/acl-2026.json",
     "data/full/emnlp-2023.json",
     "data/full/emnlp-2024.json",
     "data/full/emnlp-2025.json",
@@ -16,8 +17,13 @@
     "data/full/iclr-2026.json",
     "data/full/icml-2023.json",
     "data/full/icml-2024.json",
+    "data/full/icml-2025.json",
+    "data/full/icml-2026.json",
     "data/full/naacl-2024.json",
-    "data/full/naacl-2025.json"
+    "data/full/naacl-2025.json",
+    "data/full/neurips-2023.json",
+    "data/full/neurips-2024.json",
+    "data/full/neurips-2025.json"
   ],
   "collected": [
     {
@@ -60,6 +66,20 @@
         "2025.acl-long",
         "2025.acl-short",
         "2025.findings-acl"
+      ]
+    },
+    {
+      "conference": "acl",
+      "conferenceName": "ACL",
+      "year": 2026,
+      "source": "ACL Anthology",
+      "url": "https://aclanthology.org/events/acl-2026/",
+      "status": "ok",
+      "papers": 4459,
+      "volumes": [
+        "2026.acl-long",
+        "2026.acl-short",
+        "2026.findings-acl"
       ]
     },
     {
@@ -188,19 +208,59 @@
       "status": "ok",
       "papers": 2610,
       "venueId": "ICML.cc/2024/Conference"
+    },
+    {
+      "conference": "icml",
+      "conferenceName": "ICML",
+      "year": 2025,
+      "source": "OpenReview",
+      "url": "https://openreview.net/group?id=ICML.cc/2025/Conference",
+      "status": "ok",
+      "papers": 3257,
+      "venueId": "ICML.cc/2025/Conference"
+    },
+    {
+      "conference": "icml",
+      "conferenceName": "ICML",
+      "year": 2026,
+      "source": "OpenReview",
+      "url": "https://openreview.net/group?id=ICML.cc/2026/Conference",
+      "status": "ok",
+      "papers": 6341,
+      "venueId": "ICML.cc/2026/Conference"
+    },
+    {
+      "conference": "neurips",
+      "conferenceName": "NeurIPS",
+      "year": 2023,
+      "source": "OpenReview",
+      "url": "https://openreview.net/group?id=NeurIPS.cc/2023/Conference",
+      "status": "ok",
+      "papers": 3218,
+      "venueId": "NeurIPS.cc/2023/Conference"
+    },
+    {
+      "conference": "neurips",
+      "conferenceName": "NeurIPS",
+      "year": 2024,
+      "source": "OpenReview",
+      "url": "https://openreview.net/group?id=NeurIPS.cc/2024/Conference",
+      "status": "ok",
+      "papers": 4035,
+      "venueId": "NeurIPS.cc/2024/Conference"
+    },
+    {
+      "conference": "neurips",
+      "conferenceName": "NeurIPS",
+      "year": 2025,
+      "source": "OpenReview",
+      "url": "https://openreview.net/group?id=NeurIPS.cc/2025/Conference",
+      "status": "ok",
+      "papers": 5286,
+      "venueId": "NeurIPS.cc/2025/Conference"
     }
   ],
   "missingOrEmpty": [
-    {
-      "conference": "acl",
-      "conferenceName": "ACL",
-      "year": 2026,
-      "source": "ACL Anthology",
-      "url": "https://aclanthology.org/events/acl-2026/",
-      "status": "not_published",
-      "papers": 0,
-      "error": "HTTP 404 for https://aclanthology.org/events/acl-2026/"
-    },
     {
       "conference": "emnlp",
       "conferenceName": "EMNLP",
@@ -232,122 +292,66 @@
       "error": "HTTP 404 for https://aclanthology.org/events/naacl-2026/"
     },
     {
-      "conference": "icml",
-      "conferenceName": "ICML",
-      "year": 2025,
-      "source": "OpenReview",
-      "url": "https://openreview.net/group?id=ICML.cc/2025/Conference",
-      "status": "error",
-      "papers": 0,
-      "venueId": "ICML.cc/2025/Conference",
-      "error": "HTTP 429 for https://api2.openreview.net/notes?content.venueid=ICML.cc%2F2025%2FConference&limit=1000&offset=3000"
-    },
-    {
-      "conference": "icml",
-      "conferenceName": "ICML",
-      "year": 2026,
-      "source": "OpenReview",
-      "url": "https://openreview.net/group?id=ICML.cc/2026/Conference",
-      "status": "error",
-      "papers": 0,
-      "venueId": "ICML.cc/2026/Conference",
-      "error": "HTTP 429 for https://api2.openreview.net/notes?content.venueid=ICML.cc%2F2026%2FConference&limit=1000&offset=0"
-    },
-    {
-      "conference": "neurips",
-      "conferenceName": "NeurIPS",
-      "year": 2023,
-      "source": "OpenReview",
-      "url": "https://openreview.net/group?id=NeurIPS.cc/2023/Conference",
-      "status": "error",
-      "papers": 0,
-      "venueId": "NeurIPS.cc/2023/Conference",
-      "error": "HTTP 429 for https://api2.openreview.net/notes?content.venueid=NeurIPS.cc%2F2023%2FConference&limit=1000&offset=0"
-    },
-    {
-      "conference": "neurips",
-      "conferenceName": "NeurIPS",
-      "year": 2024,
-      "source": "OpenReview",
-      "url": "https://openreview.net/group?id=NeurIPS.cc/2024/Conference",
-      "status": "error",
-      "papers": 0,
-      "venueId": "NeurIPS.cc/2024/Conference",
-      "error": "HTTP 429 for https://api2.openreview.net/notes?content.venueid=NeurIPS.cc%2F2024%2FConference&limit=1000&offset=0"
-    },
-    {
-      "conference": "neurips",
-      "conferenceName": "NeurIPS",
-      "year": 2025,
-      "source": "OpenReview",
-      "url": "https://openreview.net/group?id=NeurIPS.cc/2025/Conference",
-      "status": "error",
-      "papers": 0,
-      "venueId": "NeurIPS.cc/2025/Conference",
-      "error": "HTTP 429 for https://api2.openreview.net/notes?content.venueid=NeurIPS.cc%2F2025%2FConference&limit=1000&offset=0"
-    },
-    {
       "conference": "neurips",
       "conferenceName": "NeurIPS",
       "year": 2026,
       "source": "OpenReview",
       "url": "https://openreview.net/group?id=NeurIPS.cc/2026/Conference",
-      "status": "error",
+      "status": "empty",
       "papers": 0,
-      "venueId": "NeurIPS.cc/2026/Conference",
-      "error": "HTTP 429 for https://api2.openreview.net/notes?content.venueid=NeurIPS.cc%2F2026%2FConference&limit=1000&offset=0"
+      "venueId": "NeurIPS.cc/2026/Conference"
     }
   ],
   "topCategories": [
     {
       "topic": "Evaluation & Benchmarks",
-      "count": 4468,
-      "share": 0.12355169648535796
+      "count": 6717,
+      "share": 0.10702847400372854
     },
     {
       "topic": "LLMs & Foundation Models",
-      "count": 4256,
-      "share": 0.11768935099411
-    },
-    {
-      "topic": "Efficient AI & Systems",
-      "count": 3278,
-      "share": 0.090645134529768
+      "count": 6682,
+      "share": 0.10647078506668366
     },
     {
       "topic": "Optimization & Theory",
-      "count": 3037,
-      "share": 0.08398086441943423
+      "count": 6558,
+      "share": 0.10449497283258179
+    },
+    {
+      "topic": "Efficient AI & Systems",
+      "count": 6200,
+      "share": 0.0987906117050941
     },
     {
       "topic": "Alignment, Safety & Trust",
-      "count": 2736,
-      "share": 0.075657439924785
-    },
-    {
-      "topic": "Reasoning & Planning",
-      "count": 2316,
-      "share": 0.06404335923457678
+      "count": 4874,
+      "share": 0.07766216797590784
     },
     {
       "topic": "Generative Models",
-      "count": 2204,
-      "share": 0.06094627105052125
+      "count": 4660,
+      "share": 0.0742522984751191
     },
     {
-      "topic": "Interpretability & Analysis",
-      "count": 1985,
-      "share": 0.05489035754776982
+      "topic": "Reasoning & Planning",
+      "count": 4070,
+      "share": 0.06485125639350531
     },
     {
       "topic": "RL, Robotics & Control",
-      "count": 1883,
-      "share": 0.05206979509443354
+      "count": 3714,
+      "share": 0.05917876320527733
+    },
+    {
+      "topic": "Interpretability & Analysis",
+      "count": 3568,
+      "share": 0.05685240363931866
     },
     {
       "topic": "Retrieval & Knowledge",
-      "count": 1879,
-      "share": 0.05195918480214584
+      "count": 3036,
+      "share": 0.048375531796236396
     }
   ]
 }
