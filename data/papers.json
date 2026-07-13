@@ -4766,7 +4766,7 @@
     "title": "D iv HSK : Diverse Headline Generation using Self-Attention based Keyword Selection",
     "authors": [
       "Venkatesh E",
-      "Kaushal Maurya",
+      "Kaushal Kumar Maurya",
       "Deepak Kumar",
       "Maunendra Sankar Desarkar"
     ],
@@ -65583,7 +65583,7 @@
     "title": "S elect N oise: Unsupervised Noise Injection to Enable Zero-Shot Machine Translation for Extremely Low-resource Languages",
     "authors": [
       "Maharaj Brahma",
-      "Kaushal Maurya",
+      "Kaushal Kumar Maurya",
       "Maunendra Desarkar"
     ],
     "year": 2023,
@@ -251964,7 +251964,7 @@
       "Xiulin Yang",
       "Tatsuya Aoyama",
       "Yuekun Yao",
-      "Ethan Wilcox"
+      "Ethan Gotlieb Wilcox"
     ],
     "year": 2025,
     "conference": "acl",
@@ -379066,11 +379066,11 @@
     "id": "2025.findings-naacl.370",
     "title": "V isual C oder: Guiding Large Language Models in Code Execution with Fine-grained Multimodal Chain-of-Thought Reasoning",
     "authors": [
-      "Cuong Le Chi",
-      "Chau Truong Vinh Hoang",
-      "Phan Nhật Huy",
+      "Cuong Chi Le",
+      "Hoang-Chau Truong-Vinh",
+      "Huy Nhat Phan",
       "Dung D. Le",
-      "Tien N Nguyen",
+      "Tien N. Nguyen",
       "Nghi D. Q. Bui"
     ],
     "year": 2025,
@@ -389024,7 +389024,7 @@
     "title": "LLM s Are Biased Towards Output Formats! Systematically Evaluating and Mitigating Output Format Bias of LLM s",
     "authors": [
       "Do Xuan Long",
-      "Ngoc-Hai Nguyen",
+      "Hai Nguyen Ngoc",
       "Tiviatis Sim",
       "Hieu Dao",
       "Shafiq Joty",
@@ -397714,12 +397714,12 @@
     "title": "A Study of LLM s’ Preferences for Libraries and Programming Languages",
     "authors": [
       "Lukas Twist",
-      "Jie M. Zhang",
       "Mark Harman",
       "Don Syme",
       "Joost Noppen",
       "Helen Yannakoudakis",
-      "Detlef Nauck"
+      "Detlef Nauck",
+      "Jie M. Zhang"
     ],
     "year": 2026,
     "conference": "acl",
@@ -430637,7 +430637,7 @@
     "id": "2026.findings-acl.543",
     "title": "One Mask to Rule Them All: On Hidden Facts after Editing and How to Find Them",
     "authors": [
-      "Ali Kholmovaia",
+      "Ali Holmov",
       "Paul Youssef",
       "Nandi Schoots",
       "Christin Seifert"
@@ -471506,14 +471506,14 @@
     "id": "2026.acl-short.39",
     "title": "GOLEM coref: A Multilingual Coreference Dataset of Fiction",
     "authors": [
-      "Andreas Van Cranenburgh",
+      "Andreas van Cranenburgh",
       "Xiaoyan Yang",
       "Alvanita",
       "Cecilia Nicole Di Domenico",
       "Maria Ferragud",
       "Arianna Graciotti",
-      "Byungjun Kim",
-      "Seonyeong Park"
+      "Andreea Gabriela Ion",
+      "Byungjun Kim"
     ],
     "year": 2026,
     "conference": "acl",
@@ -472794,7 +472794,7 @@
     "authors": [
       "Zhenyu Liu",
       "Xuanyu Zhang",
-      "Yunxin li",
+      "Yunxin Li",
       "Qixun Teng",
       "Shenyuan Jiang",
       "Haolan Chen",
@@ -484341,7 +484341,7 @@
       "Krinos Li",
       "Huichi Zhou",
       "Shijie Liang",
-      "Zhang Bo",
+      "Bo Zhang",
       "Enyang Liu",
       "Ge Jin"
     ],
@@ -493921,11 +493921,11 @@
     "title": "S pec M ind: Cognitively Inspired, Interactive Multi-Turn Framework for Postcondition Inference",
     "authors": [
       "Cuong Chi Le",
-      "Minh V.t. Pham",
-      "Tung D. Vu",
-      "Van Duc Cuong",
-      "Phan Nhat Huy",
-      "Phan Nhat Hoang",
+      "Minh V.T. Pham",
+      "Tung Duy Vu",
+      "Cuong Duc Van",
+      "Huy N. Phan",
+      "Hoang N. Phan",
       "Tien N. Nguyen"
     ],
     "year": 2026,
@@ -502276,7 +502276,7 @@
     "title": "U ni M o E -Audio: Unified Speech and Music Generation with Dynamic-Capacity Mixture-of-Experts",
     "authors": [
       "Zhenyu Liu",
-      "Yunxin li",
+      "Yunxin Li",
       "Xuanyu Zhang",
       "Qixun Teng",
       "Shenyuan Jiang",

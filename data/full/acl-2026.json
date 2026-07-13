@@ -2733,12 +2733,12 @@
     "title": "A Study of LLM s’ Preferences for Libraries and Programming Languages",
     "authors": [
       "Lukas Twist",
-      "Jie M. Zhang",
       "Mark Harman",
       "Don Syme",
       "Joost Noppen",
       "Helen Yannakoudakis",
-      "Detlef Nauck"
+      "Detlef Nauck",
+      "Jie M. Zhang"
     ],
     "abstract": "Despite the rapid progress of large language models (LLMs) in code generation, existing evaluations focus on functional correctness or syntactic validity, overlooking how LLMs make critical design choices such as which library or programming language to use.To fill this gap, we perform the first empirical study of LLMs’ preferences for libraries and programming languages when generating code, covering eight diverse LLMs.We observe a strong tendency to overuse widely adopted libraries such as NumPy; in up to 45% of cases, this usage is not required and deviates from the ground-truth solutions.The LLMs we study also show a significant preference toward Python as their default language.For high-performance project initialisation tasks where Python is not the optimal language, it remains the dominant choice in 58% of cases, and Rust is not used once.These results highlight how LLMs prioritise familiarity and popularity over suitability and task-specific optimality;underscoring the need for targeted fine-tuning, data diversification, and evaluation benchmarks that explicitly measure language and library selection fidelity.",
     "year": 2026,
@@ -76673,7 +76673,7 @@
     "id": "2026.findings-acl.543",
     "title": "One Mask to Rule Them All: On Hidden Facts after Editing and How to Find Them",
     "authors": [
-      "Ali Kholmovaia",
+      "Ali Holmov",
       "Paul Youssef",
       "Nandi Schoots",
       "Christin Seifert"
@@ -159195,7 +159195,7 @@
       "Irina Shklovski",
       "Isabelle Augenstein"
     ],
-    "abstract": "Human–AI collaboration in knowledge-intensive tasks such as fact-checking requires understanding model uncertainty in multi-document reasoning amid conflicting/agreeing evidence. Yet, existing methods only express uncertainty as numbers or hedges without revealing which evidence conflicts cause the uncertainty, leaving users unable to resolve disagreements. We present CLUE (**C**onflict- Agreement-aware **L**anguage-model **U**ncertainty **E**xplanations), a plug-and-play white-box framework that, to our knowledge, is the first to generate natural-language explanations of model uncertainty grounded in conflicting/agreeing evidence. CLUE (i) identifies span-level claim–evidence and inter-evidence relations that signal conflict or agreement without supervision, and (ii) uses these relations to steer explanation generation, articulating how they drive the model’s uncertainty. Across three language models and two fact-checking datasets, CLUE produces explanations that more faithfully track model uncertainty and better align with the model’s fact-checking decisions than span-agnostic explanation prompting; human raters also judge them more helpful, more informative, less redundant, and more logically consistent with the input. By explicitly tying uncertainty to evidence conflicts and agreements, CLUE supports practical fact-checking and other tasks that require reasoning over complex, conflicting information.",
+    "abstract": "Human–AI collaboration in knowledge-intensive tasks such as fact-checking requires understanding model uncertainty in multi-document reasoning amid conflicting/agreeing evidence. Yet, existing methods only express uncertainty as numbers or hedges without revealing which evidence conflicts cause the uncertainty, leaving users unable to resolve disagreements. We present CLUE ( C onflict- Agreement-aware L anguage-model U ncertainty E xplanations), a plug-and-play white-box framework that, to our knowledge, is the first to generate natural-language explanations of model uncertainty grounded in conflicting/agreeing evidence. CLUE (i) identifies span-level claim–evidence and inter-evidence relations that signal conflict or agreement without supervision, and (ii) uses these relations to steer explanation generation, articulating how they drive the model’s uncertainty. Across three language models and two fact-checking datasets, CLUE produces explanations that more faithfully track model uncertainty and better align with the model’s fact-checking decisions than span-agnostic explanation prompting; human raters also judge them more helpful, more informative, less redundant, and more logically consistent with the input. By explicitly tying uncertainty to evidence conflicts and agreements, CLUE supports practical fact-checking and other tasks that require reasoning over complex, conflicting information.",
     "year": 2026,
     "conference": "acl",
     "conferenceName": "ACL",
@@ -167912,12 +167912,13 @@
     "id": "2026.acl-short.39",
     "title": "GOLEM coref: A Multilingual Coreference Dataset of Fiction",
     "authors": [
-      "Andreas Van Cranenburgh",
+      "Andreas van Cranenburgh",
       "Xiaoyan Yang",
       "Alvanita",
       "Cecilia Nicole Di Domenico",
       "Maria Ferragud",
       "Arianna Graciotti",
+      "Andreea Gabriela Ion",
       "Byungjun Kim",
       "Seonyeong Park",
       "Noa Visser Solissa",
@@ -170808,7 +170809,7 @@
     "authors": [
       "Zhenyu Liu",
       "Xuanyu Zhang",
-      "Yunxin li",
+      "Yunxin Li",
       "Qixun Teng",
       "Shenyuan Jiang",
       "Haolan Chen",
@@ -174311,7 +174312,7 @@
       "Michael Karasik",
       "Yossi Gandelsman"
     ],
-    "abstract": "We introduce **Doublespeak**, a simple in-context representation hijacking attack against language models. The attack works by systematically replacing a harmful keyword (e.g., *bomb*) with a benign token (e.g., *carrot*) across multiple in-context examples, provided as a prefix to a harmful request. We demonstrate that this substitution leads to the internal representation of the benign token converging toward that of the harmful one, effectively embedding the harmful semantics under a euphemism. As a result, superficially innocuous prompts (e.g., *\"How to build a carrot?\"*) are internally interpreted as disallowed instructions (*\"How to build a bomb?\"*), thereby bypassing the model’s safety alignment. We use interpretability tools to show this semantic shift occurs progressively across layers. Doublespeak is optimization-free, broadly transferable across model families, and achieves strong success rates on closed-source systems, reaching 74% on Llama-3.3-70B-Instruct with a single-sentence context override. Our findings highlight a new attack surface in LM latent space, indicating that current alignment strategies are insufficient and should instead operate at the representation level.",
+    "abstract": "We introduce Doublespeak , a simple in-context representation hijacking attack against language models. The attack works by systematically replacing a harmful keyword (e.g., bomb ) with a benign token (e.g., carrot ) across multiple in-context examples, provided as a prefix to a harmful request. We demonstrate that this substitution leads to the internal representation of the benign token converging toward that of the harmful one, effectively embedding the harmful semantics under a euphemism. As a result, superficially innocuous prompts (e.g., \"How to build a carrot?\" ) are internally interpreted as disallowed instructions ( \"How to build a bomb?\" ), thereby bypassing the model’s safety alignment. We use interpretability tools to show this semantic shift occurs progressively across layers. Doublespeak is optimization-free, broadly transferable across model families, and achieves strong success rates on closed-source systems, reaching 74% on Llama-3.3-70B-Instruct with a single-sentence context override. Our findings highlight a new attack surface in LM latent space, indicating that current alignment strategies are insufficient and should instead operate at the representation level.",
     "year": 2026,
     "conference": "acl",
     "conferenceName": "ACL",
@@ -196468,13 +196469,13 @@
       "Krinos Li",
       "Huichi Zhou",
       "Shijie Liang",
-      "Zhang Bo",
+      "Bo Zhang",
       "Enyang Liu",
       "Ge Jin",
       "Hongran An",
       "Haosen Zhang",
       "Peiyuan Jing",
-      "KinHei Lee",
+      "Kinhei Lee",
       "Zhenxuan Zhang",
       "Xiaobing Li",
       "Maosong Sun"
@@ -203108,7 +203109,7 @@
       "Roman Grundkiewicz",
       "Matt Post"
     ],
-    "abstract": "We present PEAR (Pairwise Evaluation for Automatic Relative Scoring), a supervised quality estimation (QE) metric family that reframes reference-free machine translation (MT) evaluation as a graded pairwise comparison. Given a source segment and two candidate translations, PEAR predicts the direction and magnitude of their quality difference. The metrics are trained using pairwise supervision derived from differences in human judgments, with an additional regularization term that encourages sign inversion under candidate order reversal.On the WMT24 meta-evaluation benchmark, PEAR outperforms strictly matched single-candidate QE baselines trained with the same data and backbones, isolating the benefit of the proposed pairwise formulation. Despite using substantially fewer parameters than recent large metrics, PEAR surpasses far larger QE models and reference-based metrics. Our analysis further indicates that PEAR yields a less redundant evaluation signal relative to other top metrics. Finally, we show that PEAR is an effective utility function for minimum Bayes risk (MBR) decoding, reducing pairwise scoring cost at negligible impact.",
+    "abstract": "We present PEAR (Pairwise Evaluation for Automatic Relative Scoring), a supervised quality estimation (QE) metric family that reframes reference-free machine translation (MT) evaluation as a graded pairwise comparison. Given a source segment and two candidate translations, PEAR predicts the direction and magnitude of their quality difference. The metrics are trained using pairwise supervision derived from differences in human judgments, with an additional regularization term that encourages sign inversion under candidate order reversal. On the WMT24 meta-evaluation benchmark, PEAR outperforms strictly matched single-candidate QE baselines trained with the same data and backbones, isolating the benefit of the proposed pairwise formulation. Despite using substantially fewer parameters than recent large metrics, PEAR surpasses far larger QE models and reference-based metrics. Our analysis further indicates that PEAR yields a less redundant evaluation signal relative to other top metrics. Finally, we show that PEAR is an effective utility function for minimum Bayes risk (MBR) decoding, reducing pairwise scoring cost at negligible impact.",
     "year": 2026,
     "conference": "acl",
     "conferenceName": "ACL",
@@ -217986,11 +217987,11 @@
     "title": "S pec M ind: Cognitively Inspired, Interactive Multi-Turn Framework for Postcondition Inference",
     "authors": [
       "Cuong Chi Le",
-      "Minh V.t. Pham",
-      "Tung D. Vu",
-      "Van Duc Cuong",
-      "Phan Nhat Huy",
-      "Phan Nhat Hoang",
+      "Minh V.T. Pham",
+      "Tung Duy Vu",
+      "Cuong Duc Van",
+      "Huy N. Phan",
+      "Hoang N. Phan",
       "Tien N. Nguyen"
     ],
     "abstract": "Specifications are vital for ensuring program correctness, yet writing them manually remains challenging and time-intensive. Recent large language model (LLM)-based methods have shown successes in generating specifications such as postconditions, but existing single-pass prompting often yields inaccurate results. In this paper, we present SpecMind, a novel framework for postcondition generation that treats LLMs as interactive and exploratory reasoners rather than one-shot generators. SpecMind employs feedback-driven multi-turn prompting approaches, enabling the model to iteratively refine candidate postconditions by incorporating implicit and explicit correctness feedback, while autonomously deciding when to stop. This process fosters deeper code comprehension and improves alignment with true program behavior via exploratory attempts. Our empirical evaluation shows that SpecMind significantly outperforms state-of-the-art approaches in both accuracy and completeness of generated postconditions.",
@@ -236488,7 +236489,7 @@
     "title": "U ni M o E -Audio: Unified Speech and Music Generation with Dynamic-Capacity Mixture-of-Experts",
     "authors": [
       "Zhenyu Liu",
-      "Yunxin li",
+      "Yunxin Li",
       "Xuanyu Zhang",
       "Qixun Teng",
       "Shenyuan Jiang",
@@ -236503,7 +236504,7 @@
       "Haizhou Li",
       "Min Zhang"
     ],
-    "abstract": "Recent advances in unified multimodal models indicate a clear trend towards comprehensive content generation. However, the auditory domain remains a significant challenge, with music and speech often developed in isolation, hindering progress towards universal audio synthesis. This separation stems from inherent task conflicts between semantic speech and structural music modeling, and severe data imbalances, which impede the development of a truly unified model. To address these challenges, we propose **UniMoE-Audio**, a unified speech and music generation model built upon a novel **D**ynamic-**C**apacity **M**ix-**o**f-**E**xperts (DCMoE) framework. Architecturally, UniMoE-Audio extends the conventional MoE paradigm by introducing a Top- P routing strategy for adaptive capacity allocation. To tackle data imbalance, we introduce a three-stage training curriculum: 1) Independent Specialist Training leverages original datasets to instill domain-specific knowledge into each specialists without interference; 2) MoE Integration and Warmup incorporates these specialists into the UniMoE-Audio architecture, warming up the gate module and shared expert using a subset of balanced dataset; and 3) Synergistic Joint Training trains the entire model end-to-end on the fully balanced dataset, fostering enhanced cross-domain synergy. Extensive experiments show that UniMoE-Audio not only achieves state-of-the-art performance on major speech and music generation benchmarks, but also demonstrates superior synergistic learning, mitigating the performance degradation typically seen in naive joint training. Our findings highlight the substantial potential of specialized MoE architecture and curated training strategies in advancing universal audio generation.",
+    "abstract": "Recent advances in unified multimodal models indicate a clear trend towards comprehensive content generation. However, the auditory domain remains a significant challenge, with music and speech often developed in isolation, hindering progress towards universal audio synthesis. This separation stems from inherent task conflicts between semantic speech and structural music modeling, and severe data imbalances, which impede the development of a truly unified model. To address these challenges, we propose UniMoE-Audio a unified speech and music generation model built upon a novel D ynamic- C apacity M ix- o f- E xperts (DCMoE) framework. Architecturally, UniMoE-Audio extends the conventional MoE paradigm by introducing a Top- P routing strategy for adaptive capacity allocation. To tackle data imbalance, we introduce a three-stage training curriculum: 1) Independent Specialist Training leverages original datasets to instill domain-specific knowledge into each specialists without interference; 2) MoE Integration and Warmup incorporates these specialists into the UniMoE-Audio architecture, warming up the gate module and shared expert using a subset of balanced dataset; and 3) Synergistic Joint Training trains the entire model end-to-end on the fully balanced dataset, fostering enhanced cross-domain synergy. Extensive experiments show that UniMoE-Audio not only achieves state-of-the-art performance on major speech and music generation benchmarks, but also demonstrates superior synergistic learning, mitigating the performance degradation typically seen in naive joint training. Our findings highlight the substantial potential of specialized MoE architecture and curated training strategies in advancing universal audio generation.",
     "year": 2026,
     "conference": "acl",
     "conferenceName": "ACL",
