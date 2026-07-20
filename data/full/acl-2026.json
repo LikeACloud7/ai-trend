@@ -18609,9 +18609,9 @@
     "authors": [
       "Zhenran Xu",
       "Yiyu Wang",
-      "Yunxin li",
+      "Yunxin Li",
       "Muyang Ye",
-      "Yangxue",
+      "Xue Yang",
       "Kai Chen",
       "Longyue Wang",
       "Weihua Luo",
@@ -18675,7 +18675,7 @@
     "authors": [
       "Zhenran Xu",
       "Yiyu Wang",
-      "Yangxue",
+      "Xue Yang",
       "Longyue Wang",
       "Weihua Luo",
       "Kaifu Zhang",
@@ -22450,7 +22450,7 @@
       "Cheng-Ting Chou",
       "Patrick Schramowski",
       "Marius Mosbach",
-      "Josef Van Genabith",
+      "Josef van Genabith",
       "Simon Ostermann"
     ],
     "abstract": "Understanding and controlling the behavior of large language models (LLMs) is an increasingly important topic in multilingual NLP. Beyond prompting or fine-tuning, language steering , i.e., manipulating internal representations during inference, has emerged as a more efficient and interpretable technique for adapting models to a target language. Yet, no dedicated benchmarks or evaluation protocols exist to quantify the effectiveness of steering techniques. We introduce CLaS-Bench , a lightweight parallel-question benchmark for evaluating language-forcing behavior in LLMs across 32 languages, enabling systematic evaluation of multilingual steering methods. We evaluate a broad array of steering techniques, including residual-stream DiffMean interventions, probe-derived directions, language-specific neurons, PCA/LDA vectors, Sparse Autoencoders, and prompting baselines. Steering performance is measured along two axes: language control and semantic relevance, combined into a single harmonic-mean steering score. We find that across languages simple residual-based DiffMean method consistently outperforms all other methods. Moreover, a layer-wise analysis reveals that language-specific structure emerges predominantly in later layers and steering directions cluster based on language family. CLaS-Bench is the first standardized benchmark for multilingual steering, enabling both rigorous scientific analysis of language representations and practical evaluation of steering as a low-cost adaptation alternative.",
@@ -28162,7 +28162,7 @@
     "authors": [
       "Cennet Oguz",
       "Yasser Hamidullah",
-      "Josef Van Genabith",
+      "Josef van Genabith",
       "Simon Ostermann"
     ],
     "abstract": "Evaluating factual correctness in procedural video captions is challenging because captions must reflect both the abstract procedural roles (e.g., actions, ingredients, tools, locations) and their visual execution. Existing evaluation metrics, which rely on lexical overlap or holistic semantic similarity, often miss role-specific omissions and misclassify visually present but task-irrelevant content as hallucinations. We introduce DualFact+, a role-aware, fact-level evaluation framework that distinguishes conceptual facts, encoding ontology-based role typing of procedural steps (Action, Object or Ingredient, Tool, Location), from contextual facts, encoding video-grounded predicate–argument relations that specify how these roles are instantiated during execution. To enable complete and role-consistent evaluation, DualFact+ incorporates visually grounded implicit arguments and contrastive fact sets, and operates in two complementary modes: DualFact-C for text-based verification and DualFact-V for video-grounded verification. Experiments on YouCook3-Fact and CraftBench-Fact show that state-of-the-art captioning models produce fluent but often incomplete descriptions with systematic role-level errors. DualFact+ achieves stronger correlation with human factuality judgments than standard lexical and embedding-based metrics, highlighting the importance of role-aware evaluation for procedural video understanding.",
@@ -28691,7 +28691,7 @@
       "Hengyu Luo",
       "Jörg Tiedemann"
     ],
-    "abstract": "This paper investigates a critical design decision in the practice of massively multilingual continual pre-training — the inclusion of parallel data. Specifically, we study the impact of bilingual translation data for massively multilingual language adaptation of the Llama 3 family of models to 500 languages. To this end, we construct a bilingual translation corpus named OUR_DATA, containing data from more than 2,500 language pairs. Subsequently, we develop the OUR_MODEL Llama 3 suite of four massively multilingual models — continually pre-trained from the Llama 3 family of base models extensively on diverse data mixes up to 671B tokens — and explore the effect of continual pre-training with or without bilingual translation data. Comprehensive evaluation across 7 tasks and 12 benchmarks demonstrates that bilingual data tends to enhance language transfer and performance, particularly for low-resource languages. We open-source the OUR_DATA corpus, OUR_MODEL Llama 3 suite artefacts, code, and model generations.",
+    "abstract": "This paper investigates a critical design decision in the practice of massively multilingual continual pre-training — the inclusion of parallel data. Specifically, we study the impact of bilingual translation data for massively multilingual language adaptation of the Llama 3 family of models to 500 languages. To this end, we construct a bilingual translation corpus named MaLA, containing data from more than 2,500 language pairs. Subsequently, we develop the EMMA-500 Llama 3 suite of four massively multilingual models — continually pre-trained from the Llama 3 family of base models extensively on diverse data mixes up to 671B tokens — and explore the effect of continual pre-training with or without bilingual translation data. Comprehensive evaluation across 7 tasks and 12 benchmarks demonstrates that bilingual data tends to enhance language transfer and performance, particularly for low-resource languages. We open-source the MaLA corpus, EMMA-500 Llama 3 suite artifacts, code, and model generations.",
     "year": 2026,
     "conference": "acl",
     "conferenceName": "ACL",
@@ -39027,7 +39027,7 @@
       "Yang Liu",
       "Sijie Cheng"
     ],
-    "abstract": "Nowadays, wearable devices can continuously lifelog ambient conversations, creating substantial opportunities for memory systems. However, existing benchmarks primarily focus on online one-on-one chatting or human-AI interactions, thus neglecting the unique demands of real-world scenarios. Given the scarcity of public lifelogging audio datasets, we propose a hierarchical synthesis framework to curate LifelogBench, a novel benchmark comprising two complementary subsets: EgoMem, built on real-world egocentric videos, and LifeMem, constructed using simulated virtual community. Crucially, to address the issue of temporal leakage in traditional offline settings, we propose an Online Evaluation protocol that strictly adheres to temporal causality, ensuring systems are evaluated in a realistic streaming fashion. Our experimental results reveal a counterintuitive finding: current sophisticated memory systems fail to outperform a simple RAG-based baseline. This highlights the detrimental impact of over-designed structures and lossy compression in current approaches, emphasizing the necessity of high-fidelity context preservation for lifelog scenarios.",
+    "abstract": "Nowadays, wearable devices can continuously lifelog ambient conversations, creating substantial opportunities for memory systems. However, existing benchmarks primarily focus on online one-on-one chatting or human-AI interactions, thus neglecting the unique demands of real-world scenarios. Given the scarcity of public lifelogging audio datasets, we propose a hierarchical synthesis framework to curate L ife D ial B ench , a novel benchmark comprising two complementary subsets: EgoMem , built on real-world egocentric videos, and LifeMem , constructed using simulated virtual community. Crucially, to address the issue of temporal leakage in traditional offline settings, we propose an Online Evaluation protocol that strictly adheres to temporal causality, ensuring systems are evaluated in a realistic streaming fashion. Our experimental results reveal a counterintuitive finding: current sophisticated memory systems fail to outperform a simple RAG-based baseline. This highlights the detrimental impact of over-designed structures and lossy compression in current approaches, emphasizing the necessity of high-fidelity context preservation for lifelog scenarios.",
     "year": 2026,
     "conference": "acl",
     "conferenceName": "ACL",
@@ -44820,7 +44820,7 @@
     "id": "2026.findings-acl.530",
     "title": "From Bytes to Subwords: Challenges of Input Representations in NLP",
     "authors": [
-      "Rob Van Der Goot"
+      "Rob van der Goot"
     ],
     "abstract": "A first decision for any automated natural language processing system is the granularity of the input units. Traditionally, characters or words have been used, but recently, subwords have become the standard. In this paper, we investigate trends in input processing steps and discuss common shortcomings in this foundational first step of model design. We start by providing an overview of currently used tokenizers, showing that there is only minimal variety, with three highly similar designs dominating current models, and many of the tokenizers being exact duplicates. Next, we reconsider Unicode normalization strategies. Previous work has recommended applying consistent normalization; however, we argue that this removes signal and we show how this can harm performance for language classification. Finally, we take a closer look at UTF-8 character encoding, the very first layer of representation used in many language models. We argue that UTF-8 is not optimized for efficiency, nor for fairness across languages, and propose proof of concept alternatives focused on fairness and efficiency. Based on our findings, we recommend future work to 1) put more thought into subword segmentation and explore more diversity, 2) apply normalization only when beneficial 3) consider alternative character encodings for models operating on the byte-level.",
     "year": 2026,
@@ -45498,7 +45498,7 @@
       "Xenia Heilmann",
       "Mattia Cerrato",
       "Manuel Mager",
-      "Katharina Von Der Wense"
+      "Katharina von der Wense"
     ],
     "abstract": "Prior work evaluates code generation bias primarily through simple conditional statements, which represent only a narrow slice of real-world programming and reveal solely overt, explicitly encoded bias. We demonstrate that this approach dramatically underestimates real-world bias by examining a more realistic task: generating machine learning (ML) pipelines. Testing both code-specialized and general-instruction large language models, we find that ML pipelines exhibit substantially greater bias than simple conditionals across all conditions: standard generation, with varying prompt-based mitigation strategies, varying numbers of attributes, and different ML pipeline difficulty levels. Even attribute selection alone, the simplest pipeline difficulty, shows higher bias compared to conditionals, demonstrating that ML pipelines inherently amplify bias beyond what isolated conditionals reveal. Critically, we uncover a stark asymmetry: models maintain equivalent bias detection performance on both simple conditionals and ML pipelines, revealing that models recognize bias equally well in both contexts yet generate significantly more biased code in ML pipelines. These findings challenge simple conditionals as valid proxies for bias evaluation and suggest current benchmarks mischaracterize model safety in practical deployment contexts.",
     "year": 2026,
@@ -59392,7 +59392,7 @@
     "authors": [
       "Mario Sanz-Guerrero",
       "Manuel Mager",
-      "Katharina Von Der Wense"
+      "Katharina von der Wense"
     ],
     "abstract": "Prior work has shown that instruction-tuned large language models (LLMs) are less well calibrated than their base pre-trained counterparts. However, little is known about the frequently used chat template’s effect on the calibration of conversational LLMs. In this work, we investigate the mechanisms driving this miscalibration by decoupling the effects of the post-training algorithm and the chat format. We find that, while instruction tuning fundamentally harms calibration, the chat template aggravates the issue through an “ownership bias” – models are significantly more confident in their *own* answers than in identical answers provided by a user. Extensive experiments across six recent open-weight LLMs, three benchmarks, and three confidence elicitation methods show that models assign up to 26% higher confidence to their own responses. Leveraging this insight, we propose a simple inference-time strategy: framing the model’s answer as user input during confidence elicitation. This approach significantly reduces overconfidence and improves calibration by up to 26% without the need for retraining, narrowing the gap between base and instruction-tuned models.",
     "year": 2026,
@@ -59532,7 +59532,7 @@
     "authors": [
       "Md. Mahadi Hassan",
       "John Salvador",
-      "Akond Ashfaque Ur Rahman",
+      "Akond Rahman",
       "Santu Karmaker"
     ],
     "abstract": "LLMs show promise in code generation, yet their effectiveness for IT automation tasks, particularly for tools like Ansible, remains understudied. Existing benchmarks rely primarily on synthetic tasks that fail to capture the needs of practitioners who use IT automation tools. We present ExITBench (Execution-based IT Automation Benchmark), a benchmark of 126 diverse tasks (e.g., configuring servers and managing files) in which each task captures state reconciliation - a core property of IT automation tools. ExITBench evaluates LLMs’ ability to generate functional Ansible automation scripts via dynamic execution in controlled environments. We evaluate 14 open-source and 3 proprietary LLMs and find that GPT-4.1-Mini achieves the best pass@10 rate of 23.9%, while Claude-3.5-Sonnet achieves the best pass@1 performance. To explain the low performance, we analyze 1,517 execution failures across the evaluated LLMs and identify two prevalent semantic error categories: failures in state-reconciliation reasoning (42.117% combined from variable (12.287%), host (10.363%), path (10.511%), and template (8.956%) issues) and deficiencies in module-specific execution knowledge (26.203% combined from attribute & parameter (17.617%) and module (8.586%) errors). Our findings reveal key limitations in LLMs’ ability to address state reconciliation and apply specialized module knowledge, indicating that reliable IT automation with LLM-based agents need major advances in state reasoning and domain-specific execution.",
@@ -99568,7 +99568,7 @@
     "id": "2026.findings-acl.171",
     "title": "SP a C e: Unlocking Sample-Efficient Large Language Models Training With Self-Pace Curriculum Learning",
     "authors": [
-      "Van Dai Do",
+      "Dai Do",
       "Manh Nguyen",
       "Svetha Venkatesh",
       "Hung Le"
@@ -129112,7 +129112,7 @@
       "Basel Alomair",
       "Radha Poovendran"
     ],
-    "abstract": "The convergence of LLM-powered research assistants and AI-based peer review systems creates a critical vulnerability: fully automated publication loops where AI-generated research is evaluated by AI reviewers without human oversight. We investigate this through BadScientist, a framework that evaluates whether fabrication-oriented paper generation agents can deceive multi-model LLM review systems. Our generator employs presentation-manipulation strategies requiring no real experiments. We develop a rigorous evaluation framework with formal error guarantees (concentration bounds and calibration analysis), calibrated on real data. Our results reveal systematic vulnerabilities: fabricated papers achieve acceptance rates up to 18%. Critically, we identify concern-acceptance conflict—reviewers frequently flag integrity issues yet assign acceptance-level scores. Our mitigation strategies show only marginal improvements, with detection accuracy barely exceeding random chance. Despite provably sound aggregation mathematics, integrity checking systematically fails, exposing fundamental limitations in current AI-driven review systems and underscoring the urgent need for defense-in-depth safeguards in scientific publishing.",
+    "abstract": "The convergence of LLM-powered research assistants and AI-based peer review systems creates a critical vulnerability: fully automated publication loops where AI-generated research is evaluated by AI reviewers without human oversight. We investigate this through BadScientist, a framework that evaluates whether fabrication-oriented paper generation agents can deceive multi-model LLM review systems. Our generator employs presentation-manipulation strategies requiring no real experiments. We develop a rigorous evaluation framework with formal error guarantees (concentration bounds and calibration analysis), calibrated on real data. Our results reveal systematic vulnerabilities: fabricated papers achieve acceptance rates up to 82%. Critically, we identify concern-acceptance conflict—reviewers frequently flag integrity issues yet assign acceptance-level scores. Our mitigation strategies show only marginal improvements, with detection accuracy barely exceeding random chance. Despite provably sound aggregation mathematics, integrity checking systematically fails, exposing fundamental limitations in current AI-driven review systems and underscoring the urgent need for defense-in-depth safeguards in scientific publishing.",
     "year": 2026,
     "conference": "acl",
     "conferenceName": "ACL",
@@ -137224,7 +137224,7 @@
       "My Chiffon Nguyen",
       "Azmine Toushik Wasi",
       "Gouthami Vadithya",
-      "Rob Van Der Goot",
+      "Rob van der Goot",
       "Lanwenn ar C’horr",
       "Karan Dua",
       "Andrew Yates",
@@ -138203,7 +138203,7 @@
       "Xiaoyu Wang",
       "Zhe Tan",
       "Yu Li",
-      "Zhu Jiachen",
+      "Jiachen Zhu",
       "Yuheng Jia",
       "Shu Su"
     ],
@@ -155386,73 +155386,6 @@
     ]
   },
   {
-    "id": "2026.acl-long.536",
-    "title": "Efficient Test-Time Scaling of Multi-Step Reasoning by Probing Internal States of Large Language Models",
-    "authors": [
-      "Jingwei Ni",
-      "Ekaterina Fadeeva",
-      "Tianyi Wu",
-      "Mubashara Akhtar",
-      "Jiaheng Zhang",
-      "Elliott Ash",
-      "Markus Leippold",
-      "Timothy Baldwin",
-      "See-Kiong Ng",
-      "Artem Shelmanov",
-      "Mrinmaya Sachan"
-    ],
-    "abstract": "LLMs can solve complex tasks by generating long, multi-step reasoning chains. Test-time scaling (TTS) can further improve LLM performance by sampling multiple variants of intermediate reasoning steps, verifying their correctness, and strategically choosing the best steps for continuation. However, existing verification approaches, such as Process Reward Models (PRMs), are computationally expensive, limited to specific domains, and require large-scale human or model-generated annotations. We propose a lightweight alternative for step-level reasoning verification based on probing the internal states of LLMs. We train a transformer-based probe that uses the internal states of the frozen LLM to estimate the credibility of its reasoning steps during generation. Annotation can be generated either by another larger LLM (e.g., DeepSeek-R1) or in a self-supervised manner by the original model itself. The probes are both effective and lightweight, containing fewer than 10M parameters. Across multiple domains, including mathematics, planning, and general knowledge question answering, our probes match or even exceed the performance of PRMs that are up to 810× larger. Our findings suggest that the internal states of LLMs encode their confidence in reasoning processes and can serve as reliable signals for reasoning step verification, offering a promising direction towards scalable and generalizable TTS and introspective LLMs.",
-    "year": 2026,
-    "conference": "acl",
-    "conferenceName": "ACL",
-    "track": "main",
-    "subtype": "long",
-    "source": "ACL Anthology",
-    "sourceVolume": "2026.acl-long",
-    "sourceVolumeTitle": "Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
-    "url": "https://aclanthology.org/2026.acl-long.536/",
-    "keywords": [],
-    "ordinal": 536,
-    "primaryCategory": "reasoning",
-    "categories": [
-      "reasoning",
-      "interpretability",
-      "efficient_ai"
-    ],
-    "categoryScores": [
-      {
-        "id": "reasoning",
-        "label": "Reasoning & Planning",
-        "color": "#9333ea",
-        "score": 12
-      },
-      {
-        "id": "interpretability",
-        "label": "Interpretability & Analysis",
-        "color": "#be123c",
-        "score": 6
-      },
-      {
-        "id": "efficient_ai",
-        "label": "Efficient AI & Systems",
-        "color": "#16a34a",
-        "score": 5
-      },
-      {
-        "id": "llms",
-        "label": "LLMs & Foundation Models",
-        "color": "#2563eb",
-        "score": 3
-      },
-      {
-        "id": "speech_audio",
-        "label": "Speech & Audio",
-        "color": "#0284c7",
-        "score": 2
-      }
-    ]
-  },
-  {
     "id": "2026.acl-long.816",
     "title": "Efficiently Learning To Reason or Not to Reason: Root-token Policy Optimization for Adaptive Thinking",
     "authors": [
@@ -163266,8 +163199,8 @@
     "id": "2026.acl-short.7",
     "title": "From Factuality to Meta-Factivity: A Cognitive Blueprint for Trustworthy LLM s",
     "authors": [
-      "Liu Daohuan",
-      "Xia Lun",
+      "Daohuan Liu",
+      "Lun Xia",
       "Yuer Wang",
       "Jiaoyang Su",
       "Xuri Tang"
@@ -208381,6 +208314,73 @@
     ]
   },
   {
+    "id": "2026.acl-long.536",
+    "title": "R e P robe: Efficient Test-Time Scaling of Multi-Step Reasoning by Probing Internal States of Large Language Models",
+    "authors": [
+      "Jingwei Ni",
+      "Ekaterina Fadeeva",
+      "Tianyi Wu",
+      "Mubashara Akhtar",
+      "Jiaheng Zhang",
+      "Elliott Ash",
+      "Markus Leippold",
+      "Timothy Baldwin",
+      "See-Kiong Ng",
+      "Artem Shelmanov",
+      "Mrinmaya Sachan"
+    ],
+    "abstract": "LLMs can solve complex tasks by generating long, multi-step reasoning chains. Test-time scaling (TTS) can further improve LLM performance by sampling multiple variants of intermediate reasoning steps, verifying their correctness, and strategically choosing the best steps for continuation. However, existing verification approaches, such as Process Reward Models (PRMs), are computationally expensive, limited to specific domains, and require large-scale human or model-generated annotations. We propose a lightweight alternative for step-level reasoning verification based on probing the internal states of LLMs. We train a transformer-based probe that uses the internal states of the frozen LLM to estimate the credibility of its reasoning steps during generation. Annotation can be generated either by another larger LLM (e.g., DeepSeek-R1) or in a self-supervised manner by the original model itself. The probes are both effective and lightweight, containing fewer than 10M parameters. Across multiple domains, including mathematics, planning, and general knowledge question answering, our probes match or even exceed the performance of PRMs that are up to 810× larger. Our findings suggest that the internal states of LLMs encode their confidence in reasoning processes and can serve as reliable signals for reasoning step verification, offering a promising direction towards scalable and generalizable TTS and introspective LLMs.",
+    "year": 2026,
+    "conference": "acl",
+    "conferenceName": "ACL",
+    "track": "main",
+    "subtype": "long",
+    "source": "ACL Anthology",
+    "sourceVolume": "2026.acl-long",
+    "sourceVolumeTitle": "Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    "url": "https://aclanthology.org/2026.acl-long.536/",
+    "keywords": [],
+    "ordinal": 536,
+    "primaryCategory": "reasoning",
+    "categories": [
+      "reasoning",
+      "interpretability",
+      "efficient_ai"
+    ],
+    "categoryScores": [
+      {
+        "id": "reasoning",
+        "label": "Reasoning & Planning",
+        "color": "#9333ea",
+        "score": 12
+      },
+      {
+        "id": "interpretability",
+        "label": "Interpretability & Analysis",
+        "color": "#be123c",
+        "score": 6
+      },
+      {
+        "id": "efficient_ai",
+        "label": "Efficient AI & Systems",
+        "color": "#16a34a",
+        "score": 5
+      },
+      {
+        "id": "llms",
+        "label": "LLMs & Foundation Models",
+        "color": "#2563eb",
+        "score": 3
+      },
+      {
+        "id": "speech_audio",
+        "label": "Speech & Audio",
+        "color": "#0284c7",
+        "score": 2
+      }
+    ]
+  },
+  {
     "id": "2026.acl-long.964",
     "title": "R e R ec: Reasoning-Augmented LLM -based Recommendation Assistant via Reinforcement Fine-tuning",
     "authors": [
@@ -218176,11 +218176,11 @@
       "Yosuke Higuchi",
       "Youssef Benchekroun",
       "Martin Gleize",
-      "Charles-Éric Saint-James",
+      "Charles-Eric Saint-James",
       "Dongyan Lin",
       "Phillip Rust",
-      "Angel Villar-Corrales",
-      "Surya",
+      "Angel Villar",
+      "Surya Parimi",
       "Vanessa Stark",
       "Rashel Moritz",
       "Juan Pino",
@@ -231346,7 +231346,7 @@
     "title": "The Path Not Taken: Duality in Reasoning about Program Execution",
     "authors": [
       "Eshgin Hasanov",
-      "Md. Mahadi Hassan",
+      "Md Mahadi Hassan Sibat",
       "Santu Karmaker",
       "Aashish Yadavally"
     ],
@@ -244484,7 +244484,7 @@
       "Zhuowen Han",
       "Simon Ostermann",
       "Renren Jin",
-      "Josef Van Genabith",
+      "Josef van Genabith",
       "Deyi Xiong"
     ],
     "abstract": "Reinforcement learning (RL)-based post-training often improves the reasoning performance of large language models (LLMs) beyond the training domain, while supervised fine-tuning (SFT) frequently leads to general capabilities forgetting. However, the mechanisms underlying this contrast remain unclear.To bridge this gap, we present a feature-level mechanistic analysis methodology to probe RL generalization using a controlled experimental setup, where RL- and SFT-tuned models are trained from the same base model on identical data. Leveraging our interpretability framework, we align internal activations across models within a shared feature space and analyze how features evolve during post-training.We find that SFT rapidly introduces many highly specialized features that stabilize early in training, whereas RL induces more restrained and continually evolving feature changes that largely preserve base models’ representations. Focusing on samples where RL succeeds but the base model fails, we identify a compact, task-agnostic set of features that directly mediate generalization across diverse tasks. Feature-level interventions confirm their causal role: disabling these features significantly degrades RL models’ generalization performance, while amplifying them improves base models’ performance. The code is available at https://github.com/danshi777/RL-generalization.",

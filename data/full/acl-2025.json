@@ -989,7 +989,7 @@
       "Sinan Kurtyigit",
       "Diego Frassinelli",
       "Carina Silberer",
-      "Sabine Schulte Im Walde"
+      "Sabine Schulte im Walde"
     ],
     "abstract": "We explore the role of the visual modality and of vision transformers in predicting the compositionality of English noun compounds. Crucially, we contribute a framework to address the challenge of obtaining adequate images that represent non-compositional compounds (such as “couch potato”), making it relevant for any image-based approach targeting figurative language. Our method uses prompting strategies and diffusion models to generate images. Comparing and combining our approach with a state-of-the-art text-based approach reveals complementary contributions regarding features as well as degrees of abstractness in compounds.",
     "year": 2025,
@@ -13361,7 +13361,7 @@
     "title": "CLIX : Cross-Lingual Explanations of Idiomatic Expressions",
     "authors": [
       "Aaron Gluck",
-      "Katharina Von Der Wense",
+      "Katharina von der Wense",
       "Maria Leonor Pacheco"
     ],
     "abstract": "Automated definition generation systems have been proposed to support vocabulary expansion for language learners. The main barrier to the success of these systems is that learners often struggle to understand definitions due to the presence of potentially unfamiliar words and grammar, particularly when non-standard language is involved. To address these challenges, we propose CLIX, the task of Cross-Lingual explanations of Idiomatic eXpressions. We explore the capabilities of current NLP models for this task, and observe that while it remains challenging, large language models show promise. Finally, we perform a detailed error analysis to highlight the key challenges that need to be addressed before we can reliably incorporate these systems into educational tools.",
@@ -22726,7 +22726,7 @@
     "authors": [
       "Giuseppe Ruggiero",
       "Matteo Testa",
-      "Jurgen Van De Walle",
+      "Jurgen Van den Walle",
       "Luigi Di Caro"
     ],
     "abstract": "Self-supervised learning (SSL) has reduced the reliance on expensive labeling in speech technologies by learning meaningful representations from unannotated data. Since most SSL-based downstream tasks prioritize content information in speech, ideal representations should disentangle content from unwanted variations like speaker characteristics in the SSL representations. However, removing speaker information often degrades other speech components, and existing methods either fail to fully disentangle speaker identity or require resource-intensive models. In this paper, we propose a novel disentanglement method that linearly decomposes SSL representations into speaker-specific and speaker-independent components, effectively generating speaker disentangled representations. Comprehensive experiments show that our approach achieves speaker independence and as such, when applied to content-driven tasks such as voice conversion, our representations yield significant improvements over state-of-the-art methods.",
@@ -40597,7 +40597,7 @@
       "George Arthur Baker",
       "Chiranthan Sridhar",
       "Lawrence Hunter",
-      "Katharina Von Der Wense"
+      "Katharina von der Wense"
     ],
     "abstract": "Language models (LMs) have excelled in various broad domains. However, to ensure their safe and effective integration into real-world educational settings, they must demonstrate proficiency in specific, granular areas of knowledge. Existing cloze-style benchmarks, commonly used to evaluate LMs’ knowledge, have three major limitations. They: 1) do not cover the educational domain; 2) typically focus on low-complexity, generic knowledge or broad domains, which do not adequately assess the models’ knowledge in specific subjects; and 3) often rely on templates that can bias model predictions. Here, we introduce MALAMUTE, a multilingual, template-free, and highly granular probing dataset comprising expert-written, peer-reviewed probes from 71 university-level textbooks across three languages (English, Spanish, and Polish). MALAMUTE is the first education-based cloze-style dataset. It covers eight domains, each with up to 14 subdomains, further broken down into concepts and concept-based prompts, totaling 33,361 university curriculum concepts and 116,887 prompts. MALAMUTE’s fine granularity, educational focus, and inclusion of both sentence-level and paragraph-level prompts make it an ideal tool for evaluating LMs’ course-related knowledge. Our evaluation of masked and causal LMs on MALAMUTE shows that despite overall proficiency, they have significant gaps in knowledge when examined closely on specific subjects, hindering their safe use in classrooms and underscoring the need for further development.",
     "year": 2025,
@@ -44384,7 +44384,7 @@
     "authors": [
       "Chris Jenkins",
       "Filip Miletić",
-      "Sabine Schulte Im Walde"
+      "Sabine Schulte im Walde"
     ],
     "abstract": "Compound words (e.g. shower thought) provide a multifaceted challenge for diachronic models of semantic change. Datasets describing noun compound semantics tend to describe only the predominant sense of a compound, which is limiting, especially in diachronic settings where senses may shift over time. We create a novel dataset of relatedness judgements of noun compounds in English and German, the first to capture diachronic meaning changes for multi-word expressions without prematurely condensing individual senses into an aggregate value. Furthermore, we introduce a novel, sense-targeting approach for noun compounds that evaluates two contrasting vector representations in their ability to cluster example sentence pairs. Our clustering approach targets both noun compounds and their constituent parts, to model the interdependence of these terms over time. We calculate time-delineated distributions of these clusters and compare them against measures of semantic change aggregated from the human relatedness annotations.",
     "year": 2025,
@@ -64055,7 +64055,7 @@
     "title": "The Effectiveness of Uncased Tokeniziaion for Clinical Notes",
     "authors": [
       "Cory Paik",
-      "Katharina Von Der Wense"
+      "Katharina von der Wense"
     ],
     "abstract": "The impact of case-sensitive tokenization on clinical notes is not well understood. While clinical notes share similarities with biomedical text in terminology, they often lack the proper casing found in polished publications. Language models, unlike humans, require a fixed vocabulary and case sensitivity is a trade-off that must be considered carefully. Improper casing can lead to sub-optimal tokenization and increased sequence length, degrading downstream performance and increasing computational costs. While most recent open-domain encoder language models use uncased tokenization for all tasks, there is no clear trend in biomedical and clinical models. In this work we (1) show that uncased models exceed the performance of cased models on clinical notes, even on traditionally case-sensitive tasks such as named entity recognition and (2) introduce independent case encoding to better balance model performance on case-sensitive and improperly-cased tasks.",
     "year": 2025,
@@ -68295,7 +68295,7 @@
     "authors": [
       "Luke Gessler",
       "Alexis Palmer",
-      "Katharina Von Der Wense"
+      "Katharina von der Wense"
     ],
     "abstract": "Despite over 20 years of NLP work explicitly intended for application in language documentation (LD), practical use of this work remains vanishingly scarce. This issue has been noted and discussed over the past 10 years, but without the benefit of data to inform the discourse.To address this lack in the literature, we present a survey- and interview-based analysis of the lack of adoption of NLP in LD, focusing on the matter of collaborations between documentary linguists and NLP researchers. Our data show support for ideas from previous work but also reveal the importance of little-discussed factors such as misaligned professional incentives, technical knowledge burdens, and LD software.",
     "year": 2025,
@@ -109570,7 +109570,7 @@
       "Michiel Van Der Meer",
       "Pavel Korshunov",
       "Sébastien Marcel",
-      "Lonneke Van Der Plas"
+      "Lonneke van der Plas"
     ],
     "abstract": "Misinformation can be countered with fact-checking, but the process is costly and slow. Identifying checkworthy claims is the first step, where automation can help scale fact-checkers’ efforts. However, detection methods struggle with content that is (1) multimodal, (2) from diverse domains, and (3) synthetic. We introduce HintsOfTruth, a public dataset for multimodal checkworthiness detection with 27K real-world and synthetic image/claim pairs. The mix of real and synthetic data makes this dataset unique and ideal for benchmarking detection methods. We compare fine-tuned and prompted Large Language Models (LLMs). We find that well-configured lightweight text-based encoders perform comparably to multimodal models but the former only focus on identifying non-claim-like content. Multimodal LLMs can be more accurate but come at a significant computational cost, making them impractical for large-scale applications. When faced with synthetic data, multimodal models perform more robustly.",
     "year": 2025,
@@ -112328,7 +112328,7 @@
     "id": "2025.acl-long.891",
     "title": "Identifying Open Challenges in Language Identification",
     "authors": [
-      "Rob Van Der Goot"
+      "Rob van der Goot"
     ],
     "abstract": "Automatic language identification is a core problem of many Natural LanguageProcessing (NLP) pipelines. A wide variety of architectures and benchmarks havebeen proposed with often near-perfect performance. Although previousstudies have focused on certain challenging setups (i.e. cross-domain, shortinputs), a systematic comparison is missing. We propose a benchmark that allows us to test for the effect of input size, training data size, domain, number oflanguages, scripts, and language families on performance. We evaluatefive popular models on this benchmark and identify which open challengesremain for this task as well as which architectures achieve robust performance. Wefind that cross-domain setups are the most challenging (although arguably mostrelevant), and that number of languages, variety in scripts, and variety inlanguage families have only a small impact on performance. We also contributepractical takeaways: training with 1,000 instances per language and a maximuminput length of 100 characters is enough for robust language identification.Based on our findings, we train an accurate (94.41%) multi-domain languageidentification model on 2,034 languages, for which we also provide an analysisof the remaining errors.",
     "year": 2025,
@@ -113186,7 +113186,7 @@
     "title": "Improving Low-Resource Morphological Inflection via Self-Supervised Objectives",
     "authors": [
       "Adam Wiemerslage",
-      "Katharina Von Der Wense"
+      "Katharina von der Wense"
     ],
     "abstract": "Self-supervised objectives have driven major advances in NLP by leveraging large-scale unlabeled data, but such resources are scarce for many of the world’s languages. Surprisingly, they have not been explored much for character-level tasks, where smaller amounts of data have the potential to be beneficial. We investigate the effectiveness of self-supervised auxiliary tasks for morphological inflection – a character-level task highly relevant for language documentation – in extremely low-resource settings, training encoder-decoder transformers for 19 languages and 13 auxiliary objectives. Autoencoding yields the best performance when unlabeled data is very limited, while character masked language modeling (CMLM) becomes more effective as data availability increases. Though objectives with stronger inductive biases influence model predictions intuitively, they rarely outperform standard CMLM. However, sampling masks based on known morpheme boundaries consistently improves performance, highlighting a promising direction for low-resource morphological modeling.",
     "year": 2025,
@@ -131363,7 +131363,7 @@
       "Kyung Eun Park",
       "Goran Glavaš",
       "Fabian David Schmidt",
-      "Katharina Von Der Wense"
+      "Katharina von der Wense"
     ],
     "abstract": "Measurement systems (e.g., currencies) differ across cultures, but the conversions between them are well defined so that humans can state using any measurement system of their choice. Being available to users from diverse cultural backgrounds, Large Language Models (LLMs) should also be able to provide accurate information irrespective of the measurement system at hand. Using newly compiled datasets we test if this is truly the case for seven open-source LLMs, addressing three key research questions: (RQ1) What is the default system used by LLMs for each type of measurement? (RQ2) Do LLMs’ answers and their accuracy vary across different measurement systems? (RQ3) Can LLMs mitigate potential challenges w.r.t. underrepresented systems via reasoning? Our findings show that LLMs default to the measurement system predominantly used in the data. Additionally, we observe considerable instability and variance in performance across different measurement systems. While this instability can in part be mitigated by employing reasoning methods such as chain-of-thought (CoT), this implies longer responses and thereby significantly increases test-time compute (and inference costs), marginalizing users from cultural backgrounds that use underrepresented measurement systems.",
     "year": 2025,

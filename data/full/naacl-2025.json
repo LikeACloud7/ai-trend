@@ -9225,7 +9225,7 @@
       "Nouhoum Coulibaly",
       "Seydou Diallo",
       "Sebastien Diarra",
-      "Christopher M Homan",
+      "Christopher M. Homan",
       "Mamadou K. Keita",
       "Michael Leventhal"
     ],
@@ -27744,7 +27744,7 @@
     "authors": [
       "Allahsera Auguste Tapo",
       "Kevin Assogba",
-      "Christopher M Homan",
+      "Christopher M. Homan",
       "M. Mustafa Rafique",
       "Marcos Zampieri"
     ],
@@ -29912,7 +29912,7 @@
       "Yanan Ma",
       "Chenghao Xiao",
       "Chenhan Yuan",
-      "Sabine N Van Der Veer",
+      "Sabine N van der Veer",
       "Lamiece Hassan",
       "Chenghua Lin",
       "Goran Nenadic"
@@ -30657,7 +30657,7 @@
     "title": "Continual Learning in Multilingual Sign Language Translation",
     "authors": [
       "Shakib Yazdani",
-      "Josef Van Genabith",
+      "Josef van Genabith",
       "Cristina España-Bonet"
     ],
     "abstract": "The field of sign language translation (SLT) is still in its infancy, as evidenced by the low translation quality, even when using deep learn- ing approaches. Probably because of this, many common approaches in other machine learning fields have not been explored in sign language. Here, we focus on continual learning for mul- tilingual SLT. We experiment with three con- tinual learning methods and compare them to four more naive baseline and fine-tuning ap- proaches. We work with four sign languages (ASL, BSL, CSL and DGS) and three spo- ken languages (Chinese, English and German). Our results show that incremental fine-tuning is the best performing approach both in terms of translation quality and transfer capabilities, and that continual learning approaches are not yet fully competitive given the current SOTA in SLT.",
@@ -31782,7 +31782,7 @@
       "Da-Cheng Juan",
       "Dana Alon",
       "Charles Herrmann",
-      "Sjoerd Van Steenkiste",
+      "Sjoerd van Steenkiste",
       "Ranjay Krishna",
       "Cyrus Rashtchian"
     ],
@@ -32666,7 +32666,7 @@
       "Imane Terhmina",
       "Yunci Sun",
       "Matthew Wilkens",
-      "Marten Van Schijndel"
+      "Marten van Schijndel"
     ],
     "abstract": "This study presents a novel approach to analyzing historical language change, focusing on the evolving semantics of the French term “indigène(s)” (“indigenous”) between 1825 and 1950. While existing approaches to measuring semantic change with contextual word embeddings (CWE) rely primarily on similarity measures or clustering, these methods may not be suitable for highly imbalanced datasets, and pose challenges for interpretation. For this reason, we propose an interpretable, feature-level approach to analyzing language change, which we use to trace the semantic evolution of “indigène(s)” over a 125-year period. Following recent work on sequence embeddings (O’Neill et al., 2024), we use k -sparse autoencoders ( k -SAE) (Makhzani and Frey, 2013) to interpret over 210,000 CWEs generated using sentences sourced from the French National Library. We demonstrate that k -SAEs can learn interpretable features from CWEs, as well as how differences in feature activations across time periods reveal highly specific aspects of language change. In addition, we show that diachronic change in feature activation frequency reflects the evolution of French colonial legal structures during the 19th and 20th centuries.",
     "year": 2025,
@@ -35120,7 +35120,7 @@
       "Bhuwan Dhingra",
       "Antoine Bosselut",
       "Duygu Ataman",
-      "Lonneke Van Der Plas"
+      "Lonneke van der Plas"
     ],
     "abstract": "Large language models (LLMs) have demonstrated significant progress in various natural language generation and understanding tasks. However, their linguistic generalization capabilities remain questionable, raising doubts about whether these models learn language similarly to humans. While humans exhibit compositional generalization and linguistic creativity in language use, the extent to which LLMs replicate these abilities, particularly in morphology, is under-explored. In this work, we systematically investigate the morphological generalization abilities of LLMs through the lens of compositionality. We define morphemes as compositional primitives and design a novel suite of generative and discriminative tasks to assess morphological productivity and systematicity. Focusing on agglutinative languages such as Turkish and Finnish, we evaluate several state-of-the-art instruction-finetuned multilingual models, including GPT-4 and Gemini. Our analysis shows that LLMs struggle with morphological compositional generalization particularly when applied to novel word roots, with performance declining sharply as morphological complexity increases. While models can identify individual morphological combinations better than chance, their performance lacks systematicity, leading to significant accuracy gaps compared to humans.",
     "year": 2025,
@@ -44059,11 +44059,11 @@
       "Eftekhar Hossain",
       "Sanjeev Kumar Sinha",
       "Naman Bansal",
-      "R. Alexander Knipper",
+      "Alex Knipper",
       "Souvika Sarkar",
       "John Salvador",
       "Yash Mahajan",
-      "Sri Ram Pavan Kumar Guttikonda",
+      "Sri Guttikonda",
       "Mousumi Akter",
       "Md. Mahadi Hassan",
       "Matthew Freestone",
@@ -45164,7 +45164,7 @@
     "title": "M ulti 3 H ate: Multimodal, Multilingual, and Multicultural Hate Speech Detection with Vision–Language Models",
     "authors": [
       "Minh Duc Bui",
-      "Katharina Von Der Wense",
+      "Katharina von der Wense",
       "Anne Lauscher"
     ],
     "abstract": "Hate speech moderation on global platforms poses unique challenges due to the multimodal and multilingual nature of content, along with the varying cultural perceptions. How well do current vision-language models (VLMs) navigate these nuances? To investigate this, we create the first multimodal and multilingual parallel hate speech dataset, annotated by a multiculturally diverse set of annotators, called Multi 3 Hate. It contains 300 parallel meme samples across 5 languages: English, German, Spanish, Hindi, and Mandarin. We demonstrate that cultural background significantly affects multimodal hate speech annotation in our dataset. The average pairwise agreement among countries is just 74%, significantly lower than that of randomly selected annotator groups. Our qualitative analysis indicates that the lowest pairwise label agreement—only 67% between the USA and India—can be attributed to cultural factors. We then conduct experiments with 5 large VLMs in a zero-shot setting, finding that these models align more closely with annotations from the US than with those from other cultures, even when the memes and prompts are presented in the native language of the other culture.",

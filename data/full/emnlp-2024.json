@@ -15058,7 +15058,7 @@
     "authors": [
       "Giuseppe Ruggiero",
       "Matteo Testa",
-      "Jurgen Van De Walle",
+      "Jurgen Van de Walle",
       "Luigi Di Caro"
     ],
     "abstract": "The creation of artificial polyglot voices remains a challenging task, despite considerable progress in recent years. This paper investigates self-supervised learning for voice conversion to create native-sounding polyglot voices. We introduce a novel cross-lingual any-to-one voice conversion system that is able to preserve the source accent without the need for multilingual data from the target speaker. In addition, we show a novel cross-lingual fine-tuning strategy that further improves the accent and reduces the training data requirements. Objective and subjective evaluations with English, Spanish, French and Mandarin Chinese confirm that our approach improves on state-of-the-art methods, enhancing the speech intelligibility and overall quality of the converted speech, especially in cross-lingual scenarios. Audio samples are available at: https://giuseppe-ruggiero.github.io/a2o-vc-demo/",
@@ -30654,7 +30654,7 @@
       "Simon Ostermann",
       "Emmanuel Vincent",
       "Natalia Skachkova",
-      "Josef Van Genabith"
+      "Josef van Genabith"
     ],
     "abstract": "Multilingual anaphora resolution identifies referring expressions and implicit arguments in texts and links to antecedents that cover several languages. In the most challenging setting, cross-lingual anaphora resolution, training data, and test data are in different languages. As knowledge needs to be transferred across languages, this task is challenging, both in the multilingual and cross-lingual setting. We hypothesize that one way to alleviate some of the difficulty of the task is to include multimodal information in the form of images (i.e. frames extracted from instructional videos). Such visual inputs are by nature language agnostic, therefore cross- and multilingual anaphora resolution should benefit from visual information. In this paper, we provide the first multilingual and multimodal dataset annotated with anaphoric relations and present experimental results for end-to-end multimodal and multilingual anaphora resolution. Given gold mentions, multimodal features improve anaphora resolution results by ~10 % for unseen languages.",
     "year": 2024,
@@ -49426,7 +49426,7 @@
       "Tania Vaz",
       "Helena Wu",
       "Beatriz Silva",
-      "Daan Van Stigt",
+      "Daan van Stigt",
       "Andre Martins"
     ],
     "abstract": "While machine translation (MT) systems are achieving increasingly strong performance on benchmarks, they often produce translations with errors and anomalies. Understanding these errors can potentially help improve the translation quality and user experience. This paper introduces xTower, an open large language model (LLM) built on top of TowerBase designed to provide free-text explanations for translation errors in order to guide the generation of a corrected translation. The quality of the generated explanations by xTower are assessed via both intrinsic and extrinsic evaluation. We ask expert translators to evaluate the quality of the explanations across two dimensions: relatedness towards the error span being explained and helpfulness in error understanding and improving translation quality. Extrinsically, we test xTower across various experimental setups in generating translation corrections, demonstrating significant improvements in translation quality. Our findings highlight xTower’s potential towards not only producing plausible and helpful explanations of automatic translations, but also leveraging them to suggest corrected translations.",
@@ -56836,7 +56836,7 @@
       "Kanishk Jain",
       "Rabiul Awal",
       "Siva Reddy",
-      "Sjoerd Van Steenkiste",
+      "Sjoerd van Steenkiste",
       "Lisa Anne Hendricks",
       "Karolina Stanczak",
       "Aishwarya Agrawal"
@@ -74602,7 +74602,7 @@
     "authors": [
       "Abhishek Purushothama",
       "Adam Wiemerslage",
-      "Katharina Von Der Wense"
+      "Katharina von der Wense"
     ],
     "abstract": "Pre-trained transformers such as BERT have been shown to be effective in many natural language tasks. However, they are under-explored for character-level sequence to sequence tasks. In this work, we investigate pre-training transformers for the character-level task of morphological inflection in several languages. We compare various training setups and secondary tasks where unsupervised data taken directly from the target task is used. We show that training on secondary unsupervised tasks increases inflection performance even without any external data, suggesting that models learn from additional unsupervised tasks themselves—not just from additional data. We also find that this does not hold true for specific combinations of secondary task and training setup, which has interesting implications for denoising objectives in character-level tasks.",
     "year": 2024,
@@ -87817,7 +87817,7 @@
       "Pierluigi Cassotti",
       "Bill Noble",
       "David Alfter",
-      "Sabine Schulte Im Walde",
+      "Sabine Schulte im Walde",
       "Nina Tahmasebi"
     ],
     "abstract": "Word Usage Graphs (WUGs) represent human semantic proximity judgments for pairs of word uses in a weighted graph, which can be clustered to infer word sense clusters from simple pairwise word use judgments, avoiding the need for word sense definitions. SemEval-2020 Task 1 provided the first and to date largest manually annotated, diachronic WUG dataset. In this paper, we check the robustness and correctness of the annotations by continuing the SemEval annotation algorithm for two more rounds and comparing against an established annotation paradigm. Further, we test the reproducibility by resampling a new, smaller set of word uses from the SemEval source corpora and annotating them. Our work contributes to a better understanding of the problems and opportunities of the WUG annotation paradigm and points to future improvements.",
@@ -90320,7 +90320,7 @@
     "title": "On Mitigating Performance Disparities in Multilingual Speech Recognition",
     "authors": [
       "Monorama Swain",
-      "Anna Katrine Van Zee",
+      "Anna Katrine van Zee",
       "Anders Søgaard"
     ],
     "abstract": "How far have we come in mitigating performance disparities across genders in multilingual speech recognition? We compare the impact on gender disparity of different fine-tuning algorithms for automated speech recognition across model sizes, languages and gender. We look at both performance-focused and fairness-promoting algorithms. Across languages, we see slightly better performance for female speakers for larger models regardless of the fine-tuning algorithm. The best trade-off between performance and parity is found using adapter fusion. Fairness-promoting fine-tuning algorithms (Group-DRO and Spectral Decoupling) hurt performance compared to adapter fusion with only slightly better performance parity. LoRA increases disparities slightly. Fairness-mitigating fine-tuning techniques led to slightly higher variance in performance across languages, with the exception of adapter fusion.",
@@ -108848,7 +108848,7 @@
     "title": "Unveiling the mystery of visual attributes of concrete and abstract concepts: Variability, nearest neighbors, and challenging categories",
     "authors": [
       "Tarun Tater",
-      "Sabine Schulte Im Walde",
+      "Sabine Schulte im Walde",
       "Diego Frassinelli"
     ],
     "abstract": "The visual representation of a concept varies significantly depending on its meaning and the context where it occurs; this poses multiple challenges both for vision and multimodal models. Our study focuses on concreteness, a well-researched lexical-semantic variable, using it as a case study to examine the variability in visual representations. We rely on images associated with approximately 1,000 abstract and concrete concepts extracted from two different datasets: Bing and YFCC. Our goals are: (i) evaluate whether visual diversity in the depiction of concepts can reliably distinguish between concrete and abstract concepts; (ii) analyze the variability of visual features across multiple images of the same concept through a nearest neighbor analysis; and (iii) identify challenging factors contributing to this variability by categorizing and annotating images. Our findings indicate that for classifying images of abstract versus concrete concepts, a combination of basic visual features such as color and texture is more effective than features extracted by more complex models like Vision Transformer (ViT). However, ViTs show better performances in the nearest neighbor analysis, emphasizing the need for a careful selection of visual features when analyzing conceptual variables through modalities other than text.",
@@ -110849,7 +110849,7 @@
     "title": "What’s Mine becomes Yours: Defining, Annotating and Detecting Context-Dependent Paraphrases in News Interview Dialogs",
     "authors": [
       "Anna Wegmann",
-      "Tijs A. Van Den Broek",
+      "Tijs van den Broek",
       "Dong Nguyen"
     ],
     "abstract": "Best practices for high conflict conversations like counseling or customer support almost always include recommendations to paraphrase the previous speaker. Although paraphrase classification has received widespread attention in NLP, paraphrases are usually considered independent from context, and common models and datasets are not applicable to dialog settings. In this work, we investigate paraphrases across turns in dialog (e.g., Speaker 1: “That book is mine.” becomes Speaker 2: “That book is yours.”). We provide an operationalization of context-dependent paraphrases, and develop a training for crowd-workers to classify paraphrases in dialog. We introduce ContextDeP, a dataset with utterance pairs from NPR and CNN news interviews annotated for context-dependent paraphrases. To enable analyses on label variation, the dataset contains 5,581 annotations on 600 utterance pairs. We present promising results with in-context learning and with token classification models for automatic paraphrase detection in dialog.",

@@ -5387,7 +5387,7 @@
       "Alexander Ororbia",
       "Raj Bhensadadia",
       "Ashiqur KhudaBukhsh",
-      "Christopher Homan"
+      "Christopher M. Homan"
     ],
     "year": 2023,
     "conference": "acl",
@@ -8179,7 +8179,7 @@
     "title": "Follow the leader(board) with confidence: Estimating p-values from a single test set with item and response variance",
     "authors": [
       "Shira Wein",
-      "Christopher Homan",
+      "Christopher M. Homan",
       "Lora Aroyo",
       "Chris Welty"
     ],
@@ -41620,7 +41620,7 @@
       "Sarah Luger",
       "Saloni Poddar",
       "Ashiqur KhudaBukhsh",
-      "Christopher Homan"
+      "Christopher M. Homan"
     ],
     "year": 2023,
     "conference": "acl",
@@ -94505,7 +94505,7 @@
       "Sujan Dutta",
       "Tharindu Ranasinghe",
       "Marcos Zampieri",
-      "Christopher Homan",
+      "Christopher M. Homan",
       "Ashiqur KhudaBukhsh"
     ],
     "year": 2023,
@@ -113929,7 +113929,7 @@
       "Liang Li",
       "Amin Beheshti",
       "Zhedong Zhang",
-      "Anton Hengel",
+      "Anton van den Hengel",
       "Ming-Hsuan Yang",
       "Chenggang Yan"
     ],
@@ -148676,7 +148676,7 @@
     "authors": [
       "Giuseppe Ruggiero",
       "Matteo Testa",
-      "Jurgen Van De Walle",
+      "Jurgen Van de Walle",
       "Luigi Di Caro"
     ],
     "year": 2024,
@@ -156043,7 +156043,7 @@
       "Simon Ostermann",
       "Emmanuel Vincent",
       "Natalia Skachkova",
-      "Josef Van Genabith"
+      "Josef van Genabith"
     ],
     "year": 2024,
     "conference": "emnlp",
@@ -168667,7 +168667,7 @@
       "Kanishk Jain",
       "Rabiul Awal",
       "Siva Reddy",
-      "Sjoerd Van Steenkiste",
+      "Sjoerd van Steenkiste",
       "Lisa Anne Hendricks",
       "Karolina Stanczak",
       "Aishwarya Agrawal"
@@ -177212,7 +177212,7 @@
     "authors": [
       "Abhishek Purushothama",
       "Adam Wiemerslage",
-      "Katharina Von Der Wense"
+      "Katharina von der Wense"
     ],
     "year": 2024,
     "conference": "emnlp",
@@ -183471,7 +183471,7 @@
       "Pierluigi Cassotti",
       "Bill Noble",
       "David Alfter",
-      "Sabine Schulte Im Walde",
+      "Sabine Schulte im Walde",
       "Nina Tahmasebi"
     ],
     "year": 2024,
@@ -184651,7 +184651,7 @@
     "title": "On Mitigating Performance Disparities in Multilingual Speech Recognition",
     "authors": [
       "Monorama Swain",
-      "Anna Katrine Van Zee",
+      "Anna Katrine van Zee",
       "Anders Søgaard"
     ],
     "year": 2024,
@@ -193567,7 +193567,7 @@
     "title": "Unveiling the mystery of visual attributes of concrete and abstract concepts: Variability, nearest neighbors, and challenging categories",
     "authors": [
       "Tarun Tater",
-      "Sabine Schulte Im Walde",
+      "Sabine Schulte im Walde",
       "Diego Frassinelli"
     ],
     "year": 2024,
@@ -194538,7 +194538,7 @@
     "title": "What’s Mine becomes Yours: Defining, Annotating and Detecting Context-Dependent Paraphrases in News Interview Dialogs",
     "authors": [
       "Anna Wegmann",
-      "Tijs A. Van Den Broek",
+      "Tijs van den Broek",
       "Dong Nguyen"
     ],
     "year": 2024,
@@ -198030,8 +198030,8 @@
     "id": "2024.findings-naacl.143",
     "title": "Group Fairness in Multilingual Speech Recognition Models",
     "authors": [
-      "Anna Zee",
-      "Marc Zee",
+      "Anna Katrine van Zee",
+      "Marc van Zee",
       "Anders Søgaard"
     ],
     "year": 2024,
@@ -202810,7 +202810,7 @@
       "Michael Tessler",
       "Ishita Dasgupta",
       "Fei Sha",
-      "Sjoerd Steenkiste",
+      "Sjoerd van Steenkiste",
       "Tal Linzen"
     ],
     "year": 2024,
@@ -207610,7 +207610,7 @@
     "title": "GRASP : A Disagreement Analysis Framework to Assess Group Associations in Perspectives",
     "authors": [
       "Vinodkumar Prabhakaran",
-      "Christopher Homan",
+      "Christopher M. Homan",
       "Lora Aroyo",
       "Aida Mostafazadeh Davani",
       "Alicia Parrish",
@@ -213838,7 +213838,7 @@
     "title": "The Impact of Depth on Compositional Generalization in Transformer Language Models",
     "authors": [
       "Jackson Petty",
-      "Sjoerd Steenkiste",
+      "Sjoerd van Steenkiste",
       "Ishita Dasgupta",
       "Fei Sha",
       "Dan Garrette",
@@ -215934,7 +215934,7 @@
       "Sinan Kurtyigit",
       "Diego Frassinelli",
       "Carina Silberer",
-      "Sabine Schulte Im Walde"
+      "Sabine Schulte im Walde"
     ],
     "year": 2025,
     "conference": "acl",
@@ -221658,7 +221658,7 @@
     "title": "CLIX : Cross-Lingual Explanations of Idiomatic Expressions",
     "authors": [
       "Aaron Gluck",
-      "Katharina Von Der Wense",
+      "Katharina von der Wense",
       "Maria Leonor Pacheco"
     ],
     "year": 2025,
@@ -225981,7 +225981,7 @@
     "authors": [
       "Giuseppe Ruggiero",
       "Matteo Testa",
-      "Jurgen Van De Walle",
+      "Jurgen Van den Walle",
       "Luigi Di Caro"
     ],
     "year": 2025,
@@ -234287,7 +234287,7 @@
       "George Arthur Baker",
       "Chiranthan Sridhar",
       "Lawrence Hunter",
-      "Katharina Von Der Wense"
+      "Katharina von der Wense"
     ],
     "year": 2025,
     "conference": "acl",
@@ -236035,7 +236035,7 @@
     "authors": [
       "Chris Jenkins",
       "Filip Miletić",
-      "Sabine Schulte Im Walde"
+      "Sabine Schulte im Walde"
     ],
     "year": 2025,
     "conference": "acl",
@@ -245178,7 +245178,7 @@
     "title": "The Effectiveness of Uncased Tokeniziaion for Clinical Notes",
     "authors": [
       "Cory Paik",
-      "Katharina Von Der Wense"
+      "Katharina von der Wense"
     ],
     "year": 2025,
     "conference": "acl",
@@ -247192,7 +247192,7 @@
     "authors": [
       "Luke Gessler",
       "Alexis Palmer",
-      "Katharina Von Der Wense"
+      "Katharina von der Wense"
     ],
     "year": 2025,
     "conference": "acl",
@@ -266468,7 +266468,7 @@
       "Michiel Van Der Meer",
       "Pavel Korshunov",
       "Sébastien Marcel",
-      "Lonneke Van Der Plas"
+      "Lonneke van der Plas"
     ],
     "year": 2025,
     "conference": "acl",
@@ -267747,7 +267747,7 @@
     "id": "2025.acl-long.891",
     "title": "Identifying Open Challenges in Language Identification",
     "authors": [
-      "Rob Van Der Goot"
+      "Rob van der Goot"
     ],
     "year": 2025,
     "conference": "acl",
@@ -268138,7 +268138,7 @@
     "title": "Improving Low-Resource Morphological Inflection via Self-Supervised Objectives",
     "authors": [
       "Adam Wiemerslage",
-      "Katharina Von Der Wense"
+      "Katharina von der Wense"
     ],
     "year": 2025,
     "conference": "acl",
@@ -276614,7 +276614,7 @@
       "Kyung Eun Park",
       "Goran Glavaš",
       "Fabian David Schmidt",
-      "Katharina Von Der Wense"
+      "Katharina von der Wense"
     ],
     "year": 2025,
     "conference": "acl",
@@ -295677,7 +295677,7 @@
       "Xiaofeng Zhang",
       "Verena Rieser",
       "Lisa Anne Hendricks",
-      "Sjoerd Van Steenkiste",
+      "Sjoerd van Steenkiste",
       "Yash Goyal",
       "Karolina Stanczak"
     ],
@@ -297555,7 +297555,7 @@
       "Simone A. Luchini",
       "Reet Patel",
       "Antoine Bosselut",
-      "Lonneke Van Der Plas",
+      "Lonneke van der Plas",
       "Roger E. Beaty"
     ],
     "year": 2025,
@@ -341430,7 +341430,7 @@
     "title": "Hope vs. Hate: Understanding User Interactions with LGBTQ + News Content in Mainstream US News Media through the Lens of Hope Speech",
     "authors": [
       "Jonathan Pofcher",
-      "Christopher M Homan",
+      "Christopher M. Homan",
       "Randall Sell",
       "Ashiqur R. KhudaBukhsh"
     ],
@@ -372499,7 +372499,7 @@
       "Nouhoum Coulibaly",
       "Seydou Diallo",
       "Sebastien Diarra",
-      "Christopher M Homan",
+      "Christopher M. Homan",
       "Mamadou K. Keita",
       "Michael Leventhal"
     ],
@@ -381310,7 +381310,7 @@
     "authors": [
       "Allahsera Auguste Tapo",
       "Kevin Assogba",
-      "Christopher M Homan",
+      "Christopher M. Homan",
       "M. Mustafa Rafique",
       "Marcos Zampieri"
     ],
@@ -382370,7 +382370,7 @@
       "Yanan Ma",
       "Chenghao Xiao",
       "Chenhan Yuan",
-      "Sabine N Van Der Veer",
+      "Sabine N van der Veer",
       "Lamiece Hassan",
       "Chenghua Lin",
       "Goran Nenadic"
@@ -382732,7 +382732,7 @@
     "title": "Continual Learning in Multilingual Sign Language Translation",
     "authors": [
       "Shakib Yazdani",
-      "Josef Van Genabith",
+      "Josef van Genabith",
       "Cristina España-Bonet"
     ],
     "year": 2025,
@@ -383658,7 +383658,7 @@
       "Imane Terhmina",
       "Yunci Sun",
       "Matthew Wilkens",
-      "Marten Van Schijndel"
+      "Marten van Schijndel"
     ],
     "year": 2025,
     "conference": "naacl",
@@ -389077,11 +389077,11 @@
       "Eftekhar Hossain",
       "Sanjeev Kumar Sinha",
       "Naman Bansal",
-      "R. Alexander Knipper",
+      "Alex Knipper",
       "Souvika Sarkar",
       "John Salvador",
       "Yash Mahajan",
-      "Sri Ram Pavan Kumar Guttikonda"
+      "Sri Guttikonda"
     ],
     "year": 2025,
     "conference": "naacl",
@@ -389603,7 +389603,7 @@
     "title": "M ulti 3 H ate: Multimodal, Multilingual, and Multicultural Hate Speech Detection with Vision–Language Models",
     "authors": [
       "Minh Duc Bui",
-      "Katharina Von Der Wense",
+      "Katharina von der Wense",
       "Anne Lauscher"
     ],
     "year": 2025,
@@ -404790,9 +404790,9 @@
     "authors": [
       "Zhenran Xu",
       "Yiyu Wang",
-      "Yunxin li",
+      "Yunxin Li",
       "Muyang Ye",
-      "Yangxue",
+      "Xue Yang",
       "Kai Chen",
       "Longyue Wang",
       "Weihua Luo"
@@ -404818,7 +404818,7 @@
     "authors": [
       "Zhenran Xu",
       "Yiyu Wang",
-      "Yangxue",
+      "Xue Yang",
       "Longyue Wang",
       "Weihua Luo",
       "Kaifu Zhang",
@@ -406474,7 +406474,7 @@
       "Cheng-Ting Chou",
       "Patrick Schramowski",
       "Marius Mosbach",
-      "Josef Van Genabith",
+      "Josef van Genabith",
       "Simon Ostermann"
     ],
     "year": 2026,
@@ -409026,7 +409026,7 @@
     "authors": [
       "Cennet Oguz",
       "Yasser Hamidullah",
-      "Josef Van Genabith",
+      "Josef van Genabith",
       "Simon Ostermann"
     ],
     "year": 2026,
@@ -416427,7 +416427,7 @@
     "id": "2026.findings-acl.530",
     "title": "From Bytes to Subwords: Challenges of Input Representations in NLP",
     "authors": [
-      "Rob Van Der Goot"
+      "Rob van der Goot"
     ],
     "year": 2026,
     "conference": "acl",
@@ -416751,7 +416751,7 @@
       "Xenia Heilmann",
       "Mattia Cerrato",
       "Manuel Mager",
-      "Katharina Von Der Wense"
+      "Katharina von der Wense"
     ],
     "year": 2026,
     "conference": "acl",
@@ -422979,7 +422979,7 @@
     "authors": [
       "Mario Sanz-Guerrero",
       "Manuel Mager",
-      "Katharina Von Der Wense"
+      "Katharina von der Wense"
     ],
     "year": 2026,
     "conference": "acl",
@@ -423047,7 +423047,7 @@
     "authors": [
       "Md. Mahadi Hassan",
       "John Salvador",
-      "Akond Ashfaque Ur Rahman",
+      "Akond Rahman",
       "Santu Karmaker"
     ],
     "year": 2026,
@@ -440850,7 +440850,7 @@
     "id": "2026.findings-acl.171",
     "title": "SP a C e: Unlocking Sample-Efficient Large Language Models Training With Self-Pace Curriculum Learning",
     "authors": [
-      "Van Dai Do",
+      "Dai Do",
       "Manh Nguyen",
       "Svetha Venkatesh",
       "Hung Le"
@@ -458046,7 +458046,7 @@
       "Xiaoyu Wang",
       "Zhe Tan",
       "Yu Li",
-      "Zhu Jiachen",
+      "Jiachen Zhu",
       "Yuheng Jia",
       "Shu Su"
     ],
@@ -465814,34 +465814,6 @@
     ]
   },
   {
-    "id": "2026.acl-long.536",
-    "title": "Efficient Test-Time Scaling of Multi-Step Reasoning by Probing Internal States of Large Language Models",
-    "authors": [
-      "Jingwei Ni",
-      "Ekaterina Fadeeva",
-      "Tianyi Wu",
-      "Mubashara Akhtar",
-      "Jiaheng Zhang",
-      "Elliott Ash",
-      "Markus Leippold",
-      "Timothy Baldwin"
-    ],
-    "year": 2026,
-    "conference": "acl",
-    "conferenceName": "ACL",
-    "track": "main",
-    "trackLabel": "Main",
-    "source": "ACL Anthology",
-    "url": "https://aclanthology.org/2026.acl-long.536/",
-    "keywords": [],
-    "primaryCategory": "reasoning",
-    "categories": [
-      "reasoning",
-      "interpretability",
-      "efficient_ai"
-    ]
-  },
-  {
     "id": "2026.acl-long.816",
     "title": "Efficiently Learning To Reason or Not to Reason: Root-token Policy Optimization for Adaptive Thinking",
     "authors": [
@@ -469453,8 +469425,8 @@
     "id": "2026.acl-short.7",
     "title": "From Factuality to Meta-Factivity: A Cognitive Blueprint for Trustworthy LLM s",
     "authors": [
-      "Liu Daohuan",
-      "Xia Lun",
+      "Daohuan Liu",
+      "Lun Xia",
       "Yuer Wang",
       "Jiaoyang Su",
       "Xuri Tang"
@@ -489663,6 +489635,34 @@
     ]
   },
   {
+    "id": "2026.acl-long.536",
+    "title": "R e P robe: Efficient Test-Time Scaling of Multi-Step Reasoning by Probing Internal States of Large Language Models",
+    "authors": [
+      "Jingwei Ni",
+      "Ekaterina Fadeeva",
+      "Tianyi Wu",
+      "Mubashara Akhtar",
+      "Jiaheng Zhang",
+      "Elliott Ash",
+      "Markus Leippold",
+      "Timothy Baldwin"
+    ],
+    "year": 2026,
+    "conference": "acl",
+    "conferenceName": "ACL",
+    "track": "main",
+    "trackLabel": "Main",
+    "source": "ACL Anthology",
+    "url": "https://aclanthology.org/2026.acl-long.536/",
+    "keywords": [],
+    "primaryCategory": "reasoning",
+    "categories": [
+      "reasoning",
+      "interpretability",
+      "efficient_ai"
+    ]
+  },
+  {
     "id": "2026.acl-long.964",
     "title": "R e R ec: Reasoning-Augmented LLM -based Recommendation Assistant via Reinforcement Fine-tuning",
     "authors": [
@@ -494004,7 +494004,7 @@
       "Yosuke Higuchi",
       "Youssef Benchekroun",
       "Martin Gleize",
-      "Charles-Éric Saint-James"
+      "Charles-Eric Saint-James"
     ],
     "year": 2026,
     "conference": "acl",
@@ -499985,7 +499985,7 @@
     "title": "The Path Not Taken: Duality in Reasoning about Program Execution",
     "authors": [
       "Eshgin Hasanov",
-      "Md. Mahadi Hassan",
+      "Md Mahadi Hassan Sibat",
       "Santu Karmaker",
       "Aashish Yadavally"
     ],
@@ -505860,7 +505860,7 @@
       "Zhuowen Han",
       "Simon Ostermann",
       "Renren Jin",
-      "Josef Van Genabith",
+      "Josef van Genabith",
       "Deyi Xiong"
     ],
     "year": 2026,
