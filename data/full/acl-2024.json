@@ -1280,7 +1280,7 @@
     "id": "2024.findings-acl.190",
     "title": "A Tale of Two Revisions: Summarizing Changes Across Document Versions",
     "authors": [
-      "Santosh T.y.s.s",
+      "Santosh T.Y.S.S",
       "Natwar Modani",
       "Apoorv Saxena"
     ],
@@ -36324,7 +36324,7 @@
     "title": "R ole LLM : Benchmarking, Eliciting, and Enhancing Role-Playing Abilities of Large Language Models",
     "authors": [
       "Noah Wang",
-      "Z.y. Peng",
+      "Z.Y. Peng",
       "Haoran Que",
       "Jiaheng Liu",
       "Wangchunshu Zhou",
@@ -54880,7 +54880,7 @@
     "id": "2024.acl-long.166",
     "title": "C hronos L ex: Time-aware Incremental Training for Temporal Generalization of Legal Classification Tasks",
     "authors": [
-      "Santosh T.y.s.s",
+      "Santosh T.Y.S.S",
       "Tuan-Quang Vuong",
       "Matthias Grabmair"
     ],
@@ -58281,7 +58281,7 @@
       "Damai Dai",
       "Chengqi Deng",
       "Chenggang Zhao",
-      "R.x. Xu",
+      "R.X. Xu",
       "Huazuo Gao",
       "Deli Chen",
       "Jiashi Li",
@@ -58289,7 +58289,7 @@
       "Xingkai Yu",
       "Y. Wu",
       "Zhenda Xie",
-      "Y.k. Li",
+      "Y.K. Li",
       "Panpan Huang",
       "Fuli Luo",
       "Chong Ruan",
@@ -58863,7 +58863,7 @@
       "Ananjan Nandi",
       "Navdeep Kaur",
       "Parag Singla",
-      "Mausam ."
+      "Mausam"
     ],
     "abstract": "We consider two popular approaches to KnowledgeGraph Completion (KGC): textual modelsthat rely on textual entity descriptions, andstructure-based models that exploit the connectivitystructure of the Knowledge Graph(KG). Preliminary experiments show that theseapproaches have complementary strengths:structure-based models perform exceptionallywell when the gold answer is easily reachablefrom the query head in the KG, while textualmodels exploit descriptions to give goodperformance even when the gold answer isnot easily reachable. In response, we proposeDynaSemble, a novel method for learningquery-dependent ensemble weights to combinethese approaches by using the distributions ofscores assigned by the models in the ensembleto all candidate entities. DynaSemble achievesstate-of-the-art results on three standard KGCdatasets, with up to 6.8 pt MRR and 8.3 ptHits@1 gains over the best baseline model forthe WN18RR dataset.",
     "year": 2024,
@@ -64362,7 +64362,7 @@
       "Riya Sawhney",
       "Avinash Singh",
       "Biswajit Chatterjee",
-      "Mausam .",
+      "Mausam",
       "Indrajit Bhattacharya"
     ],
     "abstract": "Existing Knowledge Base Question Answering (KBQA) architectures are hungry for annotated data, which make them costly and time-consuming to deploy. We introduce the problem of few-shot transfer learning for KBQA, where the target domain offers only a few labeled examples, but a large labeled training dataset is available in a source domain. We propose a novel KBQA architecture called FuSIC-KBQA that performs KB-retrieval using multiple source-trained retrievers, re-ranks using an LLM and uses this as input for LLM few-shot in-context learning to generate logical forms, which are further refined using execution-guided feedback. Experiments over four source-target KBQA pairs of varying complexity show that FuSIC-KBQA significantly outperforms adaptations of SoTA KBQA models for this setting. Additional experiments in the in-domain setting show that FuSIC-KBQA also outperforms SoTA KBQA models when training data is limited.",
@@ -69081,7 +69081,7 @@
       "Jiashuo Wang",
       "Dongding Lin",
       "Wenjie Li",
-      "Xiaoyong Wei"
+      "Xiao-Yong Wei"
     ],
     "abstract": "Tuning language models for dialogue generation has been a prevalent paradigm for building capable dialogue agents. Yet, traditional tuning narrowly views dialogue generation as resembling other language generation tasks, ignoring the role disparities between two speakers and the multi-round interactive process that dialogues ought to be. Such a manner often leads to unsatisfactory chat consistency for the built agent. In this work, we emphasize the interactive, communicative nature of dialogue and argue that it is more feasible to model the speaker roles of agent and user separately, enabling the agent to adhere to its role consistently. With this in mind, we propose an efficient Multi-round Interactive Dialogue Tuning (Midi-Tuning) framework. It models the agent and user individually with two adapters built upon large language models. The adapters make use of respective utterances round by round in alternating order and they are tuned via a round-level memory caching mechanism. Extensive experiments demonstrate that, our framework performs superior to traditional fine-tuning and harbors the tremendous potential for improving dialogue consistency.",
     "year": 2024,
@@ -82990,7 +82990,7 @@
     "authors": [
       "Prayushi Faldu",
       "Indrajit Bhattacharya",
-      "Mausam ."
+      "Mausam"
     ],
     "abstract": "An essential requirement for a real-world Knowledge Base Question Answering (KBQA) system is the ability to detect the answerability of questions when generating logical forms. However, state-of-the-art KBQA models assume all questions to be answerable. Recent research has found that such models, when superficially adapted to detect answerability, struggle to satisfactorily identify the different categories of unanswerable questions, and simultaneously preserve good performance for answerable questions. Towards addressing this issue, we propose RetinaQA, a new KBQA model that unifies two key ideas in a single KBQA architecture: (a) discrimination over candidate logical forms, rather than generating these, for handling schema-related unanswerability, and (b) sketch-filling-based construction of candidate logical forms for handling data-related unaswerability. Our results show that RetinaQA significantly outperforms adaptations of state-of-the-art KBQA models in handling both answerable and unanswerable questions and demonstrates robustness across all categories of unanswerability. Notably, RetinaQA also sets a new state-of-the-art for answerable KBQA, surpassing existing models. We release our code base for further research: https://github.com/dair-iitd/RetinaQA.",
     "year": 2024,
@@ -90801,7 +90801,7 @@
     "title": "Through the Lens of Split Vote: Exploring Disagreement, Difficulty and Calibration in Legal Case Outcome Classification",
     "authors": [
       "Shanshan Xu",
-      "Santosh T.y.s.s",
+      "Santosh T.Y.S.S",
       "Oana Ichim",
       "Barbara Plank",
       "Matthias Grabmair"

@@ -4975,7 +4975,7 @@
     "title": "AQ u AECHR : Attributed Question Answering for E uropean Court of Human Rights",
     "authors": [
       "Korbinian Q. Weidinger",
-      "Santosh T.y.s.s",
+      "Santosh T.Y.S.S",
       "Oana Ichim",
       "Matthias Grabmair"
     ],
@@ -30623,7 +30623,7 @@
     "title": "How Does Response Length Affect Long-Form Factuality",
     "authors": [
       "James Xu Zhao",
-      "Jimmy Z.j. Liu",
+      "Jimmy Z.J. Liu",
       "Bryan Hooi",
       "See-Kiong Ng"
     ],
@@ -31179,7 +31179,7 @@
       "Yaya Shi",
       "Zongyang Ma",
       "Haoran Xu",
-      "Yandong.bai Yandong.bai",
+      "Feng cheng",
       "Huihui Xiao",
       "Ruiwen Kang",
       "Fan Yang",
@@ -84857,7 +84857,7 @@
     "id": "2025.acl-long.931",
     "title": "C o C o L ex: Confidence-guided Copy-based Decoding for Grounded Legal Text Generation",
     "authors": [
-      "Santosh T.y.s.s",
+      "Santosh T.Y.S.S",
       "Youssef Tarek Elkhayat",
       "Oana Ichim",
       "Pranav Shetty",
@@ -87013,7 +87013,7 @@
       "Weixun Wang",
       "Xingyuan Bu",
       "Ge Zhang",
-      "Z.y. Peng",
+      "Z.Y. Peng",
       "Zhaoxiang Zhang",
       "Zhicheng Zheng",
       "Wenbo Su",
@@ -104307,7 +104307,7 @@
     "id": "2025.acl-long.1188",
     "title": "Fairness Beyond Performance: Revealing Reliability Disparities Across Groups in Legal NLP",
     "authors": [
-      "Santosh T.y.s.s",
+      "Santosh T.Y.S.S",
       "Irtiza Chowdhury"
     ],
     "abstract": "Fairness in NLP must extend beyond performance parity to encompass equitable reliability across groups. This study exposes a criticalblind spot: models often make less reliable or overconfident predictions for marginalized groups, even when overall performance appearsfair. Using the FairLex benchmark as a case study in legal NLP, we systematically evaluate both performance and reliability dispari-ties across demographic, regional, and legal attributes spanning four jurisdictions. We show that domain-specific pre-training consistentlyimproves both performance and reliability, especially for underrepresented groups. However, common bias mitigation methods frequentlyworsen reliability disparities, revealing a trade-off not captured by performance metrics alone. Our results call for a rethinking of fairnessin high-stakes NLP: To ensure equitable treatment, models must not only be accurate, but also reliably self-aware across all groups.",
@@ -115136,7 +115136,7 @@
       "Yueru He",
       "Yuechen Jiang",
       "Zining Zhu",
-      "K.p. Subbalakshmi",
+      "K.P. Subbalakshmi",
       "Jimin Huang",
       "Lingfei Qian",
       "Xueqing Peng",
@@ -117533,7 +117533,7 @@
     "title": "L ex CL i PR : Cross-Lingual Paragraph Retrieval from Legal Judgments",
     "authors": [
       "Rohit Upadhya",
-      "Santosh T.y.s.s"
+      "Santosh T.Y.S.S"
     ],
     "abstract": "Efficient retrieval of pinpointed information from case law is crucial for legal professionals but challenging due to the length and complexity of legal judgments. Existing works mostly often focus on retrieving entire cases rather than precise, paragraph-level information. Moreover, multilingual legal practice necessitates cross-lingual retrieval, most works have been limited to monolingual settings. To address these gaps, we introduce LexCLiPR, a cross-lingual dataset for paragraph-level retrieval from European Court of Human Rights (ECtHR) judgments, leveraging multilingual case law guides and distant supervision to curate our dataset. We evaluate retrieval models in a zero-shot setting, revealing the limitations of pre-trained multilingual models for cross-lingual tasks in low-resource languages and the importance of retrieval based post-training strategies. In fine-tuning settings, we observe that two-tower models excel in cross-lingual retrieval, while siamese architectures are better suited for monolingual tasks. Fine-tuning multilingual models on native language queries improves performance but struggles to generalize to unseen legal concepts, highlighting the need for robust strategies to address topical distribution shifts in the legal queries.",
     "year": 2025,
@@ -117651,7 +117651,7 @@
     "id": "2025.acl-short.32",
     "title": "L ex K ey P lan: Planning with Keyphrases and Retrieval Augmentation for Legal Text Generation: A Case Study on E uropean Court of Human Rights Cases",
     "authors": [
-      "Santosh T.y.s.s",
+      "Santosh T.Y.S.S",
       "Elvin Quero Hernandez"
     ],
     "abstract": "Large language models excel at legal text generation but often produce hallucinations due to their sole reliance on parametric knowledge. Retrieval-augmented models mitigate this by providing relevant external documents to the model but struggle when retrieval is based only on past context, which may not align with the model’s intended future content. We introduce LexKeyPlan, a novel framework that integrates anticipatory planning into generation. Instead of relying solely on context for retrieval, LexKeyPlan generates keyphrases outlining future content serving as forward-looking plan, guiding retrieval for more accurate text generation. This work incorporates planning into legal text generation, demonstrating how keyphrases—representing legal concepts—enhance factual accuracy. By structuring retrieval around legal concepts, LexKeyPlan better aligns with legal reasoning, making it particularly suited for legal applications. Using the ECHR corpus as case study, we show that LexKeyPlan improves factual accuracy and coherence by retrieving information aligned with the intended content.",
@@ -117709,7 +117709,7 @@
     "id": "2025.acl-long.329",
     "title": "L ex T empus: Enhancing Temporal Generalizability of Legal Language Models Through Dynamic Mixture of Experts",
     "authors": [
-      "Santosh T.y.s.s",
+      "Santosh T.Y.S.S",
       "Tuan-Quang Vuong"
     ],
     "abstract": "The rapid evolution of legal concepts over time necessitates that legal language models adapt swiftly accounting for the temporal dynamics. However, prior works have largely neglected this crucial dimension, treating legal adaptation as a static problem rather than a continuous process. To address this gap, we pioneer LexTempus, a dynamic mixture of experts model that explicitly models the temporal evolution of legal language in a parameter-efficient online learning framework. LexTempus starts with a single lightweight adapter expert and dynamically expands by adding new experts as significant deviations in the data distribution are detected. This self-expansion strategy allows LexTempus to adapt to new information without forgetting past knowledge, thereby improving temporal generalization. We use a a non-parametric similarity-based router to merge relevant experts into a unified expert for each test instance, ensuring efficient inference without additional overhead. We validate the effectiveness of LexTempus on ECHR and EU case law datasets, demonstrating its superiority in both perplexity and open-ended text generation quality metrics.",
@@ -128284,7 +128284,7 @@
       "Haomiao Tang",
       "Jinpeng Wang",
       "Yuang Peng",
-      "GuangHao Meng",
+      "Guanghao Meng",
       "Ruisheng Luo",
       "Bin Chen",
       "Long Chen",
@@ -133455,7 +133455,7 @@
     "id": "2025.acl-long.1080",
     "title": "P ro MAL ex: Progressive Modular Adapters for Multi-Jurisdictional Legal Language Modeling",
     "authors": [
-      "Santosh T.y.s.s",
+      "Santosh T.Y.S.S",
       "Mohamed Hesham Elganayni"
     ],
     "abstract": "This paper addresses the challenge of adapting language models to the jurisdiction-specific nature of legal corpora. Existing approaches—training separate models for each jurisdiction or using a single shared model—either fail to leverage common legal principles beneficial for low-resource settings or risk negative interference from conflicting jurisdictional interpretations. To overcome these limitations, we propose a parameter-efficient framework ProMALex, that first derives hierarchical relationships across jurisdictions and progressively inserts adapter modules across model layers based on jurisdictional similarity. This design allows modules in lower layers to be shared across jurisdictions, capturing common legal principles, while higher layers specialize through jurisdiction-specific adapters. Experimental results on two legal language modeling benchmarks demonstrate that ProMALex outperforms both fully shared and jurisdiction-specific models.",
@@ -140005,7 +140005,7 @@
       "Wengyu Zhang",
       "Yiyang Jiang",
       "Chen Jason Zhang",
-      "Xiaoyong Wei",
+      "Xiao-Yong Wei",
       "Li Qing"
     ],
     "abstract": "Retrieval-Augmented Generation (RAG) enhances factual accuracy by integrating external knowledge, yet it introduces a critical issue: erroneous or biased retrieval can mislead generation, compounding hallucinations, a phenomenon we term Hallucination on Hallucination. To address this, we propose Debate-Augmented RAG (DRAG), a training-free framework that integrates Multi-Agent Debate (MAD) mechanisms into both retrieval and generation stages. In retrieval, DRAG employs structured debates among proponents, opponents, and judges to refine retrieval quality and ensure factual reliability. In generation, DRAG introduces asymmetric information roles and adversarial debates, enhancing reasoning robustness and mitigating factual inconsistencies. Evaluations across multiple tasks demonstrate that DRAG improves retrieval reliability, reduces RAG-induced hallucinations, and significantly enhances overall factual accuracy. Our code is available at https://github.com/Huenao/Debate-Augmented-RAG.",

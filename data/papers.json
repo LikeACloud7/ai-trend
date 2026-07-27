@@ -13940,7 +13940,7 @@
     "title": "On the Difference of BERT -style and CLIP -style Text Encoders",
     "authors": [
       "Zhihong Chen",
-      "Guiming Chen",
+      "Guiming Hardy Chen",
       "Shizhe Diao",
       "Xiang Wan",
       "Benyou Wang"
@@ -25424,7 +25424,7 @@
       "Lei Ji",
       "Difei Gao",
       "Kun Yan",
-      "W.k. Chan",
+      "W.K. Chan",
       "Chong-Wah Ngo",
       "Mike Zheng Shou"
     ],
@@ -39796,7 +39796,7 @@
       "Changmeng Zheng",
       "Junhao Feng",
       "Yi Cai",
-      "Xiaoyong Wei",
+      "Xiao-Yong Wei",
       "Qing Li"
     ],
     "year": 2023,
@@ -56171,8 +56171,8 @@
       "Feng Jiang",
       "Fei Yu",
       "Zhihong Chen",
-      "Guiming Chen",
       "Jianquan Li",
+      "Guiming Chen",
       "Xiangbo Wu"
     ],
     "year": 2023,
@@ -80506,7 +80506,7 @@
     "title": "From Dissonance to Insights: Dissecting Disagreements in Rationale Construction for Case Outcome Classification",
     "authors": [
       "Shanshan Xu",
-      "Santosh T.y.s.s",
+      "Santosh T.Y.S.S",
       "Oana Ichim",
       "Isabella Risini",
       "Barbara Plank",
@@ -94433,7 +94433,7 @@
     "authors": [
       "Shanshan Xu",
       "Leon Staufer",
-      "Santosh T.y.s.s",
+      "Santosh T.Y.S.S",
       "Oana Ichim",
       "Corina Heri",
       "Matthias Grabmair"
@@ -95975,7 +95975,7 @@
     "id": "2024.findings-acl.190",
     "title": "A Tale of Two Revisions: Summarizing Changes Across Document Versions",
     "authors": [
-      "Santosh T.y.s.s",
+      "Santosh T.Y.S.S",
       "Natwar Modani",
       "Apoorv Saxena"
     ],
@@ -112679,7 +112679,7 @@
     "title": "R ole LLM : Benchmarking, Eliciting, and Enhancing Role-Playing Abilities of Large Language Models",
     "authors": [
       "Noah Wang",
-      "Z.y. Peng",
+      "Z.Y. Peng",
       "Haoran Que",
       "Jiaheng Liu",
       "Wangchunshu Zhou",
@@ -121557,7 +121557,7 @@
     "id": "2024.acl-long.166",
     "title": "C hronos L ex: Time-aware Incremental Training for Temporal Generalization of Legal Classification Tasks",
     "authors": [
-      "Santosh T.y.s.s",
+      "Santosh T.Y.S.S",
       "Tuan-Quang Vuong",
       "Matthias Grabmair"
     ],
@@ -123204,7 +123204,7 @@
       "Damai Dai",
       "Chengqi Deng",
       "Chenggang Zhao",
-      "R.x. Xu",
+      "R.X. Xu",
       "Huazuo Gao",
       "Deli Chen",
       "Jiashi Li",
@@ -123489,7 +123489,7 @@
       "Ananjan Nandi",
       "Navdeep Kaur",
       "Parag Singla",
-      "Mausam ."
+      "Mausam"
     ],
     "year": 2024,
     "conference": "acl",
@@ -126198,7 +126198,7 @@
       "Riya Sawhney",
       "Avinash Singh",
       "Biswajit Chatterjee",
-      "Mausam .",
+      "Mausam",
       "Indrajit Bhattacharya"
     ],
     "year": 2024,
@@ -128459,7 +128459,7 @@
       "Jiashuo Wang",
       "Dongding Lin",
       "Wenjie Li",
-      "Xiaoyong Wei"
+      "Xiao-Yong Wei"
     ],
     "year": 2024,
     "conference": "acl",
@@ -135078,7 +135078,7 @@
     "authors": [
       "Prayushi Faldu",
       "Indrajit Bhattacharya",
-      "Mausam ."
+      "Mausam"
     ],
     "year": 2024,
     "conference": "acl",
@@ -138912,7 +138912,7 @@
     "title": "Through the Lens of Split Vote: Exploring Disagreement, Difficulty and Calibration in Legal Case Outcome Classification",
     "authors": [
       "Shanshan Xu",
-      "Santosh T.y.s.s",
+      "Santosh T.Y.S.S",
       "Oana Ichim",
       "Barbara Plank",
       "Matthias Grabmair"
@@ -148174,7 +148174,7 @@
     "authors": [
       "Nithish Kannen",
       "Yao Ma",
-      "Gerrit J.j. Van Den Burg",
+      "Gerrit J.J. Van Den Burg",
       "Jean Baptiste Faddoul"
     ],
     "year": 2024,
@@ -150751,7 +150751,7 @@
     "id": "2024.findings-emnlp.433",
     "title": "H i C u LR : Hierarchical Curriculum Learning for Rhetorical Role Labeling of Legal Documents",
     "authors": [
-      "Santosh T.y.s.s",
+      "Santosh T.Y.S.S",
       "Apolline Isaia",
       "Shiyu Hong",
       "Matthias Grabmair"
@@ -151882,7 +151882,7 @@
     "id": "2024.findings-emnlp.214",
     "title": "Incorporating Precedents for Legal Judgement Prediction on E uropean Court of Human Rights Cases",
     "authors": [
-      "Santosh T.y.s.s",
+      "Santosh T.Y.S.S",
       "Mohamed Hesham Elganayni",
       "Stanisław Sójka",
       "Matthias Grabmair"
@@ -161618,7 +161618,7 @@
       "Aniruddha Deb",
       "Ankish Kumar Chandresh",
       "Parag Singla",
-      "Mausam ."
+      "Mausam"
     ],
     "year": 2024,
     "conference": "emnlp",
@@ -162509,7 +162509,7 @@
     "id": "2024.findings-emnlp.208",
     "title": "The Craft of Selective Prediction: Towards Reliable Case Outcome Classification - An Empirical Study on E uropean Court of Human Rights Cases",
     "authors": [
-      "Santosh T.y.s.s",
+      "Santosh T.Y.S.S",
       "Irtiza Chowdhury",
       "Shanshan Xu",
       "Matthias Grabmair"
@@ -168856,7 +168856,7 @@
     "title": "Birdie: Advancing State Space Language Modeling with Dynamic Mixtures of Training Objectives",
     "authors": [
       "Sam Blouir",
-      "Jimmy T.h. Smith",
+      "Jimmy T.H. Smith",
       "Antonios Anastasopoulos",
       "Amarda Shehu"
     ],
@@ -181465,7 +181465,7 @@
     "id": "2024.emnlp-main.842",
     "title": "LLM s learn governing principles of dynamical systems, revealing an in-context neural scaling law",
     "authors": [
-      "Toni J.b. Liu",
+      "Toni J.B. Liu",
       "Nicolas Boulle",
       "Raphaël Sarfati",
       "Christopher Earls"
@@ -181930,7 +181930,7 @@
       "Goonjan Saha",
       "Rocktim Jyoti Das",
       "Dinesh Raghu",
-      "Mausam ."
+      "Mausam"
     ],
     "year": 2024,
     "conference": "emnlp",
@@ -190594,7 +190594,7 @@
       "Vishal Vivek Saley",
       "Rocktim Jyoti Das",
       "Dinesh Raghu",
-      "Mausam ."
+      "Mausam"
     ],
     "year": 2024,
     "conference": "emnlp",
@@ -204615,13 +204615,13 @@
     "title": "CMB : A Comprehensive Medical Benchmark in C hinese",
     "authors": [
       "Xidong Wang",
-      "Guiming Chen",
-      "Song Dingjie",
-      "Zhang Zhiyi",
+      "Guiming Hardy Chen",
+      "Dingjie Song",
+      "Zhiyi Zhang",
       "Zhihong Chen",
       "Qingying Xiao",
-      "Junying Chen",
-      "Feng Jiang"
+      "Feng Jiang",
+      "Jianquan Li"
     ],
     "year": 2024,
     "conference": "naacl",
@@ -217778,7 +217778,7 @@
     "title": "AQ u AECHR : Attributed Question Answering for E uropean Court of Human Rights",
     "authors": [
       "Korbinian Q. Weidinger",
-      "Santosh T.y.s.s",
+      "Santosh T.Y.S.S",
       "Oana Ichim",
       "Matthias Grabmair"
     ],
@@ -229703,7 +229703,7 @@
     "title": "How Does Response Length Affect Long-Form Factuality",
     "authors": [
       "James Xu Zhao",
-      "Jimmy Z.j. Liu",
+      "Jimmy Z.J. Liu",
       "Bryan Hooi",
       "See-Kiong Ng"
     ],
@@ -229974,7 +229974,7 @@
       "Yaya Shi",
       "Zongyang Ma",
       "Haoran Xu",
-      "Yandong.bai Yandong.bai",
+      "Feng cheng",
       "Huihui Xiao",
       "Ruiwen Kang",
       "Fan Yang"
@@ -254861,7 +254861,7 @@
     "id": "2025.acl-long.931",
     "title": "C o C o L ex: Confidence-guided Copy-based Decoding for Grounded Legal Text Generation",
     "authors": [
-      "Santosh T.y.s.s",
+      "Santosh T.Y.S.S",
       "Youssef Tarek Elkhayat",
       "Oana Ichim",
       "Pranav Shetty",
@@ -255899,7 +255899,7 @@
       "Weixun Wang",
       "Xingyuan Bu",
       "Ge Zhang",
-      "Z.y. Peng",
+      "Z.Y. Peng",
       "Zhaoxiang Zhang"
     ],
     "year": 2025,
@@ -264089,7 +264089,7 @@
     "id": "2025.acl-long.1188",
     "title": "Fairness Beyond Performance: Revealing Reliability Disparities Across Groups in Legal NLP",
     "authors": [
-      "Santosh T.y.s.s",
+      "Santosh T.Y.S.S",
       "Irtiza Chowdhury"
     ],
     "year": 2025,
@@ -270138,7 +270138,7 @@
     "title": "L ex CL i PR : Cross-Lingual Paragraph Retrieval from Legal Judgments",
     "authors": [
       "Rohit Upadhya",
-      "Santosh T.y.s.s"
+      "Santosh T.Y.S.S"
     ],
     "year": 2025,
     "conference": "acl",
@@ -270184,7 +270184,7 @@
     "id": "2025.acl-short.32",
     "title": "L ex K ey P lan: Planning with Keyphrases and Retrieval Augmentation for Legal Text Generation: A Case Study on E uropean Court of Human Rights Cases",
     "authors": [
-      "Santosh T.y.s.s",
+      "Santosh T.Y.S.S",
       "Elvin Quero Hernandez"
     ],
     "year": 2025,
@@ -270206,7 +270206,7 @@
     "id": "2025.acl-long.329",
     "title": "L ex T empus: Enhancing Temporal Generalizability of Legal Language Models Through Dynamic Mixture of Experts",
     "authors": [
-      "Santosh T.y.s.s",
+      "Santosh T.Y.S.S",
       "Tuan-Quang Vuong"
     ],
     "year": 2025,
@@ -275204,7 +275204,7 @@
       "Haomiao Tang",
       "Jinpeng Wang",
       "Yuang Peng",
-      "GuangHao Meng",
+      "Guanghao Meng",
       "Ruisheng Luo",
       "Bin Chen",
       "Long Chen",
@@ -277578,7 +277578,7 @@
     "id": "2025.acl-long.1080",
     "title": "P ro MAL ex: Progressive Modular Adapters for Multi-Jurisdictional Legal Language Modeling",
     "authors": [
-      "Santosh T.y.s.s",
+      "Santosh T.Y.S.S",
       "Mohamed Hesham Elganayni"
     ],
     "year": 2025,
@@ -280701,7 +280701,7 @@
       "Wengyu Zhang",
       "Yiyang Jiang",
       "Chen Jason Zhang",
-      "Xiaoyong Wei",
+      "Xiao-Yong Wei",
       "Li Qing"
     ],
     "year": 2025,
@@ -293952,7 +293952,7 @@
       "Xulu Zhang",
       "Wenqi Fan",
       "Chenghua Lin",
-      "Xiaoyong Wei",
+      "Xiao-Yong Wei",
       "Li Qing"
     ],
     "year": 2025,
@@ -304517,7 +304517,7 @@
     "authors": [
       "Yunqing Liu",
       "Wenqi Fan",
-      "Xiaoyong Wei",
+      "Xiao-Yong Wei",
       "Li Qing"
     ],
     "year": 2025,
@@ -309609,7 +309609,7 @@
       "Zhixiao Qi",
       "Yongfeng Huang",
       "Wei Wang",
-      "Weifeng.liu",
+      "Weifeng Liu",
       "Ran Chen",
       "Ji Pei"
     ],
@@ -311827,7 +311827,7 @@
     "authors": [
       "William P McCarthy",
       "Saujas Vaduguru",
-      "Karl D.d. Willis",
+      "Karl D.D. Willis",
       "Justin Matejka",
       "Judith E Fan",
       "Daniel Fried",
@@ -344894,7 +344894,7 @@
     "id": "2025.emnlp-main.107",
     "title": "Language Models as Causal Effect Generators",
     "authors": [
-      "Lucius E.j. Bynum",
+      "Lucius E.J. Bynum",
       "Kyunghyun Cho"
     ],
     "year": 2025,
@@ -358512,7 +358512,7 @@
     "id": "2025.emnlp-main.625",
     "title": "Self-Augmented Preference Alignment for Sycophancy Reduction in LLM s",
     "authors": [
-      "Chien Hung Chen",
+      "Chien-Hung Chen",
       "Hen-Hsen Huang",
       "Hsin-Hsi Chen"
     ],
@@ -367257,7 +367257,7 @@
     "authors": [
       "Raphaël Sarfati",
       "Haley Moller",
-      "Toni J.b. Liu",
+      "Toni J.B. Liu",
       "Nicolas Boulle",
       "Christopher Earls"
     ],
@@ -368702,7 +368702,7 @@
     "id": "2025.findings-naacl.376",
     "title": "Aligning Black-box Language Models with Human Judgments",
     "authors": [
-      "Gerrit J.j. Van Den Burg",
+      "Gerrit J.J. Van Den Burg",
       "Gen Suzuki",
       "Wei Liu",
       "Murat Sensoy"
@@ -369732,7 +369732,7 @@
     "id": "2025.findings-naacl.57",
     "title": "C o PERL ex: Content Planning with Event-based Representations for Legal Case Summarization",
     "authors": [
-      "Santosh T.y.s.s",
+      "Santosh T.Y.S.S",
       "Youssef Farag",
       "Matthias Grabmair"
     ],
@@ -373699,7 +373699,7 @@
     "id": "2025.findings-naacl.89",
     "title": "L e C o PCR : Legal Concept-guided Prior Case Retrieval for E uropean Court of Human Rights cases",
     "authors": [
-      "Santosh T.y.s.s",
+      "Santosh T.Y.S.S",
       "Isaac Misael Olguín Nolasco",
       "Matthias Grabmair"
     ],
@@ -376825,7 +376825,7 @@
     "id": "2025.findings-naacl.26",
     "title": "REL ex ED : Retrieval-Enhanced Legal Summarization with Exemplar Diversity",
     "authors": [
-      "Santosh T.y.s.s",
+      "Santosh T.Y.S.S",
       "Chen Jia",
       "Patrick Goroncy",
       "Matthias Grabmair"
@@ -390277,7 +390277,7 @@
     "authors": [
       "Wentao Ge",
       "Shunian Chen",
-      "Hardy Chen",
+      "Guiming Hardy Chen",
       "Nuo Chen",
       "Junying Chen",
       "Zhihong Chen",
@@ -397320,7 +397320,7 @@
   },
   {
     "id": "2026.findings-acl.532",
-    "title": "A Mechanistic Perspective and Difficulty Metric for Unlearning",
+    "title": "A Mechanistic Perspective and Circuit-Guided Difficulty Metric for Unlearning",
     "authors": [
       "Jiali Cheng",
       "Ziheng Chen",
@@ -432988,7 +432988,7 @@
     "title": "Position: From Noise to Signal to Selbstzweck - Reframing Human Label Variation in the Era of Post-training in NLP",
     "authors": [
       "Shanshan Xu",
-      "Santosh T.y.s.s",
+      "Santosh T.Y.S.S",
       "Barbara Plank"
     ],
     "year": 2026,
@@ -447506,7 +447506,7 @@
       "Dongyu Wang",
       "Jingyu Li",
       "Lan Zhang",
-      "Ganggang.yu",
+      "Ganggang Yu",
       "Liang Huang"
     ],
     "year": 2026,
@@ -469774,7 +469774,7 @@
     "id": "2026.acl-long.1466",
     "title": "From Naturalness to Norms: Interactional Cultural Competence for S peech LM s",
     "authors": [
-      "Santosh T.y.s.s"
+      "Santosh T.Y.S.S"
     ],
     "year": 2026,
     "conference": "acl",
@@ -477334,7 +477334,7 @@
       "Zhiyong Wang",
       "Runhan Yang",
       "Chenjun Xiao",
-      "John C.s. Lui",
+      "John C.S. Lui",
       "Zhongxiang Dai"
     ],
     "year": 2026,
@@ -485495,7 +485495,7 @@
     "authors": [
       "Polina Tsvilodub",
       "Jan-Felix Klumpp",
-      "Amir Pour",
+      "Amir Mohammadpour",
       "Jennifer Hu",
       "Michael Franke"
     ],
@@ -500079,7 +500079,7 @@
     "authors": [
       "Baishi Li",
       "Ta Yu",
-      "Kelvin J.l. Koa",
+      "Kelvin J.L. Koa",
       "Ke-Wei Huang"
     ],
     "year": 2026,

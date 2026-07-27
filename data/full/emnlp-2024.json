@@ -14071,7 +14071,7 @@
     "authors": [
       "Nithish Kannen",
       "Yao Ma",
-      "Gerrit J.j. Van Den Burg",
+      "Gerrit J.J. Van Den Burg",
       "Jean Baptiste Faddoul"
     ],
     "abstract": "News recommendation is a challenging task that involves personalization based on the interaction history and preferences of each user. Recent works have leveraged the power of pretrained language models (PLMs) to directly rank news items by using inference approaches that predominately fall into three categories: pointwise, pairwise, and listwise learning-to-rank. While pointwise methods offer linear inference complexity, they fail to capture crucial comparative information between items that is more effective for ranking tasks. Conversely, pairwise and listwise approaches excel at incorporating these comparisons but suffer from practical limitations: pairwise approaches are either computationally expensive or lack theoretical guarantees and listwise methods often perform poorly in practice. In this paper, we propose a novel framework for PLM-based news recommendation that integrates both pointwise relevance prediction and pairwise comparisons in a scalable manner. We present a rigorous theoretical analysis of our framework, establishing conditions under which our approach guarantees improved performance. Extensive experiments show that our approach outperforms the state-of-the-art methods on the MIND and Adressa news recommendation datasets.",
@@ -19442,7 +19442,7 @@
     "id": "2024.findings-emnlp.433",
     "title": "H i C u LR : Hierarchical Curriculum Learning for Rhetorical Role Labeling of Legal Documents",
     "authors": [
-      "Santosh T.y.s.s",
+      "Santosh T.Y.S.S",
       "Apolline Isaia",
       "Shiyu Hong",
       "Matthias Grabmair"
@@ -21806,7 +21806,7 @@
     "id": "2024.findings-emnlp.214",
     "title": "Incorporating Precedents for Legal Judgement Prediction on E uropean Court of Human Rights Cases",
     "authors": [
-      "Santosh T.y.s.s",
+      "Santosh T.Y.S.S",
       "Mohamed Hesham Elganayni",
       "Stanisław Sójka",
       "Matthias Grabmair"
@@ -42453,7 +42453,7 @@
       "Aniruddha Deb",
       "Ankish Kumar Chandresh",
       "Parag Singla",
-      "Mausam ."
+      "Mausam"
     ],
     "abstract": "Recently, very large language models (LLMs) have shown exceptional performance on several English NLP tasks with just in-context learning (ICL), but their utility in other languages is still underexplored. We investigate their effectiveness for NLP tasks in low-resource languages (LRLs), especially in the setting of zero-labelled cross-lingual transfer (0-CLT), where no labelled training data for the target language is available – however training data from one or more related medium-resource languages (MRLs) is utilized, alongside the available unlabeled test data for a target language. We introduce Self-Supervised Prompting (SSP), a novel ICL approach tailored for the 0-CLT setting. SSP is based on the key observation that LLMs output more accurate labels if in-context exemplars are from the target language (even if their labels are slightly noisy). To operationalize this, since target language training data is not available in 0-CLT, SSP operates in two stages. In Stage I, using source MRL training data, target language’s test data is noisily labeled. In Stage II, these noisy test data points are used as exemplars in ICL for further improved labelling. Additionally, our implementation of SSP uses a novel Integer Linear Programming (ILP)-based exemplar selection that balances similarity, prediction confidence (when available) and label coverage. Experiments on three tasks and eleven LRLs (from three regions) demonstrate that SSP strongly outperforms existing SOTA fine-tuned and prompting-based baselines in 0-CLT setup.",
     "year": 2024,
@@ -44283,7 +44283,7 @@
     "id": "2024.findings-emnlp.208",
     "title": "The Craft of Selective Prediction: Towards Reliable Case Outcome Classification - An Empirical Study on E uropean Court of Human Rights Cases",
     "authors": [
-      "Santosh T.y.s.s",
+      "Santosh T.Y.S.S",
       "Irtiza Chowdhury",
       "Shanshan Xu",
       "Matthias Grabmair"
@@ -57230,7 +57230,7 @@
     "title": "Birdie: Advancing State Space Language Modeling with Dynamic Mixtures of Training Objectives",
     "authors": [
       "Sam Blouir",
-      "Jimmy T.h. Smith",
+      "Jimmy T.H. Smith",
       "Antonios Anastasopoulos",
       "Amarda Shehu"
     ],
@@ -83516,7 +83516,7 @@
     "id": "2024.emnlp-main.842",
     "title": "LLM s learn governing principles of dynamical systems, revealing an in-context neural scaling law",
     "authors": [
-      "Toni J.b. Liu",
+      "Toni J.B. Liu",
       "Nicolas Boulle",
       "Raphaël Sarfati",
       "Christopher Earls"
@@ -84534,7 +84534,7 @@
       "Goonjan Saha",
       "Rocktim Jyoti Das",
       "Dinesh Raghu",
-      "Mausam ."
+      "Mausam"
     ],
     "abstract": "Medical task-oriented dialogue systems can assist doctors by collecting patient medical history, aiding in diagnosis, or guiding treatment selection, thereby reducing doctor burnout and expanding access to medical services. However, doctor-patient dialogue datasets are not readily available, primarily due to privacy regulations. Moreover, existing datasets lack comprehensive annotations involving medical slots and their different attributes, such as symptoms and their onset, progression, and severity. These comprehensive annotations are crucial for accurate diagnosis. Finally, most existing datasets are non-English, limiting their utility for the larger research community.In response, we introduce MediTOD, a new dataset of doctor-patient dialogues in English for the medical history-taking task. Collaborating with doctors, we devise a questionnaire-based labeling scheme tailored to the medical domain. Then, medical professionals create the dataset with high-quality comprehensive annotations, capturing medical slots and their attributes. We establish benchmarks in supervised and few-shot settings on MediTOD for natural language understanding, policy learning, and natural language generation subtasks, evaluating models from both TOD and biomedical domains. We make MediTOD publicly available for future research.",
     "year": 2024,
@@ -102691,7 +102691,7 @@
       "Vishal Vivek Saley",
       "Rocktim Jyoti Das",
       "Dinesh Raghu",
-      "Mausam ."
+      "Mausam"
     ],
     "abstract": "End-to-end Task-Oriented Dialog (TOD) systems typically require extensive training datasets to perform well. In contrast, large language model (LLM) based TOD systems can excel even with limited data due to their ability to learn tasks through in-context exemplars. However, these models lack alignment with the style of responses in training data and often generate comprehensive responses, making it difficult for users to grasp the information quickly. In response, we propose SyncTOD that synergizes LLMs with task-specific hints to improve alignment in low-data settings. SyncTOD employs small auxiliary models to provide hints and select exemplars for in-context prompts. With ChatGPT, SyncTOD achieves superior performance compared to LLM-based baselines and SoTA models in low-data settings, while retaining competitive performance in full-data settings.",
     "year": 2024,

@@ -1821,7 +1821,7 @@
   },
   {
     "id": "2026.findings-acl.532",
-    "title": "A Mechanistic Perspective and Difficulty Metric for Unlearning",
+    "title": "A Mechanistic Perspective and Circuit-Guided Difficulty Metric for Unlearning",
     "authors": [
       "Jiali Cheng",
       "Ziheng Chen",
@@ -81977,7 +81977,7 @@
     "title": "Position: From Noise to Signal to Selbstzweck - Reframing Human Label Variation in the Era of Post-training in NLP",
     "authors": [
       "Shanshan Xu",
-      "Santosh T.y.s.s",
+      "Santosh T.Y.S.S",
       "Barbara Plank"
     ],
     "abstract": "Human Label Variation (HLV) refers to legitimate disagreement in annotation that reflects the diversity of human perspectives rather than mere error. Long treated in NLP as noise to be eliminated, HLV has only recently been reframed as a signal for improving model robustness. With the rise of large language models (LLMs) and post-training methods such as human feedback-based alignment, the role of HLV has become increasingly consequential. Yet current preference-learning datasets routinely collapse multiple annotations into a single label, flattening diverse perspectives into artificial consensus. Preserving HLV is necessary not only for pluralistic alignment but also for sociotechnical safety evaluation, where model behavior must be assessed in relation to human interaction and societal context.This position paper argues that preserving HLV as an embodiment of human pluralism must be treated as a Selbstzweck , an intrinsic value in itself. We analyze the limitations of existing preference datasets and propose actionable strategies for incorporating HLV into dataset construction to better preserve pluralistic human values.",
@@ -114427,7 +114427,7 @@
       "Dongyu Wang",
       "Jingyu Li",
       "Lan Zhang",
-      "Ganggang.yu",
+      "Ganggang Yu",
       "Liang Huang"
     ],
     "abstract": "Large language models (LLMs) have shown remarkable capabilities in text-to-SQL generation, yet existing approaches remain prone to hallucinations and lack verification mechanisms. Current methods such as Chain-of-Thought (CoT) and Program-of-Thought (PoT) typically rely on intermediate reasoning that is either purely textual or executed only as a final step, leaving the reasoning process opaque and prone to grounding and logical hallucinations. In this paper, we introduce Verifiable Execution Tracing (VET), a novel reasoning paradigm that transforms text-to-SQL from unverifiable textual rationales into step-wise executable semantics. VET addresses these limitations by constraining the reasoning process within a candidate schema space and formulating it as a sequence of executable Python steps. Crucially, each step is executed against the real database to produce observable intermediate results, which serve as immediate verification feedback and transform the traditionally opaque generation process into a transparent, debuggable interaction with database reality.Experiments show consistent gains under matched, training-free settings, achieving 70.93% execution accuracy on BIRD and 37.04% on Spider 2.0-lite, with particularly strong improvements on complex queries.",
@@ -151416,7 +151416,7 @@
       "Ukyo Honda",
       "Peinan Zhang"
     ],
-    "abstract": "While self-consistency is known to improve performance on symbolic reasoning, its effect on the recall of encyclopedic knowledge is unclear due to a lack of targeted evaluation grounds.To address this, we establish such a knowledge recall split for the popular MMLU benchmark by applying a data-driven heuristic from prior work.We validate this split by showing that the performance patterns on the symbolic reasoning and knowledge recall subsets mirror those of GSM8K and MedMCQA, respectively.Using this solid ground, we find that self-consistency consistently improves performance across both symbolic reasoning and knowledge recall, even though its underlying CoT prompting is primarily effective for symbolic reasoning.As a result, we achieve an 89% accuracy on MMLU, the best performance to date with the use of GPT-4o.",
+    "abstract": "While self-consistency is known to improve performance on symbolic reasoning, its effect on the recall of encyclopedic knowledge is unclear due to a lack of targeted evaluation grounds. To address this, we establish such a knowledge recall split for the popular MMLU benchmark by applying a data-driven heuristic from prior work. We validate this split by showing that the performance patterns on the symbolic reasoning and knowledge recall subsets mirror those of GSM8K and MedMCQA, respectively. Using this solid ground, we find that self-consistency consistently improves performance across both symbolic reasoning and knowledge recall, even though its underlying CoT prompting is primarily effective for symbolic reasoning. As a result, we achieve an 89% accuracy on MMLU, the best performance to date with the use of GPT-4o.",
     "year": 2026,
     "conference": "acl",
     "conferenceName": "ACL",
@@ -163988,7 +163988,7 @@
     "id": "2026.acl-long.1466",
     "title": "From Naturalness to Norms: Interactional Cultural Competence for S peech LM s",
     "authors": [
-      "Santosh T.y.s.s"
+      "Santosh T.Y.S.S"
     ],
     "abstract": "Spoken language models (SpeechLMs) are increasingly real-time conversational actors. Yet many culturally consequential aspects of spoken interaction are not primarily lexical. Across sociolinguistics, linguistic anthropology, and conversation analysis, meaning emerges through how talk is produced and coordinated—prosody, timing, turn-taking, overlap, backchannels, and repair—within situated speech events. A transcript can be semantically correct yet interactionally inappropriate because many culture-bearing signals are audible and sequential rather than textual. This position paper argues for a speech-first view of cultural competence as interactional competence: the ability of a spoken agent to participate appropriately in event-situated interaction with locally normative conduct, while allowing plural acceptable realizations. Here, appropriate does not imply generic human-likeness; in many applications, the desired behavior may instead be constrained, neutral, predictable, or tool-like under an application-specific interaction contract. We synthesize social-science foundations into a theory-derived taxonomy of culture-bearing signals in speech, identify interactional phenomena where transcript correctness fails to predict appropriateness, and ground the agenda in today’s SpeechLM stacks and evaluation practice. We propose an evaluation framing that complements WER/MOS and broad capability suites by making speech events and interaction contracts explicit, diagnosing where modern pipelines lose interactional cues, and treating cultural appropriateness as a norm-conditioned target rather than generic “naturalness.”",
     "year": 2026,
@@ -180785,7 +180785,7 @@
       "Zhiyong Wang",
       "Runhan Yang",
       "Chenjun Xiao",
-      "John C.s. Lui",
+      "John C.S. Lui",
       "Zhongxiang Dai"
     ],
     "abstract": "Large language models (LLMs) have been applied to sequential decision-making tasks like multi-armed bandits (MAB), where an LLM is tasked with selecting arms in each iteration. However, this direct arm selection approach is often suboptimal. We propose an alternative method combining classical MAB algorithms with LLMs. Specifically, we use a classical MAB framework and leverage the in-context learning capability of LLMs for reward prediction. First, we integrate the LLM-based predictor into Thompson sampling (TS) with a decaying temperature schedule to balance exploration and exploitation. We also incorporate the predictor into a regression oracle-based MAB algorithm with explicit exploration. Additionally, we extend our TS-based algorithm to dueling bandits, where only preference feedback between arm pairs is available, requiring significant algorithmic modifications. Our empirical evaluations on synthetic MAB tasks show that our algorithms outperform LLM-based direct arm selection. In experiments on real-world text datasets, we demonstrate that, in tasks where arms lack exploitable semantic meaning, our approach delivers significantly better performance than direct arm selection.",
@@ -189915,9 +189915,9 @@
       "Hao Li",
       "Shujie Hu",
       "Yu Qin",
-      "Erchao.zec",
+      "Erchao Zhao",
       "Xiaoxi Jiang",
-      "Guanjunjiang"
+      "Guanjun Jiang"
     ],
     "abstract": "Hallucination remains a critical bottleneck for large language models (LLMs), undermining their reliability in real-world applications, especially in Retrieval-Augmented Generation (RAG) systems. While existing hallucination detection methods employ LLM-as-a-judge to verify LLM outputs against retrieved evidence, they suffer from inherent *confirmation bias*, where the verifier inadvertently reproduces the errors of the original generation. To address this, we introduce **M**ulti-**A**gent **R**einforced self-**C**heck for **H**allucination (MARCH), a framework that enforces rigorous factual alignment by leveraging deliberate *information asymmetry*. MARCH orchestrates a collaborative pipeline of three specialized agents: a Solver, a Proposer, and a Checker. The Solver generates an initial RAG response, which the Proposer decomposes into claim-level verifiable atomic propositions. Crucially, the Checker validates these propositions against retrieved evidence in isolation, deprived of the Solver’s original output. This well-crafted information asymmetry scheme breaks the cycle of self-confirmation bias. By training this pipeline with multi-agent reinforcement learning (MARL), we enable the agents to co-evolve and optimize factual adherence. Extensive experiments across hallucination benchmarks demonstrate that MARCH substantially reduces hallucination rates. Notably, an 8B-parameter LLM equipped with MARCH achieves performance competitive with powerful closed-source models. MARCH paves a scalable path for factual self-improvement of LLMs through co-evolution. The code is at https://github.com/Qwen-Applications/MARCH.",
     "year": 2026,
@@ -199102,7 +199102,7 @@
     "authors": [
       "Polina Tsvilodub",
       "Jan-Felix Klumpp",
-      "Amir Pour",
+      "Amir Mohammadpour",
       "Jennifer Hu",
       "Michael Franke"
     ],
@@ -231530,7 +231530,7 @@
     "authors": [
       "Baishi Li",
       "Ta Yu",
-      "Kelvin J.l. Koa",
+      "Kelvin J.L. Koa",
       "Ke-Wei Huang"
     ],
     "abstract": "Natural Language Processing is rapidly evolving into a primary instrument for Computational Social Science, with researchers increasingly using embeddings to measure latent constructs such as novelty, creativity, and bias. However, this transition faces a fundamental validity challenge: the “Proxy Presumption,” or the reliance on geometric properties (e.g., cosine distance) as direct measures of social concepts. We argue that without explicit validation, unsupervised representations remain entangled mixtures of the target construct ( C ) and confounding attributes ( Z ) like topic, style, and authorship. To bridge the gap between semantic embeddings and valid social measures, we introduce the Construct Validity Protocol (CVP). Drawing on causal representation learning and psychometrics, the CVP offers a rigorous pipeline from conceptualization to quantitative verification. We further propose Counterfactual Neutralization, a novel method using LLMs to reduce confounding in embedding space. By providing a standardized Validity Suite—including tests for discriminant, incremental, and predictive validity—this work offers the community a toolkit to transform heuristic proxies into robust, scientifically defensible instruments.",
@@ -231900,7 +231900,7 @@
       "Michael Sierra-Arévalo",
       "Nicholas Weller",
       "Shrikanth Narayanan",
-      "Benjamin A.t. Graham",
+      "Benjamin A.T. Graham",
       "Morteza Dehghani"
     ],
     "abstract": "Traffic stops are among the most frequent police–civilian interactions, and body-worn cameras (BWCs) provide a unique record of how these encounters unfold. Respect is a central dimension of these interactions, shaping public trust and perceived legitimacy, yet its interpretation is inherently subjective and shaped by lived experience, rendering community-specific perspectives a critical consideration. Leveraging unprecedented access to Los Angeles Police Department BWC footage, we introduce the first large-scale traffic-stop dataset annotated with respect ratings and free-text rationales from multiple perspectives. By sampling annotators from police-affiliated, justice-system-impacted, and non-affiliated Los Angeles residents, we enable the systematic study of perceptual differences across diverse communities. To this end, (i) we develop a domain-specific evaluation rubric grounded in procedural justice theory, LAPD training materials, and extensive fieldwork; (ii) we introduce a criterion-driven preference data construction framework for perspective-consistent alignment, and (ii) we propose a perspective-aware modeling framework that predicts personalized respect ratings and generates annotator-specific rationales for both officers and civilian drivers from traffic-stop transcripts. Across all three annotator groups, our approach improves both rating prediction performance and rationale alignment. Our perspective-aware framework enables law enforcement to better understand diverse community expectations, providing a vital tool for building public trust and procedural legitimacy.",

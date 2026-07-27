@@ -28320,7 +28320,7 @@
     "title": "On the Difference of BERT -style and CLIP -style Text Encoders",
     "authors": [
       "Zhihong Chen",
-      "Guiming Chen",
+      "Guiming Hardy Chen",
       "Shizhe Diao",
       "Xiang Wan",
       "Benyou Wang"
@@ -51631,7 +51631,7 @@
       "Lei Ji",
       "Difei Gao",
       "Kun Yan",
-      "W.k. Chan",
+      "W.K. Chan",
       "Chong-Wah Ngo",
       "Mike Zheng Shou",
       "Nan Duan"
@@ -80729,7 +80729,7 @@
       "Changmeng Zheng",
       "Junhao Feng",
       "Yi Cai",
-      "Xiaoyong Wei",
+      "Xiao-Yong Wei",
       "Qing Li"
     ],
     "abstract": "We revisit the multimodal entity and relation extraction from a translation point of view. Special attention is paid on the misalignment issue in text-image datasets which may mislead the learning. We are motivated by the fact that the cross-modal misalignment is a similar problem of cross-lingual divergence issue in machine translation. The problem can then be transformed and existing solutions can be borrowed by treating a text and its paired image as the translation to each other. We implement a multimodal back-translation using diffusion-based generative models for pseudo-paralleled pairs and a divergence estimator by constructing a high-resource corpora as a bridge for low-resource learners. Fine-grained confidence scores are generated to indicate both types and degrees of alignments with which better representations are obtained. The method has been validated in the experiments by outperforming 14 state-of-the-art methods in both entity and relation extraction tasks. The source code is available at https://github.com/thecharm/TMR .",
