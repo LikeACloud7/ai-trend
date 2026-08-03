@@ -37115,7 +37115,7 @@
     "id": "2023.acl-long.69",
     "title": "NLG Evaluation Metrics Beyond Correlation Analysis: An Empirical Metric Preference Checklist",
     "authors": [
-      "Iftitahu Nimah",
+      "Iftitahu Ni’mah",
       "Meng Fang",
       "Vlado Menkovski",
       "Mykola Pechenizkiy"
@@ -219470,10 +219470,10 @@
     "source": "ACL Anthology",
     "url": "https://aclanthology.org/2025.findings-acl.287/",
     "keywords": [],
-    "primaryCategory": "alignment_safety",
+    "primaryCategory": "agents_tools",
     "categories": [
-      "alignment_safety",
       "agents_tools",
+      "alignment_safety",
       "optimization_theory"
     ]
   },
@@ -237717,8 +237717,7 @@
     "keywords": [],
     "primaryCategory": "multimodal",
     "categories": [
-      "multimodal",
-      "evaluation"
+      "multimodal"
     ]
   },
   {
@@ -240885,10 +240884,10 @@
     "source": "ACL Anthology",
     "url": "https://aclanthology.org/2025.findings-acl.680/",
     "keywords": [],
-    "primaryCategory": "rl_robotics",
+    "primaryCategory": "domain_science",
     "categories": [
-      "rl_robotics",
-      "domain_science"
+      "domain_science",
+      "rl_robotics"
     ]
   },
   {
@@ -270688,7 +270687,7 @@
     "id": "2025.acl-long.1417",
     "title": "Language Model Probabilities are Not Calibrated in Numeric Contexts",
     "authors": [
-      "Charles Lovering",
+      "Charles J. Lovering",
       "Michael Krumdick",
       "Viet Dac Lai",
       "Varshini Reddy",
@@ -292583,8 +292582,8 @@
     "primaryCategory": "evaluation",
     "categories": [
       "evaluation",
-      "multimodal",
-      "reasoning"
+      "reasoning",
+      "multimodal"
     ]
   },
   {
@@ -389432,7 +389431,7 @@
       "Lanyu Chen",
       "Jingyu Li",
       "Haojing Chen",
-      "Victor Gutierrez Basulto",
+      "Víctor Gutiérrez-Basulto",
       "Jeff Z. Pan",
       "Hanjie Chen"
     ],
@@ -389446,8 +389445,7 @@
     "keywords": [],
     "primaryCategory": "reasoning",
     "categories": [
-      "reasoning",
-      "multimodal"
+      "reasoning"
     ]
   },
   {
@@ -498538,7 +498536,7 @@
       "Daniel Garcia",
       "Fjona Parllaku",
       "Vikas Upadhyay",
-      "Fahad Shah",
+      "Syed Fahad Allam Shah",
       "Dan Roth"
     ],
     "year": 2026,

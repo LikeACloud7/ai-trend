@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-27T06:47:16.819Z",
+  "generatedAt": "2026-08-03T06:41:04.030Z",
   "totalPapers": 21078,
   "yearStart": 2023,
   "yearEnd": 2026,
@@ -331,8 +331,8 @@
     },
     {
       "topic": "Alignment, Safety & Trust",
-      "count": 1627,
-      "share": 0.07718948666856439
+      "count": 1626,
+      "share": 0.0771420438371762
     },
     {
       "topic": "Efficient AI & Systems",
@@ -346,8 +346,8 @@
     },
     {
       "topic": "Agents & Tool Use",
-      "count": 888,
-      "share": 0.0421292342727014
+      "count": 889,
+      "share": 0.04217667710408957
     },
     {
       "topic": "Interpretability & Analysis",
