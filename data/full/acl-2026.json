@@ -80779,14 +80779,14 @@
     "title": "PBEB ench: A Multi-Step Programming by Examples Reasoning Benchmark inspired by Historical Linguistics",
     "authors": [
       "Atharva Naik",
+      "Darsh Agrawal",
       "Prakam",
       "Yash Mathur",
-      "Darsh Agrawal",
-      "Manav Nitin Kapadnis",
+      "Manav Kapadnis",
       "Yuwei An",
       "Clayton Marr",
       "Carolyn Rose",
-      "David R. Mortensen"
+      "David Mortensen"
     ],
     "abstract": "While many benchmarks evaluate the reasoning abilities of Large Language Models (LLMs), few isolate reasoning as a capability independent of domain knowledge. We introduce a new benchmark for inductive reasoning inspired by Sound Law Induction (SLI) in historical linguistics and formulated in a simple multi-step Programming by Example (PBE) framework. The task requires inducing a cascade of string rewrite programs that transform inputs into target outputs. We present PBEBench, a fully automated evaluation approach that generates such problems with controllable difficulty and ordering constraints, enabling scalable and contamination-resistant evaluation of sequential inductive reasoning. Using this approach, we construct three datasets that show a large gap between models that leverage test-time compute or long chain-of-thought reasoning and those that do not. Although recent models such as GPT-5 and gpt-oss-120b show promise, solve rates remain below 5% on hard PBEBench instances with long program cascades, even under computationally expensive scaling strategies. Finally, we show that PBEBench scores are more predictive of performance on real SLI than are other inductive reasoning benchmarks. We will release code and data to support further research.",
     "year": 2026,
@@ -120488,7 +120488,7 @@
   },
   {
     "id": "2026.acl-long.49",
-    "title": "A Game-Theoretica Negotiation Framework for Cross-Cultural Consensus",
+    "title": "A Game-Theoretic Negotiation Framework for Cross-Cultural Consensus",
     "authors": [
       "Guoxi Zhang",
       "Jiawei Chen",
@@ -150955,7 +150955,7 @@
       "Qiongxiu Li",
       "Johannes Bjerva"
     ],
-    "abstract": "Large Language Models (LLMs) have been reported to “leak” Personally Identifiable Information (PII), with successful PII reconstruction often interpreted as evidence of memorization. We propose a principled revision of memorization evaluation for LLMs, arguing that PII leakage should be evaluated under low lexical cue conditions, where target PII cannot be reconstructed through prompt-induced generalization or pattern completion. We formalize Cue-Resistant Memorization (CRM) as a cue-controlled evaluation framework and a necessary condition for valid memorization evaluation, explicitly conditioning on prompt-target overlap cues. Using CRM, we conduct a large-scale multilingual re-evaluation of PII leakage across 32 languages and multiple memorization paradigms. Revisiting reconstruction-based settings, including verbatim prefix-suffix completion and associative reconstruction, we find that their apparent effectiveness is driven primarily by direct surface-form cues rather than by true memorization. When such cues are controlled for, reconstruction success diminishes substantially. We further examine cue-free generation and membership inference, both of which exhibit extremely low true positive rates. Overall, our results suggest that previously reported PII leakage is better explained by cue-driven behavior than by genuine memorization, highlighting the importance of cue-controlled evaluation for reliably quantifying privacy-relevant memorization in LLMs.",
+    "abstract": "Large Language Models (LLMs) have been reported to “leak” Personally Identifiable Information (PII), with successful PII reconstruction often interpreted as evidence of memorization. We propose a principled revision of memorization evaluation for LLMs, arguing that PII leakage should be evaluated under low lexical cue conditions , where target PII cannot be reconstructed through prompt-induced generalization or pattern completion. We formalize Cue-Resistant Memorization (CRM) as a cue-controlled evaluation framework and a necessary condition for valid memorization evaluation, explicitly conditioning on prompt-target overlap cues. Using CRM , we conduct a large-scale multilingual re-evaluation of PII leakage across 32 languages and multiple memorization paradigms. Revisiting reconstruction-based settings, including verbatim prefix-suffix completion and associative reconstruction, we find that their apparent effectiveness is driven primarily by direct surface-form cues rather than by true memorization. When such cues are controlled for, reconstruction success diminishes substantially. We further examine cue-free generation and membership inference, both of which exhibit extremely low true positive rates. Overall, our results suggest that previously reported PII leakage is better explained by cue-driven behavior than by genuine memorization, highlighting the importance of cue-controlled evaluation for reliably quantifying privacy-relevant memorization in LLMs.",
     "year": 2026,
     "conference": "acl",
     "conferenceName": "ACL",
@@ -164661,7 +164661,7 @@
     "title": "From Trust to Compromise: Outcome-Verified LLM Phishing Simulation and Real-Time Defense",
     "authors": [
       "Tulika Tewari",
-      "Nalin Asanka Gamagedara Arachchilage",
+      "Nalin Arachchilage",
       "Jagat Sesh Challa",
       "Dhruv Kumar"
     ],
@@ -186370,7 +186370,7 @@
       "Zhengxiang Wang",
       "Panagiotis Kaliosis",
       "Dimitris Samaras",
-      "Gregory J. Zelinsky",
+      "Gregory Zelinsky",
       "Susan E. Brennan",
       "Owen Rambow"
     ],

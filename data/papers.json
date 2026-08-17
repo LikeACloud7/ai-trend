@@ -50374,7 +50374,7 @@
     "title": "CLMSM : A Multi-Task Learning Framework for Pre-training on Procedural Text",
     "authors": [
       "Abhilash Nandy",
-      "Manav Kapadnis",
+      "Manav Nitin Kapadnis",
       "Pawan Goyal",
       "Niloy Ganguly"
     ],
@@ -91274,9 +91274,9 @@
     "id": "2023.emnlp-main.1045",
     "title": "Speech Recognition and Meaning Interpretation: Towards Disambiguation of Structurally Ambiguous Spoken Utterances in I ndonesian",
     "authors": [
-      "Ruhiyah Widiaputri",
+      "Ruhiyah Faradishi Widiaputri",
       "Ayu Purwarianti",
-      "Dessi Lestari",
+      "Dessi Puji Lestari",
       "Kurniawati Azizah",
       "Dipta Tanaya",
       "Sakriani Sakti"
@@ -203064,7 +203064,7 @@
     "id": "2024.naacl-long.460",
     "title": "Adaptive Cross-lingual Text Classification through In-Context One-Shot Demonstrations",
     "authors": [
-      "Emilio Cueva",
+      "Emilio Villa-Cueva",
       "Adrian Lopez Monroy",
       "Fernando Sánchez-Vega",
       "Thamar Solorio"
@@ -231215,7 +231215,7 @@
     "authors": [
       "Jiakai Tang",
       "Shiqi Shen",
-      "ZhipengWang ZhipengWang",
+      "Zhipeng Wang",
       "Gong Zhi",
       "Xueyang Feng",
       "Zexu Sun",
@@ -235021,7 +235021,7 @@
       "Yining Li",
       "Kai Hu",
       "Ma Zerun",
-      "HaochenYe HaochenYe",
+      "Haochen Ye",
       "Kai Chen"
     ],
     "year": 2025,
@@ -253360,7 +253360,7 @@
       "Zicheng Zhang",
       "Leqi Shen",
       "Yifeng Zhang",
-      "JunhuaShu JunhuaShu"
+      "Junhua Shu"
     ],
     "year": 2025,
     "conference": "acl",
@@ -254138,7 +254138,7 @@
       "Wing Yin Yu",
       "Zhenqi He",
       "Zehua Liu",
-      "HaileiGong HaileiGong",
+      "Hailei Gong",
       "Han Wu",
       "Xiongwei Han",
       "Wei Shi"
@@ -260400,7 +260400,7 @@
     "title": "Do not Abstain! Identify and Solve the Uncertainty",
     "authors": [
       "Jingyu Liu",
-      "JingquanPeng JingquanPeng",
+      "Jingquan Peng",
       "Xiaopeng Wu",
       "Xubin Li",
       "Tiezheng Ge",
@@ -264040,7 +264040,7 @@
       "Ziyang Ma",
       "Keqi Deng",
       "Chunhui Wang",
-      "JianZhao JianZhao",
+      "Jian Zhao",
       "Kai Yu",
       "Xie Chen"
     ],
@@ -272764,7 +272764,7 @@
       "Ziwei Ma",
       "Xiu Jiang",
       "Jinglu Hu",
-      "ChangJing ChangJing",
+      "Chang Jing",
       "Liang Li"
     ],
     "year": 2025,
@@ -274639,7 +274639,7 @@
     "id": "2025.acl-long.753",
     "title": "MISP -Meeting: A Real-World Dataset with Multimodal Cues for Long-form Meeting Transcription and Summarization",
     "authors": [
-      "HangChen HangChen",
+      "Hang Chen",
       "Chao-Han Huck Yang",
       "Jia-Chen Gu",
       "Sabato Marco Siniscalchi",
@@ -288302,7 +288302,7 @@
       "Yanhao Jia",
       "Xinyi Wu",
       "Li Hao",
-      "QinglinZhang QinglinZhang",
+      "Qinglin Zhang",
       "Yuxiao Hu",
       "Shuai Zhao",
       "Wenqi Fan"
@@ -288976,7 +288976,7 @@
       "Runqi Qiao",
       "Qiuna Tan",
       "Guanting Dong",
-      "MinhuiWu MinhuiWu",
+      "Minhui Wu",
       "Jiapeng Wang",
       "YiFan Zhang",
       "Zhuoma GongQue",
@@ -289802,7 +289802,7 @@
       "Runqi Qiao",
       "Qiuna Tan",
       "Guanting Dong",
-      "MinhuiWu MinhuiWu",
+      "Minhui Wu",
       "Chong Sun",
       "Xiaoshuai Song",
       "Jiapeng Wang",
@@ -355061,8 +355061,8 @@
     "title": "RALS : Resources and Baselines for R omanian Automatic Lexical Simplification",
     "authors": [
       "Fabian Anghel",
-      "Cristea Petru-Theodor",
-      "Claudiu Creanga",
+      "Petru Theodor Cristea",
+      "Claudiu Creangă",
       "Sergiu Nisioi"
     ],
     "year": 2025,
@@ -372401,7 +372401,7 @@
     "title": "G ra PPI : A Retrieve-Divide-Solve G raph RAG Framework for Large-scale Protein-protein Interaction Exploration",
     "authors": [
       "Ziwen Li",
-      "Xiang Chen",
+      "Xiang ‘Anthony’ Chen",
       "Youngseung Jeon"
     ],
     "year": 2025,
@@ -432461,10 +432461,10 @@
     "title": "PBEB ench: A Multi-Step Programming by Examples Reasoning Benchmark inspired by Historical Linguistics",
     "authors": [
       "Atharva Naik",
+      "Darsh Agrawal",
       "Prakam",
       "Yash Mathur",
-      "Darsh Agrawal",
-      "Manav Nitin Kapadnis",
+      "Manav Kapadnis",
       "Yuwei An",
       "Clayton Marr",
       "Carolyn Rose"
@@ -450191,7 +450191,7 @@
   },
   {
     "id": "2026.acl-long.49",
-    "title": "A Game-Theoretica Negotiation Framework for Cross-Cultural Consensus",
+    "title": "A Game-Theoretic Negotiation Framework for Cross-Cultural Consensus",
     "authors": [
       "Guoxi Zhang",
       "Jiawei Chen",
@@ -470058,7 +470058,7 @@
     "title": "From Trust to Compromise: Outcome-Verified LLM Phishing Simulation and Real-Time Defense",
     "authors": [
       "Tulika Tewari",
-      "Nalin Asanka Gamagedara Arachchilage",
+      "Nalin Arachchilage",
       "Jagat Sesh Challa",
       "Dhruv Kumar"
     ],
@@ -479849,7 +479849,7 @@
       "Zhengxiang Wang",
       "Panagiotis Kaliosis",
       "Dimitris Samaras",
-      "Gregory J. Zelinsky",
+      "Gregory Zelinsky",
       "Susan E. Brennan"
     ],
     "year": 2026,
