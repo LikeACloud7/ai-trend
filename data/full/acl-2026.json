@@ -113314,6 +113314,57 @@
     ]
   },
   {
+    "id": "2026.findings-acl.1749",
+    "title": "V alue A lignment T ax : Measuring Value Trade-offs in LLM Alignment",
+    "authors": [
+      "Jiajun Chen",
+      "Hua Shen"
+    ],
+    "abstract": "Existing work on value alignment typically characterizes value relations statically, ignoring how alignment interventions—such as prompting, fine-tuning, or preference optimization—reshape the broader value system. In practice, aligning a target value can implicitly shift other values, creating value trade-offs that remain largely unmeasured.We introduce the VAT, a framework that quantifies value trade-offs by measuring how alignment-induced changes propagate across interconnected values relative to achieved on-target gain. VAT captures the system-level dynamics of value expression under alignment intervention, enabling evaluation of both intended improvements and unintended side effects.Using a controlled scenario–action dataset grounded in Schwartz value theory, we collect paired pre–post normative judgments and analyze alignment effects across models, values, and interventions. Results show that alignment often produces uneven and structured co-movement among values, revealing systematic trade-offs between target and non-target values. These effects are largely invisible under conventional target-only evaluation, but become evident via VAT, highlighting process-level alignment risks and offering new insights into the dynamic nature of value alignment in LLMs.Dataset and code are open-sourced.",
+    "year": 2026,
+    "conference": "acl",
+    "conferenceName": "ACL",
+    "track": "findings",
+    "subtype": "findings",
+    "source": "ACL Anthology",
+    "sourceVolume": "2026.findings-acl",
+    "sourceVolumeTitle": "Findings of the Association for Computational Linguistics: ACL 2026",
+    "url": "https://aclanthology.org/2026.findings-acl.1749/",
+    "keywords": [],
+    "ordinal": 1749,
+    "primaryCategory": "alignment_safety",
+    "categories": [
+      "alignment_safety",
+      "llms"
+    ],
+    "categoryScores": [
+      {
+        "id": "alignment_safety",
+        "label": "Alignment, Safety & Trust",
+        "color": "#dc2626",
+        "score": 13
+      },
+      {
+        "id": "llms",
+        "label": "LLMs & Foundation Models",
+        "color": "#2563eb",
+        "score": 6
+      },
+      {
+        "id": "evaluation",
+        "label": "Evaluation & Benchmarks",
+        "color": "#4f46e5",
+        "score": 4
+      },
+      {
+        "id": "optimization_theory",
+        "label": "Optimization & Theory",
+        "color": "#475569",
+        "score": 2
+      }
+    ]
+  },
+  {
     "id": "2026.findings-acl.1305",
     "title": "V ec CISC : Improving Confidence-Informed Self-Consistency with Reasoning Trace Clustering and Candidate Answer Selection",
     "authors": [
@@ -113801,56 +113852,6 @@
         "label": "Interpretability & Analysis",
         "color": "#be123c",
         "score": 1
-      }
-    ]
-  },
-  {
-    "id": "2026.findings-acl.1749",
-    "title": "VALUE ALIGNMENT TAX : Measuring Value Trade-offs in LLM Alignment",
-    "authors": [
-      "Jiajun Chen",
-      "Hua Shen"
-    ],
-    "abstract": "Existing work on value alignment typically characterizes value relations statically, ignoring how alignment interventions—such as prompting, fine-tuning, or preference optimization—reshape the broader value system. In practice, aligning a target value can implicitly shift other values, creating value trade-offs that remain largely unmeasured.We introduce the VAT, a framework that quantifies value trade-offs by measuring how alignment-induced changes propagate across interconnected values relative to achieved on-target gain. VAT captures the system-level dynamics of value expression under alignment intervention, enabling evaluation of both intended improvements and unintended side effects.Using a controlled scenario–action dataset grounded in Schwartz value theory, we collect paired pre–post normative judgments and analyze alignment effects across models, values, and interventions. Results show that alignment often produces uneven and structured co-movement among values, revealing systematic trade-offs between target and non-target values. These effects are largely invisible under conventional target-only evaluation, but become evident via VAT, highlighting process-level alignment risks and offering new insights into the dynamic nature of value alignment in LLMs.Dataset and code are open-sourced.",
-    "year": 2026,
-    "conference": "acl",
-    "conferenceName": "ACL",
-    "track": "findings",
-    "subtype": "findings",
-    "source": "ACL Anthology",
-    "sourceVolume": "2026.findings-acl",
-    "sourceVolumeTitle": "Findings of the Association for Computational Linguistics: ACL 2026",
-    "url": "https://aclanthology.org/2026.findings-acl.1749/",
-    "keywords": [],
-    "ordinal": 1749,
-    "primaryCategory": "alignment_safety",
-    "categories": [
-      "alignment_safety"
-    ],
-    "categoryScores": [
-      {
-        "id": "alignment_safety",
-        "label": "Alignment, Safety & Trust",
-        "color": "#dc2626",
-        "score": 18
-      },
-      {
-        "id": "llms",
-        "label": "LLMs & Foundation Models",
-        "color": "#2563eb",
-        "score": 6
-      },
-      {
-        "id": "evaluation",
-        "label": "Evaluation & Benchmarks",
-        "color": "#4f46e5",
-        "score": 4
-      },
-      {
-        "id": "optimization_theory",
-        "label": "Optimization & Theory",
-        "color": "#475569",
-        "score": 2
       }
     ]
   },
@@ -198297,7 +198298,7 @@
       "Tang Zhe",
       "Weixing Zhang",
       "Fei Yang",
-      "Yuanyuan. Wang",
+      "Yuanyuan Wang",
       "Tianlin Li",
       "Yang Liu"
     ],
@@ -199866,7 +199867,7 @@
       "Jan Batzner",
       "Sebastian Padó"
     ],
-    "abstract": "Personalization of LLMs by sociodemographic subgroup often improves user experience, but can also introduce or amplify biases and unfairoutcomes across groups. Prior work has employed so-called personas, sociodemographic user attributes conveyed to a model, to studybias in LLMs by relying on a single cue to prompt a persona, such as user names or explicit attribute mentions. This disregards LLM sensitivity to prompt variation and the rarity of some cues in real interactions (external validity). We compare six commonly used personacues across seven open and proprietary LLMs on four writing and advice tasks. While cues are overall highly correlated, they produce sub-stantial variance in responses across personas that can change findings on persona-induced differences and bias. We therefore cautionagainst claims based on single persona cues, especially when they are overly explicit and have low external validity.",
+    "abstract": "Personalization of LLMs by sociodemographic subgroup often improves user experience, but can also introduce or amplify biases and unfair outcomes across groups. Prior work has employed so-called personas, sociodemographic user attributes conveyed to a model, to study bias in LLMs by relying on a single cue to prompt a persona, such as user names or explicit attribute mentions. This disregards LLM sensitivity to prompt variation and the rarity of some cues in real interactions (external validity). We compare six commonly used persona cues across seven open and proprietary LLMs on four writing and advice tasks. While cues are overall highly correlated, they produce substantial variance in responses across personas that can change findings on persona-induced differences and bias. We therefore caution against claims based on single persona cues, especially when they are overly explicit and have low external validity.",
     "year": 2026,
     "conference": "acl",
     "conferenceName": "ACL",
@@ -199893,7 +199894,7 @@
         "id": "alignment_safety",
         "label": "Alignment, Safety & Trust",
         "color": "#dc2626",
-        "score": 1
+        "score": 2
       }
     ]
   },

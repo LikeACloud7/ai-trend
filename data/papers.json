@@ -42015,7 +42015,7 @@
     "title": "T hink S um: Probabilistic reasoning over sets using large language models",
     "authors": [
       "Batu Ozturkler",
-      "Nikolay Malkin",
+      "Esmeralda S. Whitammer",
       "Zhen Wang",
       "Nebojsa Jojic"
     ],
@@ -57968,7 +57968,7 @@
     "authors": [
       "Zishan Ahmad",
       "Suman Saurabh",
-      "Vaishakh Menon",
+      "Vaishakh Sreekanth Menon",
       "Asif Ekbal",
       "Roshni Ramnani",
       "Anutosh Maitra"
@@ -78874,7 +78874,7 @@
       "Janghwan Lee",
       "Minsoo Kim",
       "Seungcheol Baek",
-      "Seok Hwang",
+      "Seok Joong Hwang",
       "Wonyong Sung",
       "Jungwook Choi"
     ],
@@ -166411,8 +166411,8 @@
     "authors": [
       "Hoyeon Lee",
       "Hyeeun Jang",
-      "Jonghwan Kim",
-      "Jaemin Kim"
+      "Jong-Hwan Kim",
+      "Jae-Min Kim"
     ],
     "year": 2024,
     "conference": "emnlp",
@@ -169637,7 +169637,7 @@
       "Jing Li",
       "Ming Liao",
       "Siqi Wang",
-      "Gao Zuchen",
+      "Zuchen Gao",
       "Fei Mi",
       "Lanqing Hong"
     ],
@@ -208580,7 +208580,7 @@
     "authors": [
       "Jianli Zhao",
       "Changhao Xu",
-      "Bin. Jiang"
+      "Bin Jiang"
     ],
     "year": 2024,
     "conference": "naacl",
@@ -274906,7 +274906,7 @@
       "Giwon Hong",
       "Emile Van Krieken",
       "Edoardo Ponti",
-      "Nikolay Malkin",
+      "Esmeralda S. Whitammer",
       "Pasquale Minervini"
     ],
     "year": 2025,
@@ -283677,8 +283677,8 @@
       "Rupak Vignesh Swaminathan",
       "K V Vijay Girish",
       "Arunasish Sen",
-      "Jian. Xie",
-      "Grant Strimel",
+      "Jian Xie",
+      "Grant P. Strimel",
       "Andreas Schwarz"
     ],
     "year": 2025,
@@ -345548,8 +345548,8 @@
       "Enci Zhang",
       "Xingang Yan",
       "Wei Lin",
-      "Tianxiang. Zhang",
-      "Lu Qianchun"
+      "Tianxiang Zhang",
+      "Qianchun Lu"
     ],
     "year": 2025,
     "conference": "emnlp",
@@ -447017,6 +447017,27 @@
     ]
   },
   {
+    "id": "2026.findings-acl.1749",
+    "title": "V alue A lignment T ax : Measuring Value Trade-offs in LLM Alignment",
+    "authors": [
+      "Jiajun Chen",
+      "Hua Shen"
+    ],
+    "year": 2026,
+    "conference": "acl",
+    "conferenceName": "ACL",
+    "track": "findings",
+    "trackLabel": "Findings",
+    "source": "ACL Anthology",
+    "url": "https://aclanthology.org/2026.findings-acl.1749/",
+    "keywords": [],
+    "primaryCategory": "alignment_safety",
+    "categories": [
+      "alignment_safety",
+      "llms"
+    ]
+  },
+  {
     "id": "2026.findings-acl.1305",
     "title": "V ec CISC : Improving Confidence-Informed Self-Consistency with Reasoning Trace Clustering and Candidate Answer Selection",
     "authors": [
@@ -447228,26 +447249,6 @@
     "primaryCategory": "reasoning",
     "categories": [
       "reasoning"
-    ]
-  },
-  {
-    "id": "2026.findings-acl.1749",
-    "title": "VALUE ALIGNMENT TAX : Measuring Value Trade-offs in LLM Alignment",
-    "authors": [
-      "Jiajun Chen",
-      "Hua Shen"
-    ],
-    "year": 2026,
-    "conference": "acl",
-    "conferenceName": "ACL",
-    "track": "findings",
-    "trackLabel": "Findings",
-    "source": "ACL Anthology",
-    "url": "https://aclanthology.org/2026.findings-acl.1749/",
-    "keywords": [],
-    "primaryCategory": "alignment_safety",
-    "categories": [
-      "alignment_safety"
     ]
   },
   {
@@ -485142,7 +485143,7 @@
       "Tang Zhe",
       "Weixing Zhang",
       "Fei Yang",
-      "Yuanyuan. Wang",
+      "Yuanyuan Wang",
       "Tianlin Li",
       "Yang Liu"
     ],
