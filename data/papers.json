@@ -67124,8 +67124,8 @@
     "title": "Symbolization, Prompt, and Classification: A Framework for Implicit Speaker Identification in Novels",
     "authors": [
       "Yue Chen",
-      "Tianwei He",
-      "Hongbin Zhou",
+      "Tian-Wei He",
+      "Hong-Bin Zhou",
       "Jia-Chen Gu",
       "Heng Lu",
       "Zhen-Hua Ling"
@@ -95583,8 +95583,8 @@
     "id": "2024.findings-acl.800",
     "title": "A Curious Case of Searching for the Correlation between Training Data and Adversarial Robustness of Transformer Textual Models",
     "authors": [
-      "Dang Cuong",
-      "Dung Le",
+      "Cuong Dang",
+      "Dung D. Le",
       "Thai Le"
     ],
     "year": 2024,
@@ -148998,9 +148998,9 @@
     "id": "2024.findings-emnlp.306",
     "title": "Evaluation of Question Answer Generation for P ortuguese: Insights and Datasets",
     "authors": [
-      "Felipe Paula",
-      "Cassiana Roberta Lizzoni Michelin",
-      "Viviane Moreira"
+      "Felipe S. F. Paula",
+      "Cassiana R. L. Michelin",
+      "Viviane P. Moreira"
     ],
     "year": 2024,
     "conference": "emnlp",
@@ -421154,7 +421154,6 @@
       "Yv Zhang",
       "Kuofeng Gao",
       "Hao Fang",
-      "Fan Mo",
       "Bin Chen",
       "Shu-Tao Xia"
     ],
@@ -471874,7 +471873,7 @@
     "title": "GUIDE : Towards Scalable Advising for Research Ideas",
     "authors": [
       "Yaowenqi Liu",
-      "BingXu Meng",
+      "Bingxu Meng",
       "Rui Pan",
       "Yuxing Liu",
       "Jerry Huang",
@@ -499001,7 +499000,7 @@
     "title": "Taming Actor-Observer Asymmetry in Agents via Dialectical Alignment",
     "authors": [
       "Bobo Li",
-      "Wu Rui",
+      "Rui Wu",
       "Zibo Ji",
       "Meishan Zhang",
       "Hao Fei",
