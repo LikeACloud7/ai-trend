@@ -9227,7 +9227,9 @@
       "Sebastien Diarra",
       "Christopher M. Homan",
       "Mamadou K. Keita",
-      "Michael Leventhal"
+      "Michael Leventhal",
+      "Souhila Messaoud-Galusi",
+      "Ibrahima Mounkoro"
     ],
     "abstract": "Illiteracy is a predictor of many negative social and personal outcomes. Illiteracy rates are particularly high in countries with underresourced languages, where few books exist that are suitable for children to learn to read from. We present GAIfE (Generative AI for Education), a toolchain and workflow developed through empirical methods, that demonstrates how existing tools can be adapted to address low literacy for an underresourced language. We used GAIfE (a play on the Bambara word for “book”) to construct materials for developing children’s reading competence in Bambara, the vehicular language of Mali. Our approach to the generation and post-generation editing of content skewed by the Global-North-centric bias of available LLMs, enabled us to rapidly multiply the content in Bambara available online by 10 times while maintaining high standards of attractiveness of the material to maintain high engagement, accurate representation of the Malian culture and physical and social environment and language quality. Using our materials, pilot reading programs achieved a 67% reduction in the number of children unable to read Bambara. Our approach demonstrated the power of bias-aware application of generative AI to the problem domain as well as the potential impact the application of this technology could have on reducing illiteracy and improving learning outcomes through native language education.",
     "year": 2025,
@@ -34635,7 +34637,7 @@
     "id": "2025.naacl-long.159",
     "title": "ERAS : Evaluating the Robustness of C hinese NLP Models to Morphological Garden Path Errors",
     "authors": [
-      "Qinchan Li",
+      "Qinchan (Wing) Li",
       "Sophie Hao"
     ],
     "abstract": "In languages without orthographic word boundaries, NLP models perform word segmentation , either as an explicit preprocessing step or as an implicit step in an end-to-end computation. This paper shows that Chinese NLP models are vulnerable to morphological garden path errors —errors caused by a failure to resolve local word segmentation ambiguities using sentence-level morphosyntactic context. We propose a benchmark, ERAS , that tests a model’s vulnerability to morphological garden path errors by comparing its behavior on sentences with and without local segmentation ambiguities. Using ERAS, we show that word segmentation models make morphological garden path errors on locally ambiguous sentences, but do not make equivalent errors on unambiguous sentences. We further show that sentiment analysis models with character-level tokenization make implicit garden path errors, even without an explicit word segmentation step in the pipeline. Our results indicate that models’ segmentation of Chinese text often fails to account for morphosyntactic context.",

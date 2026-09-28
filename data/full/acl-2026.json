@@ -75056,7 +75056,7 @@
     "title": "NSL - MT : Linguistically Informed Negative Samples for Efficient Machine Translation in A frican Low-Resource Languages",
     "authors": [
       "Mamadou K. Keita",
-      "Christopher M Homan",
+      "Christopher Homan",
       "Huy Le"
     ],
     "abstract": "We introduce negative space learning machine translation (NSL-MT), a training method for underresourced languages, that augments limited parallel data with synthetically generated violations of the target language’s grammar and explicitly penalizes the model when it assigns high probability to these linguistically invalid outputs. NSL-MT delivers improvements across all baselines we tested, including 3-12% BLEU gains for well-performing models and 56-89% gains for models lacking decent initial support. Furthermore, NSL-MT provides a 5x data efficiency multiplier: training with 1,000 examples matches or exceeds normal training with 5,000 examples. NSL-MT thus provides a data-efficient alternative training method for settings where parallel data is limited.",

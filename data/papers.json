@@ -89971,12 +89971,12 @@
     "id": "2023.emnlp-main.960",
     "title": "S can DL : A Diffusion Model for Generating Synthetic Scanpaths on Texts",
     "authors": [
-      "Lena Bolliger",
-      "David Reich",
+      "Lena S. Bolliger",
+      "David R. Reich",
       "Patrick Haller",
-      "Deborah Jakobi",
+      "Deborah N. Jakobi",
       "Paul Prasse",
-      "Lena Jäger"
+      "Lena A. Jäger"
     ],
     "year": 2023,
     "conference": "emnlp",
@@ -107292,8 +107292,8 @@
     "title": "Language models emulate certain cognitive profiles: An investigation of how predictability measures interact with individual differences",
     "authors": [
       "Patrick Haller",
-      "Lena Bolliger",
-      "Lena Jäger"
+      "Lena S. Bolliger",
+      "Lena A. Jäger"
     ],
     "year": 2024,
     "conference": "acl",
@@ -135098,9 +135098,9 @@
     "id": "2024.acl-long.833",
     "title": "R oman S etu: Efficiently unlocking multilingual capabilities of Large Language Models via R omanization",
     "authors": [
-      "Jaavid J",
+      "Jaavid Aktar Husain",
       "Raj Dabre",
-      "Aswanth M",
+      "Aswanth Kumar",
       "Jay Gala",
       "Thanmay Jayakumar",
       "Ratish Puduppully",
@@ -146670,7 +146670,7 @@
   },
   {
     "id": "2024.findings-emnlp.643",
-    "title": "D ict D is: Dictionary Constrained Disambiguation for Improved NMT",
+    "title": "D ict D is : Dictionary Constrained Disambiguation for Improved NMT",
     "authors": [
       "Ayush Maheshwari",
       "Preethi Jyothi",
@@ -263056,9 +263056,9 @@
     "id": "2025.acl-long.1193",
     "title": "Evaluating LLM s for P ortuguese Sentence Simplification with Linguistic Insights",
     "authors": [
-      "Arthur Mariano Rocha De Azevedo Scalercio",
-      "Elvis A. De Souza",
-      "Maria José Bocorny Finatto",
+      "Arthur Scalercio",
+      "Elvis de Souza",
+      "Maria José Finatto",
       "Aline Paes"
     ],
     "year": 2025,
@@ -281924,10 +281924,10 @@
     "authors": [
       "Tharindu Ranasinghe",
       "Hansi Hettiarachchi",
-      "Nadeesha Chathurangi Naradde Vidana Pathirana",
+      "Nadeesha Pathirana",
       "Damith Premasiri",
       "Lasitha Uyangodage",
-      "Isuri Nanomi Arachchige",
+      "Isuri Arachchige",
       "Alistair Plum",
       "Paul Rayson"
     ],
@@ -340464,8 +340464,8 @@
     "id": "2025.emnlp-main.379",
     "title": "Genre Matters: How Text Types Interact with Decoding Strategies and Lexical Predictors in Shaping Reading Behavior",
     "authors": [
-      "Lena Sophia Bolliger",
-      "Lena Ann Jäger"
+      "Lena S. Bolliger",
+      "Lena A. Jäger"
     ],
     "year": 2025,
     "conference": "emnlp",
@@ -347663,7 +347663,7 @@
     "title": "M odel C itizens: Representing Community Voices in Online Safety",
     "authors": [
       "Ashima Suvarna",
-      "Christina A Chance",
+      "Christina Chance",
       "Karolina Naranjo",
       "Hamid Palangi",
       "Sophie Hao",
@@ -372500,7 +372500,8 @@
       "Sebastien Diarra",
       "Christopher M. Homan",
       "Mamadou K. Keita",
-      "Michael Leventhal"
+      "Michael Leventhal",
+      "Souhila Messaoud-Galusi"
     ],
     "year": 2025,
     "conference": "naacl",
@@ -384623,7 +384624,7 @@
     "id": "2025.naacl-long.159",
     "title": "ERAS : Evaluating the Robustness of C hinese NLP Models to Morphological Garden Path Errors",
     "authors": [
-      "Qinchan Li",
+      "Qinchan (Wing) Li",
       "Sophie Hao"
     ],
     "year": 2025,
@@ -429917,7 +429918,7 @@
     "title": "NSL - MT : Linguistically Informed Negative Samples for Efficient Machine Translation in A frican Low-Resource Languages",
     "authors": [
       "Mamadou K. Keita",
-      "Christopher M Homan",
+      "Christopher Homan",
       "Huy Le"
     ],
     "year": 2026,
