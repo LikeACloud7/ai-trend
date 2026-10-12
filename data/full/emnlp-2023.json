@@ -1757,7 +1757,7 @@
       "Ruiyang Ren",
       "Yingqi Qu",
       "Jing Liu",
-      "Xin Zhao",
+      "Wayne Xin Zhao",
       "Qifei Wu",
       "Yuchen Ding",
       "Hua Wu",
@@ -6536,7 +6536,7 @@
       "Kun Zhou",
       "Beichen Zhang",
       "Zheng Gong",
-      "Xin Zhao",
+      "Wayne Xin Zhao",
       "Ji-Rong Wen"
     ],
     "abstract": "Although large language models (LLMs) have achieved excellent performance in a variety of evaluation benchmarks, they still struggle in complex reasoning tasks which require specific knowledge and multi-hop reasoning. To improve the reasoning abilities, we propose ChatCoT , a tool-augmented chain-of-thought reasoning framework for chat-based LLMs ( e.g., ChatGPT). In ChatCoT, we model the chain-of-thought (CoT) reasoning as multi-turn conversations, to utilize tools in a more natural way through chatting. At each turn, LLMs can either interact with tools or perform the reasoning. Our approach can effectively leverage the multi-turn conversation ability of chat-based LLMs, and integrate the thought chain following and tools manipulation in a unified way. Specially, we initialize the early turns of the conversation by the knowledge about tools, tasks, and reasoning format, and propose an iterative tool-augmented reasoning step to perform step-by-step tool-augmented reasoning. The experiment results on two complex reasoning datasets (MATH and HotpotQA) have shown the effectiveness of ChatCoT on complex reasoning tasks, achieving a 7.9% relative improvement over the state-of-the-art baseline.",
@@ -15779,7 +15779,7 @@
       "Peiyu Liu",
       "Ze-Feng Gao",
       "Yushuo Chen",
-      "Xin Zhao",
+      "Wayne Xin Zhao",
       "Ji-Rong Wen"
     ],
     "abstract": "In this paper, we propose a highly parameter-efficient approach to scaling pre-trained language models (PLMs) to a deeper model depth. Unlike prior work that shares all parameters or uses extra blocks, we design a more capable parameter-sharing architecture based on matrix product operator (MPO), an efficient tensor decomposition method to factorize the parameter matrix into a set of local tensors. Based on such a decomposition, we share the important local tensor across all layers for reducing the model size and meanwhile keep layer-specific tensors (also using Adapters) for enhancing the adaptation flexibility. To improve the model training, we further propose a stable initialization algorithm tailored for the MPO-based architecture. Extensive experiments have demonstrated the effectiveness of our proposed model in enhancing scalability and achieving higher performance (i.e., with fewer parameters than BERT-base, we successfully scale the model depth by a factor of 4x and even achieve 0.1 points higher than BERT-large for GLUE score). The code to reproduce the results of this paper can be found at https://github.com/RUCAIBox/MPOBERT-code .",
@@ -34054,7 +34054,7 @@
       "Haoyang Huang",
       "Tianyi Tang",
       "Dongdong Zhang",
-      "Xin Zhao",
+      "Wayne Xin Zhao",
       "Ting Song",
       "Yan Xia",
       "Furu Wei"
@@ -67323,7 +67323,7 @@
       "Yifan Du",
       "Kun Zhou",
       "Jinpeng Wang",
-      "Xin Zhao",
+      "Wayne Xin Zhao",
       "Ji-Rong Wen"
     ],
     "abstract": "Inspired by the superior language abilities of large language models (LLM), large vision-language models (LVLM) have been recently proposed by integrating powerful LLMs for improving the performance on complex multimodal tasks. Despite the promising progress on LVLMs, we find that they suffer from object hallucinations, i.e., they tend to generate objects inconsistent with the target images in the descriptions. To investigate it, this work presents the first systematic study on object hallucination of LVLMs. We conduct the evaluation experiments on several representative LVLMs, and show that they mostly suffer from severe object hallucination issues. We further discuss that the visual instructions may influence the hallucination, and find that: objects that frequently appear in the visual instructions or co-occur with the image objects are obviously prone to be hallucinated by LVLMs. Besides, we further design a polling-based query method called POPE for better evaluation of object hallucination. Experiment results show that our POPE can evaluate object hallucination in a more stable and flexible way.",
@@ -72102,7 +72102,7 @@
     "authors": [
       "Junyi Li",
       "Xiaoxue Cheng",
-      "Xin Zhao",
+      "Wayne Xin Zhao",
       "Jian-Yun Nie",
       "Ji-Rong Wen"
     ],
@@ -87491,7 +87491,7 @@
     "authors": [
       "Jinhao Jiang",
       "Kun Zhou",
-      "Xin Zhao",
+      "Wayne Xin Zhao",
       "Yaliang Li",
       "Ji-Rong Wen"
     ],
@@ -88769,7 +88769,7 @@
     "authors": [
       "Xiaolei Wang",
       "Xinyu Tang",
-      "Xin Zhao",
+      "Wayne Xin Zhao",
       "Jingyuan Wang",
       "Ji-Rong Wen"
     ],
@@ -90193,7 +90193,7 @@
       "Kun Zhou",
       "Zican Dong",
       "Keming Ye",
-      "Xin Zhao",
+      "Wayne Xin Zhao",
       "Ji-Rong Wen"
     ],
     "abstract": "In this paper, we aim to improve the reasoning ability of large language models (LLMs) over structured data in a unified way. Inspired by the studies on tool augmentation for LLMs, we develop an Iterative Reading-then-Reasoning (IRR) framework to solve question answering tasks based on structured data, called StructGPT. In this framework, we construct the specialized interfaces to collect relevant evidence from structured data (i.e., reading), and let LLMs concentrate on the reasoning task based on the collected information (i.e., reasoning). Specially, we propose an invoking-linearization-generation procedure to support LLMs in reasoning on the structured data with the help of the interfaces. By iterating this procedure with provided interfaces, our approach can gradually approach the target answers to a given query. Experiments conducted on three types of structured data show that StructGPT greatly improves the performance of LLMs, under the few-shot and zero-shot settings.",
