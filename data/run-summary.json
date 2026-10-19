@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-12T11:04:46.540Z",
+  "generatedAt": "2026-10-19T09:05:07.691Z",
   "totalPapers": 21078,
   "yearStart": 2023,
   "yearEnd": 2026,
@@ -306,8 +306,8 @@
   "topCategories": [
     {
       "topic": "LLMs & Foundation Models",
-      "count": 3477,
-      "share": 0.1649587247366923
+      "count": 3478,
+      "share": 0.16500616756808045
     },
     {
       "topic": "Evaluation & Benchmarks",
@@ -326,8 +326,8 @@
     },
     {
       "topic": "Retrieval & Knowledge",
-      "count": 1657,
-      "share": 0.0786127716102097
+      "count": 1656,
+      "share": 0.07856532877882152
     },
     {
       "topic": "Alignment, Safety & Trust",

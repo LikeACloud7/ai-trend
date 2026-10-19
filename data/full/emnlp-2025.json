@@ -16829,6 +16829,64 @@
     ]
   },
   {
+    "id": "2025.findings-emnlp.524",
+    "title": "D ub- S 2 ST : Textless Speech-to-Speech Translation for Seamless Dubbing",
+    "authors": [
+      "Jeongsoo Choi",
+      "Jaehun Kim",
+      "Joon Son Chung"
+    ],
+    "abstract": "This paper introduces a cross-lingual dubbing system that translates speech from one language to another while preserving key characteristics such as duration, speaker identity, and speaking speed. Despite the strong translation quality of existing speech translation approaches, they often overlook the transfer of speech patterns, leading to mismatches with source speech and limiting their suitability for dubbing applications. To address this, we propose a discrete diffusion-based speech-to-unit translation model with explicit duration control, enabling time-aligned translation. We then synthesize speech based on the translated units and source speaker’s identity using a conditional flow matching model. Additionally, we introduce a unit-based speed adaptation mechanism that guides the translation model to produce speech at a rate consistent with the source, without relying on any text. Extensive experiments demonstrate that our framework generates natural and fluent translations that align with the original speech’s duration and speaking pace, while achieving competitive translation performance.",
+    "year": 2025,
+    "conference": "emnlp",
+    "conferenceName": "EMNLP",
+    "track": "findings",
+    "subtype": "findings",
+    "source": "ACL Anthology",
+    "sourceVolume": "2025.findings-emnlp",
+    "sourceVolumeTitle": "Findings of the Association for Computational Linguistics: EMNLP 2025",
+    "url": "https://aclanthology.org/2025.findings-emnlp.524/",
+    "keywords": [],
+    "ordinal": 524,
+    "primaryCategory": "speech_audio",
+    "categories": [
+      "speech_audio",
+      "nlp_core"
+    ],
+    "categoryScores": [
+      {
+        "id": "speech_audio",
+        "label": "Speech & Audio",
+        "color": "#0284c7",
+        "score": 26
+      },
+      {
+        "id": "nlp_core",
+        "label": "Core NLP Tasks",
+        "color": "#d97706",
+        "score": 11
+      },
+      {
+        "id": "generative_models",
+        "label": "Generative Models",
+        "color": "#db2777",
+        "score": 2
+      },
+      {
+        "id": "rl_robotics",
+        "label": "RL, Robotics & Control",
+        "color": "#ea580c",
+        "score": 1
+      },
+      {
+        "id": "multilingual",
+        "label": "Multilingual & Low-Resource",
+        "color": "#65a30d",
+        "score": 1
+      }
+    ]
+  },
+  {
     "id": "2025.findings-emnlp.426",
     "title": "D ynamic KV : Task-Aware Adaptive KV Cache Compression for Long Context LLM s",
     "authors": [
@@ -20626,64 +20684,6 @@
     ]
   },
   {
-    "id": "2025.findings-emnlp.524",
-    "title": "Dub- S 2 ST : Textless Speech-to-Speech Translation for Seamless Dubbing",
-    "authors": [
-      "Jeongsoo Choi",
-      "Jaehun Kim",
-      "Joon Son Chung"
-    ],
-    "abstract": "This paper introduces a cross-lingual dubbing system that translates speech from one language to another while preserving key characteristics such as duration, speaker identity, and speaking speed. Despite the strong translation quality of existing speech translation approaches, they often overlook the transfer of speech patterns, leading to mismatches with source speech and limiting their suitability for dubbing applications. To address this, we propose a discrete diffusion-based speech-to-unit translation model with explicit duration control, enabling time-aligned translation. We then synthesize speech based on the translated units and source speaker’s identity using a conditional flow matching model. Additionally, we introduce a unit-based speed adaptation mechanism that guides the translation model to produce speech at a rate consistent with the source, without relying on any text. Extensive experiments demonstrate that our framework generates natural and fluent translations that align with the original speech’s duration and speaking pace, while achieving competitive translation performance.",
-    "year": 2025,
-    "conference": "emnlp",
-    "conferenceName": "EMNLP",
-    "track": "findings",
-    "subtype": "findings",
-    "source": "ACL Anthology",
-    "sourceVolume": "2025.findings-emnlp",
-    "sourceVolumeTitle": "Findings of the Association for Computational Linguistics: EMNLP 2025",
-    "url": "https://aclanthology.org/2025.findings-emnlp.524/",
-    "keywords": [],
-    "ordinal": 524,
-    "primaryCategory": "speech_audio",
-    "categories": [
-      "speech_audio",
-      "nlp_core"
-    ],
-    "categoryScores": [
-      {
-        "id": "speech_audio",
-        "label": "Speech & Audio",
-        "color": "#0284c7",
-        "score": 26
-      },
-      {
-        "id": "nlp_core",
-        "label": "Core NLP Tasks",
-        "color": "#d97706",
-        "score": 11
-      },
-      {
-        "id": "generative_models",
-        "label": "Generative Models",
-        "color": "#db2777",
-        "score": 2
-      },
-      {
-        "id": "rl_robotics",
-        "label": "RL, Robotics & Control",
-        "color": "#ea580c",
-        "score": 1
-      },
-      {
-        "id": "multilingual",
-        "label": "Multilingual & Low-Resource",
-        "color": "#65a30d",
-        "score": 1
-      }
-    ]
-  },
-  {
     "id": "2025.findings-emnlp.126",
     "title": "Dynamic Evaluation for Oversensitivity in LLM s",
     "authors": [
@@ -23952,7 +23952,7 @@
   },
   {
     "id": "2025.findings-emnlp.742",
-    "title": "Evaluating Test-Time Scaling LLM s for Legal Reasoning: O pen AI o1, D eep S eek-R1, and Beyond",
+    "title": "Evaluating Test-Time Scaling LLM s for Legal Reasoning: O pen AI o1, D eep S eek- R 1, and Beyond",
     "authors": [
       "Yinghao Hu",
       "Yaoyao Yu",
@@ -25038,7 +25038,7 @@
   },
   {
     "id": "2025.findings-emnlp.828",
-    "title": "Exploring Paraphrasing Strategies for CEFR A1-Level Constraints in LLM s",
+    "title": "Exploring Paraphrasing Strategies for CEFR A 1-Level Constraints in LLM s",
     "authors": [
       "Eugenio Marzona",
       "Maria Goikhman",
@@ -25640,7 +25640,7 @@
   },
   {
     "id": "2025.findings-emnlp.470",
-    "title": "F ast C u RL : Curriculum Reinforcement Learning with Stage-wise Context Scaling for Efficient Training R1-like Reasoning Models",
+    "title": "F ast C u RL : Curriculum Reinforcement Learning with Stage-wise Context Scaling for Efficient Training R 1-like Reasoning Models",
     "authors": [
       "Mingyang Song",
       "Mao Zheng",
@@ -46318,6 +46318,71 @@
     ]
   },
   {
+    "id": "2025.findings-emnlp.1015",
+    "title": "MT - R 1-Zero: Advancing LLM -based Machine Translation via R 1-Zero-like Reinforcement Learning",
+    "authors": [
+      "Zhaopeng Feng",
+      "Shaosheng Cao",
+      "Jiahan Ren",
+      "Jiayuan Su",
+      "Ruizhe Chen",
+      "Yan Zhang",
+      "Jian Wu",
+      "Zuozhu Liu"
+    ],
+    "abstract": "Large-scale reinforcement learning (RL) methods have proven highly effective in enhancing the reasoning abilities of large language models (LLMs), particularly for tasks with verifiable solutions such as mathematics and coding. However, applying this idea to machine translation (MT), where outputs are flexibly formatted and difficult to automatically evaluate with explicit rules, remains underexplored. In this work, we introduce MT-R1-Zero , the first open-source adaptation of the R1-Zero RL framework for MT without supervised fine-tuning or cold-start. We propose a rule-metric mixed reward mechanism to guide LLMs towards improved translation quality via emergent reasoning. On the WMT 24 English-Chinese benchmark, our MT-R1-Zero-3B-Mix achieves competitive performance, surpassing TowerInstruct-7B-v0.2 by an average of 1.26 points. Meanwhile, our MT-R1-Zero-7B-Mix attains a high average score of 62.25 across all metrics, placing it on par with advanced proprietary models such as GPT-4o and Claude-3.5-Sonnet, while the MT-R1-Zero-7B-Sem variant achieves state-of-the-art scores on semantic metrics. Moreover, our work exhibits strong generalization capabilities on out-of-distribution MT tasks, robustly supporting multilingual and low-resource settings. Extensive analysis of model behavior across different initializations and reward metrics offers pioneering insight into the critical role of reward design, LLM adaptability, training dynamics, and emergent reasoning patterns within the R1-Zero paradigm for MT. Our code is available at https://github.com/fzp0424/MT-R1-Zero .",
+    "year": 2025,
+    "conference": "emnlp",
+    "conferenceName": "EMNLP",
+    "track": "findings",
+    "subtype": "findings",
+    "source": "ACL Anthology",
+    "sourceVolume": "2025.findings-emnlp",
+    "sourceVolumeTitle": "Findings of the Association for Computational Linguistics: EMNLP 2025",
+    "url": "https://aclanthology.org/2025.findings-emnlp.1015/",
+    "keywords": [],
+    "ordinal": 1015,
+    "primaryCategory": "nlp_core",
+    "categories": [
+      "nlp_core",
+      "rl_robotics",
+      "llms",
+      "multilingual"
+    ],
+    "categoryScores": [
+      {
+        "id": "nlp_core",
+        "label": "Core NLP Tasks",
+        "color": "#d97706",
+        "score": 13
+      },
+      {
+        "id": "rl_robotics",
+        "label": "RL, Robotics & Control",
+        "color": "#ea580c",
+        "score": 8
+      },
+      {
+        "id": "llms",
+        "label": "LLMs & Foundation Models",
+        "color": "#2563eb",
+        "score": 7
+      },
+      {
+        "id": "multilingual",
+        "label": "Multilingual & Low-Resource",
+        "color": "#65a30d",
+        "score": 7
+      },
+      {
+        "id": "reasoning",
+        "label": "Reasoning & Planning",
+        "color": "#9333ea",
+        "score": 3
+      }
+    ]
+  },
+  {
     "id": "2025.findings-emnlp.1007",
     "title": "MT - R eward T ree: A Comprehensive Framework for Advancing LLM -Based Machine Translation via Reward Modeling",
     "authors": [
@@ -46435,71 +46500,6 @@
         "label": "Evaluation & Benchmarks",
         "color": "#4f46e5",
         "score": 2
-      }
-    ]
-  },
-  {
-    "id": "2025.findings-emnlp.1015",
-    "title": "MT -R1-Zero: Advancing LLM -based Machine Translation via R1-Zero-like Reinforcement Learning",
-    "authors": [
-      "Zhaopeng Feng",
-      "Shaosheng Cao",
-      "Jiahan Ren",
-      "Jiayuan Su",
-      "Ruizhe Chen",
-      "Yan Zhang",
-      "Jian Wu",
-      "Zuozhu Liu"
-    ],
-    "abstract": "Large-scale reinforcement learning (RL) methods have proven highly effective in enhancing the reasoning abilities of large language models (LLMs), particularly for tasks with verifiable solutions such as mathematics and coding. However, applying this idea to machine translation (MT), where outputs are flexibly formatted and difficult to automatically evaluate with explicit rules, remains underexplored. In this work, we introduce MT-R1-Zero , the first open-source adaptation of the R1-Zero RL framework for MT without supervised fine-tuning or cold-start. We propose a rule-metric mixed reward mechanism to guide LLMs towards improved translation quality via emergent reasoning. On the WMT 24 English-Chinese benchmark, our MT-R1-Zero-3B-Mix achieves competitive performance, surpassing TowerInstruct-7B-v0.2 by an average of 1.26 points. Meanwhile, our MT-R1-Zero-7B-Mix attains a high average score of 62.25 across all metrics, placing it on par with advanced proprietary models such as GPT-4o and Claude-3.5-Sonnet, while the MT-R1-Zero-7B-Sem variant achieves state-of-the-art scores on semantic metrics. Moreover, our work exhibits strong generalization capabilities on out-of-distribution MT tasks, robustly supporting multilingual and low-resource settings. Extensive analysis of model behavior across different initializations and reward metrics offers pioneering insight into the critical role of reward design, LLM adaptability, training dynamics, and emergent reasoning patterns within the R1-Zero paradigm for MT. Our code is available at https://github.com/fzp0424/MT-R1-Zero .",
-    "year": 2025,
-    "conference": "emnlp",
-    "conferenceName": "EMNLP",
-    "track": "findings",
-    "subtype": "findings",
-    "source": "ACL Anthology",
-    "sourceVolume": "2025.findings-emnlp",
-    "sourceVolumeTitle": "Findings of the Association for Computational Linguistics: EMNLP 2025",
-    "url": "https://aclanthology.org/2025.findings-emnlp.1015/",
-    "keywords": [],
-    "ordinal": 1015,
-    "primaryCategory": "nlp_core",
-    "categories": [
-      "nlp_core",
-      "rl_robotics",
-      "llms",
-      "multilingual"
-    ],
-    "categoryScores": [
-      {
-        "id": "nlp_core",
-        "label": "Core NLP Tasks",
-        "color": "#d97706",
-        "score": 13
-      },
-      {
-        "id": "rl_robotics",
-        "label": "RL, Robotics & Control",
-        "color": "#ea580c",
-        "score": 8
-      },
-      {
-        "id": "llms",
-        "label": "LLMs & Foundation Models",
-        "color": "#2563eb",
-        "score": 7
-      },
-      {
-        "id": "multilingual",
-        "label": "Multilingual & Low-Resource",
-        "color": "#65a30d",
-        "score": 7
-      },
-      {
-        "id": "reasoning",
-        "label": "Reasoning & Planning",
-        "color": "#9333ea",
-        "score": 3
       }
     ]
   },
@@ -54001,6 +54001,71 @@
     ]
   },
   {
+    "id": "2025.findings-emnlp.554",
+    "title": "R 3- RAG : Learning Step-by-Step Reasoning and Retrieval for LLM s via Reinforcement Learning",
+    "authors": [
+      "Yuan Li",
+      "Qi Luo",
+      "Xiaonan Li",
+      "Bufan Li",
+      "Qinyuan Cheng",
+      "Bo Wang",
+      "Yining Zheng",
+      "Yuxin Wang",
+      "Zhangyue Yin",
+      "Xipeng Qiu"
+    ],
+    "abstract": "Retrieval-Augmented Generation (RAG) integrates external knowledge with Large Language Models (LLMs) to enhance factual correctness and mitigate hallucination. However, dense retrievers often become the bottleneck of RAG systems due to their limited parameters compared to LLMs and their inability to perform step-by-step reasoning. While prompt-based iterative RAG attempts to address these limitations, it is constrained by human-designed workflows.To address these limitations, we propose R3-RAG , which uses R einforcement learning to make the LLM learn how to R eason and R etrieve step by step, thus retrieving comprehensive external knowledge and leading to correct answers. R3-RAG is divided into two stages. We first use cold start to make the model learn the manner of iteratively interleaving reasoning and retrieval. Then we use reinforcement learning to further harness its ability to better explore the external retrieval environment.Specifically, we propose two rewards for R3-RAG: 1) answer correctness for outcome reward, which judges whether the trajectory leads to a correct answer; 2) relevance-based document verification for process reward, encouraging the model to retrieve documents that are relevant to the user question, through which we can let the model learn how to iteratively reason and retrieve relevant documents to get the correct answer.Experimental results show that R3-RAG significantly outperforms baselines and can transfer well to different retrievers.",
+    "year": 2025,
+    "conference": "emnlp",
+    "conferenceName": "EMNLP",
+    "track": "findings",
+    "subtype": "findings",
+    "source": "ACL Anthology",
+    "sourceVolume": "2025.findings-emnlp",
+    "sourceVolumeTitle": "Findings of the Association for Computational Linguistics: EMNLP 2025",
+    "url": "https://aclanthology.org/2025.findings-emnlp.554/",
+    "keywords": [],
+    "ordinal": 554,
+    "primaryCategory": "retrieval_knowledge",
+    "categories": [
+      "retrieval_knowledge",
+      "reasoning"
+    ],
+    "categoryScores": [
+      {
+        "id": "retrieval_knowledge",
+        "label": "Retrieval & Knowledge",
+        "color": "#0891b2",
+        "score": 23
+      },
+      {
+        "id": "reasoning",
+        "label": "Reasoning & Planning",
+        "color": "#9333ea",
+        "score": 13
+      },
+      {
+        "id": "llms",
+        "label": "LLMs & Foundation Models",
+        "color": "#2563eb",
+        "score": 6
+      },
+      {
+        "id": "rl_robotics",
+        "label": "RL, Robotics & Control",
+        "color": "#ea580c",
+        "score": 6
+      },
+      {
+        "id": "alignment_safety",
+        "label": "Alignment, Safety & Trust",
+        "color": "#dc2626",
+        "score": 1
+      }
+    ]
+  },
+  {
     "id": "2025.findings-emnlp.787",
     "title": "R adial R outer: Structured Representation for Efficient and Robust Large Language Models Routing",
     "authors": [
@@ -55105,71 +55170,6 @@
         "id": "interpretability",
         "label": "Interpretability & Analysis",
         "color": "#be123c",
-        "score": 1
-      }
-    ]
-  },
-  {
-    "id": "2025.findings-emnlp.554",
-    "title": "R3- RAG : Learning Step-by-Step Reasoning and Retrieval for LLM s via Reinforcement Learning",
-    "authors": [
-      "Yuan Li",
-      "Qi Luo",
-      "Xiaonan Li",
-      "Bufan Li",
-      "Qinyuan Cheng",
-      "Bo Wang",
-      "Yining Zheng",
-      "Yuxin Wang",
-      "Zhangyue Yin",
-      "Xipeng Qiu"
-    ],
-    "abstract": "Retrieval-Augmented Generation (RAG) integrates external knowledge with Large Language Models (LLMs) to enhance factual correctness and mitigate hallucination. However, dense retrievers often become the bottleneck of RAG systems due to their limited parameters compared to LLMs and their inability to perform step-by-step reasoning. While prompt-based iterative RAG attempts to address these limitations, it is constrained by human-designed workflows.To address these limitations, we propose R3-RAG , which uses R einforcement learning to make the LLM learn how to R eason and R etrieve step by step, thus retrieving comprehensive external knowledge and leading to correct answers. R3-RAG is divided into two stages. We first use cold start to make the model learn the manner of iteratively interleaving reasoning and retrieval. Then we use reinforcement learning to further harness its ability to better explore the external retrieval environment.Specifically, we propose two rewards for R3-RAG: 1) answer correctness for outcome reward, which judges whether the trajectory leads to a correct answer; 2) relevance-based document verification for process reward, encouraging the model to retrieve documents that are relevant to the user question, through which we can let the model learn how to iteratively reason and retrieve relevant documents to get the correct answer.Experimental results show that R3-RAG significantly outperforms baselines and can transfer well to different retrievers.",
-    "year": 2025,
-    "conference": "emnlp",
-    "conferenceName": "EMNLP",
-    "track": "findings",
-    "subtype": "findings",
-    "source": "ACL Anthology",
-    "sourceVolume": "2025.findings-emnlp",
-    "sourceVolumeTitle": "Findings of the Association for Computational Linguistics: EMNLP 2025",
-    "url": "https://aclanthology.org/2025.findings-emnlp.554/",
-    "keywords": [],
-    "ordinal": 554,
-    "primaryCategory": "retrieval_knowledge",
-    "categories": [
-      "retrieval_knowledge",
-      "reasoning"
-    ],
-    "categoryScores": [
-      {
-        "id": "retrieval_knowledge",
-        "label": "Retrieval & Knowledge",
-        "color": "#0891b2",
-        "score": 23
-      },
-      {
-        "id": "reasoning",
-        "label": "Reasoning & Planning",
-        "color": "#9333ea",
-        "score": 13
-      },
-      {
-        "id": "llms",
-        "label": "LLMs & Foundation Models",
-        "color": "#2563eb",
-        "score": 6
-      },
-      {
-        "id": "rl_robotics",
-        "label": "RL, Robotics & Control",
-        "color": "#ea580c",
-        "score": 6
-      },
-      {
-        "id": "alignment_safety",
-        "label": "Alignment, Safety & Trust",
-        "color": "#dc2626",
         "score": 1
       }
     ]
@@ -58446,6 +58446,47 @@
     ]
   },
   {
+    "id": "2025.findings-emnlp.570",
+    "title": "S arcasm- R 1: Enhancing Sarcasm Detection through Focused Reasoning",
+    "authors": [
+      "Qi Yang",
+      "Jingjie Zeng",
+      "Liang Yang",
+      "Kai Ma",
+      "Hongfei Lin"
+    ],
+    "abstract": "Sarcasm detection is a crucial yet challenging task in natural language processing. Existing methods primarily rely on supervised learning or prompt engineering, which often struggle to capture the complex reasoning process required for effective sarcasm detection. This paper proposes a novel approach that decomposes sarcasm detection into three fundamental dimensions: language, context, and emotion, meticulously modeling the sarcasm reasoning process. To enhance the quality of reasoning, we employ reinforcement learning algorithms and design customized reward models for each dimension. We utilize five widely used sarcasm detection datasets and annotate the sarcasm reasoning process from these three dimensions to improve the performance of the reward models. Experiments demonstrate that our method outperforms state-of-the-art baseline methods in most cases. Additionally, we observe the central role of emotional contrast in sarcasm detection. Our research provides empirical insights into the mechanism of sarcasm, emphasizing that emotional contrast is at its core, supported by linguistic and contextual cues.",
+    "year": 2025,
+    "conference": "emnlp",
+    "conferenceName": "EMNLP",
+    "track": "findings",
+    "subtype": "findings",
+    "source": "ACL Anthology",
+    "sourceVolume": "2025.findings-emnlp",
+    "sourceVolumeTitle": "Findings of the Association for Computational Linguistics: EMNLP 2025",
+    "url": "https://aclanthology.org/2025.findings-emnlp.570/",
+    "keywords": [],
+    "ordinal": 570,
+    "primaryCategory": "reasoning",
+    "categories": [
+      "reasoning"
+    ],
+    "categoryScores": [
+      {
+        "id": "reasoning",
+        "label": "Reasoning & Planning",
+        "color": "#9333ea",
+        "score": 9
+      },
+      {
+        "id": "rl_robotics",
+        "label": "RL, Robotics & Control",
+        "color": "#ea580c",
+        "score": 1
+      }
+    ]
+  },
+  {
     "id": "2025.findings-emnlp.465",
     "title": "S cholar B ench: A Bilingual Benchmark for Abstraction, Comprehension, and Reasoning Evaluation in Academic Contexts",
     "authors": [
@@ -59903,47 +59944,6 @@
         "id": "retrieval_knowledge",
         "label": "Retrieval & Knowledge",
         "color": "#0891b2",
-        "score": 1
-      }
-    ]
-  },
-  {
-    "id": "2025.findings-emnlp.570",
-    "title": "Sarcasm-R1: Enhancing Sarcasm Detection through Focused Reasoning",
-    "authors": [
-      "Qi Yang",
-      "Jingjie Zeng",
-      "Liang Yang",
-      "Kai Ma",
-      "Hongfei Lin"
-    ],
-    "abstract": "Sarcasm detection is a crucial yet challenging task in natural language processing. Existing methods primarily rely on supervised learning or prompt engineering, which often struggle to capture the complex reasoning process required for effective sarcasm detection. This paper proposes a novel approach that decomposes sarcasm detection into three fundamental dimensions: language, context, and emotion, meticulously modeling the sarcasm reasoning process. To enhance the quality of reasoning, we employ reinforcement learning algorithms and design customized reward models for each dimension. We utilize five widely used sarcasm detection datasets and annotate the sarcasm reasoning process from these three dimensions to improve the performance of the reward models. Experiments demonstrate that our method outperforms state-of-the-art baseline methods in most cases. Additionally, we observe the central role of emotional contrast in sarcasm detection. Our research provides empirical insights into the mechanism of sarcasm, emphasizing that emotional contrast is at its core, supported by linguistic and contextual cues.",
-    "year": 2025,
-    "conference": "emnlp",
-    "conferenceName": "EMNLP",
-    "track": "findings",
-    "subtype": "findings",
-    "source": "ACL Anthology",
-    "sourceVolume": "2025.findings-emnlp",
-    "sourceVolumeTitle": "Findings of the Association for Computational Linguistics: EMNLP 2025",
-    "url": "https://aclanthology.org/2025.findings-emnlp.570/",
-    "keywords": [],
-    "ordinal": 570,
-    "primaryCategory": "reasoning",
-    "categories": [
-      "reasoning"
-    ],
-    "categoryScores": [
-      {
-        "id": "reasoning",
-        "label": "Reasoning & Planning",
-        "color": "#9333ea",
-        "score": 9
-      },
-      {
-        "id": "rl_robotics",
-        "label": "RL, Robotics & Control",
-        "color": "#ea580c",
         "score": 1
       }
     ]
@@ -75327,6 +75327,59 @@
     ]
   },
   {
+    "id": "2025.emnlp-main.604",
+    "title": "A gentic- R 1: Distilled Dual-Strategy Reasoning",
+    "authors": [
+      "Weihua Du",
+      "Pranjal Aggarwal",
+      "Sean Welleck",
+      "Yiming Yang"
+    ],
+    "abstract": "Current long chain-of-thought (long-CoT) models excel at mathematical reasoning but rely on slow and error-prone natural language traces. Tool-augmented agents address arithmetic via code execution, but often falter on complex logical tasks. We introduce a fine-tuning framework, DualDistill , that distills complementary reasoning strategies from multiple teachers into a unified student model. Using this approach, we train Agentic-R1 , which dynamically selects the optimal strategy for each query, invoking tools for arithmetic and algorithmic problems and using text-based reasoning for abstract ones. Our method improves accuracy on computation-intensive tasks and reduces inference latency on standard benchmarks, demonstrating the promise of multi-strategy distillation for robust and efficient reasoning.",
+    "year": 2025,
+    "conference": "emnlp",
+    "conferenceName": "EMNLP",
+    "track": "main",
+    "subtype": "main",
+    "source": "ACL Anthology",
+    "sourceVolume": "2025.emnlp-main",
+    "sourceVolumeTitle": "Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing",
+    "url": "https://aclanthology.org/2025.emnlp-main.604/",
+    "keywords": [],
+    "ordinal": 604,
+    "primaryCategory": "reasoning",
+    "categories": [
+      "reasoning",
+      "efficient_ai"
+    ],
+    "categoryScores": [
+      {
+        "id": "reasoning",
+        "label": "Reasoning & Planning",
+        "color": "#9333ea",
+        "score": 11
+      },
+      {
+        "id": "efficient_ai",
+        "label": "Efficient AI & Systems",
+        "color": "#16a34a",
+        "score": 4
+      },
+      {
+        "id": "llms",
+        "label": "LLMs & Foundation Models",
+        "color": "#2563eb",
+        "score": 1
+      },
+      {
+        "id": "agents_tools",
+        "label": "Agents & Tool Use",
+        "color": "#0f766e",
+        "score": 1
+      }
+    ]
+  },
+  {
     "id": "2025.emnlp-main.585",
     "title": "A Good Plan is Hard to Find: Aligning Models with Preferences is Misaligned with What Helps Users",
     "authors": [
@@ -77783,59 +77836,6 @@
         "id": "reasoning",
         "label": "Reasoning & Planning",
         "color": "#9333ea",
-        "score": 1
-      }
-    ]
-  },
-  {
-    "id": "2025.emnlp-main.604",
-    "title": "Agentic-R1: Distilled Dual-Strategy Reasoning",
-    "authors": [
-      "Weihua Du",
-      "Pranjal Aggarwal",
-      "Sean Welleck",
-      "Yiming Yang"
-    ],
-    "abstract": "Current long chain-of-thought (long-CoT) models excel at mathematical reasoning but rely on slow and error-prone natural language traces. Tool-augmented agents address arithmetic via code execution, but often falter on complex logical tasks. We introduce a fine-tuning framework, DualDistill , that distills complementary reasoning strategies from multiple teachers into a unified student model. Using this approach, we train Agentic-R1 , which dynamically selects the optimal strategy for each query, invoking tools for arithmetic and algorithmic problems and using text-based reasoning for abstract ones. Our method improves accuracy on computation-intensive tasks and reduces inference latency on standard benchmarks, demonstrating the promise of multi-strategy distillation for robust and efficient reasoning.",
-    "year": 2025,
-    "conference": "emnlp",
-    "conferenceName": "EMNLP",
-    "track": "main",
-    "subtype": "main",
-    "source": "ACL Anthology",
-    "sourceVolume": "2025.emnlp-main",
-    "sourceVolumeTitle": "Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing",
-    "url": "https://aclanthology.org/2025.emnlp-main.604/",
-    "keywords": [],
-    "ordinal": 604,
-    "primaryCategory": "reasoning",
-    "categories": [
-      "reasoning",
-      "efficient_ai"
-    ],
-    "categoryScores": [
-      {
-        "id": "reasoning",
-        "label": "Reasoning & Planning",
-        "color": "#9333ea",
-        "score": 11
-      },
-      {
-        "id": "efficient_ai",
-        "label": "Efficient AI & Systems",
-        "color": "#16a34a",
-        "score": 4
-      },
-      {
-        "id": "llms",
-        "label": "LLMs & Foundation Models",
-        "color": "#2563eb",
-        "score": 1
-      },
-      {
-        "id": "agents_tools",
-        "label": "Agents & Tool Use",
-        "color": "#0f766e",
         "score": 1
       }
     ]
@@ -84269,6 +84269,58 @@
     ]
   },
   {
+    "id": "2025.emnlp-main.1160",
+    "title": "C 3: A Bilingual Benchmark for Spoken Dialogue Models Exploring Challenges in Complex Conversations",
+    "authors": [
+      "Chengqian Ma",
+      "Wei Tao",
+      "Steven Y. Guo"
+    ],
+    "abstract": "Spoken Dialogue Models (SDMs) have recently attracted significant attention for their ability to generate voice responses directly to users’ spoken queries. Despite their increasing popularity, there exists a gap in research focused on comprehensively understanding their practical effectiveness in comprehending and emulating human conversations. This is especially true compared to text-based Large Language Models (LLMs), which benefit from extensive benchmarking. Human voice interactions are inherently more complex than text due to characteristics unique to spoken dialogue. Ambiguity poses one challenge, stemming from semantic factors like polysemy, as well as phonological aspects such as heterograph, heteronyms, and stress patterns. Additionally, context-dependency, like omission, coreference, and multi-turn interaction, adds further complexity to human conversational dynamics. To illuminate the current state of SDM development and to address these challenges, we present a benchmark dataset in this paper, which comprises 1,079 instances in English and Chinese. Accompanied by an LLM-based evaluation method that closely aligns with human judgment, this dataset facilitates a comprehensive exploration of the performance of SDMs in tackling these practical challenges.",
+    "year": 2025,
+    "conference": "emnlp",
+    "conferenceName": "EMNLP",
+    "track": "main",
+    "subtype": "main",
+    "source": "ACL Anthology",
+    "sourceVolume": "2025.emnlp-main",
+    "sourceVolumeTitle": "Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing",
+    "url": "https://aclanthology.org/2025.emnlp-main.1160/",
+    "keywords": [],
+    "ordinal": 1160,
+    "primaryCategory": "evaluation",
+    "categories": [
+      "evaluation",
+      "nlp_core"
+    ],
+    "categoryScores": [
+      {
+        "id": "evaluation",
+        "label": "Evaluation & Benchmarks",
+        "color": "#4f46e5",
+        "score": 9
+      },
+      {
+        "id": "nlp_core",
+        "label": "Core NLP Tasks",
+        "color": "#d97706",
+        "score": 8
+      },
+      {
+        "id": "speech_audio",
+        "label": "Speech & Audio",
+        "color": "#0284c7",
+        "score": 2
+      },
+      {
+        "id": "llms",
+        "label": "LLMs & Foundation Models",
+        "color": "#2563eb",
+        "score": 1
+      }
+    ]
+  },
+  {
     "id": "2025.emnlp-main.572",
     "title": "C a KE : Circuit-aware Editing Enables Generalizable Knowledge Learners",
     "authors": [
@@ -86208,8 +86260,73 @@
     ]
   },
   {
+    "id": "2025.emnlp-main.1288",
+    "title": "C ontra4: Evaluating Contrastive Cross-Modal Reasoning in Audio, Video, Image, and 3 D",
+    "authors": [
+      "Artemis Panagopoulou",
+      "Le Xue",
+      "Honglu Zhou",
+      "Silvio Savarese",
+      "Ran Xu",
+      "Caiming Xiong",
+      "Chris Callison-Burch",
+      "Mark Yatskar",
+      "Juan Carlos Niebles"
+    ],
+    "abstract": "Real-world decision-making often begins with identifying which modality contains the most relevant information for a given query. While recent multimodal models have made impressive progress in processing diverse inputs, it remains unclear whether they can reason contrastively across multiple modalities to select the one that best satisfies a natural language prompt. We argue this capability is foundational, especially in retrieval-augmented and decision-time contexts, where systems must evaluate multiple signals and identify which one conveys the relevant information. To evaluate this skill, we introduce Contra4, a dataset for contrastive cross-modal reasoning across four modalities: image, audio, video, and 3D. Each example presents a natural language question alongside multiple candidate modality instances, and the model must select the one that semantically aligns with the prompt. Contra4 combines human-annotated captions with a mixture-of-models round-trip-consistency filter to ensure high-quality supervision, resulting in 174k training examples and a manually verified test set of 2.3k samples. While task-specific fine-tuning improves performance by 56% relative to baseline, state-of-the-art models still achieve only 56% accuracy overall and 42% in four-modality settings, underscoring a significant limitation in current multimodal models.",
+    "year": 2025,
+    "conference": "emnlp",
+    "conferenceName": "EMNLP",
+    "track": "main",
+    "subtype": "main",
+    "source": "ACL Anthology",
+    "sourceVolume": "2025.emnlp-main",
+    "sourceVolumeTitle": "Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing",
+    "url": "https://aclanthology.org/2025.emnlp-main.1288/",
+    "keywords": [],
+    "ordinal": 1288,
+    "primaryCategory": "multimodal",
+    "categories": [
+      "multimodal",
+      "reasoning",
+      "speech_audio"
+    ],
+    "categoryScores": [
+      {
+        "id": "multimodal",
+        "label": "Multimodal & Vision-Language",
+        "color": "#7c3aed",
+        "score": 8
+      },
+      {
+        "id": "reasoning",
+        "label": "Reasoning & Planning",
+        "color": "#9333ea",
+        "score": 6
+      },
+      {
+        "id": "speech_audio",
+        "label": "Speech & Audio",
+        "color": "#0284c7",
+        "score": 6
+      },
+      {
+        "id": "retrieval_knowledge",
+        "label": "Retrieval & Knowledge",
+        "color": "#0891b2",
+        "score": 2
+      },
+      {
+        "id": "evaluation",
+        "label": "Evaluation & Benchmarks",
+        "color": "#4f46e5",
+        "score": 2
+      }
+    ]
+  },
+  {
     "id": "2025.emnlp-main.1349",
-    "title": "C onv S earch-R1: Enhancing Query Reformulation for Conversational Search with Reasoning via Reinforcement Learning",
+    "title": "C onv S earch- R 1: Enhancing Query Reformulation for Conversational Search with Reasoning via Reinforcement Learning",
     "authors": [
       "Changtai Zhu",
       "Siyin Wang",
@@ -86426,58 +86543,6 @@
         "id": "domain_science",
         "label": "Domain AI & Science",
         "color": "#0d9488",
-        "score": 1
-      }
-    ]
-  },
-  {
-    "id": "2025.emnlp-main.1160",
-    "title": "C3: A Bilingual Benchmark for Spoken Dialogue Models Exploring Challenges in Complex Conversations",
-    "authors": [
-      "Chengqian Ma",
-      "Wei Tao",
-      "Steven Y. Guo"
-    ],
-    "abstract": "Spoken Dialogue Models (SDMs) have recently attracted significant attention for their ability to generate voice responses directly to users’ spoken queries. Despite their increasing popularity, there exists a gap in research focused on comprehensively understanding their practical effectiveness in comprehending and emulating human conversations. This is especially true compared to text-based Large Language Models (LLMs), which benefit from extensive benchmarking. Human voice interactions are inherently more complex than text due to characteristics unique to spoken dialogue. Ambiguity poses one challenge, stemming from semantic factors like polysemy, as well as phonological aspects such as heterograph, heteronyms, and stress patterns. Additionally, context-dependency, like omission, coreference, and multi-turn interaction, adds further complexity to human conversational dynamics. To illuminate the current state of SDM development and to address these challenges, we present a benchmark dataset in this paper, which comprises 1,079 instances in English and Chinese. Accompanied by an LLM-based evaluation method that closely aligns with human judgment, this dataset facilitates a comprehensive exploration of the performance of SDMs in tackling these practical challenges.",
-    "year": 2025,
-    "conference": "emnlp",
-    "conferenceName": "EMNLP",
-    "track": "main",
-    "subtype": "main",
-    "source": "ACL Anthology",
-    "sourceVolume": "2025.emnlp-main",
-    "sourceVolumeTitle": "Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing",
-    "url": "https://aclanthology.org/2025.emnlp-main.1160/",
-    "keywords": [],
-    "ordinal": 1160,
-    "primaryCategory": "evaluation",
-    "categories": [
-      "evaluation",
-      "nlp_core"
-    ],
-    "categoryScores": [
-      {
-        "id": "evaluation",
-        "label": "Evaluation & Benchmarks",
-        "color": "#4f46e5",
-        "score": 9
-      },
-      {
-        "id": "nlp_core",
-        "label": "Core NLP Tasks",
-        "color": "#d97706",
-        "score": 8
-      },
-      {
-        "id": "speech_audio",
-        "label": "Speech & Audio",
-        "color": "#0284c7",
-        "score": 2
-      },
-      {
-        "id": "llms",
-        "label": "LLMs & Foundation Models",
-        "color": "#2563eb",
         "score": 1
       }
     ]
@@ -91049,7 +91114,7 @@
   },
   {
     "id": "2025.emnlp-main.758",
-    "title": "Conan-Embedding-v2: Training an LLM from Scratch for Text Embeddings",
+    "title": "Conan- E mbedding-v2: Training an LLM from Scratch for Text Embeddings",
     "authors": [
       "Shiyu Li",
       "Yang Tang",
@@ -91909,71 +91974,6 @@
         "label": "Data, Annotation & Synthetic Data",
         "color": "#c2410c",
         "score": 1
-      }
-    ]
-  },
-  {
-    "id": "2025.emnlp-main.1288",
-    "title": "Contra4: Evaluating Contrastive Cross-Modal Reasoning in Audio, Video, Image, and 3 D",
-    "authors": [
-      "Artemis Panagopoulou",
-      "Le Xue",
-      "Honglu Zhou",
-      "Silvio Savarese",
-      "Ran Xu",
-      "Caiming Xiong",
-      "Chris Callison-Burch",
-      "Mark Yatskar",
-      "Juan Carlos Niebles"
-    ],
-    "abstract": "Real-world decision-making often begins with identifying which modality contains the most relevant information for a given query. While recent multimodal models have made impressive progress in processing diverse inputs, it remains unclear whether they can reason contrastively across multiple modalities to select the one that best satisfies a natural language prompt. We argue this capability is foundational, especially in retrieval-augmented and decision-time contexts, where systems must evaluate multiple signals and identify which one conveys the relevant information. To evaluate this skill, we introduce Contra4, a dataset for contrastive cross-modal reasoning across four modalities: image, audio, video, and 3D. Each example presents a natural language question alongside multiple candidate modality instances, and the model must select the one that semantically aligns with the prompt. Contra4 combines human-annotated captions with a mixture-of-models round-trip-consistency filter to ensure high-quality supervision, resulting in 174k training examples and a manually verified test set of 2.3k samples. While task-specific fine-tuning improves performance by 56% relative to baseline, state-of-the-art models still achieve only 56% accuracy overall and 42% in four-modality settings, underscoring a significant limitation in current multimodal models.",
-    "year": 2025,
-    "conference": "emnlp",
-    "conferenceName": "EMNLP",
-    "track": "main",
-    "subtype": "main",
-    "source": "ACL Anthology",
-    "sourceVolume": "2025.emnlp-main",
-    "sourceVolumeTitle": "Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing",
-    "url": "https://aclanthology.org/2025.emnlp-main.1288/",
-    "keywords": [],
-    "ordinal": 1288,
-    "primaryCategory": "multimodal",
-    "categories": [
-      "multimodal",
-      "reasoning",
-      "speech_audio"
-    ],
-    "categoryScores": [
-      {
-        "id": "multimodal",
-        "label": "Multimodal & Vision-Language",
-        "color": "#7c3aed",
-        "score": 8
-      },
-      {
-        "id": "reasoning",
-        "label": "Reasoning & Planning",
-        "color": "#9333ea",
-        "score": 6
-      },
-      {
-        "id": "speech_audio",
-        "label": "Speech & Audio",
-        "color": "#0284c7",
-        "score": 6
-      },
-      {
-        "id": "retrieval_knowledge",
-        "label": "Retrieval & Knowledge",
-        "color": "#0891b2",
-        "score": 2
-      },
-      {
-        "id": "evaluation",
-        "label": "Evaluation & Benchmarks",
-        "color": "#4f46e5",
-        "score": 2
       }
     ]
   },
@@ -105064,7 +105064,7 @@
   },
   {
     "id": "2025.emnlp-main.158",
-    "title": "FANS : Formal Answer Selection for LLM Natural Language Math Reasoning Using Lean4",
+    "title": "FANS : Formal Answer Selection for LLM Natural Language Math Reasoning Using L ean4",
     "authors": [
       "Jiarui Yao",
       "Ruida Wang",
@@ -107180,7 +107180,7 @@
   },
   {
     "id": "2025.emnlp-main.198",
-    "title": "From Reasoning to Answer: Empirical, Attention-Based and Mechanistic Insights into Distilled D eep S eek R1 Models",
+    "title": "From Reasoning to Answer: Empirical, Attention-Based and Mechanistic Insights into Distilled D eep S eek R 1 Models",
     "authors": [
       "Jue Zhang",
       "Qingwei Lin",
@@ -107650,6 +107650,50 @@
     ]
   },
   {
+    "id": "2025.emnlp-main.713",
+    "title": "G 2: Guided Generation for Enhanced Output Diversity in LLM s",
+    "authors": [
+      "Zhiwen Ruan",
+      "Yixia Li",
+      "Yefeng Liu",
+      "Yun Chen",
+      "Weihua Luo",
+      "Peng Li",
+      "Yang Liu",
+      "Guanhua Chen"
+    ],
+    "abstract": "Large Language Models (LLMs) have demonstrated exceptional performance across diverse natural language processing tasks. However, these models exhibit a critical limitation in output diversity, often generating highly similar content across multiple attempts. This limitation significantly affects tasks requiring diverse outputs, from creative writing to reasoning. Existing solutions, like temperature scaling, enhance diversity by modifying probability distributions but compromise output quality. We propose Guide-to-Generation (G2), a training-free plug-and-play method that enhances output diversity while preserving generation quality. G2 employs a base generator alongside dual Guides, which guide the generation process through decoding-based interventions to encourage more diverse outputs conditioned on the original query. Comprehensive experiments demonstrate that G2 effectively improves output diversity while maintaining an optimal balance between diversity and quality.",
+    "year": 2025,
+    "conference": "emnlp",
+    "conferenceName": "EMNLP",
+    "track": "main",
+    "subtype": "main",
+    "source": "ACL Anthology",
+    "sourceVolume": "2025.emnlp-main",
+    "sourceVolumeTitle": "Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing",
+    "url": "https://aclanthology.org/2025.emnlp-main.713/",
+    "keywords": [],
+    "ordinal": 713,
+    "primaryCategory": "llms",
+    "categories": [
+      "llms"
+    ],
+    "categoryScores": [
+      {
+        "id": "llms",
+        "label": "LLMs & Foundation Models",
+        "color": "#2563eb",
+        "score": 5
+      },
+      {
+        "id": "reasoning",
+        "label": "Reasoning & Planning",
+        "color": "#9333ea",
+        "score": 1
+      }
+    ]
+  },
+  {
     "id": "2025.emnlp-main.1518",
     "title": "G en L ink: Generation-Driven Schema-Linking via Multi-Model Learning for Text-to- SQL",
     "authors": [
@@ -107877,6 +107921,54 @@
     ]
   },
   {
+    "id": "2025.emnlp-main.1220",
+    "title": "G raph- R 1: Incentivizing the Zero-Shot Graph Learning Capability in LLM s via Explicit Reasoning",
+    "authors": [
+      "Yicong Wu",
+      "Guangyue Lu",
+      "Yuan Zuo",
+      "Huarong Zhang",
+      "Junjie Wu"
+    ],
+    "abstract": "Generalizing to unseen graph tasks without task-specific supervision remains challenging. Graph Neural Networks (GNNs) are limited by fixed label spaces, while Large Language Models (LLMs) lack structural inductive biases. Recent advances in Large Reasoning Models (LRMs) provide a zero-shot alternative via explicit, long chain-of-thought reasoning. Inspired by this, we propose a GNN-free approach that reformulates graph tasks—node classification, link prediction, and graph classification—as textual reasoning problems solved by LRMs. We introduce the first datasets with detailed reasoning traces for these tasks and develop Graph-R1, a reinforcement learning framework that leverages task-specific rethink templates to guide reasoning over linearized graphs. Experiments demonstrate that Graph-R1 outperforms state-of-the-art baselines in zero-shot settings, producing interpretable and effective predictions. Our work highlights the promise of explicit reasoning for graph learning and provides new resources for future research. Codes are available at https://github.com/lgybuaa/Graph-R1 .",
+    "year": 2025,
+    "conference": "emnlp",
+    "conferenceName": "EMNLP",
+    "track": "main",
+    "subtype": "main",
+    "source": "ACL Anthology",
+    "sourceVolume": "2025.emnlp-main",
+    "sourceVolumeTitle": "Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing",
+    "url": "https://aclanthology.org/2025.emnlp-main.1220/",
+    "keywords": [],
+    "ordinal": 1220,
+    "primaryCategory": "reasoning",
+    "categories": [
+      "reasoning",
+      "llms"
+    ],
+    "categoryScores": [
+      {
+        "id": "reasoning",
+        "label": "Reasoning & Planning",
+        "color": "#9333ea",
+        "score": 12
+      },
+      {
+        "id": "llms",
+        "label": "LLMs & Foundation Models",
+        "color": "#2563eb",
+        "score": 5
+      },
+      {
+        "id": "rl_robotics",
+        "label": "RL, Robotics & Control",
+        "color": "#ea580c",
+        "score": 1
+      }
+    ]
+  },
+  {
     "id": "2025.emnlp-main.876",
     "title": "G uessing G ame: Measuring the Informativeness of Open-Ended Questions in Large Language Models",
     "authors": [
@@ -107931,50 +108023,6 @@
         "id": "optimization_theory",
         "label": "Optimization & Theory",
         "color": "#475569",
-        "score": 1
-      }
-    ]
-  },
-  {
-    "id": "2025.emnlp-main.713",
-    "title": "G2: Guided Generation for Enhanced Output Diversity in LLM s",
-    "authors": [
-      "Zhiwen Ruan",
-      "Yixia Li",
-      "Yefeng Liu",
-      "Yun Chen",
-      "Weihua Luo",
-      "Peng Li",
-      "Yang Liu",
-      "Guanhua Chen"
-    ],
-    "abstract": "Large Language Models (LLMs) have demonstrated exceptional performance across diverse natural language processing tasks. However, these models exhibit a critical limitation in output diversity, often generating highly similar content across multiple attempts. This limitation significantly affects tasks requiring diverse outputs, from creative writing to reasoning. Existing solutions, like temperature scaling, enhance diversity by modifying probability distributions but compromise output quality. We propose Guide-to-Generation (G2), a training-free plug-and-play method that enhances output diversity while preserving generation quality. G2 employs a base generator alongside dual Guides, which guide the generation process through decoding-based interventions to encourage more diverse outputs conditioned on the original query. Comprehensive experiments demonstrate that G2 effectively improves output diversity while maintaining an optimal balance between diversity and quality.",
-    "year": 2025,
-    "conference": "emnlp",
-    "conferenceName": "EMNLP",
-    "track": "main",
-    "subtype": "main",
-    "source": "ACL Anthology",
-    "sourceVolume": "2025.emnlp-main",
-    "sourceVolumeTitle": "Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing",
-    "url": "https://aclanthology.org/2025.emnlp-main.713/",
-    "keywords": [],
-    "ordinal": 713,
-    "primaryCategory": "llms",
-    "categories": [
-      "llms"
-    ],
-    "categoryScores": [
-      {
-        "id": "llms",
-        "label": "LLMs & Foundation Models",
-        "color": "#2563eb",
-        "score": 5
-      },
-      {
-        "id": "reasoning",
-        "label": "Reasoning & Planning",
-        "color": "#9333ea",
         "score": 1
       }
     ]
@@ -109027,54 +109075,6 @@
         "id": "efficient_ai",
         "label": "Efficient AI & Systems",
         "color": "#16a34a",
-        "score": 1
-      }
-    ]
-  },
-  {
-    "id": "2025.emnlp-main.1220",
-    "title": "Graph-R1: Incentivizing the Zero-Shot Graph Learning Capability in LLM s via Explicit Reasoning",
-    "authors": [
-      "Yicong Wu",
-      "Guangyue Lu",
-      "Yuan Zuo",
-      "Huarong Zhang",
-      "Junjie Wu"
-    ],
-    "abstract": "Generalizing to unseen graph tasks without task-specific supervision remains challenging. Graph Neural Networks (GNNs) are limited by fixed label spaces, while Large Language Models (LLMs) lack structural inductive biases. Recent advances in Large Reasoning Models (LRMs) provide a zero-shot alternative via explicit, long chain-of-thought reasoning. Inspired by this, we propose a GNN-free approach that reformulates graph tasks—node classification, link prediction, and graph classification—as textual reasoning problems solved by LRMs. We introduce the first datasets with detailed reasoning traces for these tasks and develop Graph-R1, a reinforcement learning framework that leverages task-specific rethink templates to guide reasoning over linearized graphs. Experiments demonstrate that Graph-R1 outperforms state-of-the-art baselines in zero-shot settings, producing interpretable and effective predictions. Our work highlights the promise of explicit reasoning for graph learning and provides new resources for future research. Codes are available at https://github.com/lgybuaa/Graph-R1 .",
-    "year": 2025,
-    "conference": "emnlp",
-    "conferenceName": "EMNLP",
-    "track": "main",
-    "subtype": "main",
-    "source": "ACL Anthology",
-    "sourceVolume": "2025.emnlp-main",
-    "sourceVolumeTitle": "Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing",
-    "url": "https://aclanthology.org/2025.emnlp-main.1220/",
-    "keywords": [],
-    "ordinal": 1220,
-    "primaryCategory": "reasoning",
-    "categories": [
-      "reasoning",
-      "llms"
-    ],
-    "categoryScores": [
-      {
-        "id": "reasoning",
-        "label": "Reasoning & Planning",
-        "color": "#9333ea",
-        "score": 12
-      },
-      {
-        "id": "llms",
-        "label": "LLMs & Foundation Models",
-        "color": "#2563eb",
-        "score": 5
-      },
-      {
-        "id": "rl_robotics",
-        "label": "RL, Robotics & Control",
-        "color": "#ea580c",
         "score": 1
       }
     ]
@@ -111440,6 +111440,69 @@
     ]
   },
   {
+    "id": "2025.emnlp-main.196",
+    "title": "I con 2 : Aligning Large Language Models Using Self-Synthetic Preference Data via Inherent Regulation",
+    "authors": [
+      "Qiyuan Chen",
+      "Hongsen Huang",
+      "Qian Shao",
+      "Jiahe Chen",
+      "Jintai Chen",
+      "Hongxia Xu",
+      "Renjie Hua",
+      "Ren Chuan",
+      "Jian Wu"
+    ],
+    "abstract": "Large Language Models (LLMs) require high quality preference datasets to align with human preferences. However, conventional methods for constructing such datasets face significant challenges: reliance on pre-collected instructions often leads to distribution mismatches with target models, while the need for sampling multiple stochastic responses introduces substantial computational overhead. In this work, we explore a paradigm shift by leveraging inherent regulation of LLMs’ representation space for efficient and tailored preference dataset construction, named Icon 2 . Specifically, it first extracts layer-wise direction vectors to encode sophisticated human preferences and then uses these vectors to filter self-synthesized instructions based on their inherent consistency. During decoding, bidirectional inherent control is applied to steer token representations, enabling the precise generation of response pairs with clear alignment distinctions. Experimental results demonstrate significant improvements in both alignment and efficiency. Llama3-8B and Qwen2-7B achieve an average win rate improvement of 13.89% on AlpacaEval 2.0 and 13.45% on Arena-Hard, while reducing computational costs by up to 48.1%.",
+    "year": 2025,
+    "conference": "emnlp",
+    "conferenceName": "EMNLP",
+    "track": "main",
+    "subtype": "main",
+    "source": "ACL Anthology",
+    "sourceVolume": "2025.emnlp-main",
+    "sourceVolumeTitle": "Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing",
+    "url": "https://aclanthology.org/2025.emnlp-main.196/",
+    "keywords": [],
+    "ordinal": 196,
+    "primaryCategory": "data_synthetic",
+    "categories": [
+      "data_synthetic"
+    ],
+    "categoryScores": [
+      {
+        "id": "data_synthetic",
+        "label": "Data, Annotation & Synthetic Data",
+        "color": "#c2410c",
+        "score": 6
+      },
+      {
+        "id": "alignment_safety",
+        "label": "Alignment, Safety & Trust",
+        "color": "#dc2626",
+        "score": 2
+      },
+      {
+        "id": "efficient_ai",
+        "label": "Efficient AI & Systems",
+        "color": "#16a34a",
+        "score": 2
+      },
+      {
+        "id": "evaluation",
+        "label": "Evaluation & Benchmarks",
+        "color": "#4f46e5",
+        "score": 1
+      },
+      {
+        "id": "rl_robotics",
+        "label": "RL, Robotics & Control",
+        "color": "#ea580c",
+        "score": 1
+      }
+    ]
+  },
+  {
     "id": "2025.emnlp-main.1759",
     "title": "i K now-audio: Integrating Knowledge Graphs with Audio-Language Models",
     "authors": [
@@ -112173,69 +112236,6 @@
         "id": "efficient_ai",
         "label": "Efficient AI & Systems",
         "color": "#16a34a",
-        "score": 1
-      }
-    ]
-  },
-  {
-    "id": "2025.emnlp-main.196",
-    "title": "Icon 2 : Aligning Large Language Models Using Self-Synthetic Preference Data via Inherent Regulation",
-    "authors": [
-      "Qiyuan Chen",
-      "Hongsen Huang",
-      "Qian Shao",
-      "Jiahe Chen",
-      "Jintai Chen",
-      "Hongxia Xu",
-      "Renjie Hua",
-      "Ren Chuan",
-      "Jian Wu"
-    ],
-    "abstract": "Large Language Models (LLMs) require high quality preference datasets to align with human preferences. However, conventional methods for constructing such datasets face significant challenges: reliance on pre-collected instructions often leads to distribution mismatches with target models, while the need for sampling multiple stochastic responses introduces substantial computational overhead. In this work, we explore a paradigm shift by leveraging inherent regulation of LLMs’ representation space for efficient and tailored preference dataset construction, named Icon 2 . Specifically, it first extracts layer-wise direction vectors to encode sophisticated human preferences and then uses these vectors to filter self-synthesized instructions based on their inherent consistency. During decoding, bidirectional inherent control is applied to steer token representations, enabling the precise generation of response pairs with clear alignment distinctions. Experimental results demonstrate significant improvements in both alignment and efficiency. Llama3-8B and Qwen2-7B achieve an average win rate improvement of 13.89% on AlpacaEval 2.0 and 13.45% on Arena-Hard, while reducing computational costs by up to 48.1%.",
-    "year": 2025,
-    "conference": "emnlp",
-    "conferenceName": "EMNLP",
-    "track": "main",
-    "subtype": "main",
-    "source": "ACL Anthology",
-    "sourceVolume": "2025.emnlp-main",
-    "sourceVolumeTitle": "Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing",
-    "url": "https://aclanthology.org/2025.emnlp-main.196/",
-    "keywords": [],
-    "ordinal": 196,
-    "primaryCategory": "data_synthetic",
-    "categories": [
-      "data_synthetic"
-    ],
-    "categoryScores": [
-      {
-        "id": "data_synthetic",
-        "label": "Data, Annotation & Synthetic Data",
-        "color": "#c2410c",
-        "score": 6
-      },
-      {
-        "id": "alignment_safety",
-        "label": "Alignment, Safety & Trust",
-        "color": "#dc2626",
-        "score": 2
-      },
-      {
-        "id": "efficient_ai",
-        "label": "Efficient AI & Systems",
-        "color": "#16a34a",
-        "score": 2
-      },
-      {
-        "id": "evaluation",
-        "label": "Evaluation & Benchmarks",
-        "color": "#4f46e5",
-        "score": 1
-      },
-      {
-        "id": "rl_robotics",
-        "label": "RL, Robotics & Control",
-        "color": "#ea580c",
         "score": 1
       }
     ]
@@ -135378,7 +135378,7 @@
   },
   {
     "id": "2025.emnlp-main.1020",
-    "title": "Pointing to a Llama and Call it a Camel: On the Sycophancy of Multimodal Large Language Models",
+    "title": "Pointing to a L lama and Call it a Camel: On the Sycophancy of Multimodal Large Language Models",
     "authors": [
       "Renjie Pi",
       "Kehao Miao",
@@ -144208,7 +144208,7 @@
       "Yingyi Zhang",
       "Chengzhi Zhang"
     ],
-    "abstract": "Structured information extraction from scientific literature is crucial for capturing core concepts and emerging trends in specialized fields. While existing datasets aid model development, most focus on specific publication sections due to domain complexity and the high cost of annotating scientific texts. To address this limitation, we introduce SciNLP—a specialized benchmark for full-text entity and relation extraction in the Natural Language Processing (NLP) domain. The dataset comprises 60 manually annotated full-text NLP publications, covering 7,072 entities and 1,826 relations. Compared to existing research, SciNLP is the first dataset providing full-text annotations of entities and their relationships in the NLP domain. To validate the effectiveness of SciNLP, we conducted comparative experiments with similar datasets and evaluated the performance of state-of-the-art supervised models on this dataset. Results reveal varying extraction capabilities of existing models across academic texts of different lengths. Cross-comparisons with existing datasets show that SciNLP achieves significant performance improvements on certain baseline models. Using models trained on SciNLP, we implemented automatic construction of a fine-grained knowledge graph for the NLP domain. Our KG has an average node degree of 3.2 per entity, indicating rich semantic topological information that enhances downstream applications. The dataset is publicly available at: https://github.com/AKADDC/SciNLP .",
+    "abstract": "Structured information extraction from scientific literature is crucial for capturing core concepts and emerging trends in specialized fields. While existing datasets aid model development, most focus on specific publication sections due to domain complexity and the high cost of annotating scientific texts. To address this limitation, we introduce SciNLP—a specialized benchmark for full-text entity and relation extraction in the Natural Language Processing (NLP) domain. The dataset comprises 60 manually annotated full-text NLP publications, covering 6,429 entities and 1,649 relations. Compared to existing research, SciNLP is the first dataset providing full-text annotations of entities and their relationships in the NLP domain. To validate the effectiveness of SciNLP, we conducted comparative experiments with similar datasets and evaluated the performance of state-of-the-art supervised models on this dataset. Results reveal varying extraction capabilities of existing models across academic texts of different lengths. Cross-comparisons with existing datasets show that SciNLP achieves significant performance improvements on certain baseline models. Using models trained on SciNLP, we implemented automatic construction of a fine-grained knowledge graph for the NLP domain. Our KG has an average node degree of 3.3 per entity, indicating rich semantic topological information that enhances downstream applications. The dataset is publicly available at: https://github.com/AKADDC/SciNLP .",
     "year": 2025,
     "conference": "emnlp",
     "conferenceName": "EMNLP",
@@ -144351,6 +144351,69 @@
         "id": "evaluation",
         "label": "Evaluation & Benchmarks",
         "color": "#4f46e5",
+        "score": 1
+      }
+    ]
+  },
+  {
+    "id": "2025.emnlp-main.276",
+    "title": "S earch-o1: Agentic Search-Enhanced Large Reasoning Models",
+    "authors": [
+      "Xiaoxi Li",
+      "Guanting Dong",
+      "Jiajie Jin",
+      "Yuyao Zhang",
+      "Yujia Zhou",
+      "Yutao Zhu",
+      "Peitian Zhang",
+      "Zhicheng Dou"
+    ],
+    "abstract": "Large reasoning models (LRMs) like OpenAI-o1 have demonstrated impressive long stepwise reasoning capabilities through large-scale reinforcement learning. However, their extended reasoning processes often suffer from knowledge insufficiency, leading to frequent uncertainties and potential errors. To address this limitation, we introduce Search-o1 , a framework that enhances LRMs with an agentic retrieval-augmented generation (RAG) mechanism and a Reason-in-Documents module for refining retrieved documents. Search-o1 integrates an agentic search workflow into the reasoning process, enabling dynamic retrieval of external knowledge when LRMs encounter uncertain knowledge points. Additionally, due to the verbose nature of retrieved documents, we design a separate Reason-in-Documents module to deeply analyze the retrieved information before injecting it into the reasoning chain, minimizing noise and preserving coherent reasoning flow. Extensive experiments on complex reasoning tasks in science, mathematics, and coding, as well as six open-domain QA benchmarks, demonstrate the strong performance of Search-o1. This approach enhances the trustworthiness of LRMs in complex reasoning tasks, paving the way for advanced deep research systems. The code is available at https://github.com/RUC-NLPIR/Search-o1 .",
+    "year": 2025,
+    "conference": "emnlp",
+    "conferenceName": "EMNLP",
+    "track": "main",
+    "subtype": "main",
+    "source": "ACL Anthology",
+    "sourceVolume": "2025.emnlp-main",
+    "sourceVolumeTitle": "Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing",
+    "url": "https://aclanthology.org/2025.emnlp-main.276/",
+    "keywords": [],
+    "ordinal": 276,
+    "primaryCategory": "retrieval_knowledge",
+    "categories": [
+      "retrieval_knowledge",
+      "reasoning"
+    ],
+    "categoryScores": [
+      {
+        "id": "retrieval_knowledge",
+        "label": "Retrieval & Knowledge",
+        "color": "#0891b2",
+        "score": 15
+      },
+      {
+        "id": "reasoning",
+        "label": "Reasoning & Planning",
+        "color": "#9333ea",
+        "score": 13
+      },
+      {
+        "id": "agents_tools",
+        "label": "Agents & Tool Use",
+        "color": "#0f766e",
+        "score": 1
+      },
+      {
+        "id": "rl_robotics",
+        "label": "RL, Robotics & Control",
+        "color": "#ea580c",
+        "score": 1
+      },
+      {
+        "id": "domain_science",
+        "label": "Domain AI & Science",
+        "color": "#0d9488",
         "score": 1
       }
     ]
@@ -147070,69 +147133,6 @@
         "id": "rl_robotics",
         "label": "RL, Robotics & Control",
         "color": "#ea580c",
-        "score": 1
-      }
-    ]
-  },
-  {
-    "id": "2025.emnlp-main.276",
-    "title": "Search-o1: Agentic Search-Enhanced Large Reasoning Models",
-    "authors": [
-      "Xiaoxi Li",
-      "Guanting Dong",
-      "Jiajie Jin",
-      "Yuyao Zhang",
-      "Yujia Zhou",
-      "Yutao Zhu",
-      "Peitian Zhang",
-      "Zhicheng Dou"
-    ],
-    "abstract": "Large reasoning models (LRMs) like OpenAI-o1 have demonstrated impressive long stepwise reasoning capabilities through large-scale reinforcement learning. However, their extended reasoning processes often suffer from knowledge insufficiency, leading to frequent uncertainties and potential errors. To address this limitation, we introduce Search-o1 , a framework that enhances LRMs with an agentic retrieval-augmented generation (RAG) mechanism and a Reason-in-Documents module for refining retrieved documents. Search-o1 integrates an agentic search workflow into the reasoning process, enabling dynamic retrieval of external knowledge when LRMs encounter uncertain knowledge points. Additionally, due to the verbose nature of retrieved documents, we design a separate Reason-in-Documents module to deeply analyze the retrieved information before injecting it into the reasoning chain, minimizing noise and preserving coherent reasoning flow. Extensive experiments on complex reasoning tasks in science, mathematics, and coding, as well as six open-domain QA benchmarks, demonstrate the strong performance of Search-o1. This approach enhances the trustworthiness of LRMs in complex reasoning tasks, paving the way for advanced deep research systems. The code is available at https://github.com/RUC-NLPIR/Search-o1 .",
-    "year": 2025,
-    "conference": "emnlp",
-    "conferenceName": "EMNLP",
-    "track": "main",
-    "subtype": "main",
-    "source": "ACL Anthology",
-    "sourceVolume": "2025.emnlp-main",
-    "sourceVolumeTitle": "Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing",
-    "url": "https://aclanthology.org/2025.emnlp-main.276/",
-    "keywords": [],
-    "ordinal": 276,
-    "primaryCategory": "retrieval_knowledge",
-    "categories": [
-      "retrieval_knowledge",
-      "reasoning"
-    ],
-    "categoryScores": [
-      {
-        "id": "retrieval_knowledge",
-        "label": "Retrieval & Knowledge",
-        "color": "#0891b2",
-        "score": 20
-      },
-      {
-        "id": "reasoning",
-        "label": "Reasoning & Planning",
-        "color": "#9333ea",
-        "score": 13
-      },
-      {
-        "id": "agents_tools",
-        "label": "Agents & Tool Use",
-        "color": "#0f766e",
-        "score": 1
-      },
-      {
-        "id": "rl_robotics",
-        "label": "RL, Robotics & Control",
-        "color": "#ea580c",
-        "score": 1
-      },
-      {
-        "id": "domain_science",
-        "label": "Domain AI & Science",
-        "color": "#0d9488",
         "score": 1
       }
     ]
@@ -153322,6 +153322,65 @@
     ]
   },
   {
+    "id": "2025.emnlp-main.1040",
+    "title": "T able- R 1: Inference-Time Scaling for Table Reasoning Tasks",
+    "authors": [
+      "Zheyuan Yang",
+      "Lyuhao Chen",
+      "Arman Cohan",
+      "Yilun Zhao"
+    ],
+    "abstract": "In this work, we present the first study to explore inference-time scaling on table reasoning tasks. We develop and evaluate two post-training strategies to enable inference-time scaling: distillation from frontier model reasoning traces and reinforcement learning with verifiable rewards (RLVR). For distillation, we introduce a large-scale dataset of reasoning traces generated by DeepSeek-R1, which we use to fine-tune LLMs into the Table-R1-SFT model. For RLVR, we propose task-specific verifiable reward functions and apply the GRPO algorithm to obtain the Table-R1-Zero model. We evaluate our Table-R1-series models across diverse table reasoning tasks, including short-form QA, fact verification, and free-form QA. Notably, the Table-R1-Zero model matches or exceeds the performance of GPT-4.1 and DeepSeek-R1, while using only a 7B-parameter LLM. It also demonstrates strong generalization to out-of-domain datasets. Extensive ablation and qualitative analyses reveal the benefits of instruction tuning, model architecture choices, and cross-task generalization, as well as emergence of essential table reasoning skills during RL training.",
+    "year": 2025,
+    "conference": "emnlp",
+    "conferenceName": "EMNLP",
+    "track": "main",
+    "subtype": "main",
+    "source": "ACL Anthology",
+    "sourceVolume": "2025.emnlp-main",
+    "sourceVolumeTitle": "Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing",
+    "url": "https://aclanthology.org/2025.emnlp-main.1040/",
+    "keywords": [],
+    "ordinal": 1040,
+    "primaryCategory": "reasoning",
+    "categories": [
+      "reasoning",
+      "efficient_ai"
+    ],
+    "categoryScores": [
+      {
+        "id": "reasoning",
+        "label": "Reasoning & Planning",
+        "color": "#9333ea",
+        "score": 10
+      },
+      {
+        "id": "efficient_ai",
+        "label": "Efficient AI & Systems",
+        "color": "#16a34a",
+        "score": 9
+      },
+      {
+        "id": "evaluation",
+        "label": "Evaluation & Benchmarks",
+        "color": "#4f46e5",
+        "score": 3
+      },
+      {
+        "id": "llms",
+        "label": "LLMs & Foundation Models",
+        "color": "#2563eb",
+        "score": 2
+      },
+      {
+        "id": "rl_robotics",
+        "label": "RL, Robotics & Control",
+        "color": "#ea580c",
+        "score": 2
+      }
+    ]
+  },
+  {
     "id": "2025.emnlp-main.1272",
     "title": "T actful T o M : Do LLM s have the Theory of Mind ability to understand White Lies?",
     "authors": [
@@ -154872,65 +154931,6 @@
         "label": "Data, Annotation & Synthetic Data",
         "color": "#c2410c",
         "score": 1
-      }
-    ]
-  },
-  {
-    "id": "2025.emnlp-main.1040",
-    "title": "Table-R1: Inference-Time Scaling for Table Reasoning Tasks",
-    "authors": [
-      "Zheyuan Yang",
-      "Lyuhao Chen",
-      "Arman Cohan",
-      "Yilun Zhao"
-    ],
-    "abstract": "In this work, we present the first study to explore inference-time scaling on table reasoning tasks. We develop and evaluate two post-training strategies to enable inference-time scaling: distillation from frontier model reasoning traces and reinforcement learning with verifiable rewards (RLVR). For distillation, we introduce a large-scale dataset of reasoning traces generated by DeepSeek-R1, which we use to fine-tune LLMs into the Table-R1-SFT model. For RLVR, we propose task-specific verifiable reward functions and apply the GRPO algorithm to obtain the Table-R1-Zero model. We evaluate our Table-R1-series models across diverse table reasoning tasks, including short-form QA, fact verification, and free-form QA. Notably, the Table-R1-Zero model matches or exceeds the performance of GPT-4.1 and DeepSeek-R1, while using only a 7B-parameter LLM. It also demonstrates strong generalization to out-of-domain datasets. Extensive ablation and qualitative analyses reveal the benefits of instruction tuning, model architecture choices, and cross-task generalization, as well as emergence of essential table reasoning skills during RL training.",
-    "year": 2025,
-    "conference": "emnlp",
-    "conferenceName": "EMNLP",
-    "track": "main",
-    "subtype": "main",
-    "source": "ACL Anthology",
-    "sourceVolume": "2025.emnlp-main",
-    "sourceVolumeTitle": "Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing",
-    "url": "https://aclanthology.org/2025.emnlp-main.1040/",
-    "keywords": [],
-    "ordinal": 1040,
-    "primaryCategory": "reasoning",
-    "categories": [
-      "reasoning",
-      "efficient_ai"
-    ],
-    "categoryScores": [
-      {
-        "id": "reasoning",
-        "label": "Reasoning & Planning",
-        "color": "#9333ea",
-        "score": 10
-      },
-      {
-        "id": "efficient_ai",
-        "label": "Efficient AI & Systems",
-        "color": "#16a34a",
-        "score": 9
-      },
-      {
-        "id": "evaluation",
-        "label": "Evaluation & Benchmarks",
-        "color": "#4f46e5",
-        "score": 3
-      },
-      {
-        "id": "llms",
-        "label": "LLMs & Foundation Models",
-        "color": "#2563eb",
-        "score": 2
-      },
-      {
-        "id": "rl_robotics",
-        "label": "RL, Robotics & Control",
-        "color": "#ea580c",
-        "score": 2
       }
     ]
   },
@@ -161588,6 +161588,71 @@
     ]
   },
   {
+    "id": "2025.emnlp-main.915",
+    "title": "U nilaw- R 1: A Large Language Model for Legal Reasoning with Reinforcement Learning and Iterative Inference",
+    "authors": [
+      "Hua Cai",
+      "Shuang Zhao",
+      "Liang Zhang",
+      "Xuli Shen",
+      "Qing Xu",
+      "Weilin Shen",
+      "Zihao Wen",
+      "Tianke Ban"
+    ],
+    "abstract": "Reasoning-focused large language models (LLMs) are rapidly evolving across various domains, yet their capabilities in handling complex legal problems remains underexplored. In this paper, we introduce Unilaw-R1, a large language model tailored for legal reasoning. With a lightweight 7-billion parameter scale, Unilaw-R1 significantly reduces deployment cost while effectively tackling three core challenges in the legal domain: insufficient legal knowledge, unreliable reasoning logic, and weak business generalization. To address these issues, we first construct Unilaw-R1-Data, a high-quality dataset containing ~17K distilled and screened chain-of-thought (CoT) samples. Based on this, we adopt a two-stage training strategy combining Supervised Fine-Tuning (SFT) and Reinforcement Learning (RL), which significantly boosts the model’s performance on complex legal reasoning tasks and supports interpretable decision-making in legal AI applications. To assess legal reasoning ability, we also introduce Unilaw-R1-Eval, a dedicated benchmark designed to evaluate models across single- and multi-choice legal tasks. Unilaw-R1 demonstrates strong results on authoritative benchmarks, outperforming all models of similar scale and achieving performance on par with the much larger DeepSeek-R1-Distill-Qwen-32B (54.9%). Following domain-specific training, it also showed significant gains on LawBench and LexEval, exceeding Qwen-2.5-7B-Instruct (46.6%) by an average margin of 6.6%. Code is available at: https://github.com/Hanscal/Unilaw-R1 .",
+    "year": 2025,
+    "conference": "emnlp",
+    "conferenceName": "EMNLP",
+    "track": "main",
+    "subtype": "main",
+    "source": "ACL Anthology",
+    "sourceVolume": "2025.emnlp-main",
+    "sourceVolumeTitle": "Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing",
+    "url": "https://aclanthology.org/2025.emnlp-main.915/",
+    "keywords": [],
+    "ordinal": 915,
+    "primaryCategory": "llms",
+    "categories": [
+      "llms",
+      "domain_science",
+      "reasoning",
+      "rl_robotics"
+    ],
+    "categoryScores": [
+      {
+        "id": "llms",
+        "label": "LLMs & Foundation Models",
+        "color": "#2563eb",
+        "score": 13
+      },
+      {
+        "id": "domain_science",
+        "label": "Domain AI & Science",
+        "color": "#0d9488",
+        "score": 13
+      },
+      {
+        "id": "reasoning",
+        "label": "Reasoning & Planning",
+        "color": "#9333ea",
+        "score": 11
+      },
+      {
+        "id": "rl_robotics",
+        "label": "RL, Robotics & Control",
+        "color": "#ea580c",
+        "score": 7
+      },
+      {
+        "id": "efficient_ai",
+        "label": "Efficient AI & Systems",
+        "color": "#16a34a",
+        "score": 5
+      }
+    ]
+  },
+  {
     "id": "2025.emnlp-main.286",
     "title": "U nit C oder: Scalable Code Synthesis from Pre-training Corpora",
     "authors": [
@@ -162549,71 +162614,6 @@
         "label": "Evaluation & Benchmarks",
         "color": "#4f46e5",
         "score": 1
-      }
-    ]
-  },
-  {
-    "id": "2025.emnlp-main.915",
-    "title": "Unilaw-R1: A Large Language Model for Legal Reasoning with Reinforcement Learning and Iterative Inference",
-    "authors": [
-      "Hua Cai",
-      "Shuang Zhao",
-      "Liang Zhang",
-      "Xuli Shen",
-      "Qing Xu",
-      "Weilin Shen",
-      "Zihao Wen",
-      "Tianke Ban"
-    ],
-    "abstract": "Reasoning-focused large language models (LLMs) are rapidly evolving across various domains, yet their capabilities in handling complex legal problems remains underexplored. In this paper, we introduce Unilaw-R1, a large language model tailored for legal reasoning. With a lightweight 7-billion parameter scale, Unilaw-R1 significantly reduces deployment cost while effectively tackling three core challenges in the legal domain: insufficient legal knowledge, unreliable reasoning logic, and weak business generalization. To address these issues, we first construct Unilaw-R1-Data, a high-quality dataset containing ~17K distilled and screened chain-of-thought (CoT) samples. Based on this, we adopt a two-stage training strategy combining Supervised Fine-Tuning (SFT) and Reinforcement Learning (RL), which significantly boosts the model’s performance on complex legal reasoning tasks and supports interpretable decision-making in legal AI applications. To assess legal reasoning ability, we also introduce Unilaw-R1-Eval, a dedicated benchmark designed to evaluate models across single- and multi-choice legal tasks. Unilaw-R1 demonstrates strong results on authoritative benchmarks, outperforming all models of similar scale and achieving performance on par with the much larger DeepSeek-R1-Distill-Qwen-32B (54.9%). Following domain-specific training, it also showed significant gains on LawBench and LexEval, exceeding Qwen-2.5-7B-Instruct (46.6%) by an average margin of 6.6%. Code is available at: https://github.com/Hanscal/Unilaw-R1 .",
-    "year": 2025,
-    "conference": "emnlp",
-    "conferenceName": "EMNLP",
-    "track": "main",
-    "subtype": "main",
-    "source": "ACL Anthology",
-    "sourceVolume": "2025.emnlp-main",
-    "sourceVolumeTitle": "Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing",
-    "url": "https://aclanthology.org/2025.emnlp-main.915/",
-    "keywords": [],
-    "ordinal": 915,
-    "primaryCategory": "llms",
-    "categories": [
-      "llms",
-      "domain_science",
-      "reasoning",
-      "rl_robotics"
-    ],
-    "categoryScores": [
-      {
-        "id": "llms",
-        "label": "LLMs & Foundation Models",
-        "color": "#2563eb",
-        "score": 13
-      },
-      {
-        "id": "domain_science",
-        "label": "Domain AI & Science",
-        "color": "#0d9488",
-        "score": 13
-      },
-      {
-        "id": "reasoning",
-        "label": "Reasoning & Planning",
-        "color": "#9333ea",
-        "score": 11
-      },
-      {
-        "id": "rl_robotics",
-        "label": "RL, Robotics & Control",
-        "color": "#ea580c",
-        "score": 7
-      },
-      {
-        "id": "efficient_ai",
-        "label": "Efficient AI & Systems",
-        "color": "#16a34a",
-        "score": 5
       }
     ]
   },
@@ -165747,7 +165747,7 @@
   },
   {
     "id": "2025.emnlp-main.401",
-    "title": "W eb A gent-R1: Training Web Agents via End-to-End Multi-Turn Reinforcement Learning",
+    "title": "W eb A gent- R 1: Training Web Agents via End-to-End Multi-Turn Reinforcement Learning",
     "authors": [
       "Zhepei Wei",
       "Wenlin Yao",

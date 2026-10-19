@@ -6164,7 +6164,7 @@
   },
   {
     "id": "2024.findings-naacl.105",
-    "title": "i-Code V2: An Autoregressive Generation Framework over Vision, Language, and Speech Data",
+    "title": "i-Code V 2: An Autoregressive Generation Framework over Vision, Language, and Speech Data",
     "authors": [
       "Ziyi Yang",
       "Mahmoud Khademi",
@@ -12839,7 +12839,7 @@
   },
   {
     "id": "2024.findings-naacl.210",
-    "title": "Teaching Llama a New Language Through Cross-Lingual Knowledge Transfer",
+    "title": "Teaching L lama a New Language Through Cross-Lingual Knowledge Transfer",
     "authors": [
       "Hele-Andra Kuulmets",
       "Taido Purason",
@@ -19822,7 +19822,7 @@
   },
   {
     "id": "2024.naacl-short.42",
-    "title": "Control- DAG : Constrained Decoding for Non-Autoregressive Directed Acyclic T5 using Weighted Finite State Automata",
+    "title": "Control- DAG : Constrained Decoding for Non-Autoregressive Directed Acyclic T 5 using Weighted Finite State Automata",
     "authors": [
       "Jinghong Chen",
       "Weizhe Lin",
@@ -28577,6 +28577,50 @@
     ]
   },
   {
+    "id": "2024.naacl-short.40",
+    "title": "L lama meets EU : Investigating the E uropean political spectrum through the lens of LLM s",
+    "authors": [
+      "Ilias Chalkidis",
+      "Stephanie Brandl"
+    ],
+    "abstract": "Instruction-finetuned Large Language Models inherit clear political leanings that have been shown to influence downstream task performance. We expand this line of research beyond the two-party system in the US and audit Llama Chat in the context of EU politics in various settings to analyze the model’s political knowledge and its ability to reason in context. We adapt, i.e., further fine-tune, Llama Chat on speeches of individual euro-parties from debates in the European Parliament to reevaluate its political leaning based on the EUandI questionnaire. Llama Chat shows considerable knowledge of national parties’ positions and is capable of reasoning in context. The adapted, party-specific, models are substantially re-aligned towards respective positions which we see as a starting point for using chat-based LLMs as data-driven conversational engines to assist research in political science.",
+    "year": 2024,
+    "conference": "naacl",
+    "conferenceName": "NAACL",
+    "track": "main",
+    "subtype": "short",
+    "source": "ACL Anthology",
+    "sourceVolume": "2024.naacl-short",
+    "sourceVolumeTitle": "Proceedings of the 2024 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 2: Short Papers)",
+    "url": "https://aclanthology.org/2024.naacl-short.40/",
+    "keywords": [],
+    "ordinal": 40,
+    "primaryCategory": "llms",
+    "categories": [
+      "llms"
+    ],
+    "categoryScores": [
+      {
+        "id": "llms",
+        "label": "LLMs & Foundation Models",
+        "color": "#2563eb",
+        "score": 5
+      },
+      {
+        "id": "reasoning",
+        "label": "Reasoning & Planning",
+        "color": "#9333ea",
+        "score": 1
+      },
+      {
+        "id": "domain_science",
+        "label": "Domain AI & Science",
+        "color": "#0d9488",
+        "score": 1
+      }
+    ]
+  },
+  {
     "id": "2024.naacl-long.174",
     "title": "L o RETTA : Low-Rank Economic Tensor-Train Adaptation for Ultra-Low-Parameter Fine-Tuning of Large Language Models",
     "authors": [
@@ -29468,50 +29512,6 @@
         "label": "Retrieval & Knowledge",
         "color": "#0891b2",
         "score": 9
-      }
-    ]
-  },
-  {
-    "id": "2024.naacl-short.40",
-    "title": "Llama meets EU : Investigating the E uropean political spectrum through the lens of LLM s",
-    "authors": [
-      "Ilias Chalkidis",
-      "Stephanie Brandl"
-    ],
-    "abstract": "Instruction-finetuned Large Language Models inherit clear political leanings that have been shown to influence downstream task performance. We expand this line of research beyond the two-party system in the US and audit Llama Chat in the context of EU politics in various settings to analyze the model’s political knowledge and its ability to reason in context. We adapt, i.e., further fine-tune, Llama Chat on speeches of individual euro-parties from debates in the European Parliament to reevaluate its political leaning based on the EUandI questionnaire. Llama Chat shows considerable knowledge of national parties’ positions and is capable of reasoning in context. The adapted, party-specific, models are substantially re-aligned towards respective positions which we see as a starting point for using chat-based LLMs as data-driven conversational engines to assist research in political science.",
-    "year": 2024,
-    "conference": "naacl",
-    "conferenceName": "NAACL",
-    "track": "main",
-    "subtype": "short",
-    "source": "ACL Anthology",
-    "sourceVolume": "2024.naacl-short",
-    "sourceVolumeTitle": "Proceedings of the 2024 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 2: Short Papers)",
-    "url": "https://aclanthology.org/2024.naacl-short.40/",
-    "keywords": [],
-    "ordinal": 40,
-    "primaryCategory": "llms",
-    "categories": [
-      "llms"
-    ],
-    "categoryScores": [
-      {
-        "id": "llms",
-        "label": "LLMs & Foundation Models",
-        "color": "#2563eb",
-        "score": 5
-      },
-      {
-        "id": "reasoning",
-        "label": "Reasoning & Planning",
-        "color": "#9333ea",
-        "score": 1
-      },
-      {
-        "id": "domain_science",
-        "label": "Domain AI & Science",
-        "color": "#0d9488",
-        "score": 1
       }
     ]
   },
@@ -32661,7 +32661,7 @@
     "id": "2024.naacl-long.385",
     "title": "NLP Progress in Indigenous L atin A merican Languages",
     "authors": [
-      "Atnafu Tonja",
+      "Atnafu Lambebo Tonja",
       "Fazlourrahman Balouchzahi",
       "Sabur Butt",
       "Olga Kolesnikova",

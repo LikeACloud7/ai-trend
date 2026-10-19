@@ -385,7 +385,7 @@
   },
   {
     "id": "2025.findings-acl.1355",
-    "title": "7 Points to Tsinghua but 10 Points to 清华 ? A ssessing Large Language Models in Agentic Multilingual National Bias",
+    "title": "7 Points to T singhua but 10 Points to 清华 ? A ssessing Large Language Models in Agentic Multilingual National Bias",
     "authors": [
       "Qianying Liu",
       "Katrina Qiyao Wang",
@@ -8835,7 +8835,7 @@
   },
   {
     "id": "2025.findings-acl.833",
-    "title": "Boost, Disentangle, and Customize: A Robust System2-to-System1 Pipeline for Code Generation",
+    "title": "Boost, Disentangle, and Customize: A Robust S ystem2-to- S ystem1 Pipeline for Code Generation",
     "authors": [
       "Kounianhua Du",
       "Hanjing Wang",
@@ -10549,7 +10549,7 @@
   },
   {
     "id": "2025.findings-acl.550",
-    "title": "C o D et-M4: Detecting Machine-Generated Code in Multi-Lingual, Multi-Generator and Multi-Domain Settings",
+    "title": "C o D et- M 4: Detecting Machine-Generated Code in Multi-Lingual, Multi-Generator and Multi-Domain Settings",
     "authors": [
       "Daniil Orel",
       "Dilshod Azizov",
@@ -16393,6 +16393,69 @@
     ]
   },
   {
+    "id": "2025.findings-acl.171",
+    "title": "D omain o1 s: Guiding LLM Reasoning for Explainable Answers in High-Stakes Domains",
+    "authors": [
+      "Xu Chu",
+      "Zhijie Tan",
+      "Hanlin Xue",
+      "Guanyu Wang",
+      "Tong Mo",
+      "Weiping Li"
+    ],
+    "abstract": "Large Language Models (LLMs) are widely applied to downstream domains. However, current LLMs for high-stakes domain tasks, such as financial investment and legal QA, typically generate brief answers without reasoning processes and explanations. This limits users’ confidence in making decisions based on their responses. While original CoT shows promise, it lacks self-correction mechanisms during reasoning. This work introduces Domain o1 s, which enhances LLMs’ reasoning capabilities on domain tasks through supervised fine-tuning and tree search. We construct CoT-stock-2k and CoT-legal-2k datasets for fine-tuning models that activate domain-specific reasoning steps based on their judgment. Additionally, we propose Selective Tree Exploration to spontaneously explore solution spaces and sample optimal reasoning paths to improve performance. We also introduce PROOF-Score, a new metric for evaluating domain models’ explainability, complementing traditional accuracy metrics with richer assessment dimensions. Extensive experiments on stock investment recommendation and legal reasoning QA tasks demonstrate Domain o1 s’s leading performance and explainability. Our code is available at https://anonymous.4open.science/r/Domaino1s-006F/ .",
+    "year": 2025,
+    "conference": "acl",
+    "conferenceName": "ACL",
+    "track": "findings",
+    "subtype": "findings",
+    "source": "ACL Anthology",
+    "sourceVolume": "2025.findings-acl",
+    "sourceVolumeTitle": "Findings of the Association for Computational Linguistics: ACL 2025",
+    "url": "https://aclanthology.org/2025.findings-acl.171/",
+    "keywords": [],
+    "ordinal": 171,
+    "primaryCategory": "reasoning",
+    "categories": [
+      "reasoning",
+      "llms",
+      "interpretability",
+      "domain_science"
+    ],
+    "categoryScores": [
+      {
+        "id": "reasoning",
+        "label": "Reasoning & Planning",
+        "color": "#9333ea",
+        "score": 11
+      },
+      {
+        "id": "llms",
+        "label": "LLMs & Foundation Models",
+        "color": "#2563eb",
+        "score": 7
+      },
+      {
+        "id": "interpretability",
+        "label": "Interpretability & Analysis",
+        "color": "#be123c",
+        "score": 7
+      },
+      {
+        "id": "domain_science",
+        "label": "Domain AI & Science",
+        "color": "#0d9488",
+        "score": 4
+      },
+      {
+        "id": "evaluation",
+        "label": "Evaluation & Benchmarks",
+        "color": "#4f46e5",
+        "score": 2
+      }
+    ]
+  },
+  {
     "id": "2025.findings-acl.1133",
     "title": "D yna C ode: A Dynamic Complexity-Aware Code Benchmark for Evaluating Large Language Models in Code Generation",
     "authors": [
@@ -19194,69 +19257,6 @@
         "label": "Evaluation & Benchmarks",
         "color": "#4f46e5",
         "score": 1
-      }
-    ]
-  },
-  {
-    "id": "2025.findings-acl.171",
-    "title": "Domain o1 s: Guiding LLM Reasoning for Explainable Answers in High-Stakes Domains",
-    "authors": [
-      "Xu Chu",
-      "Zhijie Tan",
-      "Hanlin Xue",
-      "Guanyu Wang",
-      "Tong Mo",
-      "Weiping Li"
-    ],
-    "abstract": "Large Language Models (LLMs) are widely applied to downstream domains. However, current LLMs for high-stakes domain tasks, such as financial investment and legal QA, typically generate brief answers without reasoning processes and explanations. This limits users’ confidence in making decisions based on their responses. While original CoT shows promise, it lacks self-correction mechanisms during reasoning. This work introduces Domain o1 s, which enhances LLMs’ reasoning capabilities on domain tasks through supervised fine-tuning and tree search. We construct CoT-stock-2k and CoT-legal-2k datasets for fine-tuning models that activate domain-specific reasoning steps based on their judgment. Additionally, we propose Selective Tree Exploration to spontaneously explore solution spaces and sample optimal reasoning paths to improve performance. We also introduce PROOF-Score, a new metric for evaluating domain models’ explainability, complementing traditional accuracy metrics with richer assessment dimensions. Extensive experiments on stock investment recommendation and legal reasoning QA tasks demonstrate Domain o1 s’s leading performance and explainability. Our code is available at https://anonymous.4open.science/r/Domaino1s-006F/ .",
-    "year": 2025,
-    "conference": "acl",
-    "conferenceName": "ACL",
-    "track": "findings",
-    "subtype": "findings",
-    "source": "ACL Anthology",
-    "sourceVolume": "2025.findings-acl",
-    "sourceVolumeTitle": "Findings of the Association for Computational Linguistics: ACL 2025",
-    "url": "https://aclanthology.org/2025.findings-acl.171/",
-    "keywords": [],
-    "ordinal": 171,
-    "primaryCategory": "reasoning",
-    "categories": [
-      "reasoning",
-      "llms",
-      "interpretability",
-      "domain_science"
-    ],
-    "categoryScores": [
-      {
-        "id": "reasoning",
-        "label": "Reasoning & Planning",
-        "color": "#9333ea",
-        "score": 11
-      },
-      {
-        "id": "llms",
-        "label": "LLMs & Foundation Models",
-        "color": "#2563eb",
-        "score": 7
-      },
-      {
-        "id": "interpretability",
-        "label": "Interpretability & Analysis",
-        "color": "#be123c",
-        "score": 7
-      },
-      {
-        "id": "domain_science",
-        "label": "Domain AI & Science",
-        "color": "#0d9488",
-        "score": 4
-      },
-      {
-        "id": "evaluation",
-        "label": "Evaluation & Benchmarks",
-        "color": "#4f46e5",
-        "score": 2
       }
     ]
   },
@@ -25452,6 +25452,71 @@
     ]
   },
   {
+    "id": "2025.findings-acl.226",
+    "title": "F raud- R 1 : A Multi-Round Benchmark for Assessing the Robustness of LLM Against Augmented Fraud and Phishing Inducements",
+    "authors": [
+      "Shu Yang",
+      "Shenzhe Zhu",
+      "Zeyu Wu",
+      "Keyu Wang",
+      "Junchi Yao",
+      "Junchao Wu",
+      "Lijie Hu",
+      "Mengdi Li",
+      "Derek F. Wong",
+      "Di Wang"
+    ],
+    "abstract": "With the increasing integration of large language models (LLMs) into real-world applications such as finance, e-commerce, and recommendation systems, their susceptibility to misinformation and adversarial manipulation poses significant risks. Existing fraud detection benchmarks primarily focus on single-turn classification tasks, failing to capture the dynamic nature of real-world fraud attempts. To address this gap, we introduce Fraud-R1, a challenging bilingual benchmark designed to assess LLMs’ ability to resist fraud and phishing attacks across five key fraud categories: Fraudulent Services, Impersonation, Phishing Scams, Fake Job Postings, and Online Relationships, covering subclasses. Our dataset comprises manually curated fraud cases from social media, news, phishing scam records, and prior fraud datasets.",
+    "year": 2025,
+    "conference": "acl",
+    "conferenceName": "ACL",
+    "track": "findings",
+    "subtype": "findings",
+    "source": "ACL Anthology",
+    "sourceVolume": "2025.findings-acl",
+    "sourceVolumeTitle": "Findings of the Association for Computational Linguistics: ACL 2025",
+    "url": "https://aclanthology.org/2025.findings-acl.226/",
+    "keywords": [],
+    "ordinal": 226,
+    "primaryCategory": "evaluation",
+    "categories": [
+      "evaluation",
+      "llms"
+    ],
+    "categoryScores": [
+      {
+        "id": "evaluation",
+        "label": "Evaluation & Benchmarks",
+        "color": "#4f46e5",
+        "score": 12
+      },
+      {
+        "id": "llms",
+        "label": "LLMs & Foundation Models",
+        "color": "#2563eb",
+        "score": 5
+      },
+      {
+        "id": "alignment_safety",
+        "label": "Alignment, Safety & Trust",
+        "color": "#dc2626",
+        "score": 1
+      },
+      {
+        "id": "rl_robotics",
+        "label": "RL, Robotics & Control",
+        "color": "#ea580c",
+        "score": 1
+      },
+      {
+        "id": "domain_science",
+        "label": "Domain AI & Science",
+        "color": "#0d9488",
+        "score": 1
+      }
+    ]
+  },
+  {
     "id": "2025.findings-acl.942",
     "title": "Fact Recall, Heuristics or Pure Guesswork? Precise Interpretations of Language Models for Fact Completion",
     "authors": [
@@ -26624,71 +26689,6 @@
         "id": "data_synthetic",
         "label": "Data, Annotation & Synthetic Data",
         "color": "#c2410c",
-        "score": 1
-      }
-    ]
-  },
-  {
-    "id": "2025.findings-acl.226",
-    "title": "Fraud-R1 : A Multi-Round Benchmark for Assessing the Robustness of LLM Against Augmented Fraud and Phishing Inducements",
-    "authors": [
-      "Shu Yang",
-      "Shenzhe Zhu",
-      "Zeyu Wu",
-      "Keyu Wang",
-      "Junchi Yao",
-      "Junchao Wu",
-      "Lijie Hu",
-      "Mengdi Li",
-      "Derek F. Wong",
-      "Di Wang"
-    ],
-    "abstract": "With the increasing integration of large language models (LLMs) into real-world applications such as finance, e-commerce, and recommendation systems, their susceptibility to misinformation and adversarial manipulation poses significant risks. Existing fraud detection benchmarks primarily focus on single-turn classification tasks, failing to capture the dynamic nature of real-world fraud attempts. To address this gap, we introduce Fraud-R1, a challenging bilingual benchmark designed to assess LLMs’ ability to resist fraud and phishing attacks across five key fraud categories: Fraudulent Services, Impersonation, Phishing Scams, Fake Job Postings, and Online Relationships, covering subclasses. Our dataset comprises manually curated fraud cases from social media, news, phishing scam records, and prior fraud datasets.",
-    "year": 2025,
-    "conference": "acl",
-    "conferenceName": "ACL",
-    "track": "findings",
-    "subtype": "findings",
-    "source": "ACL Anthology",
-    "sourceVolume": "2025.findings-acl",
-    "sourceVolumeTitle": "Findings of the Association for Computational Linguistics: ACL 2025",
-    "url": "https://aclanthology.org/2025.findings-acl.226/",
-    "keywords": [],
-    "ordinal": 226,
-    "primaryCategory": "evaluation",
-    "categories": [
-      "evaluation",
-      "llms"
-    ],
-    "categoryScores": [
-      {
-        "id": "evaluation",
-        "label": "Evaluation & Benchmarks",
-        "color": "#4f46e5",
-        "score": 12
-      },
-      {
-        "id": "llms",
-        "label": "LLMs & Foundation Models",
-        "color": "#2563eb",
-        "score": 5
-      },
-      {
-        "id": "alignment_safety",
-        "label": "Alignment, Safety & Trust",
-        "color": "#dc2626",
-        "score": 1
-      },
-      {
-        "id": "rl_robotics",
-        "label": "RL, Robotics & Control",
-        "color": "#ea580c",
-        "score": 1
-      },
-      {
-        "id": "domain_science",
-        "label": "Domain AI & Science",
-        "color": "#0d9488",
         "score": 1
       }
     ]
@@ -42113,7 +42113,7 @@
   },
   {
     "id": "2025.findings-acl.14",
-    "title": "MFinMeeting: A Multilingual, Multi-Sector, and Multi-Task Financial Meeting Understanding Evaluation Dataset",
+    "title": "MF in M eeting: A Multilingual, Multi-Sector, and Multi-Task Financial Meeting Understanding Evaluation Dataset",
     "authors": [
       "Jie Zhu",
       "Junhui Li",
@@ -43038,7 +43038,7 @@
   },
   {
     "id": "2025.findings-acl.246",
-    "title": "MM -R 3 : On (In-)Consistency of Vision-Language Models ( VLM s)",
+    "title": "MM - R 3 : On (In-)Consistency of Vision-Language Models ( VLM s)",
     "authors": [
       "Shih-Han Chou",
       "Shivam Chandhok",
@@ -47656,6 +47656,59 @@
     ]
   },
   {
+    "id": "2025.findings-acl.618",
+    "title": "P 3: Prompts Promote Prompting",
+    "authors": [
+      "Xinyu Zhang",
+      "Yuanquan Hu",
+      "Fangchao Liu",
+      "Zhicheng Dou"
+    ],
+    "abstract": "Current large language model (LLM) applications often employ multi-component prompts, comprising both system and user prompts, to guide model behaviors. While recent advancements have demonstrated the efficacy of automatically optimizing either the system or user prompt to boost performance, such unilateral approaches often yield suboptimal outcomes due to the interdependent nature of these components. In this work, we introduce P3, a novel self-improvement framework that concurrently optimizes both system and user prompts through an iterative process. The offline optimized prompts are further leveraged to promote online prompting by performing query-dependent prompt optimization. Extensive experiments on general tasks (e.g., Arena-hard and Alpaca-eval) and reasoning tasks (e.g., GSM8K and GPQA) demonstrate that P3 achieves superior performance in the realm of automatic prompt optimization. Our results highlight the effectiveness of a holistic optimization strategy in enhancing LLM performance across diverse domains.",
+    "year": 2025,
+    "conference": "acl",
+    "conferenceName": "ACL",
+    "track": "findings",
+    "subtype": "findings",
+    "source": "ACL Anthology",
+    "sourceVolume": "2025.findings-acl",
+    "sourceVolumeTitle": "Findings of the Association for Computational Linguistics: ACL 2025",
+    "url": "https://aclanthology.org/2025.findings-acl.618/",
+    "keywords": [],
+    "ordinal": 618,
+    "primaryCategory": "llms",
+    "categories": [
+      "llms",
+      "optimization_theory"
+    ],
+    "categoryScores": [
+      {
+        "id": "llms",
+        "label": "LLMs & Foundation Models",
+        "color": "#2563eb",
+        "score": 4
+      },
+      {
+        "id": "optimization_theory",
+        "label": "Optimization & Theory",
+        "color": "#475569",
+        "score": 3
+      },
+      {
+        "id": "agents_tools",
+        "label": "Agents & Tool Use",
+        "color": "#0f766e",
+        "score": 1
+      },
+      {
+        "id": "reasoning",
+        "label": "Reasoning & Planning",
+        "color": "#9333ea",
+        "score": 1
+      }
+    ]
+  },
+  {
     "id": "2025.findings-acl.49",
     "title": "P ersona B ench: Evaluating AI Models on Understanding Personal Information through Accessing (Synthetic) Private User Data",
     "authors": [
@@ -48448,59 +48501,6 @@
         "id": "multimodal",
         "label": "Multimodal & Vision-Language",
         "color": "#7c3aed",
-        "score": 1
-      }
-    ]
-  },
-  {
-    "id": "2025.findings-acl.618",
-    "title": "P3: Prompts Promote Prompting",
-    "authors": [
-      "Xinyu Zhang",
-      "Yuanquan Hu",
-      "Fangchao Liu",
-      "Zhicheng Dou"
-    ],
-    "abstract": "Current large language model (LLM) applications often employ multi-component prompts, comprising both system and user prompts, to guide model behaviors. While recent advancements have demonstrated the efficacy of automatically optimizing either the system or user prompt to boost performance, such unilateral approaches often yield suboptimal outcomes due to the interdependent nature of these components. In this work, we introduce P3, a novel self-improvement framework that concurrently optimizes both system and user prompts through an iterative process. The offline optimized prompts are further leveraged to promote online prompting by performing query-dependent prompt optimization. Extensive experiments on general tasks (e.g., Arena-hard and Alpaca-eval) and reasoning tasks (e.g., GSM8K and GPQA) demonstrate that P3 achieves superior performance in the realm of automatic prompt optimization. Our results highlight the effectiveness of a holistic optimization strategy in enhancing LLM performance across diverse domains.",
-    "year": 2025,
-    "conference": "acl",
-    "conferenceName": "ACL",
-    "track": "findings",
-    "subtype": "findings",
-    "source": "ACL Anthology",
-    "sourceVolume": "2025.findings-acl",
-    "sourceVolumeTitle": "Findings of the Association for Computational Linguistics: ACL 2025",
-    "url": "https://aclanthology.org/2025.findings-acl.618/",
-    "keywords": [],
-    "ordinal": 618,
-    "primaryCategory": "llms",
-    "categories": [
-      "llms",
-      "optimization_theory"
-    ],
-    "categoryScores": [
-      {
-        "id": "llms",
-        "label": "LLMs & Foundation Models",
-        "color": "#2563eb",
-        "score": 4
-      },
-      {
-        "id": "optimization_theory",
-        "label": "Optimization & Theory",
-        "color": "#475569",
-        "score": 3
-      },
-      {
-        "id": "agents_tools",
-        "label": "Agents & Tool Use",
-        "color": "#0f766e",
-        "score": 1
-      },
-      {
-        "id": "reasoning",
-        "label": "Reasoning & Planning",
-        "color": "#9333ea",
         "score": 1
       }
     ]
@@ -58343,7 +58343,7 @@
   },
   {
     "id": "2025.findings-acl.542",
-    "title": "Semantic Evaluation of Multilingual Data-to-Text Generation via NLI Fine-Tuning: Precision, Recall and F1 scores",
+    "title": "Semantic Evaluation of Multilingual Data-to-Text Generation via NLI Fine-Tuning: Precision, Recall and F 1 scores",
     "authors": [
       "William Soto Martinez",
       "Yannick Parmentier",
@@ -73660,6 +73660,69 @@
     ]
   },
   {
+    "id": "2025.acl-long.576",
+    "title": "A gri- CM 3 : A C hinese Massive Multi-modal, Multi-level Benchmark for Agricultural Understanding and Reasoning",
+    "authors": [
+      "Haotian Wang",
+      "Yi Guan",
+      "Fanshu Meng",
+      "Chao Zhao",
+      "Lian Yan",
+      "Yang Yang",
+      "Jingchi Jiang"
+    ],
+    "abstract": "Multi-modal Large Language Models (MLLMs) integrating images, text, and speech can provide farmers with accurate diagnoses and treatment of pests and diseases, enhancing agricultural efficiency and sustainability. However, existing benchmarks lack comprehensive evaluations, particularly in multi-level reasoning, making it challenging to identify model limitations. To address this issue, we introduce Agri-CM 3 , an expert-validated benchmark assessing MLLMs’ understanding and reasoning in agricultural management. It includes 3,939 images and 15,901 multi-level multiple-choice questions with detailed explanations. Evaluations of 45 MLLMs reveal significant gaps. Even GPT-4o achieves only 63.64% accuracy, falling short in fine-grained reasoning tasks. Analysis across three reasoning levels and seven compositional abilities highlights key challenges in accuracy and cognitive understanding. Our study provides insights for advancing MLLMs in agricultural management, driving their development and application. Code and data are available at https://github.com/HIT-Kwoo/Agri-CM3 .",
+    "year": 2025,
+    "conference": "acl",
+    "conferenceName": "ACL",
+    "track": "main",
+    "subtype": "long",
+    "source": "ACL Anthology",
+    "sourceVolume": "2025.acl-long",
+    "sourceVolumeTitle": "Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    "url": "https://aclanthology.org/2025.acl-long.576/",
+    "keywords": [],
+    "ordinal": 576,
+    "primaryCategory": "reasoning",
+    "categories": [
+      "reasoning",
+      "multimodal",
+      "evaluation"
+    ],
+    "categoryScores": [
+      {
+        "id": "reasoning",
+        "label": "Reasoning & Planning",
+        "color": "#9333ea",
+        "score": 10
+      },
+      {
+        "id": "multimodal",
+        "label": "Multimodal & Vision-Language",
+        "color": "#7c3aed",
+        "score": 6
+      },
+      {
+        "id": "evaluation",
+        "label": "Evaluation & Benchmarks",
+        "color": "#4f46e5",
+        "score": 6
+      },
+      {
+        "id": "efficient_ai",
+        "label": "Efficient AI & Systems",
+        "color": "#16a34a",
+        "score": 1
+      },
+      {
+        "id": "speech_audio",
+        "label": "Speech & Audio",
+        "color": "#0284c7",
+        "score": 1
+      }
+    ]
+  },
+  {
     "id": "2025.acl-long.972",
     "title": "A lign D istil: Token-Level Language Model Alignment as Adaptive Policy Distillation",
     "authors": [
@@ -75667,7 +75730,7 @@
   },
   {
     "id": "2025.acl-short.39",
-    "title": "Accelerating Dense LLM s via L0-regularized Mixture-of-Experts",
+    "title": "Accelerating Dense LLM s via L 0-regularized Mixture-of-Experts",
     "authors": [
       "Zhenyu Zhang",
       "Jiudong Yang",
@@ -77133,69 +77196,6 @@
         "id": "reasoning",
         "label": "Reasoning & Planning",
         "color": "#9333ea",
-        "score": 1
-      }
-    ]
-  },
-  {
-    "id": "2025.acl-long.576",
-    "title": "Agri- CM 3 : A C hinese Massive Multi-modal, Multi-level Benchmark for Agricultural Understanding and Reasoning",
-    "authors": [
-      "Haotian Wang",
-      "Yi Guan",
-      "Fanshu Meng",
-      "Chao Zhao",
-      "Lian Yan",
-      "Yang Yang",
-      "Jingchi Jiang"
-    ],
-    "abstract": "Multi-modal Large Language Models (MLLMs) integrating images, text, and speech can provide farmers with accurate diagnoses and treatment of pests and diseases, enhancing agricultural efficiency and sustainability. However, existing benchmarks lack comprehensive evaluations, particularly in multi-level reasoning, making it challenging to identify model limitations. To address this issue, we introduce Agri-CM 3 , an expert-validated benchmark assessing MLLMs’ understanding and reasoning in agricultural management. It includes 3,939 images and 15,901 multi-level multiple-choice questions with detailed explanations. Evaluations of 45 MLLMs reveal significant gaps. Even GPT-4o achieves only 63.64% accuracy, falling short in fine-grained reasoning tasks. Analysis across three reasoning levels and seven compositional abilities highlights key challenges in accuracy and cognitive understanding. Our study provides insights for advancing MLLMs in agricultural management, driving their development and application. Code and data are available at https://github.com/HIT-Kwoo/Agri-CM3 .",
-    "year": 2025,
-    "conference": "acl",
-    "conferenceName": "ACL",
-    "track": "main",
-    "subtype": "long",
-    "source": "ACL Anthology",
-    "sourceVolume": "2025.acl-long",
-    "sourceVolumeTitle": "Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
-    "url": "https://aclanthology.org/2025.acl-long.576/",
-    "keywords": [],
-    "ordinal": 576,
-    "primaryCategory": "reasoning",
-    "categories": [
-      "reasoning",
-      "multimodal",
-      "evaluation"
-    ],
-    "categoryScores": [
-      {
-        "id": "reasoning",
-        "label": "Reasoning & Planning",
-        "color": "#9333ea",
-        "score": 10
-      },
-      {
-        "id": "multimodal",
-        "label": "Multimodal & Vision-Language",
-        "color": "#7c3aed",
-        "score": 6
-      },
-      {
-        "id": "evaluation",
-        "label": "Evaluation & Benchmarks",
-        "color": "#4f46e5",
-        "score": 6
-      },
-      {
-        "id": "efficient_ai",
-        "label": "Efficient AI & Systems",
-        "color": "#16a34a",
-        "score": 1
-      },
-      {
-        "id": "speech_audio",
-        "label": "Speech & Audio",
-        "color": "#0284c7",
         "score": 1
       }
     ]
@@ -85503,6 +85503,72 @@
     ]
   },
   {
+    "id": "2025.acl-long.785",
+    "title": "C om 2 : A Causal-Guided Benchmark for Exploring Complex Commonsense Reasoning in Large Language Models",
+    "authors": [
+      "Kai Xiong",
+      "Xiao Ding",
+      "Yixin Cao",
+      "Yuxiong Yan",
+      "Li Du",
+      "Yufei Zhang",
+      "Jinglong Gao",
+      "Jiaqian Liu",
+      "Bing Qin",
+      "Ting Liu"
+    ],
+    "abstract": "Large language models (LLMs) have mastered abundant simple and explicit commonsense knowledge through pre-training, enabling them to achieve human-like performance in simple commonsense reasoning. Nevertheless, LLMs struggle to reason with complex and implicit commonsense knowledge that is derived from simple ones (such as understanding the long-term effects of certain events), an aspect humans tend to focus on more. Existing works focus on complex tasks like math and code, while complex commonsense reasoning remains underexplored due to its uncertainty and lack of structure. To fill this gap and align with real-world concerns, we propose a benchmark Com 2 focusing on complex commonsense reasoning. We first incorporate causal event graphs to serve as structured complex commonsense. Then we adopt causal theory (e.g., intervention) to modify the causal event graphs and obtain different scenarios that meet human concerns. Finally, an LLM is employed to synthesize examples with slow thinking, which is guided by the logical relationships in the modified causal graphs. Furthermore, we use detective stories to construct a more challenging subset. Experiments show that LLMs struggle in reasoning depth and breadth, while post-training and slow thinking can alleviate this. The code and data are available at https://github.com/Waste-Wood/Com2 .",
+    "year": 2025,
+    "conference": "acl",
+    "conferenceName": "ACL",
+    "track": "main",
+    "subtype": "long",
+    "source": "ACL Anthology",
+    "sourceVolume": "2025.acl-long",
+    "sourceVolumeTitle": "Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    "url": "https://aclanthology.org/2025.acl-long.785/",
+    "keywords": [],
+    "ordinal": 785,
+    "primaryCategory": "optimization_theory",
+    "categories": [
+      "optimization_theory",
+      "reasoning",
+      "evaluation"
+    ],
+    "categoryScores": [
+      {
+        "id": "optimization_theory",
+        "label": "Optimization & Theory",
+        "color": "#475569",
+        "score": 10
+      },
+      {
+        "id": "reasoning",
+        "label": "Reasoning & Planning",
+        "color": "#9333ea",
+        "score": 9
+      },
+      {
+        "id": "evaluation",
+        "label": "Evaluation & Benchmarks",
+        "color": "#4f46e5",
+        "score": 6
+      },
+      {
+        "id": "llms",
+        "label": "LLMs & Foundation Models",
+        "color": "#2563eb",
+        "score": 1
+      },
+      {
+        "id": "alignment_safety",
+        "label": "Alignment, Safety & Trust",
+        "color": "#dc2626",
+        "score": 1
+      }
+    ]
+  },
+  {
     "id": "2025.acl-long.103",
     "title": "C ompile A gent: Automated Real-World Repo-Level Compilation with Tool-Integrated LLM -based Agent System",
     "authors": [
@@ -89663,72 +89729,6 @@
     ]
   },
   {
-    "id": "2025.acl-long.785",
-    "title": "Com 2 : A Causal-Guided Benchmark for Exploring Complex Commonsense Reasoning in Large Language Models",
-    "authors": [
-      "Kai Xiong",
-      "Xiao Ding",
-      "Yixin Cao",
-      "Yuxiong Yan",
-      "Li Du",
-      "Yufei Zhang",
-      "Jinglong Gao",
-      "Jiaqian Liu",
-      "Bing Qin",
-      "Ting Liu"
-    ],
-    "abstract": "Large language models (LLMs) have mastered abundant simple and explicit commonsense knowledge through pre-training, enabling them to achieve human-like performance in simple commonsense reasoning. Nevertheless, LLMs struggle to reason with complex and implicit commonsense knowledge that is derived from simple ones (such as understanding the long-term effects of certain events), an aspect humans tend to focus on more. Existing works focus on complex tasks like math and code, while complex commonsense reasoning remains underexplored due to its uncertainty and lack of structure. To fill this gap and align with real-world concerns, we propose a benchmark Com 2 focusing on complex commonsense reasoning. We first incorporate causal event graphs to serve as structured complex commonsense. Then we adopt causal theory (e.g., intervention) to modify the causal event graphs and obtain different scenarios that meet human concerns. Finally, an LLM is employed to synthesize examples with slow thinking, which is guided by the logical relationships in the modified causal graphs. Furthermore, we use detective stories to construct a more challenging subset. Experiments show that LLMs struggle in reasoning depth and breadth, while post-training and slow thinking can alleviate this. The code and data are available at https://github.com/Waste-Wood/Com2 .",
-    "year": 2025,
-    "conference": "acl",
-    "conferenceName": "ACL",
-    "track": "main",
-    "subtype": "long",
-    "source": "ACL Anthology",
-    "sourceVolume": "2025.acl-long",
-    "sourceVolumeTitle": "Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
-    "url": "https://aclanthology.org/2025.acl-long.785/",
-    "keywords": [],
-    "ordinal": 785,
-    "primaryCategory": "optimization_theory",
-    "categories": [
-      "optimization_theory",
-      "reasoning",
-      "evaluation"
-    ],
-    "categoryScores": [
-      {
-        "id": "optimization_theory",
-        "label": "Optimization & Theory",
-        "color": "#475569",
-        "score": 10
-      },
-      {
-        "id": "reasoning",
-        "label": "Reasoning & Planning",
-        "color": "#9333ea",
-        "score": 9
-      },
-      {
-        "id": "evaluation",
-        "label": "Evaluation & Benchmarks",
-        "color": "#4f46e5",
-        "score": 6
-      },
-      {
-        "id": "llms",
-        "label": "LLMs & Foundation Models",
-        "color": "#2563eb",
-        "score": 1
-      },
-      {
-        "id": "alignment_safety",
-        "label": "Alignment, Safety & Trust",
-        "color": "#dc2626",
-        "score": 1
-      }
-    ]
-  },
-  {
     "id": "2025.acl-short.22",
     "title": "Combining Domain and Alignment Vectors Provides Better Knowledge-Safety Trade-offs in LLM s",
     "authors": [
@@ -93559,7 +93559,7 @@
   },
   {
     "id": "2025.acl-long.522",
-    "title": "DAPE V2: Process Attention Score as Feature Map for Length Extrapolation",
+    "title": "DAPE V 2: Process Attention Score as Feature Map for Length Extrapolation",
     "authors": [
       "Chuanyang Zheng",
       "Yihang Gao",
@@ -94734,7 +94734,7 @@
       "Jingren Zhou",
       "Junyang Lin"
     ],
-    "abstract": "This paper revisits the implementation of L oad- B alancing- L oss (LBL) when training Mixture-of-Experts (MoEs) models. Specifically, LBL for MoEs is defined as N E ∑ i=1 N E f i p i , where N E is the total number of experts, f i represents the frequency of expert i being selected, and p i denotes the average gating score of the expert i . Existing MoE training frameworks usually employ the parallel training strategy so that f i and the LBL are calculated within a micro-batch and averaged across parallel groups.However, a micro-batch for training billion-scale LLMs typically contains very few sequences, leading to the micro-batch LBL being almost at the sequence level, and the router is pushed to distribute the token evenly within each sequence.Under this strict constraint, even tokens from a domain-specific sequence ( e.g. , code) are uniformly routed to all experts, thereby inhibiting expert specialization.In this work, we propose calculating LBL using a global-batch to loose this constraint. Because a global-batch contains much more diverse sequences than a micro-batch, which will encourage load balance at the corpus level. Specifically, we introduce an extra communication step to synchronize f i across micro-batches and then use it to calculate the LBL.Through experiments on training MoEs-based LLMs (up to 42.8B parameters and 400B tokens), we surprisingly find that the global-batch LBL strategy yields excellent performance gains in both pre-training perplexity and downstream tasks.Our analysis reveals that the global-batch LBL greatly improves the domain specialization of experts. Global-batch LBL is also used in Qwen3-MoEs.",
+    "abstract": "This paper revisits the implementation of L oad- B alancing- L oss (LBL) when training Mixture-of-Experts (MoEs) models. Specifically, LBL for MoEs is defined as N E ∑ i=1 N E f i p i , where N E is the total number of experts, f i represents the frequency of expert i being selected, and p i denotes the average gating score of the expert i . Existing MoE training frameworks usually employ the parallel training strategy so that f i and the LBL are calculated within a micro-batch and averaged across parallel groups. However, a micro-batch for training billion-scale LLMs typically contains very few sequences, leading to the micro-batch LBL being almost at the sequence level, and the router is pushed to distribute the token evenly within each sequence. Under this strict constraint, even tokens from a domain-specific sequence ( e.g. , code) are uniformly routed to all experts, thereby inhibiting expert specialization. In this work, we propose calculating LBL using a global-batch to loose this constraint. Because a global-batch contains much more diverse sequences than a micro-batch, which will encourage load balance at the corpus level. Specifically, we introduce an extra communication step to synchronize f i across micro-batches and then use it to calculate the LBL. Through experiments on training MoEs-based LLMs (up to 42.8B parameters and 400B tokens), we surprisingly find that the global-batch LBL strategy yields excellent performance gains in both pre-training perplexity and downstream tasks. Our analysis reveals that the global-batch LBL greatly improves the domain specialization of experts. Global-batch LBL is also used in Qwen3-MoEs.",
     "year": 2025,
     "conference": "acl",
     "conferenceName": "ACL",
@@ -103511,6 +103511,69 @@
     ]
   },
   {
+    "id": "2025.acl-long.313",
+    "title": "F 5- TTS : A Fairytaler that Fakes Fluent and Faithful Speech with Flow Matching",
+    "authors": [
+      "Yushen Chen",
+      "Zhikang Niu",
+      "Ziyang Ma",
+      "Keqi Deng",
+      "Chunhui Wang",
+      "Jian Zhao",
+      "Kai Yu",
+      "Xie Chen"
+    ],
+    "abstract": "This paper introduces F5-TTS, a fully non-autoregressive text-to-speech system based on flow matching with Diffusion Transformer (DiT). Without requiring complex designs such as duration model, text encoder, and phoneme alignment, the text input is simply padded with filler tokens to the same length as input speech, and then the denoising is performed for speech generation, which was originally proved feasible by E2 TTS. However, the original design of E2 TTS makes it hard to follow due to its slow convergence and low robustness. To address these issues, we first model the input with ConvNeXt to refine the text representation, making it easy to align with the speech. We further propose an inference-time Sway Sampling strategy, which significantly improves our model’s performance and efficiency. This sampling strategy for flow step can be easily applied to existing flow matching based models without retraining. Our design allows faster training and achieves an inference RTF of 0.15, which is greatly improved compared to state-of-the-art diffusion-based TTS models. Trained on a public 100K hours multilingual dataset, our F5-TTS exhibits highly natural and expressive zero-shot ability, seamless code-switching capability, and speed control efficiency. We have released all codes and checkpoints to promote community development, at https://SWivid.github.io/F5-TTS/ .",
+    "year": 2025,
+    "conference": "acl",
+    "conferenceName": "ACL",
+    "track": "main",
+    "subtype": "long",
+    "source": "ACL Anthology",
+    "sourceVolume": "2025.acl-long",
+    "sourceVolumeTitle": "Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    "url": "https://aclanthology.org/2025.acl-long.313/",
+    "keywords": [],
+    "ordinal": 313,
+    "primaryCategory": "speech_audio",
+    "categories": [
+      "speech_audio",
+      "generative_models"
+    ],
+    "categoryScores": [
+      {
+        "id": "speech_audio",
+        "label": "Speech & Audio",
+        "color": "#0284c7",
+        "score": 21
+      },
+      {
+        "id": "generative_models",
+        "label": "Generative Models",
+        "color": "#db2777",
+        "score": 11
+      },
+      {
+        "id": "efficient_ai",
+        "label": "Efficient AI & Systems",
+        "color": "#16a34a",
+        "score": 4
+      },
+      {
+        "id": "evaluation",
+        "label": "Evaluation & Benchmarks",
+        "color": "#4f46e5",
+        "score": 2
+      },
+      {
+        "id": "multilingual",
+        "label": "Multilingual & Low-Resource",
+        "color": "#65a30d",
+        "score": 2
+      }
+    ]
+  },
+  {
     "id": "2025.acl-long.1587",
     "title": "F act B ench: A Dynamic Benchmark for In-the-Wild Language Model Factuality Evaluation",
     "authors": [
@@ -104180,69 +104243,6 @@
         "label": "LLMs & Foundation Models",
         "color": "#2563eb",
         "score": 6
-      }
-    ]
-  },
-  {
-    "id": "2025.acl-long.313",
-    "title": "F5- TTS : A Fairytaler that Fakes Fluent and Faithful Speech with Flow Matching",
-    "authors": [
-      "Yushen Chen",
-      "Zhikang Niu",
-      "Ziyang Ma",
-      "Keqi Deng",
-      "Chunhui Wang",
-      "Jian Zhao",
-      "Kai Yu",
-      "Xie Chen"
-    ],
-    "abstract": "This paper introduces F5-TTS, a fully non-autoregressive text-to-speech system based on flow matching with Diffusion Transformer (DiT). Without requiring complex designs such as duration model, text encoder, and phoneme alignment, the text input is simply padded with filler tokens to the same length as input speech, and then the denoising is performed for speech generation, which was originally proved feasible by E2 TTS. However, the original design of E2 TTS makes it hard to follow due to its slow convergence and low robustness. To address these issues, we first model the input with ConvNeXt to refine the text representation, making it easy to align with the speech. We further propose an inference-time Sway Sampling strategy, which significantly improves our model’s performance and efficiency. This sampling strategy for flow step can be easily applied to existing flow matching based models without retraining. Our design allows faster training and achieves an inference RTF of 0.15, which is greatly improved compared to state-of-the-art diffusion-based TTS models. Trained on a public 100K hours multilingual dataset, our F5-TTS exhibits highly natural and expressive zero-shot ability, seamless code-switching capability, and speed control efficiency. We have released all codes and checkpoints to promote community development, at https://SWivid.github.io/F5-TTS/ .",
-    "year": 2025,
-    "conference": "acl",
-    "conferenceName": "ACL",
-    "track": "main",
-    "subtype": "long",
-    "source": "ACL Anthology",
-    "sourceVolume": "2025.acl-long",
-    "sourceVolumeTitle": "Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
-    "url": "https://aclanthology.org/2025.acl-long.313/",
-    "keywords": [],
-    "ordinal": 313,
-    "primaryCategory": "speech_audio",
-    "categories": [
-      "speech_audio",
-      "generative_models"
-    ],
-    "categoryScores": [
-      {
-        "id": "speech_audio",
-        "label": "Speech & Audio",
-        "color": "#0284c7",
-        "score": 21
-      },
-      {
-        "id": "generative_models",
-        "label": "Generative Models",
-        "color": "#db2777",
-        "score": 11
-      },
-      {
-        "id": "efficient_ai",
-        "label": "Efficient AI & Systems",
-        "color": "#16a34a",
-        "score": 4
-      },
-      {
-        "id": "evaluation",
-        "label": "Evaluation & Benchmarks",
-        "color": "#4f46e5",
-        "score": 2
-      },
-      {
-        "id": "multilingual",
-        "label": "Multilingual & Low-Resource",
-        "color": "#65a30d",
-        "score": 2
       }
     ]
   },
@@ -116304,7 +116304,7 @@
   },
   {
     "id": "2025.acl-short.16",
-    "title": "K now S hift QA : How Robust are RAG Systems when Textbook Knowledge Shifts in K-12 Education?",
+    "title": "K now S hift QA : How Robust are RAG Systems when Textbook Knowledge Shifts in K -12 Education?",
     "authors": [
       "Tianshi Zheng",
       "Weihan Li",
@@ -117805,6 +117805,48 @@
         "label": "Efficient AI & Systems",
         "color": "#16a34a",
         "score": 1
+      }
+    ]
+  },
+  {
+    "id": "2025.acl-long.791",
+    "title": "L lama See, L lama Do: A Mechanistic Perspective on Contextual Entrainment and Distraction in LLM s",
+    "authors": [
+      "Jingcheng Niu",
+      "Xingdi Yuan",
+      "Tong Wang",
+      "Hamidreza Saghir",
+      "Amir H. Abdi"
+    ],
+    "abstract": "We observe a novel phenomenon, contextual entrainment , across a wide range of language models (LMs) and prompt settings, providing a new mechanistic perspective on how LMs become distracted by “irrelevant” contextual information in the input prompt. Specifically, LMs assign significantly higher logits (or probabilities) to any tokens that have previously appeared in the context prompt, even for random tokens. This suggests that contextual entrainment is a mechanistic phenomenon, occurring independently of the relevance or semantic relation of the tokens to the question or the rest of the sentence. We find statistically significant evidence that the magnitude of contextual entrainment is influenced by semantic factors. Counterfactual prompts have a greater effect compared to factual ones, suggesting that while contextual entrainment is a mechanistic phenomenon, it is modulated by semantic factors.We hypothesise that there is a circuit of attention heads — the entrainment heads — that corresponds to the contextual entrainment phenomenon. Using a novel entrainment head discovery method based on differentiable masking, we identify these heads across various settings. When we “turn off” these heads, i.e., set their outputs to zero, the effect of contextual entrainment is significantly attenuated, causing the model to generate output that capitulates to what it would produce if no distracting context were provided. Our discovery of contextual entrainment, along with our investigation into LM distraction via the entrainment heads, marks a key step towards the mechanistic analysis and mitigation of the distraction problem.",
+    "year": 2025,
+    "conference": "acl",
+    "conferenceName": "ACL",
+    "track": "main",
+    "subtype": "long",
+    "source": "ACL Anthology",
+    "sourceVolume": "2025.acl-long",
+    "sourceVolumeTitle": "Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    "url": "https://aclanthology.org/2025.acl-long.791/",
+    "keywords": [],
+    "ordinal": 791,
+    "primaryCategory": "interpretability",
+    "categories": [
+      "interpretability",
+      "llms"
+    ],
+    "categoryScores": [
+      {
+        "id": "interpretability",
+        "label": "Interpretability & Analysis",
+        "color": "#be123c",
+        "score": 10
+      },
+      {
+        "id": "llms",
+        "label": "LLMs & Foundation Models",
+        "color": "#2563eb",
+        "score": 5
       }
     ]
   },
@@ -121224,7 +121266,7 @@
   },
   {
     "id": "2025.acl-long.651",
-    "title": "LL a SE -G1: Incentivizing Generalization Capability for LL a MA -based Speech Enhancement",
+    "title": "LL a SE - G 1: Incentivizing Generalization Capability for LL a MA -based Speech Enhancement",
     "authors": [
       "Boyi Kang",
       "Xinfa Zhu",
@@ -121343,48 +121385,6 @@
         "label": "Optimization & Theory",
         "color": "#475569",
         "score": 1
-      }
-    ]
-  },
-  {
-    "id": "2025.acl-long.791",
-    "title": "Llama See, Llama Do: A Mechanistic Perspective on Contextual Entrainment and Distraction in LLM s",
-    "authors": [
-      "Jingcheng Niu",
-      "Xingdi Yuan",
-      "Tong Wang",
-      "Hamidreza Saghir",
-      "Amir H. Abdi"
-    ],
-    "abstract": "We observe a novel phenomenon, contextual entrainment , across a wide range of language models (LMs) and prompt settings, providing a new mechanistic perspective on how LMs become distracted by “irrelevant” contextual information in the input prompt. Specifically, LMs assign significantly higher logits (or probabilities) to any tokens that have previously appeared in the context prompt, even for random tokens. This suggests that contextual entrainment is a mechanistic phenomenon, occurring independently of the relevance or semantic relation of the tokens to the question or the rest of the sentence. We find statistically significant evidence that the magnitude of contextual entrainment is influenced by semantic factors. Counterfactual prompts have a greater effect compared to factual ones, suggesting that while contextual entrainment is a mechanistic phenomenon, it is modulated by semantic factors.We hypothesise that there is a circuit of attention heads — the entrainment heads — that corresponds to the contextual entrainment phenomenon. Using a novel entrainment head discovery method based on differentiable masking, we identify these heads across various settings. When we “turn off” these heads, i.e., set their outputs to zero, the effect of contextual entrainment is significantly attenuated, causing the model to generate output that capitulates to what it would produce if no distracting context were provided. Our discovery of contextual entrainment, along with our investigation into LM distraction via the entrainment heads, marks a key step towards the mechanistic analysis and mitigation of the distraction problem.",
-    "year": 2025,
-    "conference": "acl",
-    "conferenceName": "ACL",
-    "track": "main",
-    "subtype": "long",
-    "source": "ACL Anthology",
-    "sourceVolume": "2025.acl-long",
-    "sourceVolumeTitle": "Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
-    "url": "https://aclanthology.org/2025.acl-long.791/",
-    "keywords": [],
-    "ordinal": 791,
-    "primaryCategory": "interpretability",
-    "categories": [
-      "interpretability",
-      "llms"
-    ],
-    "categoryScores": [
-      {
-        "id": "interpretability",
-        "label": "Interpretability & Analysis",
-        "color": "#be123c",
-        "score": 10
-      },
-      {
-        "id": "llms",
-        "label": "LLMs & Foundation Models",
-        "color": "#2563eb",
-        "score": 5
       }
     ]
   },
@@ -123309,6 +123309,73 @@
     ]
   },
   {
+    "id": "2025.acl-long.1145",
+    "title": "M arco-o1 v2: Towards Widening The Distillation Bottleneck for Reasoning Models",
+    "authors": [
+      "Huifeng Yin",
+      "Yu Zhao",
+      "Minghao Wu",
+      "Xuanfan Ni",
+      "Bo Zeng",
+      "Hao Wang",
+      "Tianqi Shi",
+      "Liangying Shao",
+      "Chenyang Lyu",
+      "Longyue Wang",
+      "Weihua Luo",
+      "Kaifu Zhang"
+    ],
+    "abstract": "Large Reasoning Models (LRMs) such as OpenAI o1 and DeepSeek-R1 have shown remarkable reasoning capabilities by scaling test-time compute and generating long Chain-of-Thought (CoT). Distillation post-training on LRMs-generated data is a straightforward yet effective method to enhance the reasoning abilities of smaller models, but faces a critical bottleneck: we found that distilled long CoT data poses learning difficulty for small models and leads to the inheritance of biases (i.e., formalistic long-time thinking) when using Supervised Fine-tuning (SFT) and Reinforcement Learning (RL) methods. To alleviate this bottleneck, we propose constructing data from scratch using Monte Carlo Tree Search (MCTS). We then exploit a set of CoT-aware approaches, including Thoughts Length Balance, Fine-grained DPO, and Joint Post-training Objective, to enhance SFT and RL on the MCTS data. We conducted evaluation on various benchmarks such as math (GSM8K, MATH, AIME). instruction-following (Multi-IF) and planning (Blocksworld), results demonstrate our CoT-aware approaches substantially improve the reasoning performance of distilled models compared to standard distilled models via reducing the hallucinations in long-time thinking.",
+    "year": 2025,
+    "conference": "acl",
+    "conferenceName": "ACL",
+    "track": "main",
+    "subtype": "long",
+    "source": "ACL Anthology",
+    "sourceVolume": "2025.acl-long",
+    "sourceVolumeTitle": "Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    "url": "https://aclanthology.org/2025.acl-long.1145/",
+    "keywords": [],
+    "ordinal": 1145,
+    "primaryCategory": "reasoning",
+    "categories": [
+      "reasoning",
+      "efficient_ai"
+    ],
+    "categoryScores": [
+      {
+        "id": "reasoning",
+        "label": "Reasoning & Planning",
+        "color": "#9333ea",
+        "score": 11
+      },
+      {
+        "id": "efficient_ai",
+        "label": "Efficient AI & Systems",
+        "color": "#16a34a",
+        "score": 6
+      },
+      {
+        "id": "rl_robotics",
+        "label": "RL, Robotics & Control",
+        "color": "#ea580c",
+        "score": 3
+      },
+      {
+        "id": "llms",
+        "label": "LLMs & Foundation Models",
+        "color": "#2563eb",
+        "score": 1
+      },
+      {
+        "id": "retrieval_knowledge",
+        "label": "Retrieval & Knowledge",
+        "color": "#0891b2",
+        "score": 1
+      }
+    ]
+  },
+  {
     "id": "2025.acl-long.757",
     "title": "M as R outer: Learning to Route LLM s for Multi-Agent Systems",
     "authors": [
@@ -124005,6 +124072,58 @@
         "id": "efficient_ai",
         "label": "Efficient AI & Systems",
         "color": "#16a34a",
+        "score": 1
+      },
+      {
+        "id": "interpretability",
+        "label": "Interpretability & Analysis",
+        "color": "#be123c",
+        "score": 1
+      }
+    ]
+  },
+  {
+    "id": "2025.acl-long.836",
+    "title": "M ovie101v2: Improved Movie Narration Benchmark",
+    "authors": [
+      "Zihao Yue",
+      "Yepeng Zhang",
+      "Ziheng Wang",
+      "Qin Jin"
+    ],
+    "abstract": "Automatic movie narration aims to generate video-aligned plot descriptions to assist visually impaired audiences. Unlike standard video captioning, it involves not only describing key visual details but also inferring plots that unfold across multiple movie shots, presenting distinct and complex challenges. To advance this field, we introduce Movie101v2, a large-scale, bilingual dataset with enhanced data quality specifically designed for movie narration. Revisiting the task, we propose breaking down the ultimate goal of automatic movie narration into three progressive stages, offering a clear roadmap with corresponding evaluation metrics. Based on our new benchmark, we baseline a range of large vision-language models and conduct an in-depth analysis of the challenges in movie narration generation. Our findings highlight that achieving applicable movie narration generation is a fascinating goal that requires significant research.",
+    "year": 2025,
+    "conference": "acl",
+    "conferenceName": "ACL",
+    "track": "main",
+    "subtype": "long",
+    "source": "ACL Anthology",
+    "sourceVolume": "2025.acl-long",
+    "sourceVolumeTitle": "Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    "url": "https://aclanthology.org/2025.acl-long.836/",
+    "keywords": [],
+    "ordinal": 836,
+    "primaryCategory": "evaluation",
+    "categories": [
+      "evaluation"
+    ],
+    "categoryScores": [
+      {
+        "id": "evaluation",
+        "label": "Evaluation & Benchmarks",
+        "color": "#4f46e5",
+        "score": 8
+      },
+      {
+        "id": "multimodal",
+        "label": "Multimodal & Vision-Language",
+        "color": "#7c3aed",
+        "score": 2
+      },
+      {
+        "id": "data_synthetic",
+        "label": "Data, Annotation & Synthetic Data",
+        "color": "#c2410c",
         "score": 1
       },
       {
@@ -125147,73 +125266,6 @@
         "id": "nlp_core",
         "label": "Core NLP Tasks",
         "color": "#d97706",
-        "score": 1
-      }
-    ]
-  },
-  {
-    "id": "2025.acl-long.1145",
-    "title": "Marco-o1 v2: Towards Widening The Distillation Bottleneck for Reasoning Models",
-    "authors": [
-      "Huifeng Yin",
-      "Yu Zhao",
-      "Minghao Wu",
-      "Xuanfan Ni",
-      "Bo Zeng",
-      "Hao Wang",
-      "Tianqi Shi",
-      "Liangying Shao",
-      "Chenyang Lyu",
-      "Longyue Wang",
-      "Weihua Luo",
-      "Kaifu Zhang"
-    ],
-    "abstract": "Large Reasoning Models (LRMs) such as OpenAI o1 and DeepSeek-R1 have shown remarkable reasoning capabilities by scaling test-time compute and generating long Chain-of-Thought (CoT). Distillation post-training on LRMs-generated data is a straightforward yet effective method to enhance the reasoning abilities of smaller models, but faces a critical bottleneck: we found that distilled long CoT data poses learning difficulty for small models and leads to the inheritance of biases (i.e., formalistic long-time thinking) when using Supervised Fine-tuning (SFT) and Reinforcement Learning (RL) methods. To alleviate this bottleneck, we propose constructing data from scratch using Monte Carlo Tree Search (MCTS). We then exploit a set of CoT-aware approaches, including Thoughts Length Balance, Fine-grained DPO, and Joint Post-training Objective, to enhance SFT and RL on the MCTS data. We conducted evaluation on various benchmarks such as math (GSM8K, MATH, AIME). instruction-following (Multi-IF) and planning (Blocksworld), results demonstrate our CoT-aware approaches substantially improve the reasoning performance of distilled models compared to standard distilled models via reducing the hallucinations in long-time thinking.",
-    "year": 2025,
-    "conference": "acl",
-    "conferenceName": "ACL",
-    "track": "main",
-    "subtype": "long",
-    "source": "ACL Anthology",
-    "sourceVolume": "2025.acl-long",
-    "sourceVolumeTitle": "Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
-    "url": "https://aclanthology.org/2025.acl-long.1145/",
-    "keywords": [],
-    "ordinal": 1145,
-    "primaryCategory": "reasoning",
-    "categories": [
-      "reasoning",
-      "efficient_ai"
-    ],
-    "categoryScores": [
-      {
-        "id": "reasoning",
-        "label": "Reasoning & Planning",
-        "color": "#9333ea",
-        "score": 11
-      },
-      {
-        "id": "efficient_ai",
-        "label": "Efficient AI & Systems",
-        "color": "#16a34a",
-        "score": 6
-      },
-      {
-        "id": "rl_robotics",
-        "label": "RL, Robotics & Control",
-        "color": "#ea580c",
-        "score": 3
-      },
-      {
-        "id": "llms",
-        "label": "LLMs & Foundation Models",
-        "color": "#2563eb",
-        "score": 1
-      },
-      {
-        "id": "retrieval_knowledge",
-        "label": "Retrieval & Knowledge",
-        "color": "#0891b2",
         "score": 1
       }
     ]
@@ -128442,58 +128494,6 @@
         "id": "rl_robotics",
         "label": "RL, Robotics & Control",
         "color": "#ea580c",
-        "score": 1
-      }
-    ]
-  },
-  {
-    "id": "2025.acl-long.836",
-    "title": "Movie101v2: Improved Movie Narration Benchmark",
-    "authors": [
-      "Zihao Yue",
-      "Yepeng Zhang",
-      "Ziheng Wang",
-      "Qin Jin"
-    ],
-    "abstract": "Automatic movie narration aims to generate video-aligned plot descriptions to assist visually impaired audiences. Unlike standard video captioning, it involves not only describing key visual details but also inferring plots that unfold across multiple movie shots, presenting distinct and complex challenges. To advance this field, we introduce Movie101v2, a large-scale, bilingual dataset with enhanced data quality specifically designed for movie narration. Revisiting the task, we propose breaking down the ultimate goal of automatic movie narration into three progressive stages, offering a clear roadmap with corresponding evaluation metrics. Based on our new benchmark, we baseline a range of large vision-language models and conduct an in-depth analysis of the challenges in movie narration generation. Our findings highlight that achieving applicable movie narration generation is a fascinating goal that requires significant research.",
-    "year": 2025,
-    "conference": "acl",
-    "conferenceName": "ACL",
-    "track": "main",
-    "subtype": "long",
-    "source": "ACL Anthology",
-    "sourceVolume": "2025.acl-long",
-    "sourceVolumeTitle": "Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
-    "url": "https://aclanthology.org/2025.acl-long.836/",
-    "keywords": [],
-    "ordinal": 836,
-    "primaryCategory": "evaluation",
-    "categories": [
-      "evaluation"
-    ],
-    "categoryScores": [
-      {
-        "id": "evaluation",
-        "label": "Evaluation & Benchmarks",
-        "color": "#4f46e5",
-        "score": 8
-      },
-      {
-        "id": "multimodal",
-        "label": "Multimodal & Vision-Language",
-        "color": "#7c3aed",
-        "score": 2
-      },
-      {
-        "id": "data_synthetic",
-        "label": "Data, Annotation & Synthetic Data",
-        "color": "#c2410c",
-        "score": 1
-      },
-      {
-        "id": "interpretability",
-        "label": "Interpretability & Analysis",
-        "color": "#be123c",
         "score": 1
       }
     ]
@@ -133293,6 +133293,59 @@
     ]
   },
   {
+    "id": "2025.acl-long.551",
+    "title": "P re 3 : Enabling Deterministic Pushdown Automata for Faster Structured LLM Generation",
+    "authors": [
+      "Junyi Chen",
+      "Shihao Bai",
+      "Zaijun Wang",
+      "Siyu Wu",
+      "Chuheng Du",
+      "Hailong Yang",
+      "Ruihao Gong",
+      "Shengzhong Liu",
+      "Fan Wu",
+      "Guihai Chen"
+    ],
+    "abstract": "Extensive LLM applications demand efficient structured generations, particularly for LR(1) grammars, to produce outputs in specified formats (e.g., JSON). Existing methods primarily parse LR(1) grammars into a pushdown automaton (PDA), leading to runtime execution overhead for context-dependent token processing, especially inefficient under large inference batches.To address these issues, we propose Pre 3 that exploits deterministic pushdown automata (DPDA) to optimize the constrained LLM decoding efficiency.First, by pre computing pre fix-conditioned edges during the pre processing, Pre 3 enables ahead-of-time edge analysis and thus makes parallel transition processing possible.Futher, leveraging the prefix-conditioned edges, Pre 3 introduces a novel approach that transforms LR(1) transition graphs into DPDA, eliminating the need for runtime path exploration and achieving edge transitions with minimal overhead. Pre 3 can be seamlessly integrated into standard LLM inference frameworks, improving time per output token (TPOT) by up to 40% and throughput by up to 36% in our experiments. Our code is available at https://github.com/ModelTC/lightllm .",
+    "year": 2025,
+    "conference": "acl",
+    "conferenceName": "ACL",
+    "track": "main",
+    "subtype": "long",
+    "source": "ACL Anthology",
+    "sourceVolume": "2025.acl-long",
+    "sourceVolumeTitle": "Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    "url": "https://aclanthology.org/2025.acl-long.551/",
+    "keywords": [],
+    "ordinal": 551,
+    "primaryCategory": "llms",
+    "categories": [
+      "llms",
+      "efficient_ai"
+    ],
+    "categoryScores": [
+      {
+        "id": "llms",
+        "label": "LLMs & Foundation Models",
+        "color": "#2563eb",
+        "score": 8
+      },
+      {
+        "id": "efficient_ai",
+        "label": "Efficient AI & Systems",
+        "color": "#16a34a",
+        "score": 7
+      },
+      {
+        "id": "interpretability",
+        "label": "Interpretability & Analysis",
+        "color": "#be123c",
+        "score": 1
+      }
+    ]
+  },
+  {
     "id": "2025.acl-long.749",
     "title": "P re P - OCR : A Complete Pipeline for Document Image Restoration and Enhanced OCR Accuracy",
     "authors": [
@@ -135791,59 +135844,6 @@
     ]
   },
   {
-    "id": "2025.acl-long.551",
-    "title": "Pre 3 : Enabling Deterministic Pushdown Automata for Faster Structured LLM Generation",
-    "authors": [
-      "Junyi Chen",
-      "Shihao Bai",
-      "Zaijun Wang",
-      "Siyu Wu",
-      "Chuheng Du",
-      "Hailong Yang",
-      "Ruihao Gong",
-      "Shengzhong Liu",
-      "Fan Wu",
-      "Guihai Chen"
-    ],
-    "abstract": "Extensive LLM applications demand efficient structured generations, particularly for LR(1) grammars, to produce outputs in specified formats (e.g., JSON). Existing methods primarily parse LR(1) grammars into a pushdown automaton (PDA), leading to runtime execution overhead for context-dependent token processing, especially inefficient under large inference batches.To address these issues, we propose Pre 3 that exploits deterministic pushdown automata (DPDA) to optimize the constrained LLM decoding efficiency.First, by pre computing pre fix-conditioned edges during the pre processing, Pre 3 enables ahead-of-time edge analysis and thus makes parallel transition processing possible.Futher, leveraging the prefix-conditioned edges, Pre 3 introduces a novel approach that transforms LR(1) transition graphs into DPDA, eliminating the need for runtime path exploration and achieving edge transitions with minimal overhead. Pre 3 can be seamlessly integrated into standard LLM inference frameworks, improving time per output token (TPOT) by up to 40% and throughput by up to 36% in our experiments. Our code is available at https://github.com/ModelTC/lightllm .",
-    "year": 2025,
-    "conference": "acl",
-    "conferenceName": "ACL",
-    "track": "main",
-    "subtype": "long",
-    "source": "ACL Anthology",
-    "sourceVolume": "2025.acl-long",
-    "sourceVolumeTitle": "Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
-    "url": "https://aclanthology.org/2025.acl-long.551/",
-    "keywords": [],
-    "ordinal": 551,
-    "primaryCategory": "llms",
-    "categories": [
-      "llms",
-      "efficient_ai"
-    ],
-    "categoryScores": [
-      {
-        "id": "llms",
-        "label": "LLMs & Foundation Models",
-        "color": "#2563eb",
-        "score": 8
-      },
-      {
-        "id": "efficient_ai",
-        "label": "Efficient AI & Systems",
-        "color": "#16a34a",
-        "score": 7
-      },
-      {
-        "id": "interpretability",
-        "label": "Interpretability & Analysis",
-        "color": "#be123c",
-        "score": 1
-      }
-    ]
-  },
-  {
     "id": "2025.acl-long.1243",
     "title": "Pre-Training Curriculum for Multi-Token Prediction in Language Models",
     "authors": [
@@ -137104,6 +137104,73 @@
     ]
   },
   {
+    "id": "2025.acl-long.642",
+    "title": "Q wen2.5-x C oder: Multi-Agent Collaboration for Multilingual Code Instruction Tuning",
+    "authors": [
+      "Jian Yang",
+      "Wei Zhang",
+      "Yibo Miao",
+      "Shanghaoran Quan",
+      "Zhenhe Wu",
+      "Qiyao Peng",
+      "Liqun Yang",
+      "Tianyu Liu",
+      "Zeyu Cui",
+      "Binyuan Hui",
+      "Junyang Lin"
+    ],
+    "abstract": "Recent advancement in code understanding and generation demonstrates that code LLMs fine-tuned on a high-quality instruction dataset can gain powerful capabilities to address wide-ranging code-related tasks. However, most previous existing methods mainly view each programming language in isolation and ignore the knowledge transfer among different programming languages. To bridge the gap among different programming languages, we introduce a novel multi-agent collaboration framework to enhance multilingual instruction tuning for code LLMs, where multiple language-specific intelligent agent components with generation memory work together to transfer knowledge from one language to another efficiently and effectively. Specifically, we first generate the language-specific instruction data from the code snippets and then provide the generated data as the seed data for language-specific agents. Multiple language-specific agents discuss and collaborate to formulate a new instruction and its corresponding solution (A new programming language or existing programming language), To further encourage the cross-lingual transfer, each agent stores its generation history as memory and then summarizes its merits and faults. Finally, the high-quality multilingual instruction data is used to encourage knowledge transfer among different programming languages to train Qwen2.5-xCoder. Experimental results on multilingual programming benchmarks demonstrate the superior performance of Qwen2.5-xCoder in sharing common knowledge, highlighting its potential to reduce the cross-lingual gap.",
+    "year": 2025,
+    "conference": "acl",
+    "conferenceName": "ACL",
+    "track": "main",
+    "subtype": "long",
+    "source": "ACL Anthology",
+    "sourceVolume": "2025.acl-long",
+    "sourceVolumeTitle": "Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    "url": "https://aclanthology.org/2025.acl-long.642/",
+    "keywords": [],
+    "ordinal": 642,
+    "primaryCategory": "agents_tools",
+    "categories": [
+      "agents_tools",
+      "multilingual",
+      "llms"
+    ],
+    "categoryScores": [
+      {
+        "id": "agents_tools",
+        "label": "Agents & Tool Use",
+        "color": "#0f766e",
+        "score": 16
+      },
+      {
+        "id": "multilingual",
+        "label": "Multilingual & Low-Resource",
+        "color": "#65a30d",
+        "score": 10
+      },
+      {
+        "id": "llms",
+        "label": "LLMs & Foundation Models",
+        "color": "#2563eb",
+        "score": 6
+      },
+      {
+        "id": "retrieval_knowledge",
+        "label": "Retrieval & Knowledge",
+        "color": "#0891b2",
+        "score": 2
+      },
+      {
+        "id": "evaluation",
+        "label": "Evaluation & Benchmarks",
+        "color": "#4f46e5",
+        "score": 1
+      }
+    ]
+  },
+  {
     "id": "2025.acl-long.217",
     "title": "QAE ncoder: Towards Aligned Representation Learning in Question Answering Systems",
     "authors": [
@@ -137743,73 +137810,6 @@
         "id": "generative_models",
         "label": "Generative Models",
         "color": "#db2777",
-        "score": 1
-      }
-    ]
-  },
-  {
-    "id": "2025.acl-long.642",
-    "title": "Qwen2.5-x C oder: Multi-Agent Collaboration for Multilingual Code Instruction Tuning",
-    "authors": [
-      "Jian Yang",
-      "Wei Zhang",
-      "Yibo Miao",
-      "Shanghaoran Quan",
-      "Zhenhe Wu",
-      "Qiyao Peng",
-      "Liqun Yang",
-      "Tianyu Liu",
-      "Zeyu Cui",
-      "Binyuan Hui",
-      "Junyang Lin"
-    ],
-    "abstract": "Recent advancement in code understanding and generation demonstrates that code LLMs fine-tuned on a high-quality instruction dataset can gain powerful capabilities to address wide-ranging code-related tasks. However, most previous existing methods mainly view each programming language in isolation and ignore the knowledge transfer among different programming languages. To bridge the gap among different programming languages, we introduce a novel multi-agent collaboration framework to enhance multilingual instruction tuning for code LLMs, where multiple language-specific intelligent agent components with generation memory work together to transfer knowledge from one language to another efficiently and effectively. Specifically, we first generate the language-specific instruction data from the code snippets and then provide the generated data as the seed data for language-specific agents. Multiple language-specific agents discuss and collaborate to formulate a new instruction and its corresponding solution (A new programming language or existing programming language), To further encourage the cross-lingual transfer, each agent stores its generation history as memory and then summarizes its merits and faults. Finally, the high-quality multilingual instruction data is used to encourage knowledge transfer among different programming languages to train Qwen2.5-xCoder. Experimental results on multilingual programming benchmarks demonstrate the superior performance of Qwen2.5-xCoder in sharing common knowledge, highlighting its potential to reduce the cross-lingual gap.",
-    "year": 2025,
-    "conference": "acl",
-    "conferenceName": "ACL",
-    "track": "main",
-    "subtype": "long",
-    "source": "ACL Anthology",
-    "sourceVolume": "2025.acl-long",
-    "sourceVolumeTitle": "Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
-    "url": "https://aclanthology.org/2025.acl-long.642/",
-    "keywords": [],
-    "ordinal": 642,
-    "primaryCategory": "agents_tools",
-    "categories": [
-      "agents_tools",
-      "multilingual",
-      "llms"
-    ],
-    "categoryScores": [
-      {
-        "id": "agents_tools",
-        "label": "Agents & Tool Use",
-        "color": "#0f766e",
-        "score": 16
-      },
-      {
-        "id": "multilingual",
-        "label": "Multilingual & Low-Resource",
-        "color": "#65a30d",
-        "score": 10
-      },
-      {
-        "id": "llms",
-        "label": "LLMs & Foundation Models",
-        "color": "#2563eb",
-        "score": 6
-      },
-      {
-        "id": "retrieval_knowledge",
-        "label": "Retrieval & Knowledge",
-        "color": "#0891b2",
-        "score": 2
-      },
-      {
-        "id": "evaluation",
-        "label": "Evaluation & Benchmarks",
-        "color": "#4f46e5",
         "score": 1
       }
     ]
@@ -146696,7 +146696,7 @@
   },
   {
     "id": "2025.acl-long.1203",
-    "title": "SOTOPIA -Ω: Dynamic Strategy Injection Learning and Social Instruction Following Evaluation for Social Agents",
+    "title": "SOTOPIA - Ω : Dynamic Strategy Injection Learning and Social Instruction Following Evaluation for Social Agents",
     "authors": [
       "Wenyuan Zhang",
       "Tianyun Liu",

@@ -3162,10 +3162,10 @@
     "id": "2023.findings-acl.83",
     "title": "Causal Matching with Text Embeddings: A Case Study in Estimating the Causal Effects of Peer Review Policies",
     "authors": [
-      "Raymond Zhang",
+      "Raymond Z. Zhang",
       "Neha Nayak Kennard",
-      "Daniel Smith",
-      "Daniel McFarland",
+      "Daniel Scott Smith",
+      "Daniel A. McFarland",
       "Andrew McCallum",
       "Katherine A. Keith"
     ],
@@ -8472,6 +8472,28 @@
     ]
   },
   {
+    "id": "2023.findings-acl.294",
+    "title": "G eo-Seq2seq: T witter User Geolocation on Noisy Data through Sequence to Sequence Learning",
+    "authors": [
+      "Jingyu Zhang",
+      "Alexandra DeLucia",
+      "Chenyu Zhang",
+      "Mark Dredze"
+    ],
+    "year": 2023,
+    "conference": "acl",
+    "conferenceName": "ACL",
+    "track": "findings",
+    "trackLabel": "Findings",
+    "source": "ACL Anthology",
+    "url": "https://aclanthology.org/2023.findings-acl.294/",
+    "keywords": [],
+    "primaryCategory": "multilingual",
+    "categories": [
+      "multilingual"
+    ]
+  },
+  {
     "id": "2023.findings-acl.649",
     "title": "GDA : Generative Data Augmentation Techniques for Relation Extraction Tasks",
     "authors": [
@@ -8643,28 +8665,6 @@
     "categories": [
       "generative_models",
       "evaluation"
-    ]
-  },
-  {
-    "id": "2023.findings-acl.294",
-    "title": "Geo-Seq2seq: T witter User Geolocation on Noisy Data through Sequence to Sequence Learning",
-    "authors": [
-      "Jingyu Zhang",
-      "Alexandra DeLucia",
-      "Chenyu Zhang",
-      "Mark Dredze"
-    ],
-    "year": 2023,
-    "conference": "acl",
-    "conferenceName": "ACL",
-    "track": "findings",
-    "trackLabel": "Findings",
-    "source": "ACL Anthology",
-    "url": "https://aclanthology.org/2023.findings-acl.294/",
-    "keywords": [],
-    "primaryCategory": "multilingual",
-    "categories": [
-      "multilingual"
     ]
   },
   {
@@ -24025,7 +24025,7 @@
   },
   {
     "id": "2023.acl-long.857",
-    "title": "Bridging The Gap: Entailment Fused-T5 for Open-retrieval Conversational Machine Reading Comprehension",
+    "title": "Bridging The Gap: Entailment F used- T 5 for Open-retrieval Conversational Machine Reading Comprehension",
     "authors": [
       "Xiao Zhang",
       "Heyan Huang",
@@ -30781,6 +30781,33 @@
     ]
   },
   {
+    "id": "2023.acl-long.61",
+    "title": "G lot500: Scaling Multilingual Corpora and Language Models to 500 Languages",
+    "authors": [
+      "Ayyoob Imani",
+      "Peiqin Lin",
+      "Amir Hossein Kargaran",
+      "Silvia Severini",
+      "Masoud Jalili Sabet",
+      "Nora Kassner",
+      "Chunlan Ma",
+      "Helmut Schmid"
+    ],
+    "year": 2023,
+    "conference": "acl",
+    "conferenceName": "ACL",
+    "track": "main",
+    "trackLabel": "Main",
+    "source": "ACL Anthology",
+    "url": "https://aclanthology.org/2023.acl-long.61/",
+    "keywords": [],
+    "primaryCategory": "multilingual",
+    "categories": [
+      "multilingual",
+      "llms"
+    ]
+  },
+  {
     "id": "2023.acl-long.591",
     "title": "G reen KGC : A Lightweight Knowledge Graph Completion Method",
     "authors": [
@@ -31066,33 +31093,6 @@
     "primaryCategory": "nlp_core",
     "categories": [
       "nlp_core"
-    ]
-  },
-  {
-    "id": "2023.acl-long.61",
-    "title": "Glot500: Scaling Multilingual Corpora and Language Models to 500 Languages",
-    "authors": [
-      "Ayyoob Imani",
-      "Peiqin Lin",
-      "Amir Hossein Kargaran",
-      "Silvia Severini",
-      "Masoud Jalili Sabet",
-      "Nora Kassner",
-      "Chunlan Ma",
-      "Helmut Schmid"
-    ],
-    "year": 2023,
-    "conference": "acl",
-    "conferenceName": "ACL",
-    "track": "main",
-    "trackLabel": "Main",
-    "source": "ACL Anthology",
-    "url": "https://aclanthology.org/2023.acl-long.61/",
-    "keywords": [],
-    "primaryCategory": "multilingual",
-    "categories": [
-      "multilingual",
-      "llms"
     ]
   },
   {
@@ -35065,6 +35065,30 @@
     ]
   },
   {
+    "id": "2023.acl-long.257",
+    "title": "M ovie101: A New Movie Understanding Benchmark",
+    "authors": [
+      "Zihao Yue",
+      "Qi Zhang",
+      "Anwen Hu",
+      "Liang Zhang",
+      "Ziheng Wang",
+      "Qin Jin"
+    ],
+    "year": 2023,
+    "conference": "acl",
+    "conferenceName": "ACL",
+    "track": "main",
+    "trackLabel": "Main",
+    "source": "ACL Anthology",
+    "url": "https://aclanthology.org/2023.acl-long.257/",
+    "keywords": [],
+    "primaryCategory": "evaluation",
+    "categories": [
+      "evaluation"
+    ]
+  },
+  {
     "id": "2023.acl-short.131",
     "title": "m PMR : A Multilingual Pre-trained Machine Reader at Scale",
     "authors": [
@@ -36219,30 +36243,6 @@
       "evaluation",
       "speech_audio",
       "data_synthetic"
-    ]
-  },
-  {
-    "id": "2023.acl-long.257",
-    "title": "Movie101: A New Movie Understanding Benchmark",
-    "authors": [
-      "Zihao Yue",
-      "Qi Zhang",
-      "Anwen Hu",
-      "Liang Zhang",
-      "Ziheng Wang",
-      "Qin Jin"
-    ],
-    "year": 2023,
-    "conference": "acl",
-    "conferenceName": "ACL",
-    "track": "main",
-    "trackLabel": "Main",
-    "source": "ACL Anthology",
-    "url": "https://aclanthology.org/2023.acl-long.257/",
-    "keywords": [],
-    "primaryCategory": "evaluation",
-    "categories": [
-      "evaluation"
     ]
   },
   {
@@ -41171,7 +41171,7 @@
   },
   {
     "id": "2023.acl-long.496",
-    "title": "SLUE Phase-2: A Benchmark Suite of Diverse Spoken Language Understanding Tasks",
+    "title": "SLUE P hase-2: A Benchmark Suite of Diverse Spoken Language Understanding Tasks",
     "authors": [
       "Suwon Shon",
       "Siddhant Arora",
@@ -51580,6 +51580,28 @@
     ]
   },
   {
+    "id": "2023.findings-emnlp.127",
+    "title": "D i F air: A Benchmark for Disentangled Assessment of Gender Knowledge and Bias",
+    "authors": [
+      "Mahdi Zakizadeh",
+      "Kaveh Eskandari Miandoab",
+      "Mohammad Taher Pilehvar"
+    ],
+    "year": 2023,
+    "conference": "emnlp",
+    "conferenceName": "EMNLP",
+    "track": "findings",
+    "trackLabel": "Findings",
+    "source": "ACL Anthology",
+    "url": "https://aclanthology.org/2023.findings-emnlp.127/",
+    "keywords": [],
+    "primaryCategory": "evaluation",
+    "categories": [
+      "evaluation",
+      "alignment_safety"
+    ]
+  },
+  {
     "id": "2023.findings-emnlp.1010",
     "title": "D i QAD : A Benchmark Dataset for Open-domain Dialogue Quality Assessment",
     "authors": [
@@ -52422,28 +52444,6 @@
     "categories": [
       "nlp_core",
       "domain_science"
-    ]
-  },
-  {
-    "id": "2023.findings-emnlp.127",
-    "title": "DiFair: A Benchmark for Disentangled Assessment of Gender Knowledge and Bias",
-    "authors": [
-      "Mahdi Zakizadeh",
-      "Kaveh Eskandari Miandoab",
-      "Mohammad Taher Pilehvar"
-    ],
-    "year": 2023,
-    "conference": "emnlp",
-    "conferenceName": "EMNLP",
-    "track": "findings",
-    "trackLabel": "Findings",
-    "source": "ACL Anthology",
-    "url": "https://aclanthology.org/2023.findings-emnlp.127/",
-    "keywords": [],
-    "primaryCategory": "evaluation",
-    "categories": [
-      "evaluation",
-      "alignment_safety"
     ]
   },
   {
@@ -73768,7 +73768,7 @@
   },
   {
     "id": "2023.emnlp-main.11",
-    "title": "Better Quality Pre-training Data and T5 Models for A frican Languages",
+    "title": "Better Quality Pre-training Data and T 5 Models for A frican Languages",
     "authors": [
       "Akintunde Oladipo",
       "Mofetoluwa Adeyemi",
@@ -79945,6 +79945,29 @@
     ]
   },
   {
+    "id": "2023.emnlp-main.504",
+    "title": "F ind-2-Find: Multitask Learning for Anaphora Resolution and Object Localization",
+    "authors": [
+      "Cennet Oguz",
+      "Pascal Denis",
+      "Emmanuel Vincent",
+      "Simon Ostermann",
+      "Josef van Genabith"
+    ],
+    "year": 2023,
+    "conference": "emnlp",
+    "conferenceName": "EMNLP",
+    "track": "main",
+    "trackLabel": "Main",
+    "source": "ACL Anthology",
+    "url": "https://aclanthology.org/2023.emnlp-main.504/",
+    "keywords": [],
+    "primaryCategory": "multimodal",
+    "categories": [
+      "multimodal"
+    ]
+  },
+  {
     "id": "2023.emnlp-main.896",
     "title": "F ree AL : Towards Human-Free Active Learning in the Era of Large Language Models",
     "authors": [
@@ -80324,29 +80347,6 @@
     ]
   },
   {
-    "id": "2023.emnlp-main.504",
-    "title": "Find-2-Find: Multitask Learning for Anaphora Resolution and Object Localization",
-    "authors": [
-      "Cennet Oguz",
-      "Pascal Denis",
-      "Emmanuel Vincent",
-      "Simon Ostermann",
-      "Josef van Genabith"
-    ],
-    "year": 2023,
-    "conference": "emnlp",
-    "conferenceName": "EMNLP",
-    "track": "main",
-    "trackLabel": "Main",
-    "source": "ACL Anthology",
-    "url": "https://aclanthology.org/2023.emnlp-main.504/",
-    "keywords": [],
-    "primaryCategory": "multimodal",
-    "categories": [
-      "multimodal"
-    ]
-  },
-  {
     "id": "2023.emnlp-main.855",
     "title": "Finding Authentic Counterhate Arguments: A Case Study with Public Figures",
     "authors": [
@@ -80645,7 +80645,7 @@
   },
   {
     "id": "2023.emnlp-main.153",
-    "title": "G -Eval: NLG Evaluation using Gpt-4 with Better Human Alignment",
+    "title": "G -Eval: NLG Evaluation using G pt-4 with Better Human Alignment",
     "authors": [
       "Yang Liu",
       "Dan Iter",
@@ -80957,7 +80957,7 @@
   },
   {
     "id": "2023.emnlp-main.135",
-    "title": "Generating and Evaluating Tests for K-12 Students with Language Model Simulations: A Case Study on Sentence Reading Efficiency",
+    "title": "Generating and Evaluating Tests for K -12 Students with Language Model Simulations: A Case Study on Sentence Reading Efficiency",
     "authors": [
       "Eric Zelikman",
       "Wanjing Ma",
@@ -87357,6 +87357,27 @@
     ]
   },
   {
+    "id": "2023.emnlp-main.1031",
+    "title": "P 5: Plug-and-Play Persona Prompting for Personalized Response Selection",
+    "authors": [
+      "Joosung Lee",
+      "Minsik Oh",
+      "Donghun Lee"
+    ],
+    "year": 2023,
+    "conference": "emnlp",
+    "conferenceName": "EMNLP",
+    "track": "main",
+    "trackLabel": "Main",
+    "source": "ACL Anthology",
+    "url": "https://aclanthology.org/2023.emnlp-main.1031/",
+    "keywords": [],
+    "primaryCategory": "data_synthetic",
+    "categories": [
+      "data_synthetic"
+    ]
+  },
+  {
     "id": "2023.emnlp-main.517",
     "title": "P re W o M e: Exploiting Presuppositions as Working Memory for Long Form Question Answering",
     "authors": [
@@ -87425,27 +87446,6 @@
     "categories": [
       "speech_audio",
       "nlp_core"
-    ]
-  },
-  {
-    "id": "2023.emnlp-main.1031",
-    "title": "P5: Plug-and-Play Persona Prompting for Personalized Response Selection",
-    "authors": [
-      "Joosung Lee",
-      "Minsik Oh",
-      "Donghun Lee"
-    ],
-    "year": 2023,
-    "conference": "emnlp",
-    "conferenceName": "EMNLP",
-    "track": "main",
-    "trackLabel": "Main",
-    "source": "ACL Anthology",
-    "url": "https://aclanthology.org/2023.emnlp-main.1031/",
-    "keywords": [],
-    "primaryCategory": "data_synthetic",
-    "categories": [
-      "data_synthetic"
     ]
   },
   {
@@ -88570,6 +88570,27 @@
     ]
   },
   {
+    "id": "2023.emnlp-main.585",
+    "title": "Q uery2doc: Query Expansion with Large Language Models",
+    "authors": [
+      "Liang Wang",
+      "Nan Yang",
+      "Furu Wei"
+    ],
+    "year": 2023,
+    "conference": "emnlp",
+    "conferenceName": "EMNLP",
+    "track": "main",
+    "trackLabel": "Main",
+    "source": "ACL Anthology",
+    "url": "https://aclanthology.org/2023.emnlp-main.585/",
+    "keywords": [],
+    "primaryCategory": "llms",
+    "categories": [
+      "llms"
+    ]
+  },
+  {
     "id": "2023.emnlp-main.843",
     "title": "q2d: Turning Questions into Dialogs to Teach Models How to Search",
     "authors": [
@@ -88757,27 +88778,6 @@
     "primaryCategory": "retrieval_knowledge",
     "categories": [
       "retrieval_knowledge"
-    ]
-  },
-  {
-    "id": "2023.emnlp-main.585",
-    "title": "Query2doc: Query Expansion with Large Language Models",
-    "authors": [
-      "Liang Wang",
-      "Nan Yang",
-      "Furu Wei"
-    ],
-    "year": 2023,
-    "conference": "emnlp",
-    "conferenceName": "EMNLP",
-    "track": "main",
-    "trackLabel": "Main",
-    "source": "ACL Anthology",
-    "url": "https://aclanthology.org/2023.emnlp-main.585/",
-    "keywords": [],
-    "primaryCategory": "llms",
-    "categories": [
-      "llms"
     ]
   },
   {
@@ -102243,7 +102243,7 @@
   },
   {
     "id": "2024.findings-acl.462",
-    "title": "E - EVAL : A Comprehensive C hinese K-12 Education Evaluation Benchmark for Large Language Models",
+    "title": "E - EVAL : A Comprehensive C hinese K -12 Education Evaluation Benchmark for Large Language Models",
     "authors": [
       "Jinchang Hou",
       "Chang Ao",
@@ -102266,6 +102266,33 @@
     "categories": [
       "evaluation",
       "domain_science"
+    ]
+  },
+  {
+    "id": "2024.findings-acl.252",
+    "title": "E 2- LLM : Efficient and Extreme Length Extension of Large Language Models",
+    "authors": [
+      "Jiaheng Liu",
+      "Zhiqi Bai",
+      "Yuanxing Zhang",
+      "Chenchen Zhang",
+      "Yu Zhang",
+      "Ge Zhang",
+      "Jiakai Wang",
+      "Haoran Que"
+    ],
+    "year": 2024,
+    "conference": "acl",
+    "conferenceName": "ACL",
+    "track": "findings",
+    "trackLabel": "Findings",
+    "source": "ACL Anthology",
+    "url": "https://aclanthology.org/2024.findings-acl.252/",
+    "keywords": [],
+    "primaryCategory": "llms",
+    "categories": [
+      "llms",
+      "efficient_ai"
     ]
   },
   {
@@ -102381,33 +102408,6 @@
     "categories": [
       "evaluation",
       "multimodal"
-    ]
-  },
-  {
-    "id": "2024.findings-acl.252",
-    "title": "E2- LLM : Efficient and Extreme Length Extension of Large Language Models",
-    "authors": [
-      "Jiaheng Liu",
-      "Zhiqi Bai",
-      "Yuanxing Zhang",
-      "Chenchen Zhang",
-      "Yu Zhang",
-      "Ge Zhang",
-      "Jiakai Wang",
-      "Haoran Que"
-    ],
-    "year": 2024,
-    "conference": "acl",
-    "conferenceName": "ACL",
-    "track": "findings",
-    "trackLabel": "Findings",
-    "source": "ACL Anthology",
-    "url": "https://aclanthology.org/2024.findings-acl.252/",
-    "keywords": [],
-    "primaryCategory": "llms",
-    "categories": [
-      "llms",
-      "efficient_ai"
     ]
   },
   {
@@ -104474,7 +104474,7 @@
   },
   {
     "id": "2024.findings-acl.927",
-    "title": "From Representational Harms to Quality-of-Service Harms: A Case Study on Llama 2 Safety Safeguards",
+    "title": "From Representational Harms to Quality-of-Service Harms: A Case Study on L lama 2 Safety Safeguards",
     "authors": [
       "Khaoula Chehbouni",
       "Megha Roshan",
@@ -110954,6 +110954,31 @@
     ]
   },
   {
+    "id": "2024.findings-acl.541",
+    "title": "P 4: Plug-and-Play Discrete Prompting for Large Language Models Personalization",
+    "authors": [
+      "Yuansen Zhang",
+      "Xiao Wang",
+      "Tianze Chen",
+      "Jiayi Fu",
+      "Tao Gui",
+      "Qi Zhang"
+    ],
+    "year": 2024,
+    "conference": "acl",
+    "conferenceName": "ACL",
+    "track": "findings",
+    "trackLabel": "Findings",
+    "source": "ACL Anthology",
+    "url": "https://aclanthology.org/2024.findings-acl.541/",
+    "keywords": [],
+    "primaryCategory": "retrieval_knowledge",
+    "categories": [
+      "retrieval_knowledge",
+      "nlp_core"
+    ]
+  },
+  {
     "id": "2024.findings-acl.434",
     "title": "P artial F ormer: Modeling Part Instead of Whole for Machine Translation",
     "authors": [
@@ -111095,31 +111120,6 @@
     "primaryCategory": "efficient_ai",
     "categories": [
       "efficient_ai"
-    ]
-  },
-  {
-    "id": "2024.findings-acl.541",
-    "title": "P4: Plug-and-Play Discrete Prompting for Large Language Models Personalization",
-    "authors": [
-      "Yuansen Zhang",
-      "Xiao Wang",
-      "Tianze Chen",
-      "Jiayi Fu",
-      "Tao Gui",
-      "Qi Zhang"
-    ],
-    "year": 2024,
-    "conference": "acl",
-    "conferenceName": "ACL",
-    "track": "findings",
-    "trackLabel": "Findings",
-    "source": "ACL Anthology",
-    "url": "https://aclanthology.org/2024.findings-acl.541/",
-    "keywords": [],
-    "primaryCategory": "retrieval_knowledge",
-    "categories": [
-      "retrieval_knowledge",
-      "nlp_core"
     ]
   },
   {
@@ -113563,6 +113563,33 @@
     ]
   },
   {
+    "id": "2024.findings-acl.891",
+    "title": "S 3- DST : Structured Open-Domain Dialogue Segmentation and State Tracking in the Era of LLM s",
+    "authors": [
+      "Sarkar Snigdha Sarathi Das",
+      "Chirag Shah",
+      "Mengting Wan",
+      "Jennifer Neville",
+      "Longqi Yang",
+      "Reid Andersen",
+      "Georg Buscher",
+      "Tara Safavi"
+    ],
+    "year": 2024,
+    "conference": "acl",
+    "conferenceName": "ACL",
+    "track": "findings",
+    "trackLabel": "Findings",
+    "source": "ACL Anthology",
+    "url": "https://aclanthology.org/2024.findings-acl.891/",
+    "keywords": [],
+    "primaryCategory": "nlp_core",
+    "categories": [
+      "nlp_core",
+      "llms"
+    ]
+  },
+  {
     "id": "2024.findings-acl.699",
     "title": "S ca L earn: Simple and Highly Parameter-Efficient Task Transfer by Learning to Scale",
     "authors": [
@@ -114013,33 +114040,6 @@
     "primaryCategory": "interpretability",
     "categories": [
       "interpretability"
-    ]
-  },
-  {
-    "id": "2024.findings-acl.891",
-    "title": "S3- DST : Structured Open-Domain Dialogue Segmentation and State Tracking in the Era of LLM s",
-    "authors": [
-      "Sarkar Snigdha Sarathi Das",
-      "Chirag Shah",
-      "Mengting Wan",
-      "Jennifer Neville",
-      "Longqi Yang",
-      "Reid Andersen",
-      "Georg Buscher",
-      "Tara Safavi"
-    ],
-    "year": 2024,
-    "conference": "acl",
-    "conferenceName": "ACL",
-    "track": "findings",
-    "trackLabel": "Findings",
-    "source": "ACL Anthology",
-    "url": "https://aclanthology.org/2024.findings-acl.891/",
-    "keywords": [],
-    "primaryCategory": "nlp_core",
-    "categories": [
-      "nlp_core",
-      "llms"
     ]
   },
   {
@@ -119389,6 +119389,63 @@
     ]
   },
   {
+    "id": "2024.acl-long.620",
+    "title": "A ya Dataset: An Open-Access Collection for Multilingual Instruction Tuning",
+    "authors": [
+      "Shivalika Singh",
+      "Freddie Vargus",
+      "Daniel D’souza",
+      "Börje F. Karlsson",
+      "Abinaya Mahendiran",
+      "Wei-Yin Ko",
+      "Herumb Shandilya",
+      "Jay Patel"
+    ],
+    "year": 2024,
+    "conference": "acl",
+    "conferenceName": "ACL",
+    "track": "main",
+    "trackLabel": "Main",
+    "source": "ACL Anthology",
+    "url": "https://aclanthology.org/2024.acl-long.620/",
+    "keywords": [],
+    "primaryCategory": "llms",
+    "categories": [
+      "llms",
+      "evaluation",
+      "multilingual"
+    ]
+  },
+  {
+    "id": "2024.acl-long.845",
+    "title": "A ya Model: An Instruction Finetuned Open-Access Multilingual Language Model",
+    "authors": [
+      "Ahmet Üstün",
+      "Viraat Aryabumi",
+      "Zheng Yong",
+      "Wei-Yin Ko",
+      "Daniel D’souza",
+      "Gbemileke Onilude",
+      "Neel Bhandari",
+      "Shivalika Singh"
+    ],
+    "year": 2024,
+    "conference": "acl",
+    "conferenceName": "ACL",
+    "track": "main",
+    "trackLabel": "Main",
+    "source": "ACL Anthology",
+    "url": "https://aclanthology.org/2024.acl-long.845/",
+    "keywords": [],
+    "primaryCategory": "multilingual",
+    "categories": [
+      "multilingual",
+      "llms",
+      "evaluation",
+      "alignment_safety"
+    ]
+  },
+  {
     "id": "2024.acl-long.43",
     "title": "ABEX : Data Augmentation for Low-Resource NLU via Expanding Abstract Descriptions",
     "authors": [
@@ -120675,17 +120732,12 @@
     ]
   },
   {
-    "id": "2024.acl-long.620",
-    "title": "Aya Dataset: An Open-Access Collection for Multilingual Instruction Tuning",
+    "id": "2024.acl-long.277",
+    "title": "B abel- I mage N et: Massively Multilingual Evaluation of Vision-and-Language Representations",
     "authors": [
-      "Shivalika Singh",
-      "Freddie Vargus",
-      "Daniel D’souza",
-      "Börje F. Karlsson",
-      "Abinaya Mahendiran",
-      "Wei-Yin Ko",
-      "Herumb Shandilya",
-      "Jay Patel"
+      "Gregor Geigle",
+      "Radu Timofte",
+      "Goran Glavaš"
     ],
     "year": 2024,
     "conference": "acl",
@@ -120693,42 +120745,12 @@
     "track": "main",
     "trackLabel": "Main",
     "source": "ACL Anthology",
-    "url": "https://aclanthology.org/2024.acl-long.620/",
-    "keywords": [],
-    "primaryCategory": "llms",
-    "categories": [
-      "llms",
-      "evaluation",
-      "multilingual"
-    ]
-  },
-  {
-    "id": "2024.acl-long.845",
-    "title": "Aya Model: An Instruction Finetuned Open-Access Multilingual Language Model",
-    "authors": [
-      "Ahmet Üstün",
-      "Viraat Aryabumi",
-      "Zheng Yong",
-      "Wei-Yin Ko",
-      "Daniel D’souza",
-      "Gbemileke Onilude",
-      "Neel Bhandari",
-      "Shivalika Singh"
-    ],
-    "year": 2024,
-    "conference": "acl",
-    "conferenceName": "ACL",
-    "track": "main",
-    "trackLabel": "Main",
-    "source": "ACL Anthology",
-    "url": "https://aclanthology.org/2024.acl-long.845/",
+    "url": "https://aclanthology.org/2024.acl-long.277/",
     "keywords": [],
     "primaryCategory": "multilingual",
     "categories": [
       "multilingual",
-      "llms",
-      "evaluation",
-      "alignment_safety"
+      "evaluation"
     ]
   },
   {
@@ -120905,28 +120927,6 @@
     "primaryCategory": "nlp_core",
     "categories": [
       "nlp_core"
-    ]
-  },
-  {
-    "id": "2024.acl-long.277",
-    "title": "Babel- I mage N et: Massively Multilingual Evaluation of Vision-and-Language Representations",
-    "authors": [
-      "Gregor Geigle",
-      "Radu Timofte",
-      "Goran Glavaš"
-    ],
-    "year": 2024,
-    "conference": "acl",
-    "conferenceName": "ACL",
-    "track": "main",
-    "trackLabel": "Main",
-    "source": "ACL Anthology",
-    "url": "https://aclanthology.org/2024.acl-long.277/",
-    "keywords": [],
-    "primaryCategory": "multilingual",
-    "categories": [
-      "multilingual",
-      "evaluation"
     ]
   },
   {
@@ -124617,6 +124617,32 @@
     ]
   },
   {
+    "id": "2024.acl-long.494",
+    "title": "E x3: Automatic Novel Writing by Extracting, Excelsior and Expanding",
+    "authors": [
+      "Huang Lei",
+      "Jiaming Guo",
+      "Guanhua He",
+      "Xishan Zhang",
+      "Rui Zhang",
+      "Shaohui Peng",
+      "Shaoli Liu",
+      "Tianshi Chen"
+    ],
+    "year": 2024,
+    "conference": "acl",
+    "conferenceName": "ACL",
+    "track": "main",
+    "trackLabel": "Main",
+    "source": "ACL Anthology",
+    "url": "https://aclanthology.org/2024.acl-long.494/",
+    "keywords": [],
+    "primaryCategory": "evaluation",
+    "categories": [
+      "evaluation"
+    ]
+  },
+  {
     "id": "2024.acl-long.861",
     "title": "ECBD : Evidence-Centered Benchmark Design for NLP",
     "authors": [
@@ -125384,32 +125410,6 @@
     ]
   },
   {
-    "id": "2024.acl-long.494",
-    "title": "Ex3: Automatic Novel Writing by Extracting, Excelsior and Expanding",
-    "authors": [
-      "Huang Lei",
-      "Jiaming Guo",
-      "Guanhua He",
-      "Xishan Zhang",
-      "Rui Zhang",
-      "Shaohui Peng",
-      "Shaoli Liu",
-      "Tianshi Chen"
-    ],
-    "year": 2024,
-    "conference": "acl",
-    "conferenceName": "ACL",
-    "track": "main",
-    "trackLabel": "Main",
-    "source": "ACL Anthology",
-    "url": "https://aclanthology.org/2024.acl-long.494/",
-    "keywords": [],
-    "primaryCategory": "evaluation",
-    "categories": [
-      "evaluation"
-    ]
-  },
-  {
     "id": "2024.acl-long.560",
     "title": "Examining the robustness of LLM evaluation to the distributional assumptions of benchmarks",
     "authors": [
@@ -126001,6 +126001,32 @@
     ]
   },
   {
+    "id": "2024.acl-long.693",
+    "title": "F inance MATH : Knowledge-Intensive Math Reasoning in Finance Domains",
+    "authors": [
+      "Yilun Zhao",
+      "Hongjun Liu",
+      "Yitao Long",
+      "Rui Zhang",
+      "Chen Zhao",
+      "Arman Cohan"
+    ],
+    "year": 2024,
+    "conference": "acl",
+    "conferenceName": "ACL",
+    "track": "main",
+    "trackLabel": "Main",
+    "source": "ACL Anthology",
+    "url": "https://aclanthology.org/2024.acl-long.693/",
+    "keywords": [],
+    "primaryCategory": "reasoning",
+    "categories": [
+      "reasoning",
+      "domain_science",
+      "evaluation"
+    ]
+  },
+  {
     "id": "2024.acl-long.51",
     "title": "F ine S ur E : Fine-grained Summarization Evaluation using LLM s",
     "authors": [
@@ -126214,32 +126240,6 @@
       "llms",
       "retrieval_knowledge",
       "nlp_core"
-    ]
-  },
-  {
-    "id": "2024.acl-long.693",
-    "title": "FinanceMATH: Knowledge-Intensive Math Reasoning in Finance Domains",
-    "authors": [
-      "Yilun Zhao",
-      "Hongjun Liu",
-      "Yitao Long",
-      "Rui Zhang",
-      "Chen Zhao",
-      "Arman Cohan"
-    ],
-    "year": 2024,
-    "conference": "acl",
-    "conferenceName": "ACL",
-    "track": "main",
-    "trackLabel": "Main",
-    "source": "ACL Anthology",
-    "url": "https://aclanthology.org/2024.acl-long.693/",
-    "keywords": [],
-    "primaryCategory": "reasoning",
-    "categories": [
-      "reasoning",
-      "domain_science",
-      "evaluation"
     ]
   },
   {
@@ -132287,7 +132287,7 @@
   },
   {
     "id": "2024.acl-long.401",
-    "title": "MT -Bench-101: A Fine-Grained Benchmark for Evaluating Large Language Models in Multi-Turn Dialogues",
+    "title": "MT - B ench-101: A Fine-Grained Benchmark for Evaluating Large Language Models in Multi-Turn Dialogues",
     "authors": [
       "Ge Bai",
       "Jie Liu",
@@ -133667,7 +133667,7 @@
   },
   {
     "id": "2024.acl-long.177",
-    "title": "Open K o- LLM Leaderboard: Evaluating Large Language Models in K orean with K o-H5 Benchmark",
+    "title": "Open K o- LLM Leaderboard: Evaluating Large Language Models in K orean with K o- H 5 Benchmark",
     "authors": [
       "Chanjun Park",
       "Hyeonwoo Kim",
@@ -135008,6 +135008,29 @@
     ]
   },
   {
+    "id": "2024.acl-long.255",
+    "title": "R e3: A Holistic Framework and Dataset for Modeling Collaborative Document Revision",
+    "authors": [
+      "Qian Ruan",
+      "Ilia Kuznetsov",
+      "Iryna Gurevych"
+    ],
+    "year": 2024,
+    "conference": "acl",
+    "conferenceName": "ACL",
+    "track": "main",
+    "trackLabel": "Main",
+    "source": "ACL Anthology",
+    "url": "https://aclanthology.org/2024.acl-long.255/",
+    "keywords": [],
+    "primaryCategory": "evaluation",
+    "categories": [
+      "evaluation",
+      "interpretability",
+      "data_synthetic"
+    ]
+  },
+  {
     "id": "2024.acl-short.29",
     "title": "R ec GPT : Generative Pre-training for Text-based Recommendation",
     "authors": [
@@ -135270,29 +135293,6 @@
     "categories": [
       "reasoning",
       "efficient_ai"
-    ]
-  },
-  {
-    "id": "2024.acl-long.255",
-    "title": "Re3: A Holistic Framework and Dataset for Modeling Collaborative Document Revision",
-    "authors": [
-      "Qian Ruan",
-      "Ilia Kuznetsov",
-      "Iryna Gurevych"
-    ],
-    "year": 2024,
-    "conference": "acl",
-    "conferenceName": "ACL",
-    "track": "main",
-    "trackLabel": "Main",
-    "source": "ACL Anthology",
-    "url": "https://aclanthology.org/2024.acl-long.255/",
-    "keywords": [],
-    "primaryCategory": "evaluation",
-    "categories": [
-      "evaluation",
-      "interpretability",
-      "data_synthetic"
     ]
   },
   {
@@ -137704,7 +137704,7 @@
   },
   {
     "id": "2024.acl-long.828",
-    "title": "Steering Llama 2 via Contrastive Activation Addition",
+    "title": "Steering L lama 2 via Contrastive Activation Addition",
     "authors": [
       "Nina Rimsky",
       "Nick Gabrieli",
@@ -142095,7 +142095,7 @@
   },
   {
     "id": "2024.findings-emnlp.470",
-    "title": "A Semantic Search Engine for Mathlib4",
+    "title": "A Semantic Search Engine for M athlib4",
     "authors": [
       "Guoxiong Gao",
       "Haocheng Ju",
@@ -152728,6 +152728,32 @@
     ]
   },
   {
+    "id": "2024.findings-emnlp.347",
+    "title": "L lama SL ayer 8 B : Shallow Layers Hold the Key to Knowledge Injection",
+    "authors": [
+      "Tianxiang Chen",
+      "Zhentao Tan",
+      "Tao Gong",
+      "Yue Wu",
+      "Qi Chu",
+      "Bin Liu",
+      "Jieping Ye",
+      "Nenghai Yu"
+    ],
+    "year": 2024,
+    "conference": "emnlp",
+    "conferenceName": "EMNLP",
+    "track": "findings",
+    "trackLabel": "Findings",
+    "source": "ACL Anthology",
+    "url": "https://aclanthology.org/2024.findings-emnlp.347/",
+    "keywords": [],
+    "primaryCategory": "llms",
+    "categories": [
+      "llms"
+    ]
+  },
+  {
     "id": "2024.findings-emnlp.539",
     "title": "L o RAE xit: Empowering Dynamic Modulation of LLM s in Resource-limited Settings using Low-rank Adapters",
     "authors": [
@@ -153955,32 +153981,6 @@
     ]
   },
   {
-    "id": "2024.findings-emnlp.347",
-    "title": "Llama SL ayer 8 B : Shallow Layers Hold the Key to Knowledge Injection",
-    "authors": [
-      "Tianxiang Chen",
-      "Zhentao Tan",
-      "Tao Gong",
-      "Yue Wu",
-      "Qi Chu",
-      "Bin Liu",
-      "Jieping Ye",
-      "Nenghai Yu"
-    ],
-    "year": 2024,
-    "conference": "emnlp",
-    "conferenceName": "EMNLP",
-    "track": "findings",
-    "trackLabel": "Findings",
-    "source": "ACL Anthology",
-    "url": "https://aclanthology.org/2024.findings-emnlp.347/",
-    "keywords": [],
-    "primaryCategory": "llms",
-    "categories": [
-      "llms"
-    ]
-  },
-  {
     "id": "2024.findings-emnlp.373",
     "title": "Llamipa: An Incremental Discourse Parser",
     "authors": [
@@ -154730,6 +154730,28 @@
     ]
   },
   {
+    "id": "2024.findings-emnlp.250",
+    "title": "M 5 – A Diverse Benchmark to Assess the Performance of Large Multimodal Models Across Multilingual and Multicultural Vision-Language Tasks",
+    "authors": [
+      "Florian Schneider",
+      "Sunayana Sitaram"
+    ],
+    "year": 2024,
+    "conference": "emnlp",
+    "conferenceName": "EMNLP",
+    "track": "findings",
+    "trackLabel": "Findings",
+    "source": "ACL Anthology",
+    "url": "https://aclanthology.org/2024.findings-emnlp.250/",
+    "keywords": [],
+    "primaryCategory": "multimodal",
+    "categories": [
+      "multimodal",
+      "evaluation",
+      "multilingual"
+    ]
+  },
+  {
     "id": "2024.findings-emnlp.232",
     "title": "m ABC : Multi-Agent Blockchain-inspired Collaboration for Root Cause Analysis in Micro-Services Architecture",
     "authors": [
@@ -155030,7 +155052,7 @@
   },
   {
     "id": "2024.findings-emnlp.612",
-    "title": "M o E -I 2 : Compressing Mixture of Experts Models through Inter-Expert Pruning and Intra-Expert Low-Rank Decomposition",
+    "title": "M o E - I 2 : Compressing Mixture of Experts Models through Inter-Expert Pruning and Intra-Expert Low-Rank Decomposition",
     "authors": [
       "Cheng Yang",
       "Yang Sui",
@@ -155229,28 +155251,6 @@
     "primaryCategory": "speech_audio",
     "categories": [
       "speech_audio"
-    ]
-  },
-  {
-    "id": "2024.findings-emnlp.250",
-    "title": "M5 – A Diverse Benchmark to Assess the Performance of Large Multimodal Models Across Multilingual and Multicultural Vision-Language Tasks",
-    "authors": [
-      "Florian Schneider",
-      "Sunayana Sitaram"
-    ],
-    "year": 2024,
-    "conference": "emnlp",
-    "conferenceName": "EMNLP",
-    "track": "findings",
-    "trackLabel": "Findings",
-    "source": "ACL Anthology",
-    "url": "https://aclanthology.org/2024.findings-emnlp.250/",
-    "keywords": [],
-    "primaryCategory": "multimodal",
-    "categories": [
-      "multimodal",
-      "evaluation",
-      "multilingual"
     ]
   },
   {
@@ -166972,7 +166972,7 @@
   },
   {
     "id": "2024.emnlp-main.663",
-    "title": "Advancing Semantic Textual Similarity Modeling: A Regression Framework with Translated R e LU and Smooth K2 Loss",
+    "title": "Advancing Semantic Textual Similarity Modeling: A Regression Framework with Translated R e LU and Smooth K 2 Loss",
     "authors": [
       "Bowen Zhang",
       "Chunping Li"
@@ -179330,7 +179330,7 @@
   },
   {
     "id": "2024.emnlp-main.1004",
-    "title": "Is C4 Dataset Optimal for Pruning? An Investigation of Calibration Data for LLM Pruning",
+    "title": "Is C 4 Dataset Optimal for Pruning? An Investigation of Calibration Data for LLM Pruning",
     "authors": [
       "Abhinav Bandari",
       "Lu Yin",
@@ -190782,7 +190782,7 @@
   },
   {
     "id": "2024.emnlp-main.667",
-    "title": "T heorem L lama: Transforming General-Purpose LLM s into Lean4 Experts",
+    "title": "T heorem L lama: Transforming General-Purpose LLM s into L ean4 Experts",
     "authors": [
       "Ruida Wang",
       "Jipeng Zhang",
@@ -198279,7 +198279,7 @@
   },
   {
     "id": "2024.findings-naacl.105",
-    "title": "i-Code V2: An Autoregressive Generation Framework over Vision, Language, and Speech Data",
+    "title": "i-Code V 2: An Autoregressive Generation Framework over Vision, Language, and Speech Data",
     "authors": [
       "Ziyi Yang",
       "Mahmoud Khademi",
@@ -201473,7 +201473,7 @@
   },
   {
     "id": "2024.findings-naacl.210",
-    "title": "Teaching Llama a New Language Through Cross-Lingual Knowledge Transfer",
+    "title": "Teaching L lama a New Language Through Cross-Lingual Knowledge Transfer",
     "authors": [
       "Hele-Andra Kuulmets",
       "Taido Purason",
@@ -204868,7 +204868,7 @@
   },
   {
     "id": "2024.naacl-short.42",
-    "title": "Control- DAG : Constrained Decoding for Non-Autoregressive Directed Acyclic T5 using Weighted Finite State Automata",
+    "title": "Control- DAG : Constrained Decoding for Non-Autoregressive Directed Acyclic T 5 using Weighted Finite State Automata",
     "authors": [
       "Jinghong Chen",
       "Weizhe Lin",
@@ -209044,6 +209044,26 @@
     ]
   },
   {
+    "id": "2024.naacl-short.40",
+    "title": "L lama meets EU : Investigating the E uropean political spectrum through the lens of LLM s",
+    "authors": [
+      "Ilias Chalkidis",
+      "Stephanie Brandl"
+    ],
+    "year": 2024,
+    "conference": "naacl",
+    "conferenceName": "NAACL",
+    "track": "main",
+    "trackLabel": "Main",
+    "source": "ACL Anthology",
+    "url": "https://aclanthology.org/2024.naacl-short.40/",
+    "keywords": [],
+    "primaryCategory": "llms",
+    "categories": [
+      "llms"
+    ]
+  },
+  {
     "id": "2024.naacl-long.174",
     "title": "L o RETTA : Low-Rank Economic Tensor-Train Adaptation for Ultra-Low-Parameter Fine-Tuning of Large Language Models",
     "authors": [
@@ -209493,26 +209513,6 @@
     "categories": [
       "llms",
       "retrieval_knowledge"
-    ]
-  },
-  {
-    "id": "2024.naacl-short.40",
-    "title": "Llama meets EU : Investigating the E uropean political spectrum through the lens of LLM s",
-    "authors": [
-      "Ilias Chalkidis",
-      "Stephanie Brandl"
-    ],
-    "year": 2024,
-    "conference": "naacl",
-    "conferenceName": "NAACL",
-    "track": "main",
-    "trackLabel": "Main",
-    "source": "ACL Anthology",
-    "url": "https://aclanthology.org/2024.naacl-short.40/",
-    "keywords": [],
-    "primaryCategory": "llms",
-    "categories": [
-      "llms"
     ]
   },
   {
@@ -211042,7 +211042,7 @@
     "id": "2024.naacl-long.385",
     "title": "NLP Progress in Indigenous L atin A merican Languages",
     "authors": [
-      "Atnafu Tonja",
+      "Atnafu Lambebo Tonja",
       "Fazlourrahman Balouchzahi",
       "Sabur Butt",
       "Olga Kolesnikova",
@@ -215659,7 +215659,7 @@
   },
   {
     "id": "2025.findings-acl.1355",
-    "title": "7 Points to Tsinghua but 10 Points to 清华 ? A ssessing Large Language Models in Agentic Multilingual National Bias",
+    "title": "7 Points to T singhua but 10 Points to 清华 ? A ssessing Large Language Models in Agentic Multilingual National Bias",
     "authors": [
       "Qianying Liu",
       "Katrina Qiyao Wang",
@@ -219549,7 +219549,7 @@
   },
   {
     "id": "2025.findings-acl.833",
-    "title": "Boost, Disentangle, and Customize: A Robust System2-to-System1 Pipeline for Code Generation",
+    "title": "Boost, Disentangle, and Customize: A Robust S ystem2-to- S ystem1 Pipeline for Code Generation",
     "authors": [
       "Kounianhua Du",
       "Hanjing Wang",
@@ -220340,7 +220340,7 @@
   },
   {
     "id": "2025.findings-acl.550",
-    "title": "C o D et-M4: Detecting Machine-Generated Code in Multi-Lingual, Multi-Generator and Multi-Domain Settings",
+    "title": "C o D et- M 4: Detecting Machine-Generated Code in Multi-Lingual, Multi-Generator and Multi-Domain Settings",
     "authors": [
       "Daniil Orel",
       "Dilshod Azizov",
@@ -223041,6 +223041,33 @@
     ]
   },
   {
+    "id": "2025.findings-acl.171",
+    "title": "D omain o1 s: Guiding LLM Reasoning for Explainable Answers in High-Stakes Domains",
+    "authors": [
+      "Xu Chu",
+      "Zhijie Tan",
+      "Hanlin Xue",
+      "Guanyu Wang",
+      "Tong Mo",
+      "Weiping Li"
+    ],
+    "year": 2025,
+    "conference": "acl",
+    "conferenceName": "ACL",
+    "track": "findings",
+    "trackLabel": "Findings",
+    "source": "ACL Anthology",
+    "url": "https://aclanthology.org/2025.findings-acl.171/",
+    "keywords": [],
+    "primaryCategory": "reasoning",
+    "categories": [
+      "reasoning",
+      "llms",
+      "interpretability",
+      "domain_science"
+    ]
+  },
+  {
     "id": "2025.findings-acl.1133",
     "title": "D yna C ode: A Dynamic Complexity-Aware Code Benchmark for Evaluating Large Language Models in Code Generation",
     "authors": [
@@ -224342,33 +224369,6 @@
     "primaryCategory": "nlp_core",
     "categories": [
       "nlp_core"
-    ]
-  },
-  {
-    "id": "2025.findings-acl.171",
-    "title": "Domain o1 s: Guiding LLM Reasoning for Explainable Answers in High-Stakes Domains",
-    "authors": [
-      "Xu Chu",
-      "Zhijie Tan",
-      "Hanlin Xue",
-      "Guanyu Wang",
-      "Tong Mo",
-      "Weiping Li"
-    ],
-    "year": 2025,
-    "conference": "acl",
-    "conferenceName": "ACL",
-    "track": "findings",
-    "trackLabel": "Findings",
-    "source": "ACL Anthology",
-    "url": "https://aclanthology.org/2025.findings-acl.171/",
-    "keywords": [],
-    "primaryCategory": "reasoning",
-    "categories": [
-      "reasoning",
-      "llms",
-      "interpretability",
-      "domain_science"
     ]
   },
   {
@@ -227259,6 +227259,33 @@
     ]
   },
   {
+    "id": "2025.findings-acl.226",
+    "title": "F raud- R 1 : A Multi-Round Benchmark for Assessing the Robustness of LLM Against Augmented Fraud and Phishing Inducements",
+    "authors": [
+      "Shu Yang",
+      "Shenzhe Zhu",
+      "Zeyu Wu",
+      "Keyu Wang",
+      "Junchi Yao",
+      "Junchao Wu",
+      "Lijie Hu",
+      "Mengdi Li"
+    ],
+    "year": 2025,
+    "conference": "acl",
+    "conferenceName": "ACL",
+    "track": "findings",
+    "trackLabel": "Findings",
+    "source": "ACL Anthology",
+    "url": "https://aclanthology.org/2025.findings-acl.226/",
+    "keywords": [],
+    "primaryCategory": "evaluation",
+    "categories": [
+      "evaluation",
+      "llms"
+    ]
+  },
+  {
     "id": "2025.findings-acl.942",
     "title": "Fact Recall, Heuristics or Pure Guesswork? Precise Interpretations of Language Models for Fact Completion",
     "authors": [
@@ -227830,33 +227857,6 @@
       "domain_science",
       "agents_tools",
       "evaluation"
-    ]
-  },
-  {
-    "id": "2025.findings-acl.226",
-    "title": "Fraud-R1 : A Multi-Round Benchmark for Assessing the Robustness of LLM Against Augmented Fraud and Phishing Inducements",
-    "authors": [
-      "Shu Yang",
-      "Shenzhe Zhu",
-      "Zeyu Wu",
-      "Keyu Wang",
-      "Junchi Yao",
-      "Junchao Wu",
-      "Lijie Hu",
-      "Mengdi Li"
-    ],
-    "year": 2025,
-    "conference": "acl",
-    "conferenceName": "ACL",
-    "track": "findings",
-    "trackLabel": "Findings",
-    "source": "ACL Anthology",
-    "url": "https://aclanthology.org/2025.findings-acl.226/",
-    "keywords": [],
-    "primaryCategory": "evaluation",
-    "categories": [
-      "evaluation",
-      "llms"
     ]
   },
   {
@@ -234964,7 +234964,7 @@
   },
   {
     "id": "2025.findings-acl.14",
-    "title": "MFinMeeting: A Multilingual, Multi-Sector, and Multi-Task Financial Meeting Understanding Evaluation Dataset",
+    "title": "MF in M eeting: A Multilingual, Multi-Sector, and Multi-Task Financial Meeting Understanding Evaluation Dataset",
     "authors": [
       "Jie Zhu",
       "Junhui Li",
@@ -235404,7 +235404,7 @@
   },
   {
     "id": "2025.findings-acl.246",
-    "title": "MM -R 3 : On (In-)Consistency of Vision-Language Models ( VLM s)",
+    "title": "MM - R 3 : On (In-)Consistency of Vision-Language Models ( VLM s)",
     "authors": [
       "Shih-Han Chou",
       "Shivam Chandhok",
@@ -237526,6 +237526,29 @@
     ]
   },
   {
+    "id": "2025.findings-acl.618",
+    "title": "P 3: Prompts Promote Prompting",
+    "authors": [
+      "Xinyu Zhang",
+      "Yuanquan Hu",
+      "Fangchao Liu",
+      "Zhicheng Dou"
+    ],
+    "year": 2025,
+    "conference": "acl",
+    "conferenceName": "ACL",
+    "track": "findings",
+    "trackLabel": "Findings",
+    "source": "ACL Anthology",
+    "url": "https://aclanthology.org/2025.findings-acl.618/",
+    "keywords": [],
+    "primaryCategory": "llms",
+    "categories": [
+      "llms",
+      "optimization_theory"
+    ]
+  },
+  {
     "id": "2025.findings-acl.49",
     "title": "P ersona B ench: Evaluating AI Models on Understanding Personal Information through Accessing (Synthetic) Private User Data",
     "authors": [
@@ -237887,29 +237910,6 @@
     "primaryCategory": "efficient_ai",
     "categories": [
       "efficient_ai"
-    ]
-  },
-  {
-    "id": "2025.findings-acl.618",
-    "title": "P3: Prompts Promote Prompting",
-    "authors": [
-      "Xinyu Zhang",
-      "Yuanquan Hu",
-      "Fangchao Liu",
-      "Zhicheng Dou"
-    ],
-    "year": 2025,
-    "conference": "acl",
-    "conferenceName": "ACL",
-    "track": "findings",
-    "trackLabel": "Findings",
-    "source": "ACL Anthology",
-    "url": "https://aclanthology.org/2025.findings-acl.618/",
-    "keywords": [],
-    "primaryCategory": "llms",
-    "categories": [
-      "llms",
-      "optimization_theory"
     ]
   },
   {
@@ -242492,7 +242492,7 @@
   },
   {
     "id": "2025.findings-acl.542",
-    "title": "Semantic Evaluation of Multilingual Data-to-Text Generation via NLI Fine-Tuning: Precision, Recall and F1 scores",
+    "title": "Semantic Evaluation of Multilingual Data-to-Text Generation via NLI Fine-Tuning: Precision, Recall and F 1 scores",
     "authors": [
       "William Soto Martinez",
       "Yannick Parmentier",
@@ -249642,6 +249642,33 @@
     ]
   },
   {
+    "id": "2025.acl-long.576",
+    "title": "A gri- CM 3 : A C hinese Massive Multi-modal, Multi-level Benchmark for Agricultural Understanding and Reasoning",
+    "authors": [
+      "Haotian Wang",
+      "Yi Guan",
+      "Fanshu Meng",
+      "Chao Zhao",
+      "Lian Yan",
+      "Yang Yang",
+      "Jingchi Jiang"
+    ],
+    "year": 2025,
+    "conference": "acl",
+    "conferenceName": "ACL",
+    "track": "main",
+    "trackLabel": "Main",
+    "source": "ACL Anthology",
+    "url": "https://aclanthology.org/2025.acl-long.576/",
+    "keywords": [],
+    "primaryCategory": "reasoning",
+    "categories": [
+      "reasoning",
+      "multimodal",
+      "evaluation"
+    ]
+  },
+  {
     "id": "2025.acl-long.972",
     "title": "A lign D istil: Token-Level Language Model Alignment as Adaptive Policy Distillation",
     "authors": [
@@ -250603,7 +250630,7 @@
   },
   {
     "id": "2025.acl-short.39",
-    "title": "Accelerating Dense LLM s via L0-regularized Mixture-of-Experts",
+    "title": "Accelerating Dense LLM s via L 0-regularized Mixture-of-Experts",
     "authors": [
       "Zhenyu Zhang",
       "Jiudong Yang",
@@ -251301,33 +251328,6 @@
     "categories": [
       "agents_tools",
       "llms"
-    ]
-  },
-  {
-    "id": "2025.acl-long.576",
-    "title": "Agri- CM 3 : A C hinese Massive Multi-modal, Multi-level Benchmark for Agricultural Understanding and Reasoning",
-    "authors": [
-      "Haotian Wang",
-      "Yi Guan",
-      "Fanshu Meng",
-      "Chao Zhao",
-      "Lian Yan",
-      "Yang Yang",
-      "Jingchi Jiang"
-    ],
-    "year": 2025,
-    "conference": "acl",
-    "conferenceName": "ACL",
-    "track": "main",
-    "trackLabel": "Main",
-    "source": "ACL Anthology",
-    "url": "https://aclanthology.org/2025.acl-long.576/",
-    "keywords": [],
-    "primaryCategory": "reasoning",
-    "categories": [
-      "reasoning",
-      "multimodal",
-      "evaluation"
     ]
   },
   {
@@ -255182,6 +255182,34 @@
     ]
   },
   {
+    "id": "2025.acl-long.785",
+    "title": "C om 2 : A Causal-Guided Benchmark for Exploring Complex Commonsense Reasoning in Large Language Models",
+    "authors": [
+      "Kai Xiong",
+      "Xiao Ding",
+      "Yixin Cao",
+      "Yuxiong Yan",
+      "Li Du",
+      "Yufei Zhang",
+      "Jinglong Gao",
+      "Jiaqian Liu"
+    ],
+    "year": 2025,
+    "conference": "acl",
+    "conferenceName": "ACL",
+    "track": "main",
+    "trackLabel": "Main",
+    "source": "ACL Anthology",
+    "url": "https://aclanthology.org/2025.acl-long.785/",
+    "keywords": [],
+    "primaryCategory": "optimization_theory",
+    "categories": [
+      "optimization_theory",
+      "reasoning",
+      "evaluation"
+    ]
+  },
+  {
     "id": "2025.acl-long.103",
     "title": "C ompile A gent: Automated Real-World Repo-Level Compilation with Tool-Integrated LLM -based Agent System",
     "authors": [
@@ -257151,34 +257179,6 @@
     ]
   },
   {
-    "id": "2025.acl-long.785",
-    "title": "Com 2 : A Causal-Guided Benchmark for Exploring Complex Commonsense Reasoning in Large Language Models",
-    "authors": [
-      "Kai Xiong",
-      "Xiao Ding",
-      "Yixin Cao",
-      "Yuxiong Yan",
-      "Li Du",
-      "Yufei Zhang",
-      "Jinglong Gao",
-      "Jiaqian Liu"
-    ],
-    "year": 2025,
-    "conference": "acl",
-    "conferenceName": "ACL",
-    "track": "main",
-    "trackLabel": "Main",
-    "source": "ACL Anthology",
-    "url": "https://aclanthology.org/2025.acl-long.785/",
-    "keywords": [],
-    "primaryCategory": "optimization_theory",
-    "categories": [
-      "optimization_theory",
-      "reasoning",
-      "evaluation"
-    ]
-  },
-  {
     "id": "2025.acl-short.22",
     "title": "Combining Domain and Alignment Vectors Provides Better Knowledge-Safety Trade-offs in LLM s",
     "authors": [
@@ -258948,7 +258948,7 @@
   },
   {
     "id": "2025.acl-long.522",
-    "title": "DAPE V2: Process Attention Score as Feature Map for Length Extrapolation",
+    "title": "DAPE V 2: Process Attention Score as Feature Map for Length Extrapolation",
     "authors": [
       "Chuanyang Zheng",
       "Yihang Gao",
@@ -263701,6 +263701,33 @@
     ]
   },
   {
+    "id": "2025.acl-long.313",
+    "title": "F 5- TTS : A Fairytaler that Fakes Fluent and Faithful Speech with Flow Matching",
+    "authors": [
+      "Yushen Chen",
+      "Zhikang Niu",
+      "Ziyang Ma",
+      "Keqi Deng",
+      "Chunhui Wang",
+      "Jian Zhao",
+      "Kai Yu",
+      "Xie Chen"
+    ],
+    "year": 2025,
+    "conference": "acl",
+    "conferenceName": "ACL",
+    "track": "main",
+    "trackLabel": "Main",
+    "source": "ACL Anthology",
+    "url": "https://aclanthology.org/2025.acl-long.313/",
+    "keywords": [],
+    "primaryCategory": "speech_audio",
+    "categories": [
+      "speech_audio",
+      "generative_models"
+    ]
+  },
+  {
     "id": "2025.acl-long.1587",
     "title": "F act B ench: A Dynamic Benchmark for In-the-Wild Language Model Factuality Evaluation",
     "authors": [
@@ -264029,33 +264056,6 @@
     "categories": [
       "efficient_ai",
       "llms"
-    ]
-  },
-  {
-    "id": "2025.acl-long.313",
-    "title": "F5- TTS : A Fairytaler that Fakes Fluent and Faithful Speech with Flow Matching",
-    "authors": [
-      "Yushen Chen",
-      "Zhikang Niu",
-      "Ziyang Ma",
-      "Keqi Deng",
-      "Chunhui Wang",
-      "Jian Zhao",
-      "Kai Yu",
-      "Xie Chen"
-    ],
-    "year": 2025,
-    "conference": "acl",
-    "conferenceName": "ACL",
-    "track": "main",
-    "trackLabel": "Main",
-    "source": "ACL Anthology",
-    "url": "https://aclanthology.org/2025.acl-long.313/",
-    "keywords": [],
-    "primaryCategory": "speech_audio",
-    "categories": [
-      "speech_audio",
-      "generative_models"
     ]
   },
   {
@@ -269570,7 +269570,7 @@
   },
   {
     "id": "2025.acl-short.16",
-    "title": "K now S hift QA : How Robust are RAG Systems when Textbook Knowledge Shifts in K-12 Education?",
+    "title": "K now S hift QA : How Robust are RAG Systems when Textbook Knowledge Shifts in K -12 Education?",
     "authors": [
       "Tianshi Zheng",
       "Weihan Li",
@@ -270242,6 +270242,30 @@
     "keywords": [],
     "primaryCategory": "llms",
     "categories": [
+      "llms"
+    ]
+  },
+  {
+    "id": "2025.acl-long.791",
+    "title": "L lama See, L lama Do: A Mechanistic Perspective on Contextual Entrainment and Distraction in LLM s",
+    "authors": [
+      "Jingcheng Niu",
+      "Xingdi Yuan",
+      "Tong Wang",
+      "Hamidreza Saghir",
+      "Amir H. Abdi"
+    ],
+    "year": 2025,
+    "conference": "acl",
+    "conferenceName": "ACL",
+    "track": "main",
+    "trackLabel": "Main",
+    "source": "ACL Anthology",
+    "url": "https://aclanthology.org/2025.acl-long.791/",
+    "keywords": [],
+    "primaryCategory": "interpretability",
+    "categories": [
+      "interpretability",
       "llms"
     ]
   },
@@ -271845,7 +271869,7 @@
   },
   {
     "id": "2025.acl-long.651",
-    "title": "LL a SE -G1: Incentivizing Generalization Capability for LL a MA -based Speech Enhancement",
+    "title": "LL a SE - G 1: Incentivizing Generalization Capability for LL a MA -based Speech Enhancement",
     "authors": [
       "Boyi Kang",
       "Xinfa Zhu",
@@ -271894,30 +271918,6 @@
     "categories": [
       "llms",
       "interpretability"
-    ]
-  },
-  {
-    "id": "2025.acl-long.791",
-    "title": "Llama See, Llama Do: A Mechanistic Perspective on Contextual Entrainment and Distraction in LLM s",
-    "authors": [
-      "Jingcheng Niu",
-      "Xingdi Yuan",
-      "Tong Wang",
-      "Hamidreza Saghir",
-      "Amir H. Abdi"
-    ],
-    "year": 2025,
-    "conference": "acl",
-    "conferenceName": "ACL",
-    "track": "main",
-    "trackLabel": "Main",
-    "source": "ACL Anthology",
-    "url": "https://aclanthology.org/2025.acl-long.791/",
-    "keywords": [],
-    "primaryCategory": "interpretability",
-    "categories": [
-      "interpretability",
-      "llms"
     ]
   },
   {
@@ -272838,6 +272838,33 @@
     ]
   },
   {
+    "id": "2025.acl-long.1145",
+    "title": "M arco-o1 v2: Towards Widening The Distillation Bottleneck for Reasoning Models",
+    "authors": [
+      "Huifeng Yin",
+      "Yu Zhao",
+      "Minghao Wu",
+      "Xuanfan Ni",
+      "Bo Zeng",
+      "Hao Wang",
+      "Tianqi Shi",
+      "Liangying Shao"
+    ],
+    "year": 2025,
+    "conference": "acl",
+    "conferenceName": "ACL",
+    "track": "main",
+    "trackLabel": "Main",
+    "source": "ACL Anthology",
+    "url": "https://aclanthology.org/2025.acl-long.1145/",
+    "keywords": [],
+    "primaryCategory": "reasoning",
+    "categories": [
+      "reasoning",
+      "efficient_ai"
+    ]
+  },
+  {
     "id": "2025.acl-long.757",
     "title": "M as R outer: Learning to Route LLM s for Multi-Agent Systems",
     "authors": [
@@ -273154,6 +273181,28 @@
     "primaryCategory": "alignment_safety",
     "categories": [
       "alignment_safety"
+    ]
+  },
+  {
+    "id": "2025.acl-long.836",
+    "title": "M ovie101v2: Improved Movie Narration Benchmark",
+    "authors": [
+      "Zihao Yue",
+      "Yepeng Zhang",
+      "Ziheng Wang",
+      "Qin Jin"
+    ],
+    "year": 2025,
+    "conference": "acl",
+    "conferenceName": "ACL",
+    "track": "main",
+    "trackLabel": "Main",
+    "source": "ACL Anthology",
+    "url": "https://aclanthology.org/2025.acl-long.836/",
+    "keywords": [],
+    "primaryCategory": "evaluation",
+    "categories": [
+      "evaluation"
     ]
   },
   {
@@ -273697,33 +273746,6 @@
     "primaryCategory": "multilingual",
     "categories": [
       "multilingual"
-    ]
-  },
-  {
-    "id": "2025.acl-long.1145",
-    "title": "Marco-o1 v2: Towards Widening The Distillation Bottleneck for Reasoning Models",
-    "authors": [
-      "Huifeng Yin",
-      "Yu Zhao",
-      "Minghao Wu",
-      "Xuanfan Ni",
-      "Bo Zeng",
-      "Hao Wang",
-      "Tianqi Shi",
-      "Liangying Shao"
-    ],
-    "year": 2025,
-    "conference": "acl",
-    "conferenceName": "ACL",
-    "track": "main",
-    "trackLabel": "Main",
-    "source": "ACL Anthology",
-    "url": "https://aclanthology.org/2025.acl-long.1145/",
-    "keywords": [],
-    "primaryCategory": "reasoning",
-    "categories": [
-      "reasoning",
-      "efficient_ai"
     ]
   },
   {
@@ -275271,28 +275293,6 @@
     "primaryCategory": "llms",
     "categories": [
       "llms",
-      "evaluation"
-    ]
-  },
-  {
-    "id": "2025.acl-long.836",
-    "title": "Movie101v2: Improved Movie Narration Benchmark",
-    "authors": [
-      "Zihao Yue",
-      "Yepeng Zhang",
-      "Ziheng Wang",
-      "Qin Jin"
-    ],
-    "year": 2025,
-    "conference": "acl",
-    "conferenceName": "ACL",
-    "track": "main",
-    "trackLabel": "Main",
-    "source": "ACL Anthology",
-    "url": "https://aclanthology.org/2025.acl-long.836/",
-    "keywords": [],
-    "primaryCategory": "evaluation",
-    "categories": [
       "evaluation"
     ]
   },
@@ -277495,6 +277495,33 @@
     ]
   },
   {
+    "id": "2025.acl-long.551",
+    "title": "P re 3 : Enabling Deterministic Pushdown Automata for Faster Structured LLM Generation",
+    "authors": [
+      "Junyi Chen",
+      "Shihao Bai",
+      "Zaijun Wang",
+      "Siyu Wu",
+      "Chuheng Du",
+      "Hailong Yang",
+      "Ruihao Gong",
+      "Shengzhong Liu"
+    ],
+    "year": 2025,
+    "conference": "acl",
+    "conferenceName": "ACL",
+    "track": "main",
+    "trackLabel": "Main",
+    "source": "ACL Anthology",
+    "url": "https://aclanthology.org/2025.acl-long.551/",
+    "keywords": [],
+    "primaryCategory": "llms",
+    "categories": [
+      "llms",
+      "efficient_ai"
+    ]
+  },
+  {
     "id": "2025.acl-long.749",
     "title": "P re P - OCR : A Complete Pipeline for Document Image Restoration and Enhanced OCR Accuracy",
     "authors": [
@@ -278700,33 +278727,6 @@
     ]
   },
   {
-    "id": "2025.acl-long.551",
-    "title": "Pre 3 : Enabling Deterministic Pushdown Automata for Faster Structured LLM Generation",
-    "authors": [
-      "Junyi Chen",
-      "Shihao Bai",
-      "Zaijun Wang",
-      "Siyu Wu",
-      "Chuheng Du",
-      "Hailong Yang",
-      "Ruihao Gong",
-      "Shengzhong Liu"
-    ],
-    "year": 2025,
-    "conference": "acl",
-    "conferenceName": "ACL",
-    "track": "main",
-    "trackLabel": "Main",
-    "source": "ACL Anthology",
-    "url": "https://aclanthology.org/2025.acl-long.551/",
-    "keywords": [],
-    "primaryCategory": "llms",
-    "categories": [
-      "llms",
-      "efficient_ai"
-    ]
-  },
-  {
     "id": "2025.acl-long.1243",
     "title": "Pre-Training Curriculum for Multi-Token Prediction in Language Models",
     "authors": [
@@ -279333,6 +279333,34 @@
     ]
   },
   {
+    "id": "2025.acl-long.642",
+    "title": "Q wen2.5-x C oder: Multi-Agent Collaboration for Multilingual Code Instruction Tuning",
+    "authors": [
+      "Jian Yang",
+      "Wei Zhang",
+      "Yibo Miao",
+      "Shanghaoran Quan",
+      "Zhenhe Wu",
+      "Qiyao Peng",
+      "Liqun Yang",
+      "Tianyu Liu"
+    ],
+    "year": 2025,
+    "conference": "acl",
+    "conferenceName": "ACL",
+    "track": "main",
+    "trackLabel": "Main",
+    "source": "ACL Anthology",
+    "url": "https://aclanthology.org/2025.acl-long.642/",
+    "keywords": [],
+    "primaryCategory": "agents_tools",
+    "categories": [
+      "agents_tools",
+      "multilingual",
+      "llms"
+    ]
+  },
+  {
     "id": "2025.acl-long.217",
     "title": "QAE ncoder: Towards Aligned Representation Learning in Question Answering Systems",
     "authors": [
@@ -279619,34 +279647,6 @@
     "categories": [
       "retrieval_knowledge",
       "domain_science"
-    ]
-  },
-  {
-    "id": "2025.acl-long.642",
-    "title": "Qwen2.5-x C oder: Multi-Agent Collaboration for Multilingual Code Instruction Tuning",
-    "authors": [
-      "Jian Yang",
-      "Wei Zhang",
-      "Yibo Miao",
-      "Shanghaoran Quan",
-      "Zhenhe Wu",
-      "Qiyao Peng",
-      "Liqun Yang",
-      "Tianyu Liu"
-    ],
-    "year": 2025,
-    "conference": "acl",
-    "conferenceName": "ACL",
-    "track": "main",
-    "trackLabel": "Main",
-    "source": "ACL Anthology",
-    "url": "https://aclanthology.org/2025.acl-long.642/",
-    "keywords": [],
-    "primaryCategory": "agents_tools",
-    "categories": [
-      "agents_tools",
-      "multilingual",
-      "llms"
     ]
   },
   {
@@ -283878,7 +283878,7 @@
   },
   {
     "id": "2025.acl-long.1203",
-    "title": "SOTOPIA -Ω: Dynamic Strategy Injection Learning and Social Instruction Following Evaluation for Social Agents",
+    "title": "SOTOPIA - Ω : Dynamic Strategy Injection Learning and Social Instruction Following Evaluation for Social Agents",
     "authors": [
       "Wenyuan Zhang",
       "Tianyun Liu",
@@ -298296,6 +298296,28 @@
     ]
   },
   {
+    "id": "2025.findings-emnlp.524",
+    "title": "D ub- S 2 ST : Textless Speech-to-Speech Translation for Seamless Dubbing",
+    "authors": [
+      "Jeongsoo Choi",
+      "Jaehun Kim",
+      "Joon Son Chung"
+    ],
+    "year": 2025,
+    "conference": "emnlp",
+    "conferenceName": "EMNLP",
+    "track": "findings",
+    "trackLabel": "Findings",
+    "source": "ACL Anthology",
+    "url": "https://aclanthology.org/2025.findings-emnlp.524/",
+    "keywords": [],
+    "primaryCategory": "speech_audio",
+    "categories": [
+      "speech_audio",
+      "nlp_core"
+    ]
+  },
+  {
     "id": "2025.findings-emnlp.426",
     "title": "D ynamic KV : Task-Aware Adaptive KV Cache Compression for Long Context LLM s",
     "authors": [
@@ -300055,28 +300077,6 @@
     ]
   },
   {
-    "id": "2025.findings-emnlp.524",
-    "title": "Dub- S 2 ST : Textless Speech-to-Speech Translation for Seamless Dubbing",
-    "authors": [
-      "Jeongsoo Choi",
-      "Jaehun Kim",
-      "Joon Son Chung"
-    ],
-    "year": 2025,
-    "conference": "emnlp",
-    "conferenceName": "EMNLP",
-    "track": "findings",
-    "trackLabel": "Findings",
-    "source": "ACL Anthology",
-    "url": "https://aclanthology.org/2025.findings-emnlp.524/",
-    "keywords": [],
-    "primaryCategory": "speech_audio",
-    "categories": [
-      "speech_audio",
-      "nlp_core"
-    ]
-  },
-  {
     "id": "2025.findings-emnlp.126",
     "title": "Dynamic Evaluation for Oversensitivity in LLM s",
     "authors": [
@@ -301551,7 +301551,7 @@
   },
   {
     "id": "2025.findings-emnlp.742",
-    "title": "Evaluating Test-Time Scaling LLM s for Legal Reasoning: O pen AI o1, D eep S eek-R1, and Beyond",
+    "title": "Evaluating Test-Time Scaling LLM s for Legal Reasoning: O pen AI o1, D eep S eek- R 1, and Beyond",
     "authors": [
       "Yinghao Hu",
       "Yaoyao Yu",
@@ -302076,7 +302076,7 @@
   },
   {
     "id": "2025.findings-emnlp.828",
-    "title": "Exploring Paraphrasing Strategies for CEFR A1-Level Constraints in LLM s",
+    "title": "Exploring Paraphrasing Strategies for CEFR A 1-Level Constraints in LLM s",
     "authors": [
       "Eugenio Marzona",
       "Maria Goikhman",
@@ -302344,7 +302344,7 @@
   },
   {
     "id": "2025.findings-emnlp.470",
-    "title": "F ast C u RL : Curriculum Reinforcement Learning with Stage-wise Context Scaling for Efficient Training R1-like Reasoning Models",
+    "title": "F ast C u RL : Curriculum Reinforcement Learning with Stage-wise Context Scaling for Efficient Training R 1-like Reasoning Models",
     "authors": [
       "Mingyang Song",
       "Mao Zheng",
@@ -311894,6 +311894,35 @@
     ]
   },
   {
+    "id": "2025.findings-emnlp.1015",
+    "title": "MT - R 1-Zero: Advancing LLM -based Machine Translation via R 1-Zero-like Reinforcement Learning",
+    "authors": [
+      "Zhaopeng Feng",
+      "Shaosheng Cao",
+      "Jiahan Ren",
+      "Jiayuan Su",
+      "Ruizhe Chen",
+      "Yan Zhang",
+      "Jian Wu",
+      "Zuozhu Liu"
+    ],
+    "year": 2025,
+    "conference": "emnlp",
+    "conferenceName": "EMNLP",
+    "track": "findings",
+    "trackLabel": "Findings",
+    "source": "ACL Anthology",
+    "url": "https://aclanthology.org/2025.findings-emnlp.1015/",
+    "keywords": [],
+    "primaryCategory": "nlp_core",
+    "categories": [
+      "nlp_core",
+      "rl_robotics",
+      "llms",
+      "multilingual"
+    ]
+  },
+  {
     "id": "2025.findings-emnlp.1007",
     "title": "MT - R eward T ree: A Comprehensive Framework for Advancing LLM -Based Machine Translation via Reward Modeling",
     "authors": [
@@ -311940,35 +311969,6 @@
       "agents_tools",
       "reasoning",
       "optimization_theory"
-    ]
-  },
-  {
-    "id": "2025.findings-emnlp.1015",
-    "title": "MT -R1-Zero: Advancing LLM -based Machine Translation via R1-Zero-like Reinforcement Learning",
-    "authors": [
-      "Zhaopeng Feng",
-      "Shaosheng Cao",
-      "Jiahan Ren",
-      "Jiayuan Su",
-      "Ruizhe Chen",
-      "Yan Zhang",
-      "Jian Wu",
-      "Zuozhu Liu"
-    ],
-    "year": 2025,
-    "conference": "emnlp",
-    "conferenceName": "EMNLP",
-    "track": "findings",
-    "trackLabel": "Findings",
-    "source": "ACL Anthology",
-    "url": "https://aclanthology.org/2025.findings-emnlp.1015/",
-    "keywords": [],
-    "primaryCategory": "nlp_core",
-    "categories": [
-      "nlp_core",
-      "rl_robotics",
-      "llms",
-      "multilingual"
     ]
   },
   {
@@ -315379,6 +315379,33 @@
     ]
   },
   {
+    "id": "2025.findings-emnlp.554",
+    "title": "R 3- RAG : Learning Step-by-Step Reasoning and Retrieval for LLM s via Reinforcement Learning",
+    "authors": [
+      "Yuan Li",
+      "Qi Luo",
+      "Xiaonan Li",
+      "Bufan Li",
+      "Qinyuan Cheng",
+      "Bo Wang",
+      "Yining Zheng",
+      "Yuxin Wang"
+    ],
+    "year": 2025,
+    "conference": "emnlp",
+    "conferenceName": "EMNLP",
+    "track": "findings",
+    "trackLabel": "Findings",
+    "source": "ACL Anthology",
+    "url": "https://aclanthology.org/2025.findings-emnlp.554/",
+    "keywords": [],
+    "primaryCategory": "retrieval_knowledge",
+    "categories": [
+      "retrieval_knowledge",
+      "reasoning"
+    ]
+  },
+  {
     "id": "2025.findings-emnlp.787",
     "title": "R adial R outer: Structured Representation for Efficient and Robust Large Language Models Routing",
     "authors": [
@@ -315887,33 +315914,6 @@
     "categories": [
       "llms",
       "evaluation"
-    ]
-  },
-  {
-    "id": "2025.findings-emnlp.554",
-    "title": "R3- RAG : Learning Step-by-Step Reasoning and Retrieval for LLM s via Reinforcement Learning",
-    "authors": [
-      "Yuan Li",
-      "Qi Luo",
-      "Xiaonan Li",
-      "Bufan Li",
-      "Qinyuan Cheng",
-      "Bo Wang",
-      "Yining Zheng",
-      "Yuxin Wang"
-    ],
-    "year": 2025,
-    "conference": "emnlp",
-    "conferenceName": "EMNLP",
-    "track": "findings",
-    "trackLabel": "Findings",
-    "source": "ACL Anthology",
-    "url": "https://aclanthology.org/2025.findings-emnlp.554/",
-    "keywords": [],
-    "primaryCategory": "retrieval_knowledge",
-    "categories": [
-      "retrieval_knowledge",
-      "reasoning"
     ]
   },
   {
@@ -317435,6 +317435,29 @@
     ]
   },
   {
+    "id": "2025.findings-emnlp.570",
+    "title": "S arcasm- R 1: Enhancing Sarcasm Detection through Focused Reasoning",
+    "authors": [
+      "Qi Yang",
+      "Jingjie Zeng",
+      "Liang Yang",
+      "Kai Ma",
+      "Hongfei Lin"
+    ],
+    "year": 2025,
+    "conference": "emnlp",
+    "conferenceName": "EMNLP",
+    "track": "findings",
+    "trackLabel": "Findings",
+    "source": "ACL Anthology",
+    "url": "https://aclanthology.org/2025.findings-emnlp.570/",
+    "keywords": [],
+    "primaryCategory": "reasoning",
+    "categories": [
+      "reasoning"
+    ]
+  },
+  {
     "id": "2025.findings-emnlp.465",
     "title": "S cholar B ench: A Bilingual Benchmark for Abstraction, Comprehension, and Reasoning Evaluation in Academic Contexts",
     "authors": [
@@ -318112,29 +318135,6 @@
       "alignment_safety",
       "efficient_ai",
       "rl_robotics"
-    ]
-  },
-  {
-    "id": "2025.findings-emnlp.570",
-    "title": "Sarcasm-R1: Enhancing Sarcasm Detection through Focused Reasoning",
-    "authors": [
-      "Qi Yang",
-      "Jingjie Zeng",
-      "Liang Yang",
-      "Kai Ma",
-      "Hongfei Lin"
-    ],
-    "year": 2025,
-    "conference": "emnlp",
-    "conferenceName": "EMNLP",
-    "track": "findings",
-    "trackLabel": "Findings",
-    "source": "ACL Anthology",
-    "url": "https://aclanthology.org/2025.findings-emnlp.570/",
-    "keywords": [],
-    "primaryCategory": "reasoning",
-    "categories": [
-      "reasoning"
     ]
   },
   {
@@ -325181,6 +325181,29 @@
     ]
   },
   {
+    "id": "2025.emnlp-main.604",
+    "title": "A gentic- R 1: Distilled Dual-Strategy Reasoning",
+    "authors": [
+      "Weihua Du",
+      "Pranjal Aggarwal",
+      "Sean Welleck",
+      "Yiming Yang"
+    ],
+    "year": 2025,
+    "conference": "emnlp",
+    "conferenceName": "EMNLP",
+    "track": "main",
+    "trackLabel": "Main",
+    "source": "ACL Anthology",
+    "url": "https://aclanthology.org/2025.emnlp-main.604/",
+    "keywords": [],
+    "primaryCategory": "reasoning",
+    "categories": [
+      "reasoning",
+      "efficient_ai"
+    ]
+  },
+  {
     "id": "2025.emnlp-main.585",
     "title": "A Good Plan is Hard to Find: Aligning Models with Preferences is Misaligned with What Helps Users",
     "authors": [
@@ -326314,29 +326337,6 @@
       "agents_tools",
       "alignment_safety",
       "optimization_theory"
-    ]
-  },
-  {
-    "id": "2025.emnlp-main.604",
-    "title": "Agentic-R1: Distilled Dual-Strategy Reasoning",
-    "authors": [
-      "Weihua Du",
-      "Pranjal Aggarwal",
-      "Sean Welleck",
-      "Yiming Yang"
-    ],
-    "year": 2025,
-    "conference": "emnlp",
-    "conferenceName": "EMNLP",
-    "track": "main",
-    "trackLabel": "Main",
-    "source": "ACL Anthology",
-    "url": "https://aclanthology.org/2025.emnlp-main.604/",
-    "keywords": [],
-    "primaryCategory": "reasoning",
-    "categories": [
-      "reasoning",
-      "efficient_ai"
     ]
   },
   {
@@ -329327,6 +329327,28 @@
     ]
   },
   {
+    "id": "2025.emnlp-main.1160",
+    "title": "C 3: A Bilingual Benchmark for Spoken Dialogue Models Exploring Challenges in Complex Conversations",
+    "authors": [
+      "Chengqian Ma",
+      "Wei Tao",
+      "Steven Y. Guo"
+    ],
+    "year": 2025,
+    "conference": "emnlp",
+    "conferenceName": "EMNLP",
+    "track": "main",
+    "trackLabel": "Main",
+    "source": "ACL Anthology",
+    "url": "https://aclanthology.org/2025.emnlp-main.1160/",
+    "keywords": [],
+    "primaryCategory": "evaluation",
+    "categories": [
+      "evaluation",
+      "nlp_core"
+    ]
+  },
+  {
     "id": "2025.emnlp-main.572",
     "title": "C a KE : Circuit-aware Editing Enables Generalizable Knowledge Learners",
     "authors": [
@@ -330196,8 +330218,36 @@
     ]
   },
   {
+    "id": "2025.emnlp-main.1288",
+    "title": "C ontra4: Evaluating Contrastive Cross-Modal Reasoning in Audio, Video, Image, and 3 D",
+    "authors": [
+      "Artemis Panagopoulou",
+      "Le Xue",
+      "Honglu Zhou",
+      "Silvio Savarese",
+      "Ran Xu",
+      "Caiming Xiong",
+      "Chris Callison-Burch",
+      "Mark Yatskar"
+    ],
+    "year": 2025,
+    "conference": "emnlp",
+    "conferenceName": "EMNLP",
+    "track": "main",
+    "trackLabel": "Main",
+    "source": "ACL Anthology",
+    "url": "https://aclanthology.org/2025.emnlp-main.1288/",
+    "keywords": [],
+    "primaryCategory": "multimodal",
+    "categories": [
+      "multimodal",
+      "reasoning",
+      "speech_audio"
+    ]
+  },
+  {
     "id": "2025.emnlp-main.1349",
-    "title": "C onv S earch-R1: Enhancing Query Reformulation for Conversational Search with Reasoning via Reinforcement Learning",
+    "title": "C onv S earch- R 1: Enhancing Query Reformulation for Conversational Search with Reasoning via Reinforcement Learning",
     "authors": [
       "Changtai Zhu",
       "Siyin Wang",
@@ -330294,28 +330344,6 @@
     "primaryCategory": "llms",
     "categories": [
       "llms"
-    ]
-  },
-  {
-    "id": "2025.emnlp-main.1160",
-    "title": "C3: A Bilingual Benchmark for Spoken Dialogue Models Exploring Challenges in Complex Conversations",
-    "authors": [
-      "Chengqian Ma",
-      "Wei Tao",
-      "Steven Y. Guo"
-    ],
-    "year": 2025,
-    "conference": "emnlp",
-    "conferenceName": "EMNLP",
-    "track": "main",
-    "trackLabel": "Main",
-    "source": "ACL Anthology",
-    "url": "https://aclanthology.org/2025.emnlp-main.1160/",
-    "keywords": [],
-    "primaryCategory": "evaluation",
-    "categories": [
-      "evaluation",
-      "nlp_core"
     ]
   },
   {
@@ -332457,7 +332485,7 @@
   },
   {
     "id": "2025.emnlp-main.758",
-    "title": "Conan-Embedding-v2: Training an LLM from Scratch for Text Embeddings",
+    "title": "Conan- E mbedding-v2: Training an LLM from Scratch for Text Embeddings",
     "authors": [
       "Shiyu Li",
       "Yang Tang",
@@ -332866,34 +332894,6 @@
     "primaryCategory": "llms",
     "categories": [
       "llms"
-    ]
-  },
-  {
-    "id": "2025.emnlp-main.1288",
-    "title": "Contra4: Evaluating Contrastive Cross-Modal Reasoning in Audio, Video, Image, and 3 D",
-    "authors": [
-      "Artemis Panagopoulou",
-      "Le Xue",
-      "Honglu Zhou",
-      "Silvio Savarese",
-      "Ran Xu",
-      "Caiming Xiong",
-      "Chris Callison-Burch",
-      "Mark Yatskar"
-    ],
-    "year": 2025,
-    "conference": "emnlp",
-    "conferenceName": "EMNLP",
-    "track": "main",
-    "trackLabel": "Main",
-    "source": "ACL Anthology",
-    "url": "https://aclanthology.org/2025.emnlp-main.1288/",
-    "keywords": [],
-    "primaryCategory": "multimodal",
-    "categories": [
-      "multimodal",
-      "reasoning",
-      "speech_audio"
     ]
   },
   {
@@ -338874,7 +338874,7 @@
   },
   {
     "id": "2025.emnlp-main.158",
-    "title": "FANS : Formal Answer Selection for LLM Natural Language Math Reasoning Using Lean4",
+    "title": "FANS : Formal Answer Selection for LLM Natural Language Math Reasoning Using L ean4",
     "authors": [
       "Jiarui Yao",
       "Ruida Wang",
@@ -339901,7 +339901,7 @@
   },
   {
     "id": "2025.emnlp-main.198",
-    "title": "From Reasoning to Answer: Empirical, Attention-Based and Mechanistic Insights into Distilled D eep S eek R1 Models",
+    "title": "From Reasoning to Answer: Empirical, Attention-Based and Mechanistic Insights into Distilled D eep S eek R 1 Models",
     "authors": [
       "Jue Zhang",
       "Qingwei Lin",
@@ -340112,6 +340112,32 @@
     ]
   },
   {
+    "id": "2025.emnlp-main.713",
+    "title": "G 2: Guided Generation for Enhanced Output Diversity in LLM s",
+    "authors": [
+      "Zhiwen Ruan",
+      "Yixia Li",
+      "Yefeng Liu",
+      "Yun Chen",
+      "Weihua Luo",
+      "Peng Li",
+      "Yang Liu",
+      "Guanhua Chen"
+    ],
+    "year": 2025,
+    "conference": "emnlp",
+    "conferenceName": "EMNLP",
+    "track": "main",
+    "trackLabel": "Main",
+    "source": "ACL Anthology",
+    "url": "https://aclanthology.org/2025.emnlp-main.713/",
+    "keywords": [],
+    "primaryCategory": "llms",
+    "categories": [
+      "llms"
+    ]
+  },
+  {
     "id": "2025.emnlp-main.1518",
     "title": "G en L ink: Generation-Driven Schema-Linking via Multi-Model Learning for Text-to- SQL",
     "authors": [
@@ -340230,6 +340256,30 @@
     ]
   },
   {
+    "id": "2025.emnlp-main.1220",
+    "title": "G raph- R 1: Incentivizing the Zero-Shot Graph Learning Capability in LLM s via Explicit Reasoning",
+    "authors": [
+      "Yicong Wu",
+      "Guangyue Lu",
+      "Yuan Zuo",
+      "Huarong Zhang",
+      "Junjie Wu"
+    ],
+    "year": 2025,
+    "conference": "emnlp",
+    "conferenceName": "EMNLP",
+    "track": "main",
+    "trackLabel": "Main",
+    "source": "ACL Anthology",
+    "url": "https://aclanthology.org/2025.emnlp-main.1220/",
+    "keywords": [],
+    "primaryCategory": "reasoning",
+    "categories": [
+      "reasoning",
+      "llms"
+    ]
+  },
+  {
     "id": "2025.emnlp-main.876",
     "title": "G uessing G ame: Measuring the Informativeness of Open-Ended Questions in Large Language Models",
     "authors": [
@@ -340246,32 +340296,6 @@
     "trackLabel": "Main",
     "source": "ACL Anthology",
     "url": "https://aclanthology.org/2025.emnlp-main.876/",
-    "keywords": [],
-    "primaryCategory": "llms",
-    "categories": [
-      "llms"
-    ]
-  },
-  {
-    "id": "2025.emnlp-main.713",
-    "title": "G2: Guided Generation for Enhanced Output Diversity in LLM s",
-    "authors": [
-      "Zhiwen Ruan",
-      "Yixia Li",
-      "Yefeng Liu",
-      "Yun Chen",
-      "Weihua Luo",
-      "Peng Li",
-      "Yang Liu",
-      "Guanhua Chen"
-    ],
-    "year": 2025,
-    "conference": "emnlp",
-    "conferenceName": "EMNLP",
-    "track": "main",
-    "trackLabel": "Main",
-    "source": "ACL Anthology",
-    "url": "https://aclanthology.org/2025.emnlp-main.713/",
     "keywords": [],
     "primaryCategory": "llms",
     "categories": [
@@ -340796,30 +340820,6 @@
     "primaryCategory": "reasoning",
     "categories": [
       "reasoning"
-    ]
-  },
-  {
-    "id": "2025.emnlp-main.1220",
-    "title": "Graph-R1: Incentivizing the Zero-Shot Graph Learning Capability in LLM s via Explicit Reasoning",
-    "authors": [
-      "Yicong Wu",
-      "Guangyue Lu",
-      "Yuan Zuo",
-      "Huarong Zhang",
-      "Junjie Wu"
-    ],
-    "year": 2025,
-    "conference": "emnlp",
-    "conferenceName": "EMNLP",
-    "track": "main",
-    "trackLabel": "Main",
-    "source": "ACL Anthology",
-    "url": "https://aclanthology.org/2025.emnlp-main.1220/",
-    "keywords": [],
-    "primaryCategory": "reasoning",
-    "categories": [
-      "reasoning",
-      "llms"
     ]
   },
   {
@@ -341898,6 +341898,32 @@
     ]
   },
   {
+    "id": "2025.emnlp-main.196",
+    "title": "I con 2 : Aligning Large Language Models Using Self-Synthetic Preference Data via Inherent Regulation",
+    "authors": [
+      "Qiyuan Chen",
+      "Hongsen Huang",
+      "Qian Shao",
+      "Jiahe Chen",
+      "Jintai Chen",
+      "Hongxia Xu",
+      "Renjie Hua",
+      "Ren Chuan"
+    ],
+    "year": 2025,
+    "conference": "emnlp",
+    "conferenceName": "EMNLP",
+    "track": "main",
+    "trackLabel": "Main",
+    "source": "ACL Anthology",
+    "url": "https://aclanthology.org/2025.emnlp-main.196/",
+    "keywords": [],
+    "primaryCategory": "data_synthetic",
+    "categories": [
+      "data_synthetic"
+    ]
+  },
+  {
     "id": "2025.emnlp-main.1759",
     "title": "i K now-audio: Integrating Knowledge Graphs with Audio-Language Models",
     "authors": [
@@ -342216,32 +342242,6 @@
     "primaryCategory": "llms",
     "categories": [
       "llms"
-    ]
-  },
-  {
-    "id": "2025.emnlp-main.196",
-    "title": "Icon 2 : Aligning Large Language Models Using Self-Synthetic Preference Data via Inherent Regulation",
-    "authors": [
-      "Qiyuan Chen",
-      "Hongsen Huang",
-      "Qian Shao",
-      "Jiahe Chen",
-      "Jintai Chen",
-      "Hongxia Xu",
-      "Renjie Hua",
-      "Ren Chuan"
-    ],
-    "year": 2025,
-    "conference": "emnlp",
-    "conferenceName": "EMNLP",
-    "track": "main",
-    "trackLabel": "Main",
-    "source": "ACL Anthology",
-    "url": "https://aclanthology.org/2025.emnlp-main.196/",
-    "keywords": [],
-    "primaryCategory": "data_synthetic",
-    "categories": [
-      "data_synthetic"
     ]
   },
   {
@@ -352904,7 +352904,7 @@
   },
   {
     "id": "2025.emnlp-main.1020",
-    "title": "Pointing to a Llama and Call it a Camel: On the Sycophancy of Multimodal Large Language Models",
+    "title": "Pointing to a L lama and Call it a Camel: On the Sycophancy of Multimodal Large Language Models",
     "authors": [
       "Renjie Pi",
       "Kehao Miao",
@@ -357009,6 +357009,33 @@
     ]
   },
   {
+    "id": "2025.emnlp-main.276",
+    "title": "S earch-o1: Agentic Search-Enhanced Large Reasoning Models",
+    "authors": [
+      "Xiaoxi Li",
+      "Guanting Dong",
+      "Jiajie Jin",
+      "Yuyao Zhang",
+      "Yujia Zhou",
+      "Yutao Zhu",
+      "Peitian Zhang",
+      "Zhicheng Dou"
+    ],
+    "year": 2025,
+    "conference": "emnlp",
+    "conferenceName": "EMNLP",
+    "track": "main",
+    "trackLabel": "Main",
+    "source": "ACL Anthology",
+    "url": "https://aclanthology.org/2025.emnlp-main.276/",
+    "keywords": [],
+    "primaryCategory": "retrieval_knowledge",
+    "categories": [
+      "retrieval_knowledge",
+      "reasoning"
+    ]
+  },
+  {
     "id": "2025.emnlp-main.541",
     "title": "S elf RACG : Enabling LLM s to Self-Express and Retrieve for Code Generation",
     "authors": [
@@ -358244,33 +358271,6 @@
     "categories": [
       "retrieval_knowledge",
       "alignment_safety"
-    ]
-  },
-  {
-    "id": "2025.emnlp-main.276",
-    "title": "Search-o1: Agentic Search-Enhanced Large Reasoning Models",
-    "authors": [
-      "Xiaoxi Li",
-      "Guanting Dong",
-      "Jiajie Jin",
-      "Yuyao Zhang",
-      "Yujia Zhou",
-      "Yutao Zhu",
-      "Peitian Zhang",
-      "Zhicheng Dou"
-    ],
-    "year": 2025,
-    "conference": "emnlp",
-    "conferenceName": "EMNLP",
-    "track": "main",
-    "trackLabel": "Main",
-    "source": "ACL Anthology",
-    "url": "https://aclanthology.org/2025.emnlp-main.276/",
-    "keywords": [],
-    "primaryCategory": "retrieval_knowledge",
-    "categories": [
-      "retrieval_knowledge",
-      "reasoning"
     ]
   },
   {
@@ -361131,6 +361131,29 @@
     ]
   },
   {
+    "id": "2025.emnlp-main.1040",
+    "title": "T able- R 1: Inference-Time Scaling for Table Reasoning Tasks",
+    "authors": [
+      "Zheyuan Yang",
+      "Lyuhao Chen",
+      "Arman Cohan",
+      "Yilun Zhao"
+    ],
+    "year": 2025,
+    "conference": "emnlp",
+    "conferenceName": "EMNLP",
+    "track": "main",
+    "trackLabel": "Main",
+    "source": "ACL Anthology",
+    "url": "https://aclanthology.org/2025.emnlp-main.1040/",
+    "keywords": [],
+    "primaryCategory": "reasoning",
+    "categories": [
+      "reasoning",
+      "efficient_ai"
+    ]
+  },
+  {
     "id": "2025.emnlp-main.1272",
     "title": "T actful T o M : Do LLM s have the Theory of Mind ability to understand White Lies?",
     "authors": [
@@ -361847,29 +361870,6 @@
     "primaryCategory": "llms",
     "categories": [
       "llms"
-    ]
-  },
-  {
-    "id": "2025.emnlp-main.1040",
-    "title": "Table-R1: Inference-Time Scaling for Table Reasoning Tasks",
-    "authors": [
-      "Zheyuan Yang",
-      "Lyuhao Chen",
-      "Arman Cohan",
-      "Yilun Zhao"
-    ],
-    "year": 2025,
-    "conference": "emnlp",
-    "conferenceName": "EMNLP",
-    "track": "main",
-    "trackLabel": "Main",
-    "source": "ACL Anthology",
-    "url": "https://aclanthology.org/2025.emnlp-main.1040/",
-    "keywords": [],
-    "primaryCategory": "reasoning",
-    "categories": [
-      "reasoning",
-      "efficient_ai"
     ]
   },
   {
@@ -364906,6 +364906,35 @@
     ]
   },
   {
+    "id": "2025.emnlp-main.915",
+    "title": "U nilaw- R 1: A Large Language Model for Legal Reasoning with Reinforcement Learning and Iterative Inference",
+    "authors": [
+      "Hua Cai",
+      "Shuang Zhao",
+      "Liang Zhang",
+      "Xuli Shen",
+      "Qing Xu",
+      "Weilin Shen",
+      "Zihao Wen",
+      "Tianke Ban"
+    ],
+    "year": 2025,
+    "conference": "emnlp",
+    "conferenceName": "EMNLP",
+    "track": "main",
+    "trackLabel": "Main",
+    "source": "ACL Anthology",
+    "url": "https://aclanthology.org/2025.emnlp-main.915/",
+    "keywords": [],
+    "primaryCategory": "llms",
+    "categories": [
+      "llms",
+      "domain_science",
+      "reasoning",
+      "rl_robotics"
+    ]
+  },
+  {
     "id": "2025.emnlp-main.286",
     "title": "U nit C oder: Scalable Code Synthesis from Pre-training Corpora",
     "authors": [
@@ -365328,35 +365357,6 @@
     "categories": [
       "reasoning",
       "optimization_theory"
-    ]
-  },
-  {
-    "id": "2025.emnlp-main.915",
-    "title": "Unilaw-R1: A Large Language Model for Legal Reasoning with Reinforcement Learning and Iterative Inference",
-    "authors": [
-      "Hua Cai",
-      "Shuang Zhao",
-      "Liang Zhang",
-      "Xuli Shen",
-      "Qing Xu",
-      "Weilin Shen",
-      "Zihao Wen",
-      "Tianke Ban"
-    ],
-    "year": 2025,
-    "conference": "emnlp",
-    "conferenceName": "EMNLP",
-    "track": "main",
-    "trackLabel": "Main",
-    "source": "ACL Anthology",
-    "url": "https://aclanthology.org/2025.emnlp-main.915/",
-    "keywords": [],
-    "primaryCategory": "llms",
-    "categories": [
-      "llms",
-      "domain_science",
-      "reasoning",
-      "rl_robotics"
     ]
   },
   {
@@ -366773,7 +366773,7 @@
   },
   {
     "id": "2025.emnlp-main.401",
-    "title": "W eb A gent-R1: Training Web Agents via End-to-End Multi-Turn Reinforcement Learning",
+    "title": "W eb A gent- R 1: Training Web Agents via End-to-End Multi-Turn Reinforcement Learning",
     "authors": [
       "Zhepei Wei",
       "Wenlin Yao",
@@ -372720,6 +372720,34 @@
     ]
   },
   {
+    "id": "2025.findings-naacl.211",
+    "title": "H uatuo-26 M , a Large-scale C hinese Medical QA Dataset",
+    "authors": [
+      "Xidong Wang",
+      "Jianquan Li",
+      "Shunian Chen",
+      "Yuxuan Zhu",
+      "Xiangbo Wu",
+      "Zhiyi Zhang",
+      "Xiaolong Xu",
+      "Junying Chen"
+    ],
+    "year": 2025,
+    "conference": "naacl",
+    "conferenceName": "NAACL",
+    "track": "findings",
+    "trackLabel": "Findings",
+    "source": "ACL Anthology",
+    "url": "https://aclanthology.org/2025.findings-naacl.211/",
+    "keywords": [],
+    "primaryCategory": "evaluation",
+    "categories": [
+      "evaluation",
+      "domain_science",
+      "retrieval_knowledge"
+    ]
+  },
+  {
     "id": "2025.findings-naacl.12",
     "title": "HALLUCANA : Fixing LLM Hallucination with A Canary Lookahead",
     "authors": [
@@ -372965,34 +372993,6 @@
     "primaryCategory": "llms",
     "categories": [
       "llms"
-    ]
-  },
-  {
-    "id": "2025.findings-naacl.211",
-    "title": "Huatuo-26 M , a Large-scale C hinese Medical QA Dataset",
-    "authors": [
-      "Xidong Wang",
-      "Jianquan Li",
-      "Shunian Chen",
-      "Yuxuan Zhu",
-      "Xiangbo Wu",
-      "Zhiyi Zhang",
-      "Xiaolong Xu",
-      "Junying Chen"
-    ],
-    "year": 2025,
-    "conference": "naacl",
-    "conferenceName": "NAACL",
-    "track": "findings",
-    "trackLabel": "Findings",
-    "source": "ACL Anthology",
-    "url": "https://aclanthology.org/2025.findings-naacl.211/",
-    "keywords": [],
-    "primaryCategory": "evaluation",
-    "categories": [
-      "evaluation",
-      "domain_science",
-      "retrieval_knowledge"
     ]
   },
   {
@@ -375639,7 +375639,7 @@
   },
   {
     "id": "2025.findings-naacl.226",
-    "title": "Omni-Chart-600 K : A Comprehensive Dataset of Chart Types for Chart Understanding",
+    "title": "Omni- C hart-600 K : A Comprehensive Dataset of Chart Types for Chart Understanding",
     "authors": [
       "Shulei Wang",
       "Shuai Yang",
@@ -381402,7 +381402,7 @@
   },
   {
     "id": "2025.naacl-long.220",
-    "title": "Benchmarking and Building Zero-Shot H indi Retrieval Model with H indi- BEIR and NLLB -E5",
+    "title": "Benchmarking and Building Zero-Shot H indi Retrieval Model with H indi- BEIR and NLLB - E 5",
     "authors": [
       "Arkadeep Acharya",
       "Rudra Murthy",
@@ -388829,7 +388829,7 @@
   },
   {
     "id": "2025.naacl-long.375",
-    "title": "LL a MA -Berry: Pairwise Optimization for Olympiad-level Mathematical Reasoning via O1-like M onte C arlo Tree Search",
+    "title": "LL a MA -Berry: Pairwise Optimization for Olympiad-level Mathematical Reasoning via O 1-like M onte C arlo Tree Search",
     "authors": [
       "Di Zhang",
       "Jianbo Wu",
@@ -394269,7 +394269,7 @@
   },
   {
     "id": "2025.naacl-long.217",
-    "title": "SVD - LLM V2: Optimizing Singular Value Truncation for Large Language Model Compression",
+    "title": "SVD - LLM V 2: Optimizing Singular Value Truncation for Large Language Model Compression",
     "authors": [
       "Xin Wang",
       "Samiul Alam",
@@ -394289,6 +394289,32 @@
     "categories": [
       "llms",
       "efficient_ai"
+    ]
+  },
+  {
+    "id": "2025.naacl-short.36",
+    "title": "T axi1500: A Dataset for Multilingual Text Classification in 1500 Languages",
+    "authors": [
+      "Chunlan Ma",
+      "Ayyoob Imani",
+      "Haotian Ye",
+      "Renhao Pei",
+      "Ehsaneddin Asgari",
+      "Hinrich Schuetze"
+    ],
+    "year": 2025,
+    "conference": "naacl",
+    "conferenceName": "NAACL",
+    "track": "main",
+    "trackLabel": "Main",
+    "source": "ACL Anthology",
+    "url": "https://aclanthology.org/2025.naacl-short.36/",
+    "keywords": [],
+    "primaryCategory": "evaluation",
+    "categories": [
+      "evaluation",
+      "multilingual",
+      "nlp_core"
     ]
   },
   {
@@ -394481,32 +394507,6 @@
     "primaryCategory": "efficient_ai",
     "categories": [
       "efficient_ai"
-    ]
-  },
-  {
-    "id": "2025.naacl-short.36",
-    "title": "Taxi1500: A Dataset for Multilingual Text Classification in 1500 Languages",
-    "authors": [
-      "Chunlan Ma",
-      "Ayyoob Imani",
-      "Haotian Ye",
-      "Renhao Pei",
-      "Ehsaneddin Asgari",
-      "Hinrich Schuetze"
-    ],
-    "year": 2025,
-    "conference": "naacl",
-    "conferenceName": "NAACL",
-    "track": "main",
-    "trackLabel": "Main",
-    "source": "ACL Anthology",
-    "url": "https://aclanthology.org/2025.naacl-short.36/",
-    "keywords": [],
-    "primaryCategory": "evaluation",
-    "categories": [
-      "evaluation",
-      "multilingual",
-      "nlp_core"
     ]
   },
   {
@@ -396679,6 +396679,54 @@
     ]
   },
   {
+    "id": "2026.findings-acl.184",
+    "title": "A 3: Android Agent Arena for Mobile GUI Agents with Essential-State Procedural Evaluation",
+    "authors": [
+      "Yuxiang Chai",
+      "Shunye Tang",
+      "Han Xiao",
+      "Weifeng Lin",
+      "Hanhao Li",
+      "Jiayu Zhang",
+      "Liang Liu",
+      "Pengxiang Zhao"
+    ],
+    "year": 2026,
+    "conference": "acl",
+    "conferenceName": "ACL",
+    "track": "findings",
+    "trackLabel": "Findings",
+    "source": "ACL Anthology",
+    "url": "https://aclanthology.org/2026.findings-acl.184/",
+    "keywords": [],
+    "primaryCategory": "agents_tools",
+    "categories": [
+      "agents_tools",
+      "evaluation"
+    ]
+  },
+  {
+    "id": "2026.findings-acl.985",
+    "title": "A bstain- R 1: Calibrated Abstention and Post-Refusal Clarification via Verifiable RL",
+    "authors": [
+      "Haotian Zhai",
+      "Jingcheng Liang",
+      "Dongyeop Kang"
+    ],
+    "year": 2026,
+    "conference": "acl",
+    "conferenceName": "ACL",
+    "track": "findings",
+    "trackLabel": "Findings",
+    "source": "ACL Anthology",
+    "url": "https://aclanthology.org/2026.findings-acl.985/",
+    "keywords": [],
+    "primaryCategory": "rl_robotics",
+    "categories": [
+      "rl_robotics"
+    ]
+  },
+  {
     "id": "2026.findings-acl.2073",
     "title": "A Computational Method for Measuring Open Codes in Qualitative Analysis",
     "authors": [
@@ -397533,6 +397581,35 @@
     ]
   },
   {
+    "id": "2026.findings-acl.1345",
+    "title": "A rctic- T ext2 SQL - R 1: Simple Rewards, Strong Reasoning in Text-to- SQL",
+    "authors": [
+      "Zhewei Yao",
+      "Guoheng Sun",
+      "Łukasz Borchmann",
+      "Zheyu Shen",
+      "Minghang Deng",
+      "Bohan Zhai",
+      "Hao Zhang",
+      "Ang Li"
+    ],
+    "year": 2026,
+    "conference": "acl",
+    "conferenceName": "ACL",
+    "track": "findings",
+    "trackLabel": "Findings",
+    "source": "ACL Anthology",
+    "url": "https://aclanthology.org/2026.findings-acl.1345/",
+    "keywords": [],
+    "primaryCategory": "reasoning",
+    "categories": [
+      "reasoning",
+      "evaluation",
+      "efficient_ai",
+      "rl_robotics"
+    ]
+  },
+  {
     "id": "2026.findings-acl.511",
     "title": "A Reward-Guided Dual-Phase Framework for Adaptive Inference-Time Reasoning",
     "authors": [
@@ -398233,33 +398310,6 @@
     ]
   },
   {
-    "id": "2026.findings-acl.184",
-    "title": "A3: Android Agent Arena for Mobile GUI Agents with Essential-State Procedural Evaluation",
-    "authors": [
-      "Yuxiang Chai",
-      "Shunye Tang",
-      "Han Xiao",
-      "Weifeng Lin",
-      "Hanhao Li",
-      "Jiayu Zhang",
-      "Liang Liu",
-      "Pengxiang Zhao"
-    ],
-    "year": 2026,
-    "conference": "acl",
-    "conferenceName": "ACL",
-    "track": "findings",
-    "trackLabel": "Findings",
-    "source": "ACL Anthology",
-    "url": "https://aclanthology.org/2026.findings-acl.184/",
-    "keywords": [],
-    "primaryCategory": "agents_tools",
-    "categories": [
-      "agents_tools",
-      "evaluation"
-    ]
-  },
-  {
     "id": "2026.findings-acl.1142",
     "title": "ABC -Bench: Benchmarking Agentic Backend Coding in Real-World Development",
     "authors": [
@@ -398285,27 +398335,6 @@
       "agents_tools",
       "reasoning",
       "evaluation"
-    ]
-  },
-  {
-    "id": "2026.findings-acl.985",
-    "title": "Abstain-R1: Calibrated Abstention and Post-Refusal Clarification via Verifiable RL",
-    "authors": [
-      "Haotian Zhai",
-      "Jingcheng Liang",
-      "Dongyeop Kang"
-    ],
-    "year": 2026,
-    "conference": "acl",
-    "conferenceName": "ACL",
-    "track": "findings",
-    "trackLabel": "Findings",
-    "source": "ACL Anthology",
-    "url": "https://aclanthology.org/2026.findings-acl.985/",
-    "keywords": [],
-    "primaryCategory": "rl_robotics",
-    "categories": [
-      "rl_robotics"
     ]
   },
   {
@@ -399982,35 +400011,6 @@
     "primaryCategory": "agents_tools",
     "categories": [
       "agents_tools"
-    ]
-  },
-  {
-    "id": "2026.findings-acl.1345",
-    "title": "Arctic- T ext2 SQL -R1: Simple Rewards, Strong Reasoning in Text-to- SQL",
-    "authors": [
-      "Zhewei Yao",
-      "Guoheng Sun",
-      "Łukasz Borchmann",
-      "Zheyu Shen",
-      "Minghang Deng",
-      "Bohan Zhai",
-      "Hao Zhang",
-      "Ang Li"
-    ],
-    "year": 2026,
-    "conference": "acl",
-    "conferenceName": "ACL",
-    "track": "findings",
-    "trackLabel": "Findings",
-    "source": "ACL Anthology",
-    "url": "https://aclanthology.org/2026.findings-acl.1345/",
-    "keywords": [],
-    "primaryCategory": "reasoning",
-    "categories": [
-      "reasoning",
-      "evaluation",
-      "efficient_ai",
-      "rl_robotics"
     ]
   },
   {
@@ -403868,7 +403868,7 @@
   },
   {
     "id": "2026.findings-acl.1341",
-    "title": "C he MM -R1: Enhancing Chemical Structure Recognition and Elucidation with Reasoning Multimodal Large Language Models",
+    "title": "C he MM - R 1: Enhancing Chemical Structure Recognition and Elucidation with Reasoning Multimodal Large Language Models",
     "authors": [
       "Liting Huang",
       "Zhihao Zhang",
@@ -404813,7 +404813,7 @@
   },
   {
     "id": "2026.findings-acl.146",
-    "title": "C omfy UI -R1: Exploring Reasoning Models for Workflow Generation",
+    "title": "C omfy UI - R 1: Exploring Reasoning Models for Workflow Generation",
     "authors": [
       "Zhenran Xu",
       "Yiyu Wang",
@@ -411300,7 +411300,7 @@
   },
   {
     "id": "2026.findings-acl.597",
-    "title": "Double-Edged Sword or Sharp Tool? Designing and Evaluating Triadic LLM -Teacher Collaboration for K-12 Writing at Scale",
+    "title": "Double-Edged Sword or Sharp Tool? Designing and Evaluating Triadic LLM -Teacher Collaboration for K -12 Writing at Scale",
     "authors": [
       "Canran Wang",
       "Yuwen Yang",
@@ -411935,7 +411935,7 @@
   },
   {
     "id": "2026.findings-acl.466",
-    "title": "E du MARS : Can Vision-Language Models Grade Like Teachers? Benchmarking Multimodal, Rubric-Based Assessment on C hinese K-12 Answers",
+    "title": "E du MARS : Can Vision-Language Models Grade Like Teachers? Benchmarking Multimodal, Rubric-Based Assessment on C hinese K -12 Answers",
     "authors": [
       "Xuan Zhao",
       "Jiashun Chen",
@@ -414962,7 +414962,7 @@
     "id": "2026.findings-acl.730",
     "title": "F ree C hunker: A Cross-Granularity Chunking Framework",
     "authors": [
-      "Zhang Wenxuan",
+      "Wenxuan Zhang",
       "Yuan-Hao Jiang",
       "Yang Cao",
       "Yonghe Wu"
@@ -417827,7 +417827,7 @@
   },
   {
     "id": "2026.findings-acl.352",
-    "title": "G o T -R1: Internalizing Graph-of-Thought via Structural Reinforcement for High-Density Reasoning",
+    "title": "G o T - R 1: Internalizing Graph-of-Thought via Structural Reinforcement for High-Density Reasoning",
     "authors": [
       "Zuchao Li",
       "Qiwei Li",
@@ -425072,7 +425072,7 @@
   },
   {
     "id": "2026.findings-acl.2029",
-    "title": "LRB ench and Judge-R1: Principled Evaluation and Training of LLM -Based Judges for Long-Context Reasoning",
+    "title": "LRB ench and J udge- R 1: Principled Evaluation and Training of LLM -Based Judges for Long-Context Reasoning",
     "authors": [
       "Xinyi Zhao",
       "Haoqi Hu",
@@ -427364,7 +427364,7 @@
   },
   {
     "id": "2026.findings-acl.2031",
-    "title": "Mechanistic Interpretability of Large-Scale Counting in LLM s through a System-2 Strategy",
+    "title": "Mechanistic Interpretability of Large-Scale Counting in LLM s through a S ystem-2 Strategy",
     "authors": [
       "Hosein Hasani",
       "Mohammadali Banayeeanzade",
@@ -428241,32 +428241,8 @@
     ]
   },
   {
-    "id": "2026.findings-acl.1447",
-    "title": "MM - S hift KV : Decode-Aware Prefill-Stage KV Selection for Multimodal Large Language Models",
-    "authors": [
-      "Jinsong Shu",
-      "Chenyang Wu",
-      "Zhongle Xie",
-      "Baokun Wang",
-      "Lidan Shou"
-    ],
-    "year": 2026,
-    "conference": "acl",
-    "conferenceName": "ACL",
-    "track": "findings",
-    "trackLabel": "Findings",
-    "source": "ACL Anthology",
-    "url": "https://aclanthology.org/2026.findings-acl.1447/",
-    "keywords": [],
-    "primaryCategory": "multimodal",
-    "categories": [
-      "multimodal",
-      "efficient_ai"
-    ]
-  },
-  {
     "id": "2026.findings-acl.1488",
-    "title": "MM -Doc-R1: Training Agents for Long Document Visual Question Answering through Multi-turn Reinforcement Learning",
+    "title": "MM - D oc- R 1: Training Agents for Long Document Visual Question Answering through Multi-turn Reinforcement Learning",
     "authors": [
       "Jiahang Lin",
       "Kai Hu",
@@ -428291,6 +428267,30 @@
       "agents_tools",
       "multimodal",
       "nlp_core"
+    ]
+  },
+  {
+    "id": "2026.findings-acl.1447",
+    "title": "MM - S hift KV : Decode-Aware Prefill-Stage KV Selection for Multimodal Large Language Models",
+    "authors": [
+      "Jinsong Shu",
+      "Chenyang Wu",
+      "Zhongle Xie",
+      "Baokun Wang",
+      "Lidan Shou"
+    ],
+    "year": 2026,
+    "conference": "acl",
+    "conferenceName": "ACL",
+    "track": "findings",
+    "trackLabel": "Findings",
+    "source": "ACL Anthology",
+    "url": "https://aclanthology.org/2026.findings-acl.1447/",
+    "keywords": [],
+    "primaryCategory": "multimodal",
+    "categories": [
+      "multimodal",
+      "efficient_ai"
     ]
   },
   {
@@ -428757,7 +428757,7 @@
   },
   {
     "id": "2026.findings-acl.1236",
-    "title": "MTEB - NL and E5- NL : Embedding Benchmark and Models for D utch",
+    "title": "MTEB - NL and E 5- NL : Embedding Benchmark and Models for D utch",
     "authors": [
       "Nikolay Banar",
       "Ehsan Lotfi",
@@ -429937,6 +429937,34 @@
     ]
   },
   {
+    "id": "2026.findings-acl.697",
+    "title": "O 1-Pruner: Length-Harmonizing Fine-Tuning for O 1-Like Reasoning Pruning",
+    "authors": [
+      "Haotian Luo",
+      "Haiying He",
+      "Yibo Wang",
+      "Shiwei Liu",
+      "Wei Li",
+      "Xiaochun Cao",
+      "Dacheng Tao",
+      "Naiqiang Tan"
+    ],
+    "year": 2026,
+    "conference": "acl",
+    "conferenceName": "ACL",
+    "track": "findings",
+    "trackLabel": "Findings",
+    "source": "ACL Anthology",
+    "url": "https://aclanthology.org/2026.findings-acl.697/",
+    "keywords": [],
+    "primaryCategory": "reasoning",
+    "categories": [
+      "reasoning",
+      "llms",
+      "efficient_ai"
+    ]
+  },
+  {
     "id": "2026.findings-acl.494",
     "title": "O ja KV : Context-Aware Online Low-Rank KV Cache Compression",
     "authors": [
@@ -430034,6 +430062,34 @@
     "categories": [
       "reasoning",
       "rl_robotics"
+    ]
+  },
+  {
+    "id": "2026.findings-acl.1937",
+    "title": "O mni- R 1: Towards the Unified Generative Paradigm for Multimodal Reasoning",
+    "authors": [
+      "Dongjie Cheng",
+      "Yongqi Li",
+      "Zhixin Ma",
+      "Hongru Cai",
+      "Yupeng Hu",
+      "Wenjie Wang",
+      "Liqiang Nie",
+      "Wenjie Li"
+    ],
+    "year": 2026,
+    "conference": "acl",
+    "conferenceName": "ACL",
+    "track": "findings",
+    "trackLabel": "Findings",
+    "source": "ACL Anthology",
+    "url": "https://aclanthology.org/2026.findings-acl.1937/",
+    "keywords": [],
+    "primaryCategory": "reasoning",
+    "categories": [
+      "reasoning",
+      "multimodal",
+      "generative_models"
     ]
   },
   {
@@ -430162,34 +430218,6 @@
     ]
   },
   {
-    "id": "2026.findings-acl.697",
-    "title": "O1-Pruner: Length-Harmonizing Fine-Tuning for O1-Like Reasoning Pruning",
-    "authors": [
-      "Haotian Luo",
-      "Haiying He",
-      "Yibo Wang",
-      "Shiwei Liu",
-      "Wei Li",
-      "Xiaochun Cao",
-      "Dacheng Tao",
-      "Naiqiang Tan"
-    ],
-    "year": 2026,
-    "conference": "acl",
-    "conferenceName": "ACL",
-    "track": "findings",
-    "trackLabel": "Findings",
-    "source": "ACL Anthology",
-    "url": "https://aclanthology.org/2026.findings-acl.697/",
-    "keywords": [],
-    "primaryCategory": "reasoning",
-    "categories": [
-      "reasoning",
-      "llms",
-      "efficient_ai"
-    ]
-  },
-  {
     "id": "2026.findings-acl.1415",
     "title": "ODAS im: Ordered, Distinctive and Absolute Semantic Similarity for Code Explanation Evaluation",
     "authors": [
@@ -430292,34 +430320,6 @@
     "categories": [
       "reasoning",
       "evaluation"
-    ]
-  },
-  {
-    "id": "2026.findings-acl.1937",
-    "title": "Omni-R1: Towards the Unified Generative Paradigm for Multimodal Reasoning",
-    "authors": [
-      "Dongjie Cheng",
-      "Yongqi Li",
-      "Zhixin Ma",
-      "Hongru Cai",
-      "Yupeng Hu",
-      "Wenjie Wang",
-      "Liqiang Nie",
-      "Wenjie Li"
-    ],
-    "year": 2026,
-    "conference": "acl",
-    "conferenceName": "ACL",
-    "track": "findings",
-    "trackLabel": "Findings",
-    "source": "ACL Anthology",
-    "url": "https://aclanthology.org/2026.findings-acl.1937/",
-    "keywords": [],
-    "primaryCategory": "reasoning",
-    "categories": [
-      "reasoning",
-      "multimodal",
-      "generative_models"
     ]
   },
   {
@@ -431878,6 +431878,33 @@
     "primaryCategory": "nlp_core",
     "categories": [
       "nlp_core",
+      "llms"
+    ]
+  },
+  {
+    "id": "2026.findings-acl.799",
+    "title": "P rompt- R 1: Collaborative Automatic Prompting Framework via End-to-end Reinforcement Learning",
+    "authors": [
+      "Wenjin Liu",
+      "Haoran Luo",
+      "Xueyuan Lin",
+      "Haoming Liu",
+      "Tiesunlong Shen",
+      "Jiapu Wang",
+      "Rui Mao",
+      "Erik Cambria"
+    ],
+    "year": 2026,
+    "conference": "acl",
+    "conferenceName": "ACL",
+    "track": "findings",
+    "trackLabel": "Findings",
+    "source": "ACL Anthology",
+    "url": "https://aclanthology.org/2026.findings-acl.799/",
+    "keywords": [],
+    "primaryCategory": "rl_robotics",
+    "categories": [
+      "rl_robotics",
       "llms"
     ]
   },
@@ -433761,33 +433788,6 @@
     ]
   },
   {
-    "id": "2026.findings-acl.799",
-    "title": "Prompt-R1: Collaborative Automatic Prompting Framework via End-to-end Reinforcement Learning",
-    "authors": [
-      "Wenjin Liu",
-      "Haoran Luo",
-      "Xueyuan Lin",
-      "Haoming Liu",
-      "Tiesunlong Shen",
-      "Jiapu Wang",
-      "Rui Mao",
-      "Erik Cambria"
-    ],
-    "year": 2026,
-    "conference": "acl",
-    "conferenceName": "ACL",
-    "track": "findings",
-    "trackLabel": "Findings",
-    "source": "ACL Anthology",
-    "url": "https://aclanthology.org/2026.findings-acl.799/",
-    "keywords": [],
-    "primaryCategory": "rl_robotics",
-    "categories": [
-      "rl_robotics",
-      "llms"
-    ]
-  },
-  {
     "id": "2026.findings-acl.1665",
     "title": "Prompting Across Time: Evaluating LLM s on Historical and Contemporary Offensive Language",
     "authors": [
@@ -434788,6 +434788,27 @@
       "rl_robotics",
       "efficient_ai",
       "reasoning"
+    ]
+  },
+  {
+    "id": "2026.findings-acl.510",
+    "title": "R egion- R 1: Reinforcing Query-Side Region Cropping for Multi-Modal Re-Ranking",
+    "authors": [
+      "Chan-Wei Hu",
+      "Zhengzhong Tu"
+    ],
+    "year": 2026,
+    "conference": "acl",
+    "conferenceName": "ACL",
+    "track": "findings",
+    "trackLabel": "Findings",
+    "source": "ACL Anthology",
+    "url": "https://aclanthology.org/2026.findings-acl.510/",
+    "keywords": [],
+    "primaryCategory": "multimodal",
+    "categories": [
+      "multimodal",
+      "retrieval_knowledge"
     ]
   },
   {
@@ -436156,27 +436177,6 @@
     "keywords": [],
     "primaryCategory": "retrieval_knowledge",
     "categories": [
-      "retrieval_knowledge"
-    ]
-  },
-  {
-    "id": "2026.findings-acl.510",
-    "title": "Region-R1: Reinforcing Query-Side Region Cropping for Multi-Modal Re-Ranking",
-    "authors": [
-      "Chan-Wei Hu",
-      "Zhengzhong Tu"
-    ],
-    "year": 2026,
-    "conference": "acl",
-    "conferenceName": "ACL",
-    "track": "findings",
-    "trackLabel": "Findings",
-    "source": "ACL Anthology",
-    "url": "https://aclanthology.org/2026.findings-acl.510/",
-    "keywords": [],
-    "primaryCategory": "multimodal",
-    "categories": [
-      "multimodal",
       "retrieval_knowledge"
     ]
   },
@@ -442341,6 +442341,34 @@
     ]
   },
   {
+    "id": "2026.findings-acl.1364",
+    "title": "T able- R 1: Region-based Reinforcement Learning for Table Understanding",
+    "authors": [
+      "Zhenhe Wu",
+      "Jian Yang",
+      "Zhongjiang He",
+      "Changzai Pan",
+      "Jiaheng Liu",
+      "Xianjie Wu",
+      "Yu Zhao",
+      "Shuangyong Song"
+    ],
+    "year": 2026,
+    "conference": "acl",
+    "conferenceName": "ACL",
+    "track": "findings",
+    "trackLabel": "Findings",
+    "source": "ACL Anthology",
+    "url": "https://aclanthology.org/2026.findings-acl.1364/",
+    "keywords": [],
+    "primaryCategory": "reasoning",
+    "categories": [
+      "reasoning",
+      "rl_robotics",
+      "llms"
+    ]
+  },
+  {
     "id": "2026.findings-acl.759",
     "title": "T abular M ath: Understanding Math Reasoning over Tables with Large Language Models",
     "authors": [
@@ -442390,7 +442418,7 @@
   },
   {
     "id": "2026.findings-acl.797",
-    "title": "T emp T ool-R1: Tool-Augmented Reinforcement Learning for Temporal Knowledge Graph Question Answering",
+    "title": "T emp T ool- R 1: Tool-Augmented Reinforcement Learning for Temporal Knowledge Graph Question Answering",
     "authors": [
       "Zicheng Huang",
       "Yajuan Tong",
@@ -443220,34 +443248,6 @@
     "primaryCategory": "retrieval_knowledge",
     "categories": [
       "retrieval_knowledge"
-    ]
-  },
-  {
-    "id": "2026.findings-acl.1364",
-    "title": "Table-R1: Region-based Reinforcement Learning for Table Understanding",
-    "authors": [
-      "Zhenhe Wu",
-      "Jian Yang",
-      "Zhongjiang He",
-      "Changzai Pan",
-      "Jiaheng Liu",
-      "Xianjie Wu",
-      "Yu Zhao",
-      "Shuangyong Song"
-    ],
-    "year": 2026,
-    "conference": "acl",
-    "conferenceName": "ACL",
-    "track": "findings",
-    "trackLabel": "Findings",
-    "source": "ACL Anthology",
-    "url": "https://aclanthology.org/2026.findings-acl.1364/",
-    "keywords": [],
-    "primaryCategory": "reasoning",
-    "categories": [
-      "reasoning",
-      "rl_robotics",
-      "llms"
     ]
   },
   {
@@ -447060,6 +447060,32 @@
     ]
   },
   {
+    "id": "2026.findings-acl.1019",
+    "title": "V eri- R 1: Toward Precise and Faithful Claim Verification via Online Reinforcement Learning",
+    "authors": [
+      "Qi He",
+      "Cheng Qian",
+      "Xiusi Chen",
+      "Bingxiang He",
+      "Yi R. Fung",
+      "Heng Ji"
+    ],
+    "year": 2026,
+    "conference": "acl",
+    "conferenceName": "ACL",
+    "track": "findings",
+    "trackLabel": "Findings",
+    "source": "ACL Anthology",
+    "url": "https://aclanthology.org/2026.findings-acl.1019/",
+    "keywords": [],
+    "primaryCategory": "rl_robotics",
+    "categories": [
+      "rl_robotics",
+      "reasoning",
+      "retrieval_knowledge"
+    ]
+  },
+  {
     "id": "2026.findings-acl.1801",
     "title": "V i L egal LM : Language Models for V ietnamese Legal Text",
     "authors": [
@@ -447078,6 +447104,33 @@
     "primaryCategory": "domain_science",
     "categories": [
       "domain_science"
+    ]
+  },
+  {
+    "id": "2026.findings-acl.1538",
+    "title": "V iew- R 1: Asymmetric Policy Optimization for Difficulty-Aware Multimodal Reinforcement Learning",
+    "authors": [
+      "Minjie Hong",
+      "Zirun Guo",
+      "Jiabao Zhang",
+      "Zehan Wang",
+      "Ziang Zhang",
+      "Tao Jin",
+      "Zhou Zhao"
+    ],
+    "year": 2026,
+    "conference": "acl",
+    "conferenceName": "ACL",
+    "track": "findings",
+    "trackLabel": "Findings",
+    "source": "ACL Anthology",
+    "url": "https://aclanthology.org/2026.findings-acl.1538/",
+    "keywords": [],
+    "primaryCategory": "rl_robotics",
+    "categories": [
+      "rl_robotics",
+      "multimodal",
+      "optimization_theory"
     ]
   },
   {
@@ -447378,32 +447431,6 @@
     ]
   },
   {
-    "id": "2026.findings-acl.1019",
-    "title": "Veri-R1: Toward Precise and Faithful Claim Verification via Online Reinforcement Learning",
-    "authors": [
-      "Qi He",
-      "Cheng Qian",
-      "Xiusi Chen",
-      "Bingxiang He",
-      "Yi R. Fung",
-      "Heng Ji"
-    ],
-    "year": 2026,
-    "conference": "acl",
-    "conferenceName": "ACL",
-    "track": "findings",
-    "trackLabel": "Findings",
-    "source": "ACL Anthology",
-    "url": "https://aclanthology.org/2026.findings-acl.1019/",
-    "keywords": [],
-    "primaryCategory": "rl_robotics",
-    "categories": [
-      "rl_robotics",
-      "reasoning",
-      "retrieval_knowledge"
-    ]
-  },
-  {
     "id": "2026.findings-acl.167",
     "title": "Verifiable Parameterization of B ayesian Networks from Scientific Literature: Unlocking Unstructured Empirical Evidence",
     "authors": [
@@ -447545,33 +447572,6 @@
     ]
   },
   {
-    "id": "2026.findings-acl.1538",
-    "title": "View-R1: Asymmetric Policy Optimization for Difficulty-Aware Multimodal Reinforcement Learning",
-    "authors": [
-      "Minjie Hong",
-      "Zirun Guo",
-      "Jiabao Zhang",
-      "Zehan Wang",
-      "Ziang Zhang",
-      "Tao Jin",
-      "Zhou Zhao"
-    ],
-    "year": 2026,
-    "conference": "acl",
-    "conferenceName": "ACL",
-    "track": "findings",
-    "trackLabel": "Findings",
-    "source": "ACL Anthology",
-    "url": "https://aclanthology.org/2026.findings-acl.1538/",
-    "keywords": [],
-    "primaryCategory": "rl_robotics",
-    "categories": [
-      "rl_robotics",
-      "multimodal",
-      "optimization_theory"
-    ]
-  },
-  {
     "id": "2026.findings-acl.504",
     "title": "Vision-Language Models Mistake Head Orientation for Gaze Direction: Nonverbal Conversation Cues",
     "authors": [
@@ -447625,7 +447625,7 @@
   },
   {
     "id": "2026.findings-acl.1986",
-    "title": "VLMG uard-R1: Proactive Safety Alignment for VLM s via Reasoning-Driven Prompt Optimization",
+    "title": "VLMG uard- R 1: Proactive Safety Alignment for VLM s via Reasoning-Driven Prompt Optimization",
     "authors": [
       "Menglan Chen",
       "Xianghe Pang",
@@ -451098,7 +451098,7 @@
   },
   {
     "id": "2026.acl-long.1070",
-    "title": "A uto G raph-R1: End-to-End Reinforcement Learning for Knowledge Graph Construction",
+    "title": "A uto G raph- R 1: End-to-End Reinforcement Learning for Knowledge Graph Construction",
     "authors": [
       "Hong Ting Tsang",
       "Jiaxin Bai",
@@ -456594,6 +456594,26 @@
     ]
   },
   {
+    "id": "2026.acl-long.523",
+    "title": "C 2: Scalable Rubric-Augmented Reward Modeling from Binary Preferences",
+    "authors": [
+      "Akira Kawabata",
+      "Saku Sugawara"
+    ],
+    "year": 2026,
+    "conference": "acl",
+    "conferenceName": "ACL",
+    "track": "main",
+    "trackLabel": "Main",
+    "source": "ACL Anthology",
+    "url": "https://aclanthology.org/2026.acl-long.523/",
+    "keywords": [],
+    "primaryCategory": "rl_robotics",
+    "categories": [
+      "rl_robotics"
+    ]
+  },
+  {
     "id": "2026.acl-short.51",
     "title": "C a BSALLM : Efficient Context-Aware Batch Annotation of Conversational Streams with Large Language Models",
     "authors": [
@@ -458106,26 +458126,6 @@
     "categories": [
       "llms",
       "data_synthetic"
-    ]
-  },
-  {
-    "id": "2026.acl-long.523",
-    "title": "C2: Scalable Rubric-Augmented Reward Modeling from Binary Preferences",
-    "authors": [
-      "Akira Kawabata",
-      "Saku Sugawara"
-    ],
-    "year": 2026,
-    "conference": "acl",
-    "conferenceName": "ACL",
-    "track": "main",
-    "trackLabel": "Main",
-    "source": "ACL Anthology",
-    "url": "https://aclanthology.org/2026.acl-long.523/",
-    "keywords": [],
-    "primaryCategory": "rl_robotics",
-    "categories": [
-      "rl_robotics"
     ]
   },
   {
@@ -470280,7 +470280,7 @@
   },
   {
     "id": "2026.acl-short.4",
-    "title": "Full-Duplex-Bench-v2: A Multi-Turn Evaluation Framework for Duplex Dialogue Systems with an Automated Examiner",
+    "title": "Full-Duplex- B ench-v2: A Multi-Turn Evaluation Framework for Duplex Dialogue Systems with an Automated Examiner",
     "authors": [
       "Guan-Ting Lin",
       "Shih-Yun Shan Kuan",
@@ -480548,6 +480548,35 @@
     ]
   },
   {
+    "id": "2026.acl-long.583",
+    "title": "M emory- R 1: Enhancing Large Language Model Agents to Manage and Utilize Memories via Reinforcement Learning",
+    "authors": [
+      "Sikuan Yan",
+      "Xiufeng Yang",
+      "Zuchao Huang",
+      "Ercong Nie",
+      "Zifeng Ding",
+      "Zonggen Li",
+      "Xiaowen Ma",
+      "Jinhe Bi"
+    ],
+    "year": 2026,
+    "conference": "acl",
+    "conferenceName": "ACL",
+    "track": "main",
+    "trackLabel": "Main",
+    "source": "ACL Anthology",
+    "url": "https://aclanthology.org/2026.acl-long.583/",
+    "keywords": [],
+    "primaryCategory": "llms",
+    "categories": [
+      "llms",
+      "agents_tools",
+      "rl_robotics",
+      "retrieval_knowledge"
+    ]
+  },
+  {
     "id": "2026.acl-long.1225",
     "title": "M ental S eek-Dx: Towards Progressive Hypothetico-Deductive Reasoning for Real-world Psychiatric Diagnosis",
     "authors": [
@@ -480922,6 +480951,34 @@
     "primaryCategory": "agents_tools",
     "categories": [
       "agents_tools"
+    ]
+  },
+  {
+    "id": "2026.acl-long.1422",
+    "title": "M obile- R 1: Towards Interactive Capability for VLM -Based Mobile Agent via Systematic Training",
+    "authors": [
+      "Jihao Gu",
+      "Qihang Ai",
+      "Yingyao Wang",
+      "Pi Bu",
+      "Jingxuan Xing",
+      "Yue Cao",
+      "Zekun Zhu",
+      "Wei Jiang"
+    ],
+    "year": 2026,
+    "conference": "acl",
+    "conferenceName": "ACL",
+    "track": "main",
+    "trackLabel": "Main",
+    "source": "ACL Anthology",
+    "url": "https://aclanthology.org/2026.acl-long.1422/",
+    "keywords": [],
+    "primaryCategory": "agents_tools",
+    "categories": [
+      "agents_tools",
+      "multimodal",
+      "evaluation"
     ]
   },
   {
@@ -482174,35 +482231,6 @@
     ]
   },
   {
-    "id": "2026.acl-long.583",
-    "title": "Memory-R1: Enhancing Large Language Model Agents to Manage and Utilize Memories via Reinforcement Learning",
-    "authors": [
-      "Sikuan Yan",
-      "Xiufeng Yang",
-      "Zuchao Huang",
-      "Ercong Nie",
-      "Zifeng Ding",
-      "Zonggen Li",
-      "Xiaowen Ma",
-      "Jinhe Bi"
-    ],
-    "year": 2026,
-    "conference": "acl",
-    "conferenceName": "ACL",
-    "track": "main",
-    "trackLabel": "Main",
-    "source": "ACL Anthology",
-    "url": "https://aclanthology.org/2026.acl-long.583/",
-    "keywords": [],
-    "primaryCategory": "retrieval_knowledge",
-    "categories": [
-      "retrieval_knowledge",
-      "llms",
-      "agents_tools",
-      "rl_robotics"
-    ]
-  },
-  {
     "id": "2026.acl-long.1113",
     "title": "Merging Triggers, Breaking Backdoors: Defensive Poisoning for Instruction-Tuned Language Models",
     "authors": [
@@ -483204,7 +483232,7 @@
   },
   {
     "id": "2026.acl-long.114",
-    "title": "MMS earch-R1: Incentivizing LMM s to Search",
+    "title": "MMS earch- R 1: Incentivizing LMM s to Search",
     "authors": [
       "Jinming Wu",
       "Zihao Deng",
@@ -483304,34 +483332,6 @@
       "agents_tools",
       "alignment_safety",
       "optimization_theory"
-    ]
-  },
-  {
-    "id": "2026.acl-long.1422",
-    "title": "Mobile-R1: Towards Interactive Capability for VLM -Based Mobile Agent via Systematic Training",
-    "authors": [
-      "Jihao Gu",
-      "Qihang Ai",
-      "Yingyao Wang",
-      "Pi Bu",
-      "Jingxuan Xing",
-      "Yue Cao",
-      "Zekun Zhu",
-      "Wei Jiang"
-    ],
-    "year": 2026,
-    "conference": "acl",
-    "conferenceName": "ACL",
-    "track": "main",
-    "trackLabel": "Main",
-    "source": "ACL Anthology",
-    "url": "https://aclanthology.org/2026.acl-long.1422/",
-    "keywords": [],
-    "primaryCategory": "agents_tools",
-    "categories": [
-      "agents_tools",
-      "multimodal",
-      "evaluation"
     ]
   },
   {
@@ -483972,7 +483972,7 @@
   },
   {
     "id": "2026.acl-long.1563",
-    "title": "MTSQL -R1: Towards Long-Horizon Multi-Turn Text-to- SQL via Agentic Training",
+    "title": "MTSQL - R 1: Towards Long-Horizon Multi-Turn Text-to- SQL via Agentic Training",
     "authors": [
       "Taicheng Guo",
       "Hai Wang",
@@ -485083,6 +485083,33 @@
     ]
   },
   {
+    "id": "2026.acl-long.1753",
+    "title": "O mni- I 2 C : A Holistic Benchmark for High-Fidelity Image-to-Code Generation",
+    "authors": [
+      "Jiawei Zhou",
+      "Chi Zhang",
+      "Xiang Feng",
+      "Qiming Zhang",
+      "Haibo Qiu",
+      "Lihuo He",
+      "Dengpan Ye",
+      "Xinbo Gao"
+    ],
+    "year": 2026,
+    "conference": "acl",
+    "conferenceName": "ACL",
+    "track": "main",
+    "trackLabel": "Main",
+    "source": "ACL Anthology",
+    "url": "https://aclanthology.org/2026.acl-long.1753/",
+    "keywords": [],
+    "primaryCategory": "reasoning",
+    "categories": [
+      "reasoning",
+      "evaluation"
+    ]
+  },
+  {
     "id": "2026.acl-long.123",
     "title": "O ne R ec-Think: In-Text Reasoning for Generative Recommendation",
     "authors": [
@@ -485406,33 +485433,6 @@
     "categories": [
       "reasoning",
       "multimodal"
-    ]
-  },
-  {
-    "id": "2026.acl-long.1753",
-    "title": "Omni- I 2 C : A Holistic Benchmark for High-Fidelity Image-to-Code Generation",
-    "authors": [
-      "Jiawei Zhou",
-      "Chi Zhang",
-      "Xiang Feng",
-      "Qiming Zhang",
-      "Haibo Qiu",
-      "Lihuo He",
-      "Dengpan Ye",
-      "Xinbo Gao"
-    ],
-    "year": 2026,
-    "conference": "acl",
-    "conferenceName": "ACL",
-    "track": "main",
-    "trackLabel": "Main",
-    "source": "ACL Anthology",
-    "url": "https://aclanthology.org/2026.acl-long.1753/",
-    "keywords": [],
-    "primaryCategory": "reasoning",
-    "categories": [
-      "reasoning",
-      "evaluation"
     ]
   },
   {
@@ -486479,6 +486479,32 @@
     ]
   },
   {
+    "id": "2026.acl-long.1350",
+    "title": "P ersona- E ²: A Human-Grounded Dataset for Personality-Shaped Emotional Responses to Textual Events",
+    "authors": [
+      "Yuqin Yang",
+      "Haowu Zhou",
+      "Haoran Tu",
+      "Zhiwen Hui",
+      "Shiqi Yan",
+      "HaoYang Li",
+      "Dong She",
+      "Xianrong Yao"
+    ],
+    "year": 2026,
+    "conference": "acl",
+    "conferenceName": "ACL",
+    "track": "main",
+    "trackLabel": "Main",
+    "source": "ACL Anthology",
+    "url": "https://aclanthology.org/2026.acl-long.1350/",
+    "keywords": [],
+    "primaryCategory": "evaluation",
+    "categories": [
+      "evaluation"
+    ]
+  },
+  {
     "id": "2026.acl-long.1669",
     "title": "P ersonal A lign: Hierarchical Implicit Intent Alignment for Personalized GUI Agent with Long-Term User-Centric Records",
     "authors": [
@@ -486641,6 +486667,32 @@
     ]
   },
   {
+    "id": "2026.acl-long.2130",
+    "title": "P rivacy- R 1: Privacy-Aware Multi- LLM Agent Collaboration via Reinforcement Learning",
+    "authors": [
+      "Zheng Hui",
+      "Yijiang River Dong",
+      "Sanhanat Sivapiromrat",
+      "Ehsan Shareghi",
+      "Nigel Collier"
+    ],
+    "year": 2026,
+    "conference": "acl",
+    "conferenceName": "ACL",
+    "track": "main",
+    "trackLabel": "Main",
+    "source": "ACL Anthology",
+    "url": "https://aclanthology.org/2026.acl-long.2130/",
+    "keywords": [],
+    "primaryCategory": "alignment_safety",
+    "categories": [
+      "alignment_safety",
+      "llms",
+      "rl_robotics",
+      "agents_tools"
+    ]
+  },
+  {
     "id": "2026.acl-long.832",
     "title": "P ro A ctor: Timing-Aware Reinforcement Learning for Proactive Task Scheduling Agents",
     "authors": [
@@ -486767,6 +486819,32 @@
     "categories": [
       "reasoning",
       "multimodal"
+    ]
+  },
+  {
+    "id": "2026.acl-long.1141",
+    "title": "P syche- R 1: Towards Reliable Psychological LLM s through Unified Empathy, Expertise, and Reasoning",
+    "authors": [
+      "Chongyuan Dai",
+      "Jinpeng Hu",
+      "Hongchang Shi",
+      "Zhuo Li",
+      "Dan Guo",
+      "Xun Yang",
+      "Meng Wang"
+    ],
+    "year": 2026,
+    "conference": "acl",
+    "conferenceName": "ACL",
+    "track": "main",
+    "trackLabel": "Main",
+    "source": "ACL Anthology",
+    "url": "https://aclanthology.org/2026.acl-long.1141/",
+    "keywords": [],
+    "primaryCategory": "reasoning",
+    "categories": [
+      "reasoning",
+      "llms"
     ]
   },
   {
@@ -487357,32 +487435,6 @@
     "primaryCategory": "llms",
     "categories": [
       "llms"
-    ]
-  },
-  {
-    "id": "2026.acl-long.1350",
-    "title": "Persona-E²: A Human-Grounded Dataset for Personality-Shaped Emotional Responses to Textual Events",
-    "authors": [
-      "Yuqin Yang",
-      "Haowu Zhou",
-      "Haoran Tu",
-      "Zhiwen Hui",
-      "Shiqi Yan",
-      "HaoYang Li",
-      "Dong She",
-      "Xianrong Yao"
-    ],
-    "year": 2026,
-    "conference": "acl",
-    "conferenceName": "ACL",
-    "track": "main",
-    "trackLabel": "Main",
-    "source": "ACL Anthology",
-    "url": "https://aclanthology.org/2026.acl-long.1350/",
-    "keywords": [],
-    "primaryCategory": "evaluation",
-    "categories": [
-      "evaluation"
     ]
   },
   {
@@ -488255,32 +488307,6 @@
     ]
   },
   {
-    "id": "2026.acl-long.2130",
-    "title": "Privacy-R1: Privacy-Aware Multi- LLM Agent Collaboration via Reinforcement Learning",
-    "authors": [
-      "Zheng Hui",
-      "Yijiang River Dong",
-      "Sanhanat Sivapiromrat",
-      "Ehsan Shareghi",
-      "Nigel Collier"
-    ],
-    "year": 2026,
-    "conference": "acl",
-    "conferenceName": "ACL",
-    "track": "main",
-    "trackLabel": "Main",
-    "source": "ACL Anthology",
-    "url": "https://aclanthology.org/2026.acl-long.2130/",
-    "keywords": [],
-    "primaryCategory": "alignment_safety",
-    "categories": [
-      "alignment_safety",
-      "llms",
-      "rl_robotics",
-      "agents_tools"
-    ]
-  },
-  {
     "id": "2026.acl-long.1697",
     "title": "Probing Audio-Visual Reasoning in Multimodal Language Models through the Lens of Audio",
     "authors": [
@@ -488710,32 +488736,6 @@
       "efficient_ai",
       "llms",
       "alignment_safety"
-    ]
-  },
-  {
-    "id": "2026.acl-long.1141",
-    "title": "Psyche-R1: Towards Reliable Psychological LLM s through Unified Empathy, Expertise, and Reasoning",
-    "authors": [
-      "Chongyuan Dai",
-      "Jinpeng Hu",
-      "Hongchang Shi",
-      "Zhuo Li",
-      "Dan Guo",
-      "Xun Yang",
-      "Meng Wang"
-    ],
-    "year": 2026,
-    "conference": "acl",
-    "conferenceName": "ACL",
-    "track": "main",
-    "trackLabel": "Main",
-    "source": "ACL Anthology",
-    "url": "https://aclanthology.org/2026.acl-long.1141/",
-    "keywords": [],
-    "primaryCategory": "reasoning",
-    "categories": [
-      "reasoning",
-      "llms"
     ]
   },
   {
@@ -489310,6 +489310,31 @@
     ]
   },
   {
+    "id": "2026.acl-long.1587",
+    "title": "R 1- RE : Cross-Domain Relation Extraction with RLVR",
+    "authors": [
+      "Runpeng Dai",
+      "Tong Zheng",
+      "Run Yang",
+      "Kaixian Yu",
+      "Hongtu Zhu"
+    ],
+    "year": 2026,
+    "conference": "acl",
+    "conferenceName": "ACL",
+    "track": "main",
+    "trackLabel": "Main",
+    "source": "ACL Anthology",
+    "url": "https://aclanthology.org/2026.acl-long.1587/",
+    "keywords": [],
+    "primaryCategory": "evaluation",
+    "categories": [
+      "evaluation",
+      "reasoning",
+      "data_synthetic"
+    ]
+  },
+  {
     "id": "2026.acl-long.1715",
     "title": "R 2 IF : Aligning Reasoning with Decisions via Composite Rewards for Interpretable LLM Function Calling",
     "authors": [
@@ -489358,6 +489383,33 @@
     "categories": [
       "reasoning",
       "rl_robotics"
+    ]
+  },
+  {
+    "id": "2026.acl-long.1180",
+    "title": "R e 3 : Relevance & Recency Retrieval for Mitigating Temporal Hallucination",
+    "authors": [
+      "Jiawei Cao",
+      "Jie Ouyang",
+      "Mingyue Cheng",
+      "Zhaomeng Zhou",
+      "Chunli Liu",
+      "Yupeng Li",
+      "Zirui Liu",
+      "Shijin Wang"
+    ],
+    "year": 2026,
+    "conference": "acl",
+    "conferenceName": "ACL",
+    "track": "main",
+    "trackLabel": "Main",
+    "source": "ACL Anthology",
+    "url": "https://aclanthology.org/2026.acl-long.1180/",
+    "keywords": [],
+    "primaryCategory": "retrieval_knowledge",
+    "categories": [
+      "retrieval_knowledge",
+      "alignment_safety"
     ]
   },
   {
@@ -490077,6 +490129,32 @@
     ]
   },
   {
+    "id": "2026.acl-long.2042",
+    "title": "R esponse- G 1: Explicit Scene Graph Modeling for Proactive Streaming Video Understanding",
+    "authors": [
+      "Ke Ma",
+      "Jiaqi Tang",
+      "Bin Guo",
+      "Xueting Han",
+      "Ruonan Xu",
+      "Qingfeng He",
+      "Ziheng Wang",
+      "Xu Wang"
+    ],
+    "year": 2026,
+    "conference": "acl",
+    "conferenceName": "ACL",
+    "track": "main",
+    "trackLabel": "Main",
+    "source": "ACL Anthology",
+    "url": "https://aclanthology.org/2026.acl-long.2042/",
+    "keywords": [],
+    "primaryCategory": "retrieval_knowledge",
+    "categories": [
+      "retrieval_knowledge"
+    ]
+  },
+  {
     "id": "2026.acl-long.1477",
     "title": "R eview G rounder: Improving Review Substantiveness with Rubric-Guided, Tool-Integrated Agents",
     "authors": [
@@ -490253,31 +490331,6 @@
     ]
   },
   {
-    "id": "2026.acl-long.1587",
-    "title": "R1- RE : Cross-Domain Relation Extraction with RLVR",
-    "authors": [
-      "Runpeng Dai",
-      "Tong Zheng",
-      "Run Yang",
-      "Kaixian Yu",
-      "Hongtu Zhu"
-    ],
-    "year": 2026,
-    "conference": "acl",
-    "conferenceName": "ACL",
-    "track": "main",
-    "trackLabel": "Main",
-    "source": "ACL Anthology",
-    "url": "https://aclanthology.org/2026.acl-long.1587/",
-    "keywords": [],
-    "primaryCategory": "evaluation",
-    "categories": [
-      "evaluation",
-      "reasoning",
-      "data_synthetic"
-    ]
-  },
-  {
     "id": "2026.acl-long.213",
     "title": "RADO : Reasoning Audit-Driven Optimization for Rigorous Reasoning in High-Stakes Domains",
     "authors": [
@@ -490413,33 +490466,6 @@
     "categories": [
       "data_synthetic",
       "evaluation"
-    ]
-  },
-  {
-    "id": "2026.acl-long.1180",
-    "title": "Re 3 : Relevance & Recency Retrieval for Mitigating Temporal Hallucination",
-    "authors": [
-      "Jiawei Cao",
-      "Jie Ouyang",
-      "Mingyue Cheng",
-      "Zhaomeng Zhou",
-      "Chunli Liu",
-      "Yupeng Li",
-      "Zirui Liu",
-      "Shijin Wang"
-    ],
-    "year": 2026,
-    "conference": "acl",
-    "conferenceName": "ACL",
-    "track": "main",
-    "trackLabel": "Main",
-    "source": "ACL Anthology",
-    "url": "https://aclanthology.org/2026.acl-long.1180/",
-    "keywords": [],
-    "primaryCategory": "retrieval_knowledge",
-    "categories": [
-      "retrieval_knowledge",
-      "alignment_safety"
     ]
   },
   {
@@ -491486,32 +491512,6 @@
     "primaryCategory": "efficient_ai",
     "categories": [
       "efficient_ai"
-    ]
-  },
-  {
-    "id": "2026.acl-long.2042",
-    "title": "Response-G1: Explicit Scene Graph Modeling for Proactive Streaming Video Understanding",
-    "authors": [
-      "Ke Ma",
-      "Jiaqi Tang",
-      "Bin Guo",
-      "Xueting Han",
-      "Ruonan Xu",
-      "Qingfeng He",
-      "Ziheng Wang",
-      "Xu Wang"
-    ],
-    "year": 2026,
-    "conference": "acl",
-    "conferenceName": "ACL",
-    "track": "main",
-    "trackLabel": "Main",
-    "source": "ACL Anthology",
-    "url": "https://aclanthology.org/2026.acl-long.2042/",
-    "keywords": [],
-    "primaryCategory": "retrieval_knowledge",
-    "categories": [
-      "retrieval_knowledge"
     ]
   },
   {
@@ -492961,6 +492961,31 @@
     ]
   },
   {
+    "id": "2026.acl-long.1802",
+    "title": "S ^4: Operationalizing Speech Act Theory for Strategic Semi-Structured Psychiatric Interview",
+    "authors": [
+      "Guanqun Bi",
+      "Zhoufu Liu",
+      "Zhuang Chen",
+      "Dazhen Wan",
+      "Xiyao Xiao",
+      "Minlie Huang"
+    ],
+    "year": 2026,
+    "conference": "acl",
+    "conferenceName": "ACL",
+    "track": "main",
+    "trackLabel": "Main",
+    "source": "ACL Anthology",
+    "url": "https://aclanthology.org/2026.acl-long.1802/",
+    "keywords": [],
+    "primaryCategory": "speech_audio",
+    "categories": [
+      "speech_audio",
+      "optimization_theory"
+    ]
+  },
+  {
     "id": "2026.acl-long.1185",
     "title": "S 2 G - RAG : Structured Sufficiency and Gap Judging for Iterative Retrieval-Augmented QA",
     "authors": [
@@ -493942,6 +493967,34 @@
     ]
   },
   {
+    "id": "2026.acl-long.256",
+    "title": "S pec-o3: A Tool-Augmented Vision-Language Agent for Rare Celestial Object Candidate Vetting via Automated Spectral Inspection",
+    "authors": [
+      "Minghui Jia",
+      "Qichao Zhang",
+      "Ali Luo",
+      "Linjing Li",
+      "Shuo Ye",
+      "Hailing Lu",
+      "Wen Hou",
+      "Dongbin Zhao"
+    ],
+    "year": 2026,
+    "conference": "acl",
+    "conferenceName": "ACL",
+    "track": "main",
+    "trackLabel": "Main",
+    "source": "ACL Anthology",
+    "url": "https://aclanthology.org/2026.acl-long.256/",
+    "keywords": [],
+    "primaryCategory": "agents_tools",
+    "categories": [
+      "agents_tools",
+      "multimodal",
+      "reasoning"
+    ]
+  },
+  {
     "id": "2026.acl-long.349",
     "title": "S peech LLM -as-Judges: Towards General and Interpretable Speech Quality Evaluation",
     "authors": [
@@ -494238,31 +494291,6 @@
     "categories": [
       "agents_tools",
       "data_synthetic"
-    ]
-  },
-  {
-    "id": "2026.acl-long.1802",
-    "title": "S^4: Operationalizing Speech Act Theory for Strategic Semi-Structured Psychiatric Interview",
-    "authors": [
-      "Guanqun Bi",
-      "Zhoufu Liu",
-      "Zhuang Chen",
-      "Dazhen Wan",
-      "Xiyao Xiao",
-      "Minlie Huang"
-    ],
-    "year": 2026,
-    "conference": "acl",
-    "conferenceName": "ACL",
-    "track": "main",
-    "trackLabel": "Main",
-    "source": "ACL Anthology",
-    "url": "https://aclanthology.org/2026.acl-long.1802/",
-    "keywords": [],
-    "primaryCategory": "speech_audio",
-    "categories": [
-      "speech_audio",
-      "optimization_theory"
     ]
   },
   {
@@ -496765,34 +496793,6 @@
     ]
   },
   {
-    "id": "2026.acl-long.256",
-    "title": "Spec-o3: A Tool-Augmented Vision-Language Agent for Rare Celestial Object Candidate Vetting via Automated Spectral Inspection",
-    "authors": [
-      "Minghui Jia",
-      "Qichao Zhang",
-      "Ali Luo",
-      "Linjing Li",
-      "Shuo Ye",
-      "Hailing Lu",
-      "Wen Hou",
-      "Dongbin Zhao"
-    ],
-    "year": 2026,
-    "conference": "acl",
-    "conferenceName": "ACL",
-    "track": "main",
-    "trackLabel": "Main",
-    "source": "ACL Anthology",
-    "url": "https://aclanthology.org/2026.acl-long.256/",
-    "keywords": [],
-    "primaryCategory": "agents_tools",
-    "categories": [
-      "agents_tools",
-      "multimodal",
-      "reasoning"
-    ]
-  },
-  {
     "id": "2026.acl-long.1626",
     "title": "Specializing Large Models for Oracle Bone Script Interpretation via Component-Grounded Multimodal Knowledge Augmentation",
     "authors": [
@@ -498219,6 +498219,33 @@
     ]
   },
   {
+    "id": "2026.acl-long.1184",
+    "title": "T emp- R 1: A Unified Autonomous Agent for Complex Temporal KGQA via Reverse Curriculum Reinforcement Learning",
+    "authors": [
+      "Zhaoyan Gong",
+      "Zhiqiang Liu",
+      "Songze Li",
+      "Xiaoke Guo",
+      "Yuanxiang Liu",
+      "Xinle Deng",
+      "Zhizhen Liu",
+      "Lei Liang"
+    ],
+    "year": 2026,
+    "conference": "acl",
+    "conferenceName": "ACL",
+    "track": "main",
+    "trackLabel": "Main",
+    "source": "ACL Anthology",
+    "url": "https://aclanthology.org/2026.acl-long.1184/",
+    "keywords": [],
+    "primaryCategory": "agents_tools",
+    "categories": [
+      "agents_tools",
+      "rl_robotics"
+    ]
+  },
+  {
     "id": "2026.acl-long.156",
     "title": "T ensor L ens: End-to-End Transformer Analysis via High-Order Attention Tensors",
     "authors": [
@@ -498552,6 +498579,33 @@
     "categories": [
       "agents_tools",
       "llms"
+    ]
+  },
+  {
+    "id": "2026.acl-long.995",
+    "title": "T raffic- R 1: Reinforced LLM s Bring Human-Like Reasoning to Traffic Signal Control Systems",
+    "authors": [
+      "Xingchen Zou",
+      "Yuhao Yang",
+      "Zheng Chen",
+      "Xixuan Hao",
+      "Yiqi Chen",
+      "Chao Huang",
+      "Yuxuan Liang"
+    ],
+    "year": 2026,
+    "conference": "acl",
+    "conferenceName": "ACL",
+    "track": "main",
+    "trackLabel": "Main",
+    "source": "ACL Anthology",
+    "url": "https://aclanthology.org/2026.acl-long.995/",
+    "keywords": [],
+    "primaryCategory": "rl_robotics",
+    "categories": [
+      "rl_robotics",
+      "llms",
+      "reasoning"
     ]
   },
   {
@@ -498904,7 +498958,7 @@
   },
   {
     "id": "2026.acl-long.651",
-    "title": "Talking to a Know-It-All GPT or a Second-Guesser Claude? How Repair reveals distinct Multi-Turn Behavior in LLM s",
+    "title": "Talking to a Know-It-All GPT or a Second-Guesser C laude? How Repair reveals distinct Multi-Turn Behavior in LLM s",
     "authors": [
       "Clara Lachenmaier",
       "Hannah Bultmann",
@@ -499333,33 +499387,6 @@
     "primaryCategory": "retrieval_knowledge",
     "categories": [
       "retrieval_knowledge"
-    ]
-  },
-  {
-    "id": "2026.acl-long.1184",
-    "title": "Temp-R1: A Unified Autonomous Agent for Complex Temporal KGQA via Reverse Curriculum Reinforcement Learning",
-    "authors": [
-      "Zhaoyan Gong",
-      "Zhiqiang Liu",
-      "Songze Li",
-      "Xiaoke Guo",
-      "Yuanxiang Liu",
-      "Xinle Deng",
-      "Zhizhen Liu",
-      "Lei Liang"
-    ],
-    "year": 2026,
-    "conference": "acl",
-    "conferenceName": "ACL",
-    "track": "main",
-    "trackLabel": "Main",
-    "source": "ACL Anthology",
-    "url": "https://aclanthology.org/2026.acl-long.1184/",
-    "keywords": [],
-    "primaryCategory": "agents_tools",
-    "categories": [
-      "agents_tools",
-      "rl_robotics"
     ]
   },
   {
@@ -501785,33 +501812,6 @@
     ]
   },
   {
-    "id": "2026.acl-long.995",
-    "title": "Traffic-R1: Reinforced LLM s Bring Human-Like Reasoning to Traffic Signal Control Systems",
-    "authors": [
-      "Xingchen Zou",
-      "Yuhao Yang",
-      "Zheng Chen",
-      "Xixuan Hao",
-      "Yiqi Chen",
-      "Chao Huang",
-      "Yuxuan Liang"
-    ],
-    "year": 2026,
-    "conference": "acl",
-    "conferenceName": "ACL",
-    "track": "main",
-    "trackLabel": "Main",
-    "source": "ACL Anthology",
-    "url": "https://aclanthology.org/2026.acl-long.995/",
-    "keywords": [],
-    "primaryCategory": "rl_robotics",
-    "categories": [
-      "rl_robotics",
-      "llms",
-      "reasoning"
-    ]
-  },
-  {
     "id": "2026.acl-long.1588",
     "title": "Training LLM s for Divide-and-Conquer Reasoning Elevates Test-Time Scalability",
     "authors": [
@@ -501966,7 +501966,7 @@
   },
   {
     "id": "2026.acl-long.823",
-    "title": "TRN -R1-Zero: Text-rich Network Reasoning via LLM s with Reinforcement Learning Only",
+    "title": "TRN - R 1-Zero: Text-rich Network Reasoning via LLM s with Reinforcement Learning Only",
     "authors": [
       "Yilun Liu",
       "Ruihong Qiu",
@@ -503370,6 +503370,30 @@
     ]
   },
   {
+    "id": "2026.acl-long.1712",
+    "title": "V erbal- R 3: Verbal Reranker as the Missing Bridge between Retrieval and Reasoning",
+    "authors": [
+      "Sangkwon Park",
+      "Donghun Kang",
+      "Jisoo Mok",
+      "Sungroh Yoon"
+    ],
+    "year": 2026,
+    "conference": "acl",
+    "conferenceName": "ACL",
+    "track": "main",
+    "trackLabel": "Main",
+    "source": "ACL Anthology",
+    "url": "https://aclanthology.org/2026.acl-long.1712/",
+    "keywords": [],
+    "primaryCategory": "retrieval_knowledge",
+    "categories": [
+      "retrieval_knowledge",
+      "reasoning",
+      "llms"
+    ]
+  },
+  {
     "id": "2026.acl-long.1948",
     "title": "V eri T a S : The First Dynamic Benchmark for Multimodal Automated Fact-Checking",
     "authors": [
@@ -503418,7 +503442,7 @@
   },
   {
     "id": "2026.acl-long.755",
-    "title": "V i D o R e V3: A Comprehensive Evaluation of Retrieval Augmented Generation in Complex Real-World Scenarios",
+    "title": "V i D o R e V 3: A Comprehensive Evaluation of Retrieval Augmented Generation in Complex Real-World Scenarios",
     "authors": [
       "António Loison",
       "Quentin Macé",
@@ -503837,30 +503861,6 @@
       "reasoning",
       "efficient_ai",
       "evaluation"
-    ]
-  },
-  {
-    "id": "2026.acl-long.1712",
-    "title": "Verbal-R3: Verbal Reranker as the Missing Bridge between Retrieval and Reasoning",
-    "authors": [
-      "Sangkwon Park",
-      "Donghun Kang",
-      "Jisoo Mok",
-      "Sungroh Yoon"
-    ],
-    "year": 2026,
-    "conference": "acl",
-    "conferenceName": "ACL",
-    "track": "main",
-    "trackLabel": "Main",
-    "source": "ACL Anthology",
-    "url": "https://aclanthology.org/2026.acl-long.1712/",
-    "keywords": [],
-    "primaryCategory": "retrieval_knowledge",
-    "categories": [
-      "retrieval_knowledge",
-      "reasoning",
-      "llms"
     ]
   },
   {

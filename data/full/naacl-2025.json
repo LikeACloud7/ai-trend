@@ -9720,6 +9720,74 @@
     ]
   },
   {
+    "id": "2025.findings-naacl.211",
+    "title": "H uatuo-26 M , a Large-scale C hinese Medical QA Dataset",
+    "authors": [
+      "Xidong Wang",
+      "Jianquan Li",
+      "Shunian Chen",
+      "Yuxuan Zhu",
+      "Xiangbo Wu",
+      "Zhiyi Zhang",
+      "Xiaolong Xu",
+      "Junying Chen",
+      "Jie Fu",
+      "Xiang Wan",
+      "Anningzhe Gao",
+      "Benyou Wang"
+    ],
+    "abstract": "Large Language Models infuse newfound vigor into the advancement of the medical domain, yet the scarcity of data poses a significant bottleneck hindering community progress. In this paper, we release the largest ever medical Question Answering (QA) dataset with 26 Million QA pairs named Huatuo-26M. We benchmark many existing approaches in our dataset in terms of both retrieval and generation. We also experimentally show the benefit of the proposed dataset in many aspects: (i) it serves as a fine-tuning data for training medical Large Language Models (LLMs); (ii) it works as an external knowledge source for retrieval-augmented generation (RAG); (iii) it demonstrates transferability by enhancing zero-shot performance on other QA datasets; and (iv) it aids in training biomedical model as a pre-training corpus. Our empirical findings substantiate the dataset’s utility in these domains, thereby confirming its significance as a resource in the medical QA landscape.",
+    "year": 2025,
+    "conference": "naacl",
+    "conferenceName": "NAACL",
+    "track": "findings",
+    "subtype": "findings",
+    "source": "ACL Anthology",
+    "sourceVolume": "2025.findings-naacl",
+    "sourceVolumeTitle": "Findings of the Association for Computational Linguistics: NAACL 2025",
+    "url": "https://aclanthology.org/2025.findings-naacl.211/",
+    "keywords": [],
+    "ordinal": 211,
+    "primaryCategory": "evaluation",
+    "categories": [
+      "evaluation",
+      "domain_science",
+      "retrieval_knowledge"
+    ],
+    "categoryScores": [
+      {
+        "id": "evaluation",
+        "label": "Evaluation & Benchmarks",
+        "color": "#4f46e5",
+        "score": 10
+      },
+      {
+        "id": "domain_science",
+        "label": "Domain AI & Science",
+        "color": "#0d9488",
+        "score": 9
+      },
+      {
+        "id": "retrieval_knowledge",
+        "label": "Retrieval & Knowledge",
+        "color": "#0891b2",
+        "score": 5
+      },
+      {
+        "id": "llms",
+        "label": "LLMs & Foundation Models",
+        "color": "#2563eb",
+        "score": 1
+      },
+      {
+        "id": "nlp_core",
+        "label": "Core NLP Tasks",
+        "color": "#d97706",
+        "score": 1
+      }
+    ]
+  },
+  {
     "id": "2025.findings-naacl.12",
     "title": "HALLUCANA : Fixing LLM Hallucination with A Canary Lookahead",
     "authors": [
@@ -10203,74 +10271,6 @@
         "id": "interpretability",
         "label": "Interpretability & Analysis",
         "color": "#be123c",
-        "score": 1
-      }
-    ]
-  },
-  {
-    "id": "2025.findings-naacl.211",
-    "title": "Huatuo-26 M , a Large-scale C hinese Medical QA Dataset",
-    "authors": [
-      "Xidong Wang",
-      "Jianquan Li",
-      "Shunian Chen",
-      "Yuxuan Zhu",
-      "Xiangbo Wu",
-      "Zhiyi Zhang",
-      "Xiaolong Xu",
-      "Junying Chen",
-      "Jie Fu",
-      "Xiang Wan",
-      "Anningzhe Gao",
-      "Benyou Wang"
-    ],
-    "abstract": "Large Language Models infuse newfound vigor into the advancement of the medical domain, yet the scarcity of data poses a significant bottleneck hindering community progress. In this paper, we release the largest ever medical Question Answering (QA) dataset with 26 Million QA pairs named Huatuo-26M. We benchmark many existing approaches in our dataset in terms of both retrieval and generation. We also experimentally show the benefit of the proposed dataset in many aspects: (i) it serves as a fine-tuning data for training medical Large Language Models (LLMs); (ii) it works as an external knowledge source for retrieval-augmented generation (RAG); (iii) it demonstrates transferability by enhancing zero-shot performance on other QA datasets; and (iv) it aids in training biomedical model as a pre-training corpus. Our empirical findings substantiate the dataset’s utility in these domains, thereby confirming its significance as a resource in the medical QA landscape.",
-    "year": 2025,
-    "conference": "naacl",
-    "conferenceName": "NAACL",
-    "track": "findings",
-    "subtype": "findings",
-    "source": "ACL Anthology",
-    "sourceVolume": "2025.findings-naacl",
-    "sourceVolumeTitle": "Findings of the Association for Computational Linguistics: NAACL 2025",
-    "url": "https://aclanthology.org/2025.findings-naacl.211/",
-    "keywords": [],
-    "ordinal": 211,
-    "primaryCategory": "evaluation",
-    "categories": [
-      "evaluation",
-      "domain_science",
-      "retrieval_knowledge"
-    ],
-    "categoryScores": [
-      {
-        "id": "evaluation",
-        "label": "Evaluation & Benchmarks",
-        "color": "#4f46e5",
-        "score": 10
-      },
-      {
-        "id": "domain_science",
-        "label": "Domain AI & Science",
-        "color": "#0d9488",
-        "score": 9
-      },
-      {
-        "id": "retrieval_knowledge",
-        "label": "Retrieval & Knowledge",
-        "color": "#0891b2",
-        "score": 5
-      },
-      {
-        "id": "llms",
-        "label": "LLMs & Foundation Models",
-        "color": "#2563eb",
-        "score": 1
-      },
-      {
-        "id": "nlp_core",
-        "label": "Core NLP Tasks",
-        "color": "#d97706",
         "score": 1
       }
     ]
@@ -15929,7 +15929,7 @@
   },
   {
     "id": "2025.findings-naacl.226",
-    "title": "Omni-Chart-600 K : A Comprehensive Dataset of Chart Types for Chart Understanding",
+    "title": "Omni- C hart-600 K : A Comprehensive Dataset of Chart Types for Chart Understanding",
     "authors": [
       "Shulei Wang",
       "Shuai Yang",
@@ -27928,7 +27928,7 @@
   },
   {
     "id": "2025.naacl-long.220",
-    "title": "Benchmarking and Building Zero-Shot H indi Retrieval Model with H indi- BEIR and NLLB -E5",
+    "title": "Benchmarking and Building Zero-Shot H indi Retrieval Model with H indi- BEIR and NLLB - E 5",
     "authors": [
       "Arkadeep Acharya",
       "Rudra Murthy",
@@ -43540,7 +43540,7 @@
   },
   {
     "id": "2025.naacl-long.375",
-    "title": "LL a MA -Berry: Pairwise Optimization for Olympiad-level Mathematical Reasoning via O1-like M onte C arlo Tree Search",
+    "title": "LL a MA -Berry: Pairwise Optimization for Olympiad-level Mathematical Reasoning via O 1-like M onte C arlo Tree Search",
     "authors": [
       "Di Zhang",
       "Jianbo Wu",
@@ -55060,7 +55060,7 @@
   },
   {
     "id": "2025.naacl-long.217",
-    "title": "SVD - LLM V2: Optimizing Singular Value Truncation for Large Language Model Compression",
+    "title": "SVD - LLM V 2: Optimizing Singular Value Truncation for Large Language Model Compression",
     "authors": [
       "Xin Wang",
       "Samiul Alam",
@@ -55097,6 +55097,62 @@
         "label": "Efficient AI & Systems",
         "color": "#16a34a",
         "score": 10
+      }
+    ]
+  },
+  {
+    "id": "2025.naacl-short.36",
+    "title": "T axi1500: A Dataset for Multilingual Text Classification in 1500 Languages",
+    "authors": [
+      "Chunlan Ma",
+      "Ayyoob Imani",
+      "Haotian Ye",
+      "Renhao Pei",
+      "Ehsaneddin Asgari",
+      "Hinrich Schuetze"
+    ],
+    "abstract": "While broad-coverage multilingual natural language processing tools have been developed, a significant portion of the world’s over 7000 languages are still neglected. One reason is the lack of evaluation datasets that cover a diverse range of languages, particularly those that are low-resource or endangered. To address this gap, we present a large-scale text classification dataset encompassing 1504 languages many of which have otherwise limited or no annotated data. This dataset is constructed using parallel translations of the Bible. We develop relevant topics, annotate the English data through crowdsourcing and project these annotations onto other languages via aligned verses. We benchmark a range of existing multilingual models on this dataset. We make our dataset and code available to the public.",
+    "year": 2025,
+    "conference": "naacl",
+    "conferenceName": "NAACL",
+    "track": "main",
+    "subtype": "short",
+    "source": "ACL Anthology",
+    "sourceVolume": "2025.naacl-short",
+    "sourceVolumeTitle": "Proceedings of the 2025 Conference of the Nations of the Americas Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 2: Short Papers)",
+    "url": "https://aclanthology.org/2025.naacl-short.36/",
+    "keywords": [],
+    "ordinal": 36,
+    "primaryCategory": "evaluation",
+    "categories": [
+      "evaluation",
+      "multilingual",
+      "nlp_core"
+    ],
+    "categoryScores": [
+      {
+        "id": "evaluation",
+        "label": "Evaluation & Benchmarks",
+        "color": "#4f46e5",
+        "score": 11
+      },
+      {
+        "id": "multilingual",
+        "label": "Multilingual & Low-Resource",
+        "color": "#65a30d",
+        "score": 7
+      },
+      {
+        "id": "nlp_core",
+        "label": "Core NLP Tasks",
+        "color": "#d97706",
+        "score": 6
+      },
+      {
+        "id": "efficient_ai",
+        "label": "Efficient AI & Systems",
+        "color": "#16a34a",
+        "score": 1
       }
     ]
   },
@@ -55502,62 +55558,6 @@
         "id": "generative_models",
         "label": "Generative Models",
         "color": "#db2777",
-        "score": 1
-      }
-    ]
-  },
-  {
-    "id": "2025.naacl-short.36",
-    "title": "Taxi1500: A Dataset for Multilingual Text Classification in 1500 Languages",
-    "authors": [
-      "Chunlan Ma",
-      "Ayyoob Imani",
-      "Haotian Ye",
-      "Renhao Pei",
-      "Ehsaneddin Asgari",
-      "Hinrich Schuetze"
-    ],
-    "abstract": "While broad-coverage multilingual natural language processing tools have been developed, a significant portion of the world’s over 7000 languages are still neglected. One reason is the lack of evaluation datasets that cover a diverse range of languages, particularly those that are low-resource or endangered. To address this gap, we present a large-scale text classification dataset encompassing 1504 languages many of which have otherwise limited or no annotated data. This dataset is constructed using parallel translations of the Bible. We develop relevant topics, annotate the English data through crowdsourcing and project these annotations onto other languages via aligned verses. We benchmark a range of existing multilingual models on this dataset. We make our dataset and code available to the public.",
-    "year": 2025,
-    "conference": "naacl",
-    "conferenceName": "NAACL",
-    "track": "main",
-    "subtype": "short",
-    "source": "ACL Anthology",
-    "sourceVolume": "2025.naacl-short",
-    "sourceVolumeTitle": "Proceedings of the 2025 Conference of the Nations of the Americas Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 2: Short Papers)",
-    "url": "https://aclanthology.org/2025.naacl-short.36/",
-    "keywords": [],
-    "ordinal": 36,
-    "primaryCategory": "evaluation",
-    "categories": [
-      "evaluation",
-      "multilingual",
-      "nlp_core"
-    ],
-    "categoryScores": [
-      {
-        "id": "evaluation",
-        "label": "Evaluation & Benchmarks",
-        "color": "#4f46e5",
-        "score": 11
-      },
-      {
-        "id": "multilingual",
-        "label": "Multilingual & Low-Resource",
-        "color": "#65a30d",
-        "score": 7
-      },
-      {
-        "id": "nlp_core",
-        "label": "Core NLP Tasks",
-        "color": "#d97706",
-        "score": 6
-      },
-      {
-        "id": "efficient_ai",
-        "label": "Efficient AI & Systems",
-        "color": "#16a34a",
         "score": 1
       }
     ]

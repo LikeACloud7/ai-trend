@@ -6499,10 +6499,10 @@
     "id": "2023.findings-acl.83",
     "title": "Causal Matching with Text Embeddings: A Case Study in Estimating the Causal Effects of Peer Review Policies",
     "authors": [
-      "Raymond Zhang",
+      "Raymond Z. Zhang",
       "Neha Nayak Kennard",
-      "Daniel Smith",
-      "Daniel McFarland",
+      "Daniel Scott Smith",
+      "Daniel A. McFarland",
       "Andrew McCallum",
       "Katherine A. Keith"
     ],
@@ -17278,6 +17278,52 @@
     ]
   },
   {
+    "id": "2023.findings-acl.294",
+    "title": "G eo-Seq2seq: T witter User Geolocation on Noisy Data through Sequence to Sequence Learning",
+    "authors": [
+      "Jingyu Zhang",
+      "Alexandra DeLucia",
+      "Chenyu Zhang",
+      "Mark Dredze"
+    ],
+    "abstract": "Location information can support social media analyses by providing geographic context. Some of the most accurate and popular Twitter geolocation systems rely on rule-based methods that examine the user-provided profile location, which fail to handle informal or noisy location names. We propose Geo-Seq2seq, a sequence-to-sequence (seq2seq) model for Twitter user geolocation that rewrites noisy, multilingual user-provided location strings into structured English location names. We train our system on tens of millions of multilingual location string and geotagged-tweet pairs. Compared to leading methods, our model vastly increases coverage (i.e., the number of users we can geolocate) while achieving comparable or superior accuracy. Our error analysis reveals that constrained decoding helps the model produce valid locations according to a location database. Finally, we measure biases across language, country of origin, and time to evaluate fairness, and find that while our model can generalize well to unseen temporal data, performance does vary by language and country.",
+    "year": 2023,
+    "conference": "acl",
+    "conferenceName": "ACL",
+    "track": "findings",
+    "subtype": "findings",
+    "source": "ACL Anthology",
+    "sourceVolume": "2023.findings-acl",
+    "sourceVolumeTitle": "Findings of the Association for Computational Linguistics: ACL 2023",
+    "url": "https://aclanthology.org/2023.findings-acl.294/",
+    "keywords": [],
+    "ordinal": 294,
+    "primaryCategory": "multilingual",
+    "categories": [
+      "multilingual"
+    ],
+    "categoryScores": [
+      {
+        "id": "multilingual",
+        "label": "Multilingual & Low-Resource",
+        "color": "#65a30d",
+        "score": 2
+      },
+      {
+        "id": "alignment_safety",
+        "label": "Alignment, Safety & Trust",
+        "color": "#dc2626",
+        "score": 1
+      },
+      {
+        "id": "interpretability",
+        "label": "Interpretability & Analysis",
+        "color": "#be123c",
+        "score": 1
+      }
+    ]
+  },
+  {
     "id": "2023.findings-acl.649",
     "title": "GDA : Generative Data Augmentation Techniques for Relation Extraction Tasks",
     "authors": [
@@ -17626,52 +17672,6 @@
         "id": "efficient_ai",
         "label": "Efficient AI & Systems",
         "color": "#16a34a",
-        "score": 1
-      },
-      {
-        "id": "interpretability",
-        "label": "Interpretability & Analysis",
-        "color": "#be123c",
-        "score": 1
-      }
-    ]
-  },
-  {
-    "id": "2023.findings-acl.294",
-    "title": "Geo-Seq2seq: T witter User Geolocation on Noisy Data through Sequence to Sequence Learning",
-    "authors": [
-      "Jingyu Zhang",
-      "Alexandra DeLucia",
-      "Chenyu Zhang",
-      "Mark Dredze"
-    ],
-    "abstract": "Location information can support social media analyses by providing geographic context. Some of the most accurate and popular Twitter geolocation systems rely on rule-based methods that examine the user-provided profile location, which fail to handle informal or noisy location names. We propose Geo-Seq2seq, a sequence-to-sequence (seq2seq) model for Twitter user geolocation that rewrites noisy, multilingual user-provided location strings into structured English location names. We train our system on tens of millions of multilingual location string and geotagged-tweet pairs. Compared to leading methods, our model vastly increases coverage (i.e., the number of users we can geolocate) while achieving comparable or superior accuracy. Our error analysis reveals that constrained decoding helps the model produce valid locations according to a location database. Finally, we measure biases across language, country of origin, and time to evaluate fairness, and find that while our model can generalize well to unseen temporal data, performance does vary by language and country.",
-    "year": 2023,
-    "conference": "acl",
-    "conferenceName": "ACL",
-    "track": "findings",
-    "subtype": "findings",
-    "source": "ACL Anthology",
-    "sourceVolume": "2023.findings-acl",
-    "sourceVolumeTitle": "Findings of the Association for Computational Linguistics: ACL 2023",
-    "url": "https://aclanthology.org/2023.findings-acl.294/",
-    "keywords": [],
-    "ordinal": 294,
-    "primaryCategory": "multilingual",
-    "categories": [
-      "multilingual"
-    ],
-    "categoryScores": [
-      {
-        "id": "multilingual",
-        "label": "Multilingual & Low-Resource",
-        "color": "#65a30d",
-        "score": 2
-      },
-      {
-        "id": "alignment_safety",
-        "label": "Alignment, Safety & Trust",
-        "color": "#dc2626",
         "score": 1
       },
       {
@@ -48724,7 +48724,7 @@
   },
   {
     "id": "2023.acl-long.857",
-    "title": "Bridging The Gap: Entailment Fused-T5 for Open-retrieval Conversational Machine Reading Comprehension",
+    "title": "Bridging The Gap: Entailment F used- T 5 for Open-retrieval Conversational Machine Reading Comprehension",
     "authors": [
       "Xiao Zhang",
       "Heyan Huang",
@@ -62537,6 +62537,72 @@
     ]
   },
   {
+    "id": "2023.acl-long.61",
+    "title": "G lot500: Scaling Multilingual Corpora and Language Models to 500 Languages",
+    "authors": [
+      "Ayyoob Imani",
+      "Peiqin Lin",
+      "Amir Hossein Kargaran",
+      "Silvia Severini",
+      "Masoud Jalili Sabet",
+      "Nora Kassner",
+      "Chunlan Ma",
+      "Helmut Schmid",
+      "André Martins",
+      "François Yvon",
+      "Hinrich Schütze"
+    ],
+    "abstract": "The NLP community has mainly focused on scaling Large Language Models (LLMs) vertically, i.e., making them better for about 100 languages. We instead scale LLMs horizontally: we create, through continued pretraining, Glot500-m, an LLM that covers 511 predominantly low-resource languages. An important part of this effort is to collect and clean Glot500-c, a corpus that covers these 511 languages and allows us to train Glot500-m. We evaluate Glot500-m on five diverse tasks across these languages. We observe large improvements for both high-resource and low-resource languages compared to an XLM-R baseline. Our analysis shows that no single factor explains the quality of multilingual LLM representations. Rather, a combination of factors determines quality including corpus size, script, “help” from related languages and the total capacity of the model. Our work addresses an important goal of NLP research: we should notlimit NLP to a small fraction of the world’s languages and instead strive to support as many languages as possible to bring the benefits of NLP technology to all languages and cultures. Code, data and models are available at https://github.com/cisnlp/Glot500 .",
+    "year": 2023,
+    "conference": "acl",
+    "conferenceName": "ACL",
+    "track": "main",
+    "subtype": "long",
+    "source": "ACL Anthology",
+    "sourceVolume": "2023.acl-long",
+    "sourceVolumeTitle": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    "url": "https://aclanthology.org/2023.acl-long.61/",
+    "keywords": [],
+    "ordinal": 61,
+    "primaryCategory": "multilingual",
+    "categories": [
+      "multilingual",
+      "llms"
+    ],
+    "categoryScores": [
+      {
+        "id": "multilingual",
+        "label": "Multilingual & Low-Resource",
+        "color": "#65a30d",
+        "score": 6
+      },
+      {
+        "id": "llms",
+        "label": "LLMs & Foundation Models",
+        "color": "#2563eb",
+        "score": 3
+      },
+      {
+        "id": "efficient_ai",
+        "label": "Efficient AI & Systems",
+        "color": "#16a34a",
+        "score": 2
+      },
+      {
+        "id": "data_synthetic",
+        "label": "Data, Annotation & Synthetic Data",
+        "color": "#c2410c",
+        "score": 2
+      },
+      {
+        "id": "interpretability",
+        "label": "Interpretability & Analysis",
+        "color": "#be123c",
+        "score": 1
+      }
+    ]
+  },
+  {
     "id": "2023.acl-long.591",
     "title": "G reen KGC : A Lightweight Knowledge Graph Completion Method",
     "authors": [
@@ -63043,72 +63109,6 @@
         "label": "Interpretability & Analysis",
         "color": "#be123c",
         "score": 2
-      }
-    ]
-  },
-  {
-    "id": "2023.acl-long.61",
-    "title": "Glot500: Scaling Multilingual Corpora and Language Models to 500 Languages",
-    "authors": [
-      "Ayyoob Imani",
-      "Peiqin Lin",
-      "Amir Hossein Kargaran",
-      "Silvia Severini",
-      "Masoud Jalili Sabet",
-      "Nora Kassner",
-      "Chunlan Ma",
-      "Helmut Schmid",
-      "André Martins",
-      "François Yvon",
-      "Hinrich Schütze"
-    ],
-    "abstract": "The NLP community has mainly focused on scaling Large Language Models (LLMs) vertically, i.e., making them better for about 100 languages. We instead scale LLMs horizontally: we create, through continued pretraining, Glot500-m, an LLM that covers 511 predominantly low-resource languages. An important part of this effort is to collect and clean Glot500-c, a corpus that covers these 511 languages and allows us to train Glot500-m. We evaluate Glot500-m on five diverse tasks across these languages. We observe large improvements for both high-resource and low-resource languages compared to an XLM-R baseline. Our analysis shows that no single factor explains the quality of multilingual LLM representations. Rather, a combination of factors determines quality including corpus size, script, “help” from related languages and the total capacity of the model. Our work addresses an important goal of NLP research: we should notlimit NLP to a small fraction of the world’s languages and instead strive to support as many languages as possible to bring the benefits of NLP technology to all languages and cultures. Code, data and models are available at https://github.com/cisnlp/Glot500 .",
-    "year": 2023,
-    "conference": "acl",
-    "conferenceName": "ACL",
-    "track": "main",
-    "subtype": "long",
-    "source": "ACL Anthology",
-    "sourceVolume": "2023.acl-long",
-    "sourceVolumeTitle": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
-    "url": "https://aclanthology.org/2023.acl-long.61/",
-    "keywords": [],
-    "ordinal": 61,
-    "primaryCategory": "multilingual",
-    "categories": [
-      "multilingual",
-      "llms"
-    ],
-    "categoryScores": [
-      {
-        "id": "multilingual",
-        "label": "Multilingual & Low-Resource",
-        "color": "#65a30d",
-        "score": 6
-      },
-      {
-        "id": "llms",
-        "label": "LLMs & Foundation Models",
-        "color": "#2563eb",
-        "score": 3
-      },
-      {
-        "id": "efficient_ai",
-        "label": "Efficient AI & Systems",
-        "color": "#16a34a",
-        "score": 2
-      },
-      {
-        "id": "data_synthetic",
-        "label": "Data, Annotation & Synthetic Data",
-        "color": "#c2410c",
-        "score": 2
-      },
-      {
-        "id": "interpretability",
-        "label": "Interpretability & Analysis",
-        "color": "#be123c",
-        "score": 1
       }
     ]
   },
@@ -71159,6 +71159,54 @@
     ]
   },
   {
+    "id": "2023.acl-long.257",
+    "title": "M ovie101: A New Movie Understanding Benchmark",
+    "authors": [
+      "Zihao Yue",
+      "Qi Zhang",
+      "Anwen Hu",
+      "Liang Zhang",
+      "Ziheng Wang",
+      "Qin Jin"
+    ],
+    "abstract": "To help the visually impaired enjoy movies, automatic movie narrating systems are expected to narrate accurate, coherent, and role-aware plots when there are no speaking lines of actors. Existing works benchmark this challenge as a normal video captioning task via some simplifications, such as removing role names and evaluating narrations with ngram-based metrics, which makes it difficult for automatic systems to meet the needs of real application scenarios. To narrow this gap, we construct a large-scale Chinese movie benchmark, named Movie101. Closer to real scenarios, the Movie Clip Narrating (MCN) task in our benchmark asks models to generate role-aware narration paragraphs for complete movie clips where no actors are speaking. External knowledge, such as role information and movie genres, is also provided for better movie understanding. Besides, we propose a new metric called Movie Narration Score (MNScore) for movie narrating evaluation, which achieves the best correlation with human evaluation. Our benchmark also supports the Temporal Narration Grounding (TNG) task to investigate clip localization given text descriptions. For both two tasks, our proposed methods well leverage external knowledge and outperform carefully designed baselines. The dataset and codes are released at https://github.com/yuezih/Movie101 .",
+    "year": 2023,
+    "conference": "acl",
+    "conferenceName": "ACL",
+    "track": "main",
+    "subtype": "long",
+    "source": "ACL Anthology",
+    "sourceVolume": "2023.acl-long",
+    "sourceVolumeTitle": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    "url": "https://aclanthology.org/2023.acl-long.257/",
+    "keywords": [],
+    "ordinal": 257,
+    "primaryCategory": "evaluation",
+    "categories": [
+      "evaluation"
+    ],
+    "categoryScores": [
+      {
+        "id": "evaluation",
+        "label": "Evaluation & Benchmarks",
+        "color": "#4f46e5",
+        "score": 14
+      },
+      {
+        "id": "retrieval_knowledge",
+        "label": "Retrieval & Knowledge",
+        "color": "#0891b2",
+        "score": 2
+      },
+      {
+        "id": "multimodal",
+        "label": "Multimodal & Vision-Language",
+        "color": "#7c3aed",
+        "score": 1
+      }
+    ]
+  },
+  {
     "id": "2023.acl-short.131",
     "title": "m PMR : A Multilingual Pre-trained Machine Reader at Scale",
     "authors": [
@@ -73529,54 +73577,6 @@
         "id": "generative_models",
         "label": "Generative Models",
         "color": "#db2777",
-        "score": 1
-      }
-    ]
-  },
-  {
-    "id": "2023.acl-long.257",
-    "title": "Movie101: A New Movie Understanding Benchmark",
-    "authors": [
-      "Zihao Yue",
-      "Qi Zhang",
-      "Anwen Hu",
-      "Liang Zhang",
-      "Ziheng Wang",
-      "Qin Jin"
-    ],
-    "abstract": "To help the visually impaired enjoy movies, automatic movie narrating systems are expected to narrate accurate, coherent, and role-aware plots when there are no speaking lines of actors. Existing works benchmark this challenge as a normal video captioning task via some simplifications, such as removing role names and evaluating narrations with ngram-based metrics, which makes it difficult for automatic systems to meet the needs of real application scenarios. To narrow this gap, we construct a large-scale Chinese movie benchmark, named Movie101. Closer to real scenarios, the Movie Clip Narrating (MCN) task in our benchmark asks models to generate role-aware narration paragraphs for complete movie clips where no actors are speaking. External knowledge, such as role information and movie genres, is also provided for better movie understanding. Besides, we propose a new metric called Movie Narration Score (MNScore) for movie narrating evaluation, which achieves the best correlation with human evaluation. Our benchmark also supports the Temporal Narration Grounding (TNG) task to investigate clip localization given text descriptions. For both two tasks, our proposed methods well leverage external knowledge and outperform carefully designed baselines. The dataset and codes are released at https://github.com/yuezih/Movie101 .",
-    "year": 2023,
-    "conference": "acl",
-    "conferenceName": "ACL",
-    "track": "main",
-    "subtype": "long",
-    "source": "ACL Anthology",
-    "sourceVolume": "2023.acl-long",
-    "sourceVolumeTitle": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
-    "url": "https://aclanthology.org/2023.acl-long.257/",
-    "keywords": [],
-    "ordinal": 257,
-    "primaryCategory": "evaluation",
-    "categories": [
-      "evaluation"
-    ],
-    "categoryScores": [
-      {
-        "id": "evaluation",
-        "label": "Evaluation & Benchmarks",
-        "color": "#4f46e5",
-        "score": 14
-      },
-      {
-        "id": "retrieval_knowledge",
-        "label": "Retrieval & Knowledge",
-        "color": "#0891b2",
-        "score": 2
-      },
-      {
-        "id": "multimodal",
-        "label": "Multimodal & Vision-Language",
-        "color": "#7c3aed",
         "score": 1
       }
     ]
@@ -83517,7 +83517,7 @@
   },
   {
     "id": "2023.acl-long.496",
-    "title": "SLUE Phase-2: A Benchmark Suite of Diverse Spoken Language Understanding Tasks",
+    "title": "SLUE P hase-2: A Benchmark Suite of Diverse Spoken Language Understanding Tasks",
     "authors": [
       "Suwon Shon",
       "Siddhant Arora",

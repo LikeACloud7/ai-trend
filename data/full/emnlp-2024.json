@@ -1541,7 +1541,7 @@
   },
   {
     "id": "2024.findings-emnlp.470",
-    "title": "A Semantic Search Engine for Mathlib4",
+    "title": "A Semantic Search Engine for M athlib4",
     "authors": [
       "Guoxiong Gao",
       "Haocheng Ju",
@@ -23634,6 +23634,62 @@
     ]
   },
   {
+    "id": "2024.findings-emnlp.347",
+    "title": "L lama SL ayer 8 B : Shallow Layers Hold the Key to Knowledge Injection",
+    "authors": [
+      "Tianxiang Chen",
+      "Zhentao Tan",
+      "Tao Gong",
+      "Yue Wu",
+      "Qi Chu",
+      "Bin Liu",
+      "Jieping Ye",
+      "Nenghai Yu"
+    ],
+    "abstract": "As a manner to augment pretrained large language models (LLM), knowledge injection is critical to develop vertical domain large models and has been widely studied. While most current approaches, including parameter-efficient fine-tuning (PEFT) and block expansion methods, uniformly apply knowledge across all LLM layers, it raises the question: are all layers equally crucial for knowledge injection? We embark upon evaluating the importance of each layer to locate the optimal layer range for knowledge injection. Intuitively, more important layers should play more critical roles in knowledge injection and deserve denser injection. We observe performance dips in question-answering benchmarks after the removal or expansion of the shallow layers, and the degradation shrinks as the layer gets deeper, indicating that the shallow layers hold the key to knowledge injection. This insight leads us to propose the S strategy, a post-pretraining strategy of selectively enhancing shallow layers while pruning the less effective deep ones. Based on this strategy, we introduce Llama Slayer 8B. We experimented on the corpus of code & math and demonstrated the effectiveness of our strategy. Further experiments across different LLM, Mistral-7B, and a legal corpus confirmed the approach’s general applicability, underscoring its wide-ranging efficacy.",
+    "year": 2024,
+    "conference": "emnlp",
+    "conferenceName": "EMNLP",
+    "track": "findings",
+    "subtype": "findings",
+    "source": "ACL Anthology",
+    "sourceVolume": "2024.findings-emnlp",
+    "sourceVolumeTitle": "Findings of the Association for Computational Linguistics: EMNLP 2024",
+    "url": "https://aclanthology.org/2024.findings-emnlp.347/",
+    "keywords": [],
+    "ordinal": 347,
+    "primaryCategory": "llms",
+    "categories": [
+      "llms"
+    ],
+    "categoryScores": [
+      {
+        "id": "llms",
+        "label": "LLMs & Foundation Models",
+        "color": "#2563eb",
+        "score": 6
+      },
+      {
+        "id": "efficient_ai",
+        "label": "Efficient AI & Systems",
+        "color": "#16a34a",
+        "score": 2
+      },
+      {
+        "id": "data_synthetic",
+        "label": "Data, Annotation & Synthetic Data",
+        "color": "#c2410c",
+        "score": 2
+      },
+      {
+        "id": "domain_science",
+        "label": "Domain AI & Science",
+        "color": "#0d9488",
+        "score": 1
+      }
+    ]
+  },
+  {
     "id": "2024.findings-emnlp.539",
     "title": "L o RAE xit: Empowering Dynamic Modulation of LLM s in Resource-limited Settings using Low-rank Adapters",
     "authors": [
@@ -26175,62 +26231,6 @@
     ]
   },
   {
-    "id": "2024.findings-emnlp.347",
-    "title": "Llama SL ayer 8 B : Shallow Layers Hold the Key to Knowledge Injection",
-    "authors": [
-      "Tianxiang Chen",
-      "Zhentao Tan",
-      "Tao Gong",
-      "Yue Wu",
-      "Qi Chu",
-      "Bin Liu",
-      "Jieping Ye",
-      "Nenghai Yu"
-    ],
-    "abstract": "As a manner to augment pretrained large language models (LLM), knowledge injection is critical to develop vertical domain large models and has been widely studied. While most current approaches, including parameter-efficient fine-tuning (PEFT) and block expansion methods, uniformly apply knowledge across all LLM layers, it raises the question: are all layers equally crucial for knowledge injection? We embark upon evaluating the importance of each layer to locate the optimal layer range for knowledge injection. Intuitively, more important layers should play more critical roles in knowledge injection and deserve denser injection. We observe performance dips in question-answering benchmarks after the removal or expansion of the shallow layers, and the degradation shrinks as the layer gets deeper, indicating that the shallow layers hold the key to knowledge injection. This insight leads us to propose the S strategy, a post-pretraining strategy of selectively enhancing shallow layers while pruning the less effective deep ones. Based on this strategy, we introduce Llama Slayer 8B. We experimented on the corpus of code & math and demonstrated the effectiveness of our strategy. Further experiments across different LLM, Mistral-7B, and a legal corpus confirmed the approach’s general applicability, underscoring its wide-ranging efficacy.",
-    "year": 2024,
-    "conference": "emnlp",
-    "conferenceName": "EMNLP",
-    "track": "findings",
-    "subtype": "findings",
-    "source": "ACL Anthology",
-    "sourceVolume": "2024.findings-emnlp",
-    "sourceVolumeTitle": "Findings of the Association for Computational Linguistics: EMNLP 2024",
-    "url": "https://aclanthology.org/2024.findings-emnlp.347/",
-    "keywords": [],
-    "ordinal": 347,
-    "primaryCategory": "llms",
-    "categories": [
-      "llms"
-    ],
-    "categoryScores": [
-      {
-        "id": "llms",
-        "label": "LLMs & Foundation Models",
-        "color": "#2563eb",
-        "score": 6
-      },
-      {
-        "id": "efficient_ai",
-        "label": "Efficient AI & Systems",
-        "color": "#16a34a",
-        "score": 2
-      },
-      {
-        "id": "data_synthetic",
-        "label": "Data, Annotation & Synthetic Data",
-        "color": "#c2410c",
-        "score": 2
-      },
-      {
-        "id": "domain_science",
-        "label": "Domain AI & Science",
-        "color": "#0d9488",
-        "score": 1
-      }
-    ]
-  },
-  {
     "id": "2024.findings-emnlp.373",
     "title": "Llamipa: An Incremental Discourse Parser",
     "authors": [
@@ -27834,6 +27834,58 @@
     ]
   },
   {
+    "id": "2024.findings-emnlp.250",
+    "title": "M 5 – A Diverse Benchmark to Assess the Performance of Large Multimodal Models Across Multilingual and Multicultural Vision-Language Tasks",
+    "authors": [
+      "Florian Schneider",
+      "Sunayana Sitaram"
+    ],
+    "abstract": "Since the release of ChatGPT, the field of Natural Language Processing has experienced rapid advancements, particularly in Large Language Models (LLMs) and their multimodal counterparts, Large Multimodal Models (LMMs). Despite their impressive capabilities, LLMs often exhibit significant performance disparities across different languages and cultural contexts, as demonstrated by various text-only benchmarks. However, current research lacks such benchmarks for multimodal visio-linguistic settings. This work fills this gap by introducing M5, the first comprehensive benchmark designed to evaluate LMMs on diverse vision-language tasks within a multilingual and multicultural context. M5 includes eight datasets covering five tasks and 41 languages, with a focus on underrepresented languages and culturally diverse images. Furthermore, we introduce two novel datasets, M5-VGR and M5-VLOD, including a new Visio-Linguistic Outlier Detection task, in which all evaluated open-source models fail to significantly surpass the random baseline. Through extensive evaluation and analyses, we highlight substantial task-agnostic performance disparities between high- and low-resource languages. Moreover, we show that larger models do not necessarily outperform smaller ones in a multilingual setting.",
+    "year": 2024,
+    "conference": "emnlp",
+    "conferenceName": "EMNLP",
+    "track": "findings",
+    "subtype": "findings",
+    "source": "ACL Anthology",
+    "sourceVolume": "2024.findings-emnlp",
+    "sourceVolumeTitle": "Findings of the Association for Computational Linguistics: EMNLP 2024",
+    "url": "https://aclanthology.org/2024.findings-emnlp.250/",
+    "keywords": [],
+    "ordinal": 250,
+    "primaryCategory": "multimodal",
+    "categories": [
+      "multimodal",
+      "evaluation",
+      "multilingual"
+    ],
+    "categoryScores": [
+      {
+        "id": "multimodal",
+        "label": "Multimodal & Vision-Language",
+        "color": "#7c3aed",
+        "score": 14
+      },
+      {
+        "id": "evaluation",
+        "label": "Evaluation & Benchmarks",
+        "color": "#4f46e5",
+        "score": 7
+      },
+      {
+        "id": "multilingual",
+        "label": "Multilingual & Low-Resource",
+        "color": "#65a30d",
+        "score": 7
+      },
+      {
+        "id": "efficient_ai",
+        "label": "Efficient AI & Systems",
+        "color": "#16a34a",
+        "score": 1
+      }
+    ]
+  },
+  {
     "id": "2024.findings-emnlp.232",
     "title": "m ABC : Multi-Agent Blockchain-inspired Collaboration for Root Cause Analysis in Micro-Services Architecture",
     "authors": [
@@ -28491,7 +28543,7 @@
   },
   {
     "id": "2024.findings-emnlp.612",
-    "title": "M o E -I 2 : Compressing Mixture of Experts Models through Inter-Expert Pruning and Intra-Expert Low-Rank Decomposition",
+    "title": "M o E - I 2 : Compressing Mixture of Experts Models through Inter-Expert Pruning and Intra-Expert Low-Rank Decomposition",
     "authors": [
       "Cheng Yang",
       "Yang Sui",
@@ -28915,58 +28967,6 @@
         "id": "optimization_theory",
         "label": "Optimization & Theory",
         "color": "#475569",
-        "score": 1
-      }
-    ]
-  },
-  {
-    "id": "2024.findings-emnlp.250",
-    "title": "M5 – A Diverse Benchmark to Assess the Performance of Large Multimodal Models Across Multilingual and Multicultural Vision-Language Tasks",
-    "authors": [
-      "Florian Schneider",
-      "Sunayana Sitaram"
-    ],
-    "abstract": "Since the release of ChatGPT, the field of Natural Language Processing has experienced rapid advancements, particularly in Large Language Models (LLMs) and their multimodal counterparts, Large Multimodal Models (LMMs). Despite their impressive capabilities, LLMs often exhibit significant performance disparities across different languages and cultural contexts, as demonstrated by various text-only benchmarks. However, current research lacks such benchmarks for multimodal visio-linguistic settings. This work fills this gap by introducing M5, the first comprehensive benchmark designed to evaluate LMMs on diverse vision-language tasks within a multilingual and multicultural context. M5 includes eight datasets covering five tasks and 41 languages, with a focus on underrepresented languages and culturally diverse images. Furthermore, we introduce two novel datasets, M5-VGR and M5-VLOD, including a new Visio-Linguistic Outlier Detection task, in which all evaluated open-source models fail to significantly surpass the random baseline. Through extensive evaluation and analyses, we highlight substantial task-agnostic performance disparities between high- and low-resource languages. Moreover, we show that larger models do not necessarily outperform smaller ones in a multilingual setting.",
-    "year": 2024,
-    "conference": "emnlp",
-    "conferenceName": "EMNLP",
-    "track": "findings",
-    "subtype": "findings",
-    "source": "ACL Anthology",
-    "sourceVolume": "2024.findings-emnlp",
-    "sourceVolumeTitle": "Findings of the Association for Computational Linguistics: EMNLP 2024",
-    "url": "https://aclanthology.org/2024.findings-emnlp.250/",
-    "keywords": [],
-    "ordinal": 250,
-    "primaryCategory": "multimodal",
-    "categories": [
-      "multimodal",
-      "evaluation",
-      "multilingual"
-    ],
-    "categoryScores": [
-      {
-        "id": "multimodal",
-        "label": "Multimodal & Vision-Language",
-        "color": "#7c3aed",
-        "score": 14
-      },
-      {
-        "id": "evaluation",
-        "label": "Evaluation & Benchmarks",
-        "color": "#4f46e5",
-        "score": 7
-      },
-      {
-        "id": "multilingual",
-        "label": "Multilingual & Low-Resource",
-        "color": "#65a30d",
-        "score": 7
-      },
-      {
-        "id": "efficient_ai",
-        "label": "Efficient AI & Systems",
-        "color": "#16a34a",
         "score": 1
       }
     ]
@@ -53322,7 +53322,7 @@
   },
   {
     "id": "2024.emnlp-main.663",
-    "title": "Advancing Semantic Textual Similarity Modeling: A Regression Framework with Translated R e LU and Smooth K2 Loss",
+    "title": "Advancing Semantic Textual Similarity Modeling: A Regression Framework with Translated R e LU and Smooth K 2 Loss",
     "authors": [
       "Bowen Zhang",
       "Chunping Li"
@@ -79036,7 +79036,7 @@
   },
   {
     "id": "2024.emnlp-main.1004",
-    "title": "Is C4 Dataset Optimal for Pruning? An Investigation of Calibration Data for LLM Pruning",
+    "title": "Is C 4 Dataset Optimal for Pruning? An Investigation of Calibration Data for LLM Pruning",
     "authors": [
       "Abhinav Bandari",
       "Lu Yin",
@@ -103080,7 +103080,7 @@
   },
   {
     "id": "2024.emnlp-main.667",
-    "title": "T heorem L lama: Transforming General-Purpose LLM s into Lean4 Experts",
+    "title": "T heorem L lama: Transforming General-Purpose LLM s into L ean4 Experts",
     "authors": [
       "Ruida Wang",
       "Jipeng Zhang",

@@ -14527,7 +14527,7 @@
   },
   {
     "id": "2024.findings-acl.462",
-    "title": "E - EVAL : A Comprehensive C hinese K-12 Education Evaluation Benchmark for Large Language Models",
+    "title": "E - EVAL : A Comprehensive C hinese K -12 Education Evaluation Benchmark for Large Language Models",
     "authors": [
       "Jinchang Hou",
       "Chang Ao",
@@ -14582,6 +14582,63 @@
         "label": "Reasoning & Planning",
         "color": "#9333ea",
         "score": 1
+      }
+    ]
+  },
+  {
+    "id": "2024.findings-acl.252",
+    "title": "E 2- LLM : Efficient and Extreme Length Extension of Large Language Models",
+    "authors": [
+      "Jiaheng Liu",
+      "Zhiqi Bai",
+      "Yuanxing Zhang",
+      "Chenchen Zhang",
+      "Yu Zhang",
+      "Ge Zhang",
+      "Jiakai Wang",
+      "Haoran Que",
+      "Yukang Chen",
+      "Wenbo Su",
+      "Tiezheng Ge",
+      "Jie Fu",
+      "Wenhu Chen",
+      "Bo Zheng"
+    ],
+    "abstract": "Training Large Language Models (LLMs) to process extensive context lengths incurs prohibitive computational costs. Prevailing techniques for extending context capabilities in LLMs typically require not only additional training procedures but also access to datasets with long context (e.g., sequences of 32K tokens), presupposing substantial GPU expenditures. To address the aforementioned issues, we introduce a novel solution named Efficient and Extreme length extension for Large Language Models (E2-LLM). E2-LLM entails a singular training process over considerably short sequences (e.g., 4K tokens), which greatly mitigates the cost of continual-pretraining or fine-tuning. Within the training phase, we incorporate a dual augmentation strategy with Rotary Position Embeddings (RoPE) that adjusts the scale and position indices across distinct training samples. E 2 -LLM is meticulously designed to enhance the model’s robustness to diverse relative positions. The experimental results on multiple benchmark datasets demonstrate the superior performance of E 2 -LLM on demanding tasks of processing long contexts.",
+    "year": 2024,
+    "conference": "acl",
+    "conferenceName": "ACL",
+    "track": "findings",
+    "subtype": "findings",
+    "source": "ACL Anthology",
+    "sourceVolume": "2024.findings-acl",
+    "sourceVolumeTitle": "Findings of the Association for Computational Linguistics: ACL 2024",
+    "url": "https://aclanthology.org/2024.findings-acl.252/",
+    "keywords": [],
+    "ordinal": 252,
+    "primaryCategory": "llms",
+    "categories": [
+      "llms",
+      "efficient_ai"
+    ],
+    "categoryScores": [
+      {
+        "id": "llms",
+        "label": "LLMs & Foundation Models",
+        "color": "#2563eb",
+        "score": 11
+      },
+      {
+        "id": "efficient_ai",
+        "label": "Efficient AI & Systems",
+        "color": "#16a34a",
+        "score": 6
+      },
+      {
+        "id": "evaluation",
+        "label": "Evaluation & Benchmarks",
+        "color": "#4f46e5",
+        "score": 2
       }
     ]
   },
@@ -14835,63 +14892,6 @@
         "label": "Speech & Audio",
         "color": "#0284c7",
         "score": 1
-      }
-    ]
-  },
-  {
-    "id": "2024.findings-acl.252",
-    "title": "E2- LLM : Efficient and Extreme Length Extension of Large Language Models",
-    "authors": [
-      "Jiaheng Liu",
-      "Zhiqi Bai",
-      "Yuanxing Zhang",
-      "Chenchen Zhang",
-      "Yu Zhang",
-      "Ge Zhang",
-      "Jiakai Wang",
-      "Haoran Que",
-      "Yukang Chen",
-      "Wenbo Su",
-      "Tiezheng Ge",
-      "Jie Fu",
-      "Wenhu Chen",
-      "Bo Zheng"
-    ],
-    "abstract": "Training Large Language Models (LLMs) to process extensive context lengths incurs prohibitive computational costs. Prevailing techniques for extending context capabilities in LLMs typically require not only additional training procedures but also access to datasets with long context (e.g., sequences of 32K tokens), presupposing substantial GPU expenditures. To address the aforementioned issues, we introduce a novel solution named Efficient and Extreme length extension for Large Language Models (E2-LLM). E2-LLM entails a singular training process over considerably short sequences (e.g., 4K tokens), which greatly mitigates the cost of continual-pretraining or fine-tuning. Within the training phase, we incorporate a dual augmentation strategy with Rotary Position Embeddings (RoPE) that adjusts the scale and position indices across distinct training samples. E 2 -LLM is meticulously designed to enhance the model’s robustness to diverse relative positions. The experimental results on multiple benchmark datasets demonstrate the superior performance of E 2 -LLM on demanding tasks of processing long contexts.",
-    "year": 2024,
-    "conference": "acl",
-    "conferenceName": "ACL",
-    "track": "findings",
-    "subtype": "findings",
-    "source": "ACL Anthology",
-    "sourceVolume": "2024.findings-acl",
-    "sourceVolumeTitle": "Findings of the Association for Computational Linguistics: ACL 2024",
-    "url": "https://aclanthology.org/2024.findings-acl.252/",
-    "keywords": [],
-    "ordinal": 252,
-    "primaryCategory": "llms",
-    "categories": [
-      "llms",
-      "efficient_ai"
-    ],
-    "categoryScores": [
-      {
-        "id": "llms",
-        "label": "LLMs & Foundation Models",
-        "color": "#2563eb",
-        "score": 11
-      },
-      {
-        "id": "efficient_ai",
-        "label": "Efficient AI & Systems",
-        "color": "#16a34a",
-        "score": 6
-      },
-      {
-        "id": "evaluation",
-        "label": "Evaluation & Benchmarks",
-        "color": "#4f46e5",
-        "score": 2
       }
     ]
   },
@@ -19264,7 +19264,7 @@
   },
   {
     "id": "2024.findings-acl.927",
-    "title": "From Representational Harms to Quality-of-Service Harms: A Case Study on Llama 2 Safety Safeguards",
+    "title": "From Representational Harms to Quality-of-Service Harms: A Case Study on L lama 2 Safety Safeguards",
     "authors": [
       "Khaoula Chehbouni",
       "Megha Roshan",
@@ -32655,6 +32655,61 @@
     ]
   },
   {
+    "id": "2024.findings-acl.541",
+    "title": "P 4: Plug-and-Play Discrete Prompting for Large Language Models Personalization",
+    "authors": [
+      "Yuansen Zhang",
+      "Xiao Wang",
+      "Tianze Chen",
+      "Jiayi Fu",
+      "Tao Gui",
+      "Qi Zhang"
+    ],
+    "abstract": "Empowering Large Language Models (LLMs) with distinct human-like personality traits has become an innovative task for developing advanced dialog systems.Although LLMs demonstrate impressive capabilities in following instructions, directly prompting them to exhibit certain personalities through manually crafted instructions may result in sub-optimal performance.In this paper, we propose a plug-and-play prompting method to manipulate the LLMs’ personality traits.Specifically, we append discrete personalized suffixes, automatically generated through an aggregated gradient-based search method, to the user query or dialog histories and induce LLMs to respond with target personalities.In addition, due to the high redundancy of the search space, we adopt a reward-based strategy to prune the vocabulary and focus exclusively on influential tokens.Experiment results on four models ranging from 1.1B to 13B show that our method achieves 79.9% accuracy in customizing LLMs’ personalities, significantly outperforming other prompting methods (65.5%) and model editing methods.Our method also excels in generation fluency and quality with the lowest generation perplexity and the highest GPT-4 evaluation scores.",
+    "year": 2024,
+    "conference": "acl",
+    "conferenceName": "ACL",
+    "track": "findings",
+    "subtype": "findings",
+    "source": "ACL Anthology",
+    "sourceVolume": "2024.findings-acl",
+    "sourceVolumeTitle": "Findings of the Association for Computational Linguistics: ACL 2024",
+    "url": "https://aclanthology.org/2024.findings-acl.541/",
+    "keywords": [],
+    "ordinal": 541,
+    "primaryCategory": "retrieval_knowledge",
+    "categories": [
+      "retrieval_knowledge",
+      "nlp_core"
+    ],
+    "categoryScores": [
+      {
+        "id": "retrieval_knowledge",
+        "label": "Retrieval & Knowledge",
+        "color": "#0891b2",
+        "score": 2
+      },
+      {
+        "id": "nlp_core",
+        "label": "Core NLP Tasks",
+        "color": "#d97706",
+        "score": 2
+      },
+      {
+        "id": "evaluation",
+        "label": "Evaluation & Benchmarks",
+        "color": "#4f46e5",
+        "score": 1
+      },
+      {
+        "id": "optimization_theory",
+        "label": "Optimization & Theory",
+        "color": "#475569",
+        "score": 1
+      }
+    ]
+  },
+  {
     "id": "2024.findings-acl.434",
     "title": "P artial F ormer: Modeling Part Instead of Whole for Machine Translation",
     "authors": [
@@ -32945,61 +33000,6 @@
         "label": "LLMs & Foundation Models",
         "color": "#2563eb",
         "score": 5
-      }
-    ]
-  },
-  {
-    "id": "2024.findings-acl.541",
-    "title": "P4: Plug-and-Play Discrete Prompting for Large Language Models Personalization",
-    "authors": [
-      "Yuansen Zhang",
-      "Xiao Wang",
-      "Tianze Chen",
-      "Jiayi Fu",
-      "Tao Gui",
-      "Qi Zhang"
-    ],
-    "abstract": "Empowering Large Language Models (LLMs) with distinct human-like personality traits has become an innovative task for developing advanced dialog systems.Although LLMs demonstrate impressive capabilities in following instructions, directly prompting them to exhibit certain personalities through manually crafted instructions may result in sub-optimal performance.In this paper, we propose a plug-and-play prompting method to manipulate the LLMs’ personality traits.Specifically, we append discrete personalized suffixes, automatically generated through an aggregated gradient-based search method, to the user query or dialog histories and induce LLMs to respond with target personalities.In addition, due to the high redundancy of the search space, we adopt a reward-based strategy to prune the vocabulary and focus exclusively on influential tokens.Experiment results on four models ranging from 1.1B to 13B show that our method achieves 79.9% accuracy in customizing LLMs’ personalities, significantly outperforming other prompting methods (65.5%) and model editing methods.Our method also excels in generation fluency and quality with the lowest generation perplexity and the highest GPT-4 evaluation scores.",
-    "year": 2024,
-    "conference": "acl",
-    "conferenceName": "ACL",
-    "track": "findings",
-    "subtype": "findings",
-    "source": "ACL Anthology",
-    "sourceVolume": "2024.findings-acl",
-    "sourceVolumeTitle": "Findings of the Association for Computational Linguistics: ACL 2024",
-    "url": "https://aclanthology.org/2024.findings-acl.541/",
-    "keywords": [],
-    "ordinal": 541,
-    "primaryCategory": "retrieval_knowledge",
-    "categories": [
-      "retrieval_knowledge",
-      "nlp_core"
-    ],
-    "categoryScores": [
-      {
-        "id": "retrieval_knowledge",
-        "label": "Retrieval & Knowledge",
-        "color": "#0891b2",
-        "score": 2
-      },
-      {
-        "id": "nlp_core",
-        "label": "Core NLP Tasks",
-        "color": "#d97706",
-        "score": 2
-      },
-      {
-        "id": "evaluation",
-        "label": "Evaluation & Benchmarks",
-        "color": "#4f46e5",
-        "score": 1
-      },
-      {
-        "id": "optimization_theory",
-        "label": "Optimization & Theory",
-        "color": "#475569",
-        "score": 1
       }
     ]
   },
@@ -38149,6 +38149,51 @@
     ]
   },
   {
+    "id": "2024.findings-acl.891",
+    "title": "S 3- DST : Structured Open-Domain Dialogue Segmentation and State Tracking in the Era of LLM s",
+    "authors": [
+      "Sarkar Snigdha Sarathi Das",
+      "Chirag Shah",
+      "Mengting Wan",
+      "Jennifer Neville",
+      "Longqi Yang",
+      "Reid Andersen",
+      "Georg Buscher",
+      "Tara Safavi"
+    ],
+    "abstract": "Traditional Dialogue State Tracking (DST) has focused on tracking preferences and intents in conversations centered around specific tasks (e.g. booking services). These conventional systems assume a relatively restricted conversation flow in which each turn gradually offers new information. However, advancements in Large Language Models (LLMs) have ushered in more versatile open-domain chat systems in which extended dialogue sessions encompassing numerous tasks and topics are common—in turn requiring new conversational tracking tools in order to successfully orchestrate such systems. Addressing these challenges, we introduce a novel approach combining dialogue segmentation and state tracking within open-domain dialogues, tailored for zero-shot applications appropriate to a true open-domain dialogue system. Our proposed method S3-DST employs a unique structured prompting technique and Pre-Analytical Recollection , a novel grounding mechanism we designed for improving long context tracking. Tested on proprietary anonymized open-domain dialogue datasets as well as publicly available DST and segmentation datasets, S3-DST consistently outperforms the state-of-the-art, showcasing its effectiveness and adaptability state tracking in the next wave of LLM-based chat systems. We also release S3-DST annotations with GPT-4 on a curated subset of LMSYS-Chat-1M to be used as a testbed to fuel research in this direction.",
+    "year": 2024,
+    "conference": "acl",
+    "conferenceName": "ACL",
+    "track": "findings",
+    "subtype": "findings",
+    "source": "ACL Anthology",
+    "sourceVolume": "2024.findings-acl",
+    "sourceVolumeTitle": "Findings of the Association for Computational Linguistics: ACL 2024",
+    "url": "https://aclanthology.org/2024.findings-acl.891/",
+    "keywords": [],
+    "ordinal": 891,
+    "primaryCategory": "nlp_core",
+    "categories": [
+      "nlp_core",
+      "llms"
+    ],
+    "categoryScores": [
+      {
+        "id": "nlp_core",
+        "label": "Core NLP Tasks",
+        "color": "#d97706",
+        "score": 10
+      },
+      {
+        "id": "llms",
+        "label": "LLMs & Foundation Models",
+        "color": "#2563eb",
+        "score": 6
+      }
+    ]
+  },
+  {
     "id": "2024.findings-acl.699",
     "title": "S ca L earn: Simple and Highly Parameter-Efficient Task Transfer by Learning to Scale",
     "authors": [
@@ -39090,51 +39135,6 @@
         "label": "Core NLP Tasks",
         "color": "#d97706",
         "score": 1
-      }
-    ]
-  },
-  {
-    "id": "2024.findings-acl.891",
-    "title": "S3- DST : Structured Open-Domain Dialogue Segmentation and State Tracking in the Era of LLM s",
-    "authors": [
-      "Sarkar Snigdha Sarathi Das",
-      "Chirag Shah",
-      "Mengting Wan",
-      "Jennifer Neville",
-      "Longqi Yang",
-      "Reid Andersen",
-      "Georg Buscher",
-      "Tara Safavi"
-    ],
-    "abstract": "Traditional Dialogue State Tracking (DST) has focused on tracking preferences and intents in conversations centered around specific tasks (e.g. booking services). These conventional systems assume a relatively restricted conversation flow in which each turn gradually offers new information. However, advancements in Large Language Models (LLMs) have ushered in more versatile open-domain chat systems in which extended dialogue sessions encompassing numerous tasks and topics are common—in turn requiring new conversational tracking tools in order to successfully orchestrate such systems. Addressing these challenges, we introduce a novel approach combining dialogue segmentation and state tracking within open-domain dialogues, tailored for zero-shot applications appropriate to a true open-domain dialogue system. Our proposed method S3-DST employs a unique structured prompting technique and Pre-Analytical Recollection , a novel grounding mechanism we designed for improving long context tracking. Tested on proprietary anonymized open-domain dialogue datasets as well as publicly available DST and segmentation datasets, S3-DST consistently outperforms the state-of-the-art, showcasing its effectiveness and adaptability state tracking in the next wave of LLM-based chat systems. We also release S3-DST annotations with GPT-4 on a curated subset of LMSYS-Chat-1M to be used as a testbed to fuel research in this direction.",
-    "year": 2024,
-    "conference": "acl",
-    "conferenceName": "ACL",
-    "track": "findings",
-    "subtype": "findings",
-    "source": "ACL Anthology",
-    "sourceVolume": "2024.findings-acl",
-    "sourceVolumeTitle": "Findings of the Association for Computational Linguistics: ACL 2024",
-    "url": "https://aclanthology.org/2024.findings-acl.891/",
-    "keywords": [],
-    "ordinal": 891,
-    "primaryCategory": "nlp_core",
-    "categories": [
-      "nlp_core",
-      "llms"
-    ],
-    "categoryScores": [
-      {
-        "id": "nlp_core",
-        "label": "Core NLP Tasks",
-        "color": "#d97706",
-        "score": 10
-      },
-      {
-        "id": "llms",
-        "label": "LLMs & Foundation Models",
-        "color": "#2563eb",
-        "score": 6
       }
     ]
   },
@@ -50313,6 +50313,157 @@
     ]
   },
   {
+    "id": "2024.acl-long.620",
+    "title": "A ya Dataset: An Open-Access Collection for Multilingual Instruction Tuning",
+    "authors": [
+      "Shivalika Singh",
+      "Freddie Vargus",
+      "Daniel D’souza",
+      "Börje F. Karlsson",
+      "Abinaya Mahendiran",
+      "Wei-Yin Ko",
+      "Herumb Shandilya",
+      "Jay Patel",
+      "Deividas Mataciunas",
+      "Laura O’Mahony",
+      "Mike Zhang",
+      "Ramith Hettiarachchi",
+      "Joseph Wilson",
+      "Marina Machado",
+      "Luisa Moura",
+      "Dominik Krzemiński",
+      "Hakimeh Fadaei",
+      "Irem Ergun",
+      "Ifeoma Okoh",
+      "Aisha Alaagib",
+      "Oshan Mudannayake",
+      "Zaid Alyafeai",
+      "Vu Chien",
+      "Sebastian Ruder",
+      "Surya Guthikonda",
+      "Emad Alghamdi",
+      "Sebastian Gehrmann",
+      "Niklas Muennighoff",
+      "Max Bartolo",
+      "Julia Kreutzer",
+      "Ahmet Üstün",
+      "Marzieh Fadaee",
+      "Sara Hooker"
+    ],
+    "abstract": "Datasets are foundational to many breakthroughs in modern artificial intelligence. Many recent achievements in the space of natural language processing (NLP) can be attributed to the fine-tuning of pre-trained models on a diverse set of tasks that enables a large language model (LLM) to respond to instructions. Instruction fine-tuning (IFT) requires specifically constructed and annotated datasets. However, existing datasets are almost all in the English language. In this work, our primary goal is to bridge the language gap by building a human-curated instruction-following dataset spanning 65 languages. We worked with fluent speakers of languages from around the world to collect natural instances of instructions and completions. Furthermore, we create the most extensive multilingual collection to date, comprising 513 million instances through templating and augmenting existing datasets across 114 languages. In total, we contribute three key resources: we develop and open-source the Aya Dataset, the Aya Collection, and the Aya Evaluation Suite. The Aya initiative also serves as a valuable case study in participatory research, involving collaborators from 119 countries. We see this as an important framework for future research collaborations that aim to bridge gaps in resources.",
+    "year": 2024,
+    "conference": "acl",
+    "conferenceName": "ACL",
+    "track": "main",
+    "subtype": "long",
+    "source": "ACL Anthology",
+    "sourceVolume": "2024.acl-long",
+    "sourceVolumeTitle": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    "url": "https://aclanthology.org/2024.acl-long.620/",
+    "keywords": [],
+    "ordinal": 620,
+    "primaryCategory": "llms",
+    "categories": [
+      "llms",
+      "evaluation",
+      "multilingual"
+    ],
+    "categoryScores": [
+      {
+        "id": "llms",
+        "label": "LLMs & Foundation Models",
+        "color": "#2563eb",
+        "score": 10
+      },
+      {
+        "id": "evaluation",
+        "label": "Evaluation & Benchmarks",
+        "color": "#4f46e5",
+        "score": 8
+      },
+      {
+        "id": "multilingual",
+        "label": "Multilingual & Low-Resource",
+        "color": "#65a30d",
+        "score": 6
+      }
+    ]
+  },
+  {
+    "id": "2024.acl-long.845",
+    "title": "A ya Model: An Instruction Finetuned Open-Access Multilingual Language Model",
+    "authors": [
+      "Ahmet Üstün",
+      "Viraat Aryabumi",
+      "Zheng Yong",
+      "Wei-Yin Ko",
+      "Daniel D’souza",
+      "Gbemileke Onilude",
+      "Neel Bhandari",
+      "Shivalika Singh",
+      "Hui-Lee Ooi",
+      "Amr Kayid",
+      "Freddie Vargus",
+      "Phil Blunsom",
+      "Shayne Longpre",
+      "Niklas Muennighoff",
+      "Marzieh Fadaee",
+      "Julia Kreutzer",
+      "Sara Hooker"
+    ],
+    "abstract": "Recent breakthroughs in large language models (LLMs) have centered around a handful of data-rich languages. What does it take to broaden access to breakthroughs beyond first-class citizen languages? Our work introduces Aya, a massively multilingual generative language model that follows instructions in 101 languages of which over 50% are considered as lower-resourced. Aya outperforms mT0 and BLOOMZ on the majority of tasks while covering double the number of languages. We introduce extensive new evaluation suites that broaden the state-of-art for multilingual eval across 99 languages —— including discriminative and generative tasks, human evaluation, and simulated win rates that cover both held-out tasks and in-distribution performance. Furthermore, we conduct detailed investigations on the optimal finetuning mixture composition, data pruning, as well as the toxicity, bias, and safety of our models.",
+    "year": 2024,
+    "conference": "acl",
+    "conferenceName": "ACL",
+    "track": "main",
+    "subtype": "long",
+    "source": "ACL Anthology",
+    "sourceVolume": "2024.acl-long",
+    "sourceVolumeTitle": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    "url": "https://aclanthology.org/2024.acl-long.845/",
+    "keywords": [],
+    "ordinal": 845,
+    "primaryCategory": "multilingual",
+    "categories": [
+      "multilingual",
+      "llms",
+      "evaluation",
+      "alignment_safety"
+    ],
+    "categoryScores": [
+      {
+        "id": "multilingual",
+        "label": "Multilingual & Low-Resource",
+        "color": "#65a30d",
+        "score": 7
+      },
+      {
+        "id": "llms",
+        "label": "LLMs & Foundation Models",
+        "color": "#2563eb",
+        "score": 6
+      },
+      {
+        "id": "evaluation",
+        "label": "Evaluation & Benchmarks",
+        "color": "#4f46e5",
+        "score": 3
+      },
+      {
+        "id": "alignment_safety",
+        "label": "Alignment, Safety & Trust",
+        "color": "#dc2626",
+        "score": 3
+      },
+      {
+        "id": "generative_models",
+        "label": "Generative Models",
+        "color": "#db2777",
+        "score": 2
+      }
+    ]
+  },
+  {
     "id": "2024.acl-long.43",
     "title": "ABEX : Data Augmentation for Low-Resource NLU via Expanding Abstract Descriptions",
     "authors": [
@@ -52983,44 +53134,14 @@
     ]
   },
   {
-    "id": "2024.acl-long.620",
-    "title": "Aya Dataset: An Open-Access Collection for Multilingual Instruction Tuning",
+    "id": "2024.acl-long.277",
+    "title": "B abel- I mage N et: Massively Multilingual Evaluation of Vision-and-Language Representations",
     "authors": [
-      "Shivalika Singh",
-      "Freddie Vargus",
-      "Daniel D’souza",
-      "Börje F. Karlsson",
-      "Abinaya Mahendiran",
-      "Wei-Yin Ko",
-      "Herumb Shandilya",
-      "Jay Patel",
-      "Deividas Mataciunas",
-      "Laura O’Mahony",
-      "Mike Zhang",
-      "Ramith Hettiarachchi",
-      "Joseph Wilson",
-      "Marina Machado",
-      "Luisa Moura",
-      "Dominik Krzemiński",
-      "Hakimeh Fadaei",
-      "Irem Ergun",
-      "Ifeoma Okoh",
-      "Aisha Alaagib",
-      "Oshan Mudannayake",
-      "Zaid Alyafeai",
-      "Vu Chien",
-      "Sebastian Ruder",
-      "Surya Guthikonda",
-      "Emad Alghamdi",
-      "Sebastian Gehrmann",
-      "Niklas Muennighoff",
-      "Max Bartolo",
-      "Julia Kreutzer",
-      "Ahmet Üstün",
-      "Marzieh Fadaee",
-      "Sara Hooker"
+      "Gregor Geigle",
+      "Radu Timofte",
+      "Goran Glavaš"
     ],
-    "abstract": "Datasets are foundational to many breakthroughs in modern artificial intelligence. Many recent achievements in the space of natural language processing (NLP) can be attributed to the fine-tuning of pre-trained models on a diverse set of tasks that enables a large language model (LLM) to respond to instructions. Instruction fine-tuning (IFT) requires specifically constructed and annotated datasets. However, existing datasets are almost all in the English language. In this work, our primary goal is to bridge the language gap by building a human-curated instruction-following dataset spanning 65 languages. We worked with fluent speakers of languages from around the world to collect natural instances of instructions and completions. Furthermore, we create the most extensive multilingual collection to date, comprising 513 million instances through templating and augmenting existing datasets across 114 languages. In total, we contribute three key resources: we develop and open-source the Aya Dataset, the Aya Collection, and the Aya Evaluation Suite. The Aya initiative also serves as a valuable case study in participatory research, involving collaborators from 119 countries. We see this as an important framework for future research collaborations that aim to bridge gaps in resources.",
+    "abstract": "Vision-and-language (VL) models with separate encoders for each modality (e.g., CLIP) have become the go-to models for zero-shot image classification and image-text retrieval. They are, however, mostly evaluated in English as multilingual benchmarks are limited in availability. We introduce Babel-ImageNet, a massively multilingual benchmark that offers (partial) translations of ImageNet labels to 100 languages, built without machine translation or manual annotation. We instead automatically obtain reliable translations by linking them – via shared WordNet synsets – to BabelNet, a massively multilingual lexico-semantic network. We evaluate 11 public multilingual CLIP models on zero-shot image classification (ZS-IC) on our benchmark, demonstrating a significant gap between English ImageNet performance and that of high-resource languages (e.g., German or Chinese), and an even bigger gap for low-resource languages (e.g., Sinhala or Lao). Crucially, we show that the models’ ZS-IC performance highly correlates with their performance in image-text retrieval, validating the use of Babel-imageNet to evaluate multilingual models for the vast majority of languages without gold image-text data. Finally, we show that the performance of multilingual CLIP can be drastically improved for low-resource languages with parameter-efficient language-specific training. We make our code and data publicly available: https://github.com/gregor-ge/Babel-ImageNet",
     "year": 2024,
     "conference": "acl",
     "conferenceName": "ACL",
@@ -53029,106 +53150,43 @@
     "source": "ACL Anthology",
     "sourceVolume": "2024.acl-long",
     "sourceVolumeTitle": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
-    "url": "https://aclanthology.org/2024.acl-long.620/",
+    "url": "https://aclanthology.org/2024.acl-long.277/",
     "keywords": [],
-    "ordinal": 620,
-    "primaryCategory": "llms",
-    "categories": [
-      "llms",
-      "evaluation",
-      "multilingual"
-    ],
-    "categoryScores": [
-      {
-        "id": "llms",
-        "label": "LLMs & Foundation Models",
-        "color": "#2563eb",
-        "score": 10
-      },
-      {
-        "id": "evaluation",
-        "label": "Evaluation & Benchmarks",
-        "color": "#4f46e5",
-        "score": 8
-      },
-      {
-        "id": "multilingual",
-        "label": "Multilingual & Low-Resource",
-        "color": "#65a30d",
-        "score": 6
-      }
-    ]
-  },
-  {
-    "id": "2024.acl-long.845",
-    "title": "Aya Model: An Instruction Finetuned Open-Access Multilingual Language Model",
-    "authors": [
-      "Ahmet Üstün",
-      "Viraat Aryabumi",
-      "Zheng Yong",
-      "Wei-Yin Ko",
-      "Daniel D’souza",
-      "Gbemileke Onilude",
-      "Neel Bhandari",
-      "Shivalika Singh",
-      "Hui-Lee Ooi",
-      "Amr Kayid",
-      "Freddie Vargus",
-      "Phil Blunsom",
-      "Shayne Longpre",
-      "Niklas Muennighoff",
-      "Marzieh Fadaee",
-      "Julia Kreutzer",
-      "Sara Hooker"
-    ],
-    "abstract": "Recent breakthroughs in large language models (LLMs) have centered around a handful of data-rich languages. What does it take to broaden access to breakthroughs beyond first-class citizen languages? Our work introduces Aya, a massively multilingual generative language model that follows instructions in 101 languages of which over 50% are considered as lower-resourced. Aya outperforms mT0 and BLOOMZ on the majority of tasks while covering double the number of languages. We introduce extensive new evaluation suites that broaden the state-of-art for multilingual eval across 99 languages —— including discriminative and generative tasks, human evaluation, and simulated win rates that cover both held-out tasks and in-distribution performance. Furthermore, we conduct detailed investigations on the optimal finetuning mixture composition, data pruning, as well as the toxicity, bias, and safety of our models.",
-    "year": 2024,
-    "conference": "acl",
-    "conferenceName": "ACL",
-    "track": "main",
-    "subtype": "long",
-    "source": "ACL Anthology",
-    "sourceVolume": "2024.acl-long",
-    "sourceVolumeTitle": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
-    "url": "https://aclanthology.org/2024.acl-long.845/",
-    "keywords": [],
-    "ordinal": 845,
+    "ordinal": 277,
     "primaryCategory": "multilingual",
     "categories": [
       "multilingual",
-      "llms",
-      "evaluation",
-      "alignment_safety"
+      "evaluation"
     ],
     "categoryScores": [
       {
         "id": "multilingual",
         "label": "Multilingual & Low-Resource",
         "color": "#65a30d",
-        "score": 7
-      },
-      {
-        "id": "llms",
-        "label": "LLMs & Foundation Models",
-        "color": "#2563eb",
-        "score": 6
+        "score": 12
       },
       {
         "id": "evaluation",
         "label": "Evaluation & Benchmarks",
         "color": "#4f46e5",
+        "score": 7
+      },
+      {
+        "id": "multimodal",
+        "label": "Multimodal & Vision-Language",
+        "color": "#7c3aed",
         "score": 3
       },
       {
-        "id": "alignment_safety",
-        "label": "Alignment, Safety & Trust",
-        "color": "#dc2626",
+        "id": "efficient_ai",
+        "label": "Efficient AI & Systems",
+        "color": "#16a34a",
         "score": 3
       },
       {
-        "id": "generative_models",
-        "label": "Generative Models",
-        "color": "#db2777",
+        "id": "retrieval_knowledge",
+        "label": "Retrieval & Knowledge",
+        "color": "#0891b2",
         "score": 2
       }
     ]
@@ -53504,64 +53562,6 @@
         "id": "evaluation",
         "label": "Evaluation & Benchmarks",
         "color": "#4f46e5",
-        "score": 2
-      }
-    ]
-  },
-  {
-    "id": "2024.acl-long.277",
-    "title": "Babel- I mage N et: Massively Multilingual Evaluation of Vision-and-Language Representations",
-    "authors": [
-      "Gregor Geigle",
-      "Radu Timofte",
-      "Goran Glavaš"
-    ],
-    "abstract": "Vision-and-language (VL) models with separate encoders for each modality (e.g., CLIP) have become the go-to models for zero-shot image classification and image-text retrieval. They are, however, mostly evaluated in English as multilingual benchmarks are limited in availability. We introduce Babel-ImageNet, a massively multilingual benchmark that offers (partial) translations of ImageNet labels to 100 languages, built without machine translation or manual annotation. We instead automatically obtain reliable translations by linking them – via shared WordNet synsets – to BabelNet, a massively multilingual lexico-semantic network. We evaluate 11 public multilingual CLIP models on zero-shot image classification (ZS-IC) on our benchmark, demonstrating a significant gap between English ImageNet performance and that of high-resource languages (e.g., German or Chinese), and an even bigger gap for low-resource languages (e.g., Sinhala or Lao). Crucially, we show that the models’ ZS-IC performance highly correlates with their performance in image-text retrieval, validating the use of Babel-imageNet to evaluate multilingual models for the vast majority of languages without gold image-text data. Finally, we show that the performance of multilingual CLIP can be drastically improved for low-resource languages with parameter-efficient language-specific training. We make our code and data publicly available: https://github.com/gregor-ge/Babel-ImageNet",
-    "year": 2024,
-    "conference": "acl",
-    "conferenceName": "ACL",
-    "track": "main",
-    "subtype": "long",
-    "source": "ACL Anthology",
-    "sourceVolume": "2024.acl-long",
-    "sourceVolumeTitle": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
-    "url": "https://aclanthology.org/2024.acl-long.277/",
-    "keywords": [],
-    "ordinal": 277,
-    "primaryCategory": "multilingual",
-    "categories": [
-      "multilingual",
-      "evaluation"
-    ],
-    "categoryScores": [
-      {
-        "id": "multilingual",
-        "label": "Multilingual & Low-Resource",
-        "color": "#65a30d",
-        "score": 12
-      },
-      {
-        "id": "evaluation",
-        "label": "Evaluation & Benchmarks",
-        "color": "#4f46e5",
-        "score": 7
-      },
-      {
-        "id": "multimodal",
-        "label": "Multimodal & Vision-Language",
-        "color": "#7c3aed",
-        "score": 3
-      },
-      {
-        "id": "efficient_ai",
-        "label": "Efficient AI & Systems",
-        "color": "#16a34a",
-        "score": 3
-      },
-      {
-        "id": "retrieval_knowledge",
-        "label": "Retrieval & Knowledge",
-        "color": "#0891b2",
         "score": 2
       }
     ]
@@ -61211,6 +61211,50 @@
     ]
   },
   {
+    "id": "2024.acl-long.494",
+    "title": "E x3: Automatic Novel Writing by Extracting, Excelsior and Expanding",
+    "authors": [
+      "Huang Lei",
+      "Jiaming Guo",
+      "Guanhua He",
+      "Xishan Zhang",
+      "Rui Zhang",
+      "Shaohui Peng",
+      "Shaoli Liu",
+      "Tianshi Chen"
+    ],
+    "abstract": "Generating long-term texts such as novels using artificial intelligence has always been a challenge. A common approach is to use large language models (LLMs) to construct a hierarchical framework that first plans and then writes. Despite the fact that the generated novels reach a sufficient length, they exhibit poor logical coherence and appeal in their plots and deficiencies in character and event depiction, ultimately compromising the overall narrative quality. In this paper, we propose a method named Extracting Excelsior and Expanding. Ex3 initially extract structural information by learning from raw novel data. By combining this structure information with the novel data, an instruction-following dataset is meticulously crafted. This dataset is then utilized to fine-tune the LLM, aiming for excelsior generation performance. In the final stage, a tree-like expansion method is deployed to facilitate the generation of arbitrarily long novels.Evaluation against previous methods showcases Ex3’s ability to produce higher-quality long-form novels.",
+    "year": 2024,
+    "conference": "acl",
+    "conferenceName": "ACL",
+    "track": "main",
+    "subtype": "long",
+    "source": "ACL Anthology",
+    "sourceVolume": "2024.acl-long",
+    "sourceVolumeTitle": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    "url": "https://aclanthology.org/2024.acl-long.494/",
+    "keywords": [],
+    "ordinal": 494,
+    "primaryCategory": "evaluation",
+    "categories": [
+      "evaluation"
+    ],
+    "categoryScores": [
+      {
+        "id": "evaluation",
+        "label": "Evaluation & Benchmarks",
+        "color": "#4f46e5",
+        "score": 3
+      },
+      {
+        "id": "llms",
+        "label": "LLMs & Foundation Models",
+        "color": "#2563eb",
+        "score": 1
+      }
+    ]
+  },
+  {
     "id": "2024.acl-long.861",
     "title": "ECBD : Evidence-Centered Benchmark Design for NLP",
     "authors": [
@@ -62753,50 +62797,6 @@
     ]
   },
   {
-    "id": "2024.acl-long.494",
-    "title": "Ex3: Automatic Novel Writing by Extracting, Excelsior and Expanding",
-    "authors": [
-      "Huang Lei",
-      "Jiaming Guo",
-      "Guanhua He",
-      "Xishan Zhang",
-      "Rui Zhang",
-      "Shaohui Peng",
-      "Shaoli Liu",
-      "Tianshi Chen"
-    ],
-    "abstract": "Generating long-term texts such as novels using artificial intelligence has always been a challenge. A common approach is to use large language models (LLMs) to construct a hierarchical framework that first plans and then writes. Despite the fact that the generated novels reach a sufficient length, they exhibit poor logical coherence and appeal in their plots and deficiencies in character and event depiction, ultimately compromising the overall narrative quality. In this paper, we propose a method named Extracting Excelsior and Expanding. Ex3 initially extract structural information by learning from raw novel data. By combining this structure information with the novel data, an instruction-following dataset is meticulously crafted. This dataset is then utilized to fine-tune the LLM, aiming for excelsior generation performance. In the final stage, a tree-like expansion method is deployed to facilitate the generation of arbitrarily long novels.Evaluation against previous methods showcases Ex3’s ability to produce higher-quality long-form novels.",
-    "year": 2024,
-    "conference": "acl",
-    "conferenceName": "ACL",
-    "track": "main",
-    "subtype": "long",
-    "source": "ACL Anthology",
-    "sourceVolume": "2024.acl-long",
-    "sourceVolumeTitle": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
-    "url": "https://aclanthology.org/2024.acl-long.494/",
-    "keywords": [],
-    "ordinal": 494,
-    "primaryCategory": "evaluation",
-    "categories": [
-      "evaluation"
-    ],
-    "categoryScores": [
-      {
-        "id": "evaluation",
-        "label": "Evaluation & Benchmarks",
-        "color": "#4f46e5",
-        "score": 3
-      },
-      {
-        "id": "llms",
-        "label": "LLMs & Foundation Models",
-        "color": "#2563eb",
-        "score": 1
-      }
-    ]
-  },
-  {
     "id": "2024.acl-long.560",
     "title": "Examining the robustness of LLM evaluation to the distributional assumptions of benchmarks",
     "authors": [
@@ -63971,6 +63971,68 @@
     ]
   },
   {
+    "id": "2024.acl-long.693",
+    "title": "F inance MATH : Knowledge-Intensive Math Reasoning in Finance Domains",
+    "authors": [
+      "Yilun Zhao",
+      "Hongjun Liu",
+      "Yitao Long",
+      "Rui Zhang",
+      "Chen Zhao",
+      "Arman Cohan"
+    ],
+    "abstract": "We introduce FinanceMath, a novel benchmark designed to evaluate LLMs’ capabilities in solving knowledge-intensive math reasoning problems. Compared to prior works, this study features three core advancements. First, FinanceMath includes 1,200 problems with a hybrid of textual and tabular content. These problems require college-level knowledge in the finance domain for effective resolution. Second, we provide expert-annotated, detailed solution references in Python program format, ensuring a high-quality benchmark for LLM assessment. We also construct a finance-domain knowledge bank and investigate various knowledge integration strategies. Finally, we evaluate a wide spectrum of 44 LLMs with both Chain-of-Thought and Program-of-Thought prompting methods. Our experimental results reveal that the current best-performing system (i.e., GPT-4o) achieves only 60.9% accuracy using CoT prompting, leaving substantial room for improvement. Moreover, while augmenting LLMs with external knowledge can improve model performance (e.g., from 47.5% to 54.5% for Gemini-1.5-Pro), their accuracy remains significantly lower than the estimated human expert performance of 92%. We believe that FinanceMath can advance future research in the area of domain-specific knowledge retrieval and integration, particularly within the context of solving reasoning-intensive tasks.",
+    "year": 2024,
+    "conference": "acl",
+    "conferenceName": "ACL",
+    "track": "main",
+    "subtype": "long",
+    "source": "ACL Anthology",
+    "sourceVolume": "2024.acl-long",
+    "sourceVolumeTitle": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    "url": "https://aclanthology.org/2024.acl-long.693/",
+    "keywords": [],
+    "ordinal": 693,
+    "primaryCategory": "reasoning",
+    "categories": [
+      "reasoning",
+      "domain_science",
+      "evaluation"
+    ],
+    "categoryScores": [
+      {
+        "id": "reasoning",
+        "label": "Reasoning & Planning",
+        "color": "#9333ea",
+        "score": 8
+      },
+      {
+        "id": "domain_science",
+        "label": "Domain AI & Science",
+        "color": "#0d9488",
+        "score": 7
+      },
+      {
+        "id": "evaluation",
+        "label": "Evaluation & Benchmarks",
+        "color": "#4f46e5",
+        "score": 3
+      },
+      {
+        "id": "retrieval_knowledge",
+        "label": "Retrieval & Knowledge",
+        "color": "#0891b2",
+        "score": 2
+      },
+      {
+        "id": "llms",
+        "label": "LLMs & Foundation Models",
+        "color": "#2563eb",
+        "score": 1
+      }
+    ]
+  },
+  {
     "id": "2024.acl-long.51",
     "title": "F ine S ur E : Fine-grained Summarization Evaluation using LLM s",
     "authors": [
@@ -64406,68 +64468,6 @@
         "id": "evaluation",
         "label": "Evaluation & Benchmarks",
         "color": "#4f46e5",
-        "score": 1
-      }
-    ]
-  },
-  {
-    "id": "2024.acl-long.693",
-    "title": "FinanceMATH: Knowledge-Intensive Math Reasoning in Finance Domains",
-    "authors": [
-      "Yilun Zhao",
-      "Hongjun Liu",
-      "Yitao Long",
-      "Rui Zhang",
-      "Chen Zhao",
-      "Arman Cohan"
-    ],
-    "abstract": "We introduce FinanceMath, a novel benchmark designed to evaluate LLMs’ capabilities in solving knowledge-intensive math reasoning problems. Compared to prior works, this study features three core advancements. First, FinanceMath includes 1,200 problems with a hybrid of textual and tabular content. These problems require college-level knowledge in the finance domain for effective resolution. Second, we provide expert-annotated, detailed solution references in Python program format, ensuring a high-quality benchmark for LLM assessment. We also construct a finance-domain knowledge bank and investigate various knowledge integration strategies. Finally, we evaluate a wide spectrum of 44 LLMs with both Chain-of-Thought and Program-of-Thought prompting methods. Our experimental results reveal that the current best-performing system (i.e., GPT-4o) achieves only 60.9% accuracy using CoT prompting, leaving substantial room for improvement. Moreover, while augmenting LLMs with external knowledge can improve model performance (e.g., from 47.5% to 54.5% for Gemini-1.5-Pro), their accuracy remains significantly lower than the estimated human expert performance of 92%. We believe that FinanceMath can advance future research in the area of domain-specific knowledge retrieval and integration, particularly within the context of solving reasoning-intensive tasks.",
-    "year": 2024,
-    "conference": "acl",
-    "conferenceName": "ACL",
-    "track": "main",
-    "subtype": "long",
-    "source": "ACL Anthology",
-    "sourceVolume": "2024.acl-long",
-    "sourceVolumeTitle": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
-    "url": "https://aclanthology.org/2024.acl-long.693/",
-    "keywords": [],
-    "ordinal": 693,
-    "primaryCategory": "reasoning",
-    "categories": [
-      "reasoning",
-      "domain_science",
-      "evaluation"
-    ],
-    "categoryScores": [
-      {
-        "id": "reasoning",
-        "label": "Reasoning & Planning",
-        "color": "#9333ea",
-        "score": 8
-      },
-      {
-        "id": "domain_science",
-        "label": "Domain AI & Science",
-        "color": "#0d9488",
-        "score": 7
-      },
-      {
-        "id": "evaluation",
-        "label": "Evaluation & Benchmarks",
-        "color": "#4f46e5",
-        "score": 3
-      },
-      {
-        "id": "retrieval_knowledge",
-        "label": "Retrieval & Knowledge",
-        "color": "#0891b2",
-        "score": 2
-      },
-      {
-        "id": "llms",
-        "label": "LLMs & Foundation Models",
-        "color": "#2563eb",
         "score": 1
       }
     ]
@@ -77034,7 +77034,7 @@
   },
   {
     "id": "2024.acl-long.401",
-    "title": "MT -Bench-101: A Fine-Grained Benchmark for Evaluating Large Language Models in Multi-Turn Dialogues",
+    "title": "MT - B ench-101: A Fine-Grained Benchmark for Evaluating Large Language Models in Multi-Turn Dialogues",
     "authors": [
       "Ge Bai",
       "Jie Liu",
@@ -80001,7 +80001,7 @@
   },
   {
     "id": "2024.acl-long.177",
-    "title": "Open K o- LLM Leaderboard: Evaluating Large Language Models in K orean with K o-H5 Benchmark",
+    "title": "Open K o- LLM Leaderboard: Evaluating Large Language Models in K orean with K o- H 5 Benchmark",
     "authors": [
       "Chanjun Park",
       "Hyeonwoo Kim",
@@ -82836,6 +82836,53 @@
     ]
   },
   {
+    "id": "2024.acl-long.255",
+    "title": "R e3: A Holistic Framework and Dataset for Modeling Collaborative Document Revision",
+    "authors": [
+      "Qian Ruan",
+      "Ilia Kuznetsov",
+      "Iryna Gurevych"
+    ],
+    "abstract": "Collaborative review and revision of textual documents is the core of knowledge work and a promising target for empirical analysis and NLP assistance. Yet, a holistic framework that would allow modeling complex relationships between document revisions, reviews and author responses is lacking. To address this gap, we introduce Re3, a framework for joint analysis of collaborative document revision. We instantiate this framework in the scholarly domain, and present Re3-Sci, a large corpus of aligned scientific paper revisions manually labeled according to their action and intent, and supplemented with the respective peer reviews and human-written edit summaries. We use the new data to provide first empirical insights into collaborative document revision in the academic domain, and to assess the capabilities of state-of-the-art LLMs at automating edit analysis and facilitating text-based collaboration. We make our annotation environment and protocols, the resulting data and experimental code publicly available.",
+    "year": 2024,
+    "conference": "acl",
+    "conferenceName": "ACL",
+    "track": "main",
+    "subtype": "long",
+    "source": "ACL Anthology",
+    "sourceVolume": "2024.acl-long",
+    "sourceVolumeTitle": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    "url": "https://aclanthology.org/2024.acl-long.255/",
+    "keywords": [],
+    "ordinal": 255,
+    "primaryCategory": "evaluation",
+    "categories": [
+      "evaluation",
+      "interpretability",
+      "data_synthetic"
+    ],
+    "categoryScores": [
+      {
+        "id": "evaluation",
+        "label": "Evaluation & Benchmarks",
+        "color": "#4f46e5",
+        "score": 5
+      },
+      {
+        "id": "interpretability",
+        "label": "Interpretability & Analysis",
+        "color": "#be123c",
+        "score": 3
+      },
+      {
+        "id": "data_synthetic",
+        "label": "Data, Annotation & Synthetic Data",
+        "color": "#c2410c",
+        "score": 2
+      }
+    ]
+  },
+  {
     "id": "2024.acl-short.29",
     "title": "R ec GPT : Generative Pre-training for Text-based Recommendation",
     "authors": [
@@ -83385,53 +83432,6 @@
         "label": "Retrieval & Knowledge",
         "color": "#0891b2",
         "score": 1
-      }
-    ]
-  },
-  {
-    "id": "2024.acl-long.255",
-    "title": "Re3: A Holistic Framework and Dataset for Modeling Collaborative Document Revision",
-    "authors": [
-      "Qian Ruan",
-      "Ilia Kuznetsov",
-      "Iryna Gurevych"
-    ],
-    "abstract": "Collaborative review and revision of textual documents is the core of knowledge work and a promising target for empirical analysis and NLP assistance. Yet, a holistic framework that would allow modeling complex relationships between document revisions, reviews and author responses is lacking. To address this gap, we introduce Re3, a framework for joint analysis of collaborative document revision. We instantiate this framework in the scholarly domain, and present Re3-Sci, a large corpus of aligned scientific paper revisions manually labeled according to their action and intent, and supplemented with the respective peer reviews and human-written edit summaries. We use the new data to provide first empirical insights into collaborative document revision in the academic domain, and to assess the capabilities of state-of-the-art LLMs at automating edit analysis and facilitating text-based collaboration. We make our annotation environment and protocols, the resulting data and experimental code publicly available.",
-    "year": 2024,
-    "conference": "acl",
-    "conferenceName": "ACL",
-    "track": "main",
-    "subtype": "long",
-    "source": "ACL Anthology",
-    "sourceVolume": "2024.acl-long",
-    "sourceVolumeTitle": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
-    "url": "https://aclanthology.org/2024.acl-long.255/",
-    "keywords": [],
-    "ordinal": 255,
-    "primaryCategory": "evaluation",
-    "categories": [
-      "evaluation",
-      "interpretability",
-      "data_synthetic"
-    ],
-    "categoryScores": [
-      {
-        "id": "evaluation",
-        "label": "Evaluation & Benchmarks",
-        "color": "#4f46e5",
-        "score": 5
-      },
-      {
-        "id": "interpretability",
-        "label": "Interpretability & Analysis",
-        "color": "#be123c",
-        "score": 3
-      },
-      {
-        "id": "data_synthetic",
-        "label": "Data, Annotation & Synthetic Data",
-        "color": "#c2410c",
-        "score": 2
       }
     ]
   },
@@ -88361,7 +88361,7 @@
   },
   {
     "id": "2024.acl-long.828",
-    "title": "Steering Llama 2 via Contrastive Activation Addition",
+    "title": "Steering L lama 2 via Contrastive Activation Addition",
     "authors": [
       "Nina Rimsky",
       "Nick Gabrieli",
