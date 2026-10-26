@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-19T09:05:07.691Z",
-  "totalPapers": 21078,
+  "generatedAt": "2026-10-26T09:08:33.624Z",
+  "totalPapers": 26260,
   "yearStart": 2023,
   "yearEnd": 2026,
   "fullDataShards": [
@@ -11,6 +11,7 @@
     "data/full/emnlp-2023.json",
     "data/full/emnlp-2024.json",
     "data/full/emnlp-2025.json",
+    "data/full/emnlp-2026.json",
     "data/full/naacl-2024.json",
     "data/full/naacl-2025.json"
   ],
@@ -111,6 +112,19 @@
       ]
     },
     {
+      "conference": "emnlp",
+      "conferenceName": "EMNLP",
+      "year": 2026,
+      "source": "ACL Anthology",
+      "url": "https://aclanthology.org/events/emnlp-2026/",
+      "status": "ok",
+      "papers": 5182,
+      "volumes": [
+        "2026.emnlp-main",
+        "2026.findings-emnlp"
+      ]
+    },
+    {
       "conference": "naacl",
       "conferenceName": "NAACL",
       "year": 2024,
@@ -140,16 +154,6 @@
     }
   ],
   "missingOrEmpty": [
-    {
-      "conference": "emnlp",
-      "conferenceName": "EMNLP",
-      "year": 2026,
-      "source": "ACL Anthology",
-      "url": "https://aclanthology.org/events/emnlp-2026/",
-      "status": "not_published",
-      "papers": 0,
-      "error": "HTTP 404 for https://aclanthology.org/events/emnlp-2026/"
-    },
     {
       "conference": "naacl",
       "conferenceName": "NAACL",
@@ -306,53 +310,53 @@
   "topCategories": [
     {
       "topic": "LLMs & Foundation Models",
-      "count": 3478,
-      "share": 0.16500616756808045
+      "count": 4251,
+      "share": 0.1618811881188119
     },
     {
       "topic": "Evaluation & Benchmarks",
-      "count": 2794,
-      "share": 0.13255527089856722
+      "count": 3280,
+      "share": 0.12490479817212491
     },
     {
       "topic": "Reasoning & Planning",
-      "count": 2139,
-      "share": 0.10148021633931113
-    },
-    {
-      "topic": "Core NLP Tasks",
-      "count": 1822,
-      "share": 0.08644083878925894
+      "count": 2758,
+      "share": 0.10502665651180502
     },
     {
       "topic": "Retrieval & Knowledge",
-      "count": 1656,
-      "share": 0.07856532877882152
+      "count": 2181,
+      "share": 0.08305407463823306
     },
     {
       "topic": "Alignment, Safety & Trust",
-      "count": 1626,
-      "share": 0.0771420438371762
+      "count": 2009,
+      "share": 0.07650418888042651
+    },
+    {
+      "topic": "Core NLP Tasks",
+      "count": 1986,
+      "share": 0.07562833206397562
     },
     {
       "topic": "Efficient AI & Systems",
-      "count": 1332,
-      "share": 0.0631938514090521
-    },
-    {
-      "topic": "Multimodal & Vision-Language",
-      "count": 1089,
-      "share": 0.05166524338172502
+      "count": 1709,
+      "share": 0.06507996953541507
     },
     {
       "topic": "Agents & Tool Use",
-      "count": 889,
-      "share": 0.04217667710408957
+      "count": 1436,
+      "share": 0.05468392993145468
+    },
+    {
+      "topic": "Multimodal & Vision-Language",
+      "count": 1356,
+      "share": 0.05163747143945164
     },
     {
       "topic": "Interpretability & Analysis",
-      "count": 703,
-      "share": 0.0333523104658886
+      "count": 862,
+      "share": 0.032825590251332824
     }
   ]
 }

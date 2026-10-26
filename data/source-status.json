@@ -100,9 +100,12 @@
     "year": 2026,
     "source": "ACL Anthology",
     "url": "https://aclanthology.org/events/emnlp-2026/",
-    "status": "not_published",
-    "papers": 0,
-    "error": "HTTP 404 for https://aclanthology.org/events/emnlp-2026/"
+    "status": "ok",
+    "papers": 5182,
+    "volumes": [
+      "2026.emnlp-main",
+      "2026.findings-emnlp"
+    ]
   },
   {
     "conference": "naacl",
