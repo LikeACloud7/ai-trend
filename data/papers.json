@@ -5487,8 +5487,8 @@
     "authors": [
       "Sukmin Cho",
       "Soyeong Jeong",
-      "Jeong yeon Seo",
-      "Jong Park"
+      "Jeongyeon Seo",
+      "Jong C. Park"
     ],
     "year": 2023,
     "conference": "acl",
@@ -57773,9 +57773,9 @@
     "title": "Improving Zero-shot Reader by Reducing Distractions from Irrelevant Documents in Open-Domain Question Answering",
     "authors": [
       "Sukmin Cho",
-      "Jeongyeon Seo",
+      "Jeong yeon Seo",
       "Soyeong Jeong",
-      "Jong Park"
+      "Jong C. Park"
     ],
     "year": 2023,
     "conference": "emnlp",
@@ -171149,8 +171149,8 @@
     "authors": [
       "Abhishek Arora",
       "Emily Silcock",
-      "Melissa Dell",
-      "Leander Heldring"
+      "Leander Heldring",
+      "Melissa Dell"
     ],
     "year": 2024,
     "conference": "emnlp",
@@ -226735,7 +226735,7 @@
     "title": "Exploring LLM Annotation for Adaptation of Clinical Information Extraction Models under Data-sharing Restrictions",
     "authors": [
       "Seiji Shimizu",
-      "Hisada Shohei",
+      "Shohei Hisada",
       "Yutaka Uno",
       "Shuntaro Yada",
       "Shoko Wakamiya",
@@ -268782,7 +268782,7 @@
     "id": "2025.acl-long.994",
     "title": "Interactive and Expressive Code-Augmented Planning with Large Language Models",
     "authors": [
-      "Anthony Zhe Liu",
+      "Anthony Z. Liu",
       "Xinhe Wang",
       "Jacob Sansom",
       "Yao Fu",
@@ -273579,12 +273579,12 @@
   },
   {
     "id": "2025.acl-long.1459",
-    "title": "MAP o RL : Multi-Agent Post-Co-Training for Collaborative Large Language Models with Reinforcement Learning",
+    "title": "MAP o RL 2: Multi-Agent Post-Co-Training for Collaborative Large Language Models with Reinforcement Learning",
     "authors": [
       "Chanwoo Park",
       "Seungju Han",
       "Xingzhi Guo",
-      "Asuman E. Ozdaglar",
+      "Asuman Ozdaglar",
       "Kaiqing Zhang",
       "Joo-Kyung Kim"
     ],
@@ -313111,7 +313111,7 @@
     "authors": [
       "Ishan Jindal",
       "Jayant Taneja",
-      "Badrinath Chandana",
+      "Chandana Badrinath",
       "Vikas Kapur",
       "Sachin Dev Sharma"
     ],
@@ -413915,8 +413915,8 @@
       "Jiazhou Liang",
       "Yifan Simon Liu",
       "David Guo",
-      "Yilun Jiang",
       "Minqi Sun",
+      "Yilun Jiang",
       "Scott Sanner"
     ],
     "year": 2026,
@@ -440506,11 +440506,11 @@
     "id": "2026.findings-acl.1894",
     "title": "Single-Agent Generation Surpasses Multi-Agent Systems in Semantic Diversity",
     "authors": [
-      "Cui Encheng",
+      "Encheng Cui",
       "Shaowen Peng",
       "Kazuhiro Ito",
-      "XU Jinsha",
-      "Hisada Shohei",
+      "Jinsha Xu",
+      "Shohei Hisada",
       "Shoko Wakamiya",
       "Eiji Aramaki"
     ],
@@ -471853,7 +471853,7 @@
       "Ke Wang",
       "Peng Chen",
       "Gang Cao",
-      "Kangqin",
+      "Kang Qin",
       "Zhongpu Wang"
     ],
     "year": 2026,
@@ -487940,7 +487940,7 @@
     "authors": [
       "Behrooz Azarkhalili",
       "Linyi Li",
-      "Maxwell W. Libbrecht"
+      "Maxwell Libbrecht"
     ],
     "year": 2026,
     "conference": "acl",
@@ -504957,7 +504957,7 @@
       "Xinyu Yang",
       "Mihai Christodorescu",
       "Ravi Mangal",
-      "Corina S. Pasareanu",
+      "Corina Pasareanu",
       "Haizhong Zheng"
     ],
     "year": 2026,
@@ -519738,9 +519738,9 @@
     "authors": [
       "Omar Farouk Zouak",
       "Houssam Eddine Boukhalfa",
-      "Lakehal Soumaya",
+      "Soumaya Lakehal",
       "Shiv Katiyar",
-      "Prof Samia Nefti-Meziani"
+      "Samia Nefti-Meziani"
     ],
     "year": 2026,
     "conference": "emnlp",
@@ -524371,9 +524371,9 @@
     "id": "2026.findings-emnlp.2027",
     "title": "E cho L ens: A Human-Speech Dataset for Auditing Demographic Sensitivity in Audio-Language Models",
     "authors": [
-      "Alejandro Salinas de Leon",
-      "Julian Nyarko",
-      "Allison Koenecke"
+      "Alejandro Salinas",
+      "Allison Koenecke",
+      "Julian Nyarko"
     ],
     "year": 2026,
     "conference": "emnlp",
@@ -525379,12 +525379,12 @@
     "title": "EDWARD - NMT : Elastic Dimensions With Adaptive Routing and Dual-consistency for Neural Machine Translation",
     "authors": [
       "Edward Nguyen",
-      "Trung Thai Tran",
+      "Thai Tran",
       "Kiet Anh Hoang",
-      "Duy Hoang Vien",
+      "Duy Hoang",
       "Duy Vo",
       "Khanh Le",
-      "Vu Le Tuan"
+      "Vu Le"
     ],
     "year": 2026,
     "conference": "emnlp",
@@ -529353,7 +529353,7 @@
       "Yilin Yang",
       "Junyi Cheng",
       "Jianfei Xiao",
-      "Sun HU",
+      "Hu Sun",
       "Yi Xie",
       "Yangyang Li"
     ],
@@ -535250,7 +535250,7 @@
     "id": "2026.findings-emnlp.48",
     "title": "JAM : A Tiny Flow-based Song Generator with Fine-grained Controllability and Aesthetic Alignment",
     "authors": [
-      "Liu Renhang",
+      "Renhang Liu",
       "Chia-Yu Hung",
       "Navonil Majumder",
       "Dorien Herremans",
@@ -560979,7 +560979,7 @@
   },
   {
     "id": "2026.findings-emnlp.32",
-    "title": "Towards Reliable Multilingual Judge Models: An Empirical Study",
+    "title": "Towards Reliable Multilingual LLM s-as-a-Judge: An Empirical Study",
     "authors": [
       "Irune Zubiaga",
       "Aitor Soroa",
@@ -560993,11 +560993,11 @@
     "source": "ACL Anthology",
     "url": "https://aclanthology.org/2026.findings-emnlp.32/",
     "keywords": [],
-    "primaryCategory": "multilingual",
+    "primaryCategory": "llms",
     "categories": [
+      "llms",
       "multilingual",
       "evaluation",
-      "llms",
       "efficient_ai"
     ]
   },
@@ -562402,10 +562402,10 @@
       "Yuzhe Guo",
       "Yuan Cao",
       "Haochuan Lu",
-      "Dfshenzhu",
+      "Songhe Zhu",
       "Pingzhe Qu",
       "Xin Chen",
-      "Kangqin"
+      "Kang Qin"
     ],
     "year": 2026,
     "conference": "emnlp",
@@ -568894,6 +568894,28 @@
     "primaryCategory": "reasoning",
     "categories": [
       "reasoning"
+    ]
+  },
+  {
+    "id": "2026.emnlp-main.1768",
+    "title": "Adapting from Downturns: Prediction of Long-Term Conversational-Skill Development in Mental-Health Crisis Counselors",
+    "authors": [
+      "Vivian Nguyen",
+      "Lillian Lee",
+      "Elizabeth A. Olson",
+      "Cristian Danescu-Niculescu-Mizil"
+    ],
+    "year": 2026,
+    "conference": "emnlp",
+    "conferenceName": "EMNLP",
+    "track": "main",
+    "trackLabel": "Main",
+    "source": "ACL Anthology",
+    "url": "https://aclanthology.org/2026.emnlp-main.1768/",
+    "keywords": [],
+    "primaryCategory": "other",
+    "categories": [
+      "other"
     ]
   },
   {
@@ -576706,7 +576728,7 @@
     "id": "2026.emnlp-main.1448",
     "title": "Can Large Language Models Handle Discourse Particles? A Case Study of Colloquial M alay",
     "authors": [
-      "Mariah Al Giptiah Binte Yusoff",
+      "Al Giptiah Binte Yusoff Mariah",
       "Jakin Tan",
       "Bocheng Chen",
       "Guangliang Liu",
@@ -610239,28 +610261,6 @@
     ]
   },
   {
-    "id": "2026.emnlp-main.1768",
-    "title": "Predicting Long-Term Conversational Skill Development in Mental-Health Crisis Counselors",
-    "authors": [
-      "Vivian Nguyen",
-      "Lillian Lee",
-      "Elizabeth A. Olson",
-      "Cristian Danescu-Niculescu-Mizil"
-    ],
-    "year": 2026,
-    "conference": "emnlp",
-    "conferenceName": "EMNLP",
-    "track": "main",
-    "trackLabel": "Main",
-    "source": "ACL Anthology",
-    "url": "https://aclanthology.org/2026.emnlp-main.1768/",
-    "keywords": [],
-    "primaryCategory": "other",
-    "categories": [
-      "other"
-    ]
-  },
-  {
     "id": "2026.emnlp-main.162",
     "title": "Predicting Multilingual Classification and Translation Performance of LLM s with Cross-Lingual Alignment – Is E nglish Enough?",
     "authors": [
@@ -614276,7 +614276,6 @@
       "Artur Zagitov",
       "Alexander Miasnikov",
       "Maxim Krutikov",
-      "Artem Tsedenov",
       "Vladimir Aletov",
       "Gleb Molodtsov",
       "Nail Bashirov",
@@ -623509,7 +623508,7 @@
       "Chang Han",
       "Yurui Shi",
       "Mingtai Zhang",
-      "Siyang xu"
+      "Siyang Xu"
     ],
     "year": 2026,
     "conference": "emnlp",
@@ -627808,7 +627807,7 @@
     "authors": [
       "Vivian Lai",
       "Zana Buçinca",
-      "Hyeonsu B Kang",
+      "Hyeonsu B. Kang",
       "Mo Houtti",
       "Nil-Jana Akpinar",
       "Kevin Chian",

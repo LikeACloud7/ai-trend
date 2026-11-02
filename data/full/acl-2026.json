@@ -39186,8 +39186,8 @@
       "Jiazhou Liang",
       "Yifan Simon Liu",
       "David Guo",
-      "Yilun Jiang",
       "Minqi Sun",
+      "Yilun Jiang",
       "Scott Sanner"
     ],
     "abstract": "The growing ubiquity of Extended Reality (XR) is driving Conversational Recommendation Systems (CRS) toward visually immersive experiences. We formalize this paradigm as Immersive CRS (ICRS), where recommended items are highlighted directly in the user’s scene-based visual environment and augmented with in-situ labels. While item recommendation has been widely studied, the problem of how to select and evaluate which information to present as immersive labels remains an open problem. To this end, we introduce a principled categorization of information needs into explicit intent satisfaction and proactive information needs and use these to define novel evaluation metrics for item label selection. We benchmark IR-, LLM-, and VLM-based methods across three datasets and ICRS scenarios: fashion, movie recommendation, and retail shopping. Our evaluation reveals three important limitations of existing methods: (1) they fail to leverage scenario-specific information modalities (e.g., visual cues for fashion, metadata for retail), (2) they present redundant information that is visually inferable, and (3) they poorly anticipate users’ proactive information needs from explicit dialogue alone. In summary, this work provides both a novel evaluation paradigm for in-situ item labeling in ICRS and highlights key challenges for future work.",
@@ -45611,7 +45611,7 @@
       "Junjia Xiang",
       "Ming Liu",
       "Yujun Zhou",
-      "Li Lanyu",
+      "Lanyu Li",
       "Bing Qin"
     ],
     "abstract": "Temporal Knowledge Graph (TKG) forecasting faces significant challenges due to distribution shifts and poor inductive generalization in parametric models. While Large Language Models (LLMs) offer potent semantic reasoning, existing LLM-based approaches struggle with implicit modality alignment and suboptimal graph linearization, failing to capture complex topologies without retraining. To bridge this gap, we propose ExE-LLM, a training-free, test-time adaptive framework that reframes TKG prediction as explicit evidence-driven reasoning. Our core philosophy is to decouple topological calculation from semantic reasoning: a heuristic module translates latent graph signals into natural language evidence, enabling the LLM to perform multi-source judgment. ExE-LLM incorporates a task-aware scheduler for test-time adaptation, a heuristic synthesizer for explicit modality alignment, and a self-diagnosis module for iterative optimization. Extensive experiments on four benchmarks demonstrate that ExE-LLM achieves SOTA performance in inductive settings, significantly outperforming fully trained graph neural networks without updating LLM parameters. The source code is available at https://github.com/JENLISA4EVER/ExE-LLM .",
@@ -98762,11 +98762,11 @@
     "id": "2026.findings-acl.1894",
     "title": "Single-Agent Generation Surpasses Multi-Agent Systems in Semantic Diversity",
     "authors": [
-      "Cui Encheng",
+      "Encheng Cui",
       "Shaowen Peng",
       "Kazuhiro Ito",
-      "XU Jinsha",
-      "Hisada Shohei",
+      "Jinsha Xu",
+      "Shohei Hisada",
       "Shoko Wakamiya",
       "Eiji Aramaki"
     ],
@@ -168698,7 +168698,7 @@
       "Ke Wang",
       "Peng Chen",
       "Gang Cao",
-      "Kangqin",
+      "Kang Qin",
       "Zhongpu Wang",
       "Xiaode Zhang",
       "Yanming Liu",
@@ -204502,7 +204502,7 @@
     "authors": [
       "Behrooz Azarkhalili",
       "Linyi Li",
-      "Maxwell W. Libbrecht"
+      "Maxwell Libbrecht"
     ],
     "abstract": "We introduce PR-XAI, a feature attribution method for transformer models based on the PageRank algorithm. The proposed PR-XAI models the attention mechanism as a directed graph, with weights derived from attention weights and their gradients. Evaluations across five well-known text classification datasets and three different architectures show that PR-AG, one variant of PR-XAI, outperforms state-of-the-art attribution methods in faithfulness and classification metrics, with significant gains on long-form text.",
     "year": 2026,
@@ -242467,7 +242467,7 @@
       "Xinyu Yang",
       "Mihai Christodorescu",
       "Ravi Mangal",
-      "Corina S. Pasareanu",
+      "Corina Pasareanu",
       "Haizhong Zheng",
       "Beidi Chen"
     ],

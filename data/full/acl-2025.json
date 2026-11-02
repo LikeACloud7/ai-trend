@@ -24333,7 +24333,7 @@
     "title": "Exploring LLM Annotation for Adaptation of Clinical Information Extraction Models under Data-sharing Restrictions",
     "authors": [
       "Seiji Shimizu",
-      "Hisada Shohei",
+      "Shohei Hisada",
       "Yutaka Uno",
       "Shuntaro Yada",
       "Shoko Wakamiya",
@@ -114572,7 +114572,7 @@
     "id": "2025.acl-long.994",
     "title": "Interactive and Expressive Code-Augmented Planning with Large Language Models",
     "authors": [
-      "Anthony Zhe Liu",
+      "Anthony Z. Liu",
       "Xinhe Wang",
       "Jacob Sansom",
       "Yao Fu",
@@ -124900,12 +124900,12 @@
   },
   {
     "id": "2025.acl-long.1459",
-    "title": "MAP o RL : Multi-Agent Post-Co-Training for Collaborative Large Language Models with Reinforcement Learning",
+    "title": "MAP o RL 2: Multi-Agent Post-Co-Training for Collaborative Large Language Models with Reinforcement Learning",
     "authors": [
       "Chanwoo Park",
       "Seungju Han",
       "Xingzhi Guo",
-      "Asuman E. Ozdaglar",
+      "Asuman Ozdaglar",
       "Kaiqing Zhang",
       "Joo-Kyung Kim"
     ],

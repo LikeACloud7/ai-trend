@@ -23741,9 +23741,9 @@
     "title": "Improving Zero-shot Reader by Reducing Distractions from Irrelevant Documents in Open-Domain Question Answering",
     "authors": [
       "Sukmin Cho",
-      "Jeongyeon Seo",
+      "Jeong yeon Seo",
       "Soyeong Jeong",
-      "Jong Park"
+      "Jong C. Park"
     ],
     "abstract": "Large language models (LLMs) enable zero-shot approaches in open-domain question answering (ODQA), yet with limited advancements as the reader is compared to the retriever. This study aims at the feasibility of a zero-shot reader that addresses the challenges of computational cost and the need for labeled data. We find that LLMs are distracted due to irrelevant documents in the retrieved set and the overconfidence of the generated answers when they are exploited as zero-shot readers. To tackle these problems, we mitigate the impact of such documents via Distraction-aware Answer Selection (DAS) with a negation-based instruction and score adjustment for proper answer selection. Experimental results show that our approach successfully handles distraction across diverse scenarios, enhancing the performance of zero-shot readers. Furthermore, unlike supervised readers struggling with unseen data, zero-shot readers demonstrate outstanding transferability without any training.",
     "year": 2023,
@@ -69060,7 +69060,7 @@
       "Arghya Sarkar",
       "Kinjal Sensharma",
       "Aman Chadha",
-      "Amit Sheth",
+      "Amit P. Sheth",
       "Amitava Das"
     ],
     "abstract": "Combating disinformation is one of the burning societal crises - about 67% of the American population believes that disinformation produces a lot of uncertainty, and 10% of them knowingly propagate disinformation. Evidence shows that disinformation can manipulate democratic processes and public opinion, causing disruption in the share market, panic and anxiety in society, and even death during crises. Therefore, disinformation should be identified promptly and, if possible, mitigated. With approximately 3.2 billion images and 720,000 hours of video shared online daily on social media platforms, scalable detection of multimodal disinformation requires efficient fact verification. Despite progress in automatic text-based fact verification (e.g., FEVER, LIAR), the research community lacks substantial effort in multimodal fact verification. To address this gap, we introduce FACTIFY 3M, a dataset of 3 million samples that pushes the boundaries of the domain of fact verification via a multimodal fake news dataset, in addition to offering explainability through the concept of 5W question-answering. Salient features of the dataset include: (i) textual claims, (ii) ChatGPT-generated paraphrased claims, (iii) associated images, (iv) stable diffusion-generated additional images (i.e., visual paraphrases), (v) pixel-level image heatmap to foster image-text explainability of the claim, (vi) 5W QA pairs, and (vii) adversarial fake news stories.",
