@@ -36323,8 +36323,8 @@
     "id": "2024.findings-acl.878",
     "title": "R ole LLM : Benchmarking, Eliciting, and Enhancing Role-Playing Abilities of Large Language Models",
     "authors": [
-      "Noah Wang",
-      "Z.Y. Peng",
+      "Zekun Moore Wang",
+      "Zhongyuan Peng",
       "Haoran Que",
       "Jiaheng Liu",
       "Wangchunshu Zhou",
@@ -36337,7 +36337,7 @@
       "Zhaoxiang Zhang",
       "Wanli Ouyang",
       "Ke Xu",
-      "Wenhao Huang",
+      "Stephen W. Huang",
       "Jie Fu",
       "Junran Peng"
     ],

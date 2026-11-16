@@ -20333,7 +20333,7 @@
   },
   {
     "id": "2024.findings-emnlp.841",
-    "title": "How You Prompt Matters! E ven Task-Oriented Constraints in Instructions Affect LLM -Generated Text Detection",
+    "title": "How You Prompt Matters! Even Task-Oriented Constraints in Instructions Affect LLM -Generated Text Detection",
     "authors": [
       "Ryuto Koike",
       "Masahiro Kaneko",

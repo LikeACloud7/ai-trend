@@ -21667,8 +21667,8 @@
     "id": "2023.acl-long.778",
     "title": "A rg A nalysis35 K : A large-scale dataset for Argument Quality Analysis",
     "authors": [
-      "Omkar Joshi",
-      "Priya Pitre",
+      "Omkar Jayant Joshi",
+      "Priya Nitin Pitre",
       "Yashodhara Haribhakta"
     ],
     "year": 2023,
@@ -27222,7 +27222,7 @@
   },
   {
     "id": "2023.acl-long.3",
-    "title": "Detecting and Mitigating Hallucinations in Machine Translation: Model Internal Workings Alone Do Well, Sentence Similarity E ven Better",
+    "title": "Detecting and Mitigating Hallucinations in Machine Translation: Model Internal Workings Alone Do Well, Sentence Similarity Even Better",
     "authors": [
       "David Dale",
       "Elena Voita",
@@ -112678,8 +112678,8 @@
     "id": "2024.findings-acl.878",
     "title": "R ole LLM : Benchmarking, Eliciting, and Enhancing Role-Playing Abilities of Large Language Models",
     "authors": [
-      "Noah Wang",
-      "Z.Y. Peng",
+      "Zekun Moore Wang",
+      "Zhongyuan Peng",
       "Haoran Que",
       "Jiaheng Liu",
       "Wangchunshu Zhou",
@@ -151176,7 +151176,7 @@
   },
   {
     "id": "2024.findings-emnlp.841",
-    "title": "How You Prompt Matters! E ven Task-Oriented Constraints in Instructions Affect LLM -Generated Text Detection",
+    "title": "How You Prompt Matters! Even Task-Oriented Constraints in Instructions Affect LLM -Generated Text Detection",
     "authors": [
       "Ryuto Koike",
       "Masahiro Kaneko",
@@ -255926,7 +255926,7 @@
       "Weixun Wang",
       "Xingyuan Bu",
       "Ge Zhang",
-      "Z.Y. Peng",
+      "Zhongyuan Peng",
       "Zhaoxiang Zhang"
     ],
     "year": 2025,
@@ -259751,7 +259751,7 @@
   },
   {
     "id": "2025.acl-long.122",
-    "title": "Did Translation Models Get More Robust Without Anyone E ven Noticing?",
+    "title": "Did Translation Models Get More Robust Without Anyone Even Noticing?",
     "authors": [
       "Ben Peters",
       "Andre Martins"
@@ -284037,7 +284037,7 @@
     "title": "SPECTRA : Faster Large Language Model Inference with Optimized Internal and External Speculation",
     "authors": [
       "Nguyen-Khang Le",
-      "Truong Dinh Do",
+      "Dinh-Truong Do",
       "Le-Minh Nguyen"
     ],
     "year": 2025,
@@ -312833,7 +312833,7 @@
   },
   {
     "id": "2025.findings-emnlp.984",
-    "title": "No Free Lunch: Retrieval-Augmented Generation Undermines Fairness in LLM s, E ven for Vigilant Users",
+    "title": "No Free Lunch: Retrieval-Augmented Generation Undermines Fairness in LLM s, Even for Vigilant Users",
     "authors": [
       "Mengxuan Hu",
       "Hongyi Wu",
@@ -332294,7 +332294,7 @@
   },
   {
     "id": "2025.emnlp-main.9",
-    "title": "Comparing Specialised Small and General Large Language Models on Text Classification: 100 Labelled Samples to Achieve Break- E ven Performance",
+    "title": "Comparing Specialised Small and General Large Language Models on Text Classification: 100 Labelled Samples to Achieve Break-Even Performance",
     "authors": [
       "Branislav Pecher",
       "Ivan Srba",
@@ -403781,7 +403781,7 @@
       "Lei Wu",
       "Yunlong Zhang",
       "Xiaofeng Zhong",
-      "Wang Zhen",
+      "Zhen Wang",
       "Yongjie Wang",
       "Yao Pan"
     ],
@@ -423064,7 +423064,7 @@
   },
   {
     "id": "2026.findings-acl.1467",
-    "title": "Large Language Models Require Curated Context for Reliable Political Fact-Checking— E ven with Reasoning and Web Search",
+    "title": "Large Language Models Require Curated Context for Reliable Political Fact-Checking—Even with Reasoning and Web Search",
     "authors": [
       "Matthew R. DeVerna",
       "Kai-Cheng Yang",
@@ -436212,7 +436212,7 @@
       "Dayeon Ki",
       "Yu Hou",
       "Rachel Rudinger",
-      "Hal Daumé Iii",
+      "Hal Daumé III",
       "Marine Carpuat",
       "Fumeng Yang"
     ],
@@ -437585,7 +437585,7 @@
   },
   {
     "id": "2026.findings-acl.1852",
-    "title": "S afety ALFRED : Evaluating Safety-Conscious Planning of Vision Language Models",
+    "title": "S afety ALFRED : Evaluating Safety-Conscious Planning of Multimodal Large Language Models",
     "authors": [
       "Josue Torres-Fonseca",
       "Naihao Deng",
@@ -458734,7 +458734,7 @@
       "Huy Nghiem",
       "Xinchen Yang",
       "Marine Carpuat",
-      "Hal Daumé Iii"
+      "Hal Daumé III"
     ],
     "year": 2026,
     "conference": "acl",
@@ -489149,7 +489149,7 @@
       "Huan Wu",
       "Amirreza Naziri",
       "Mojtaba Kolahdouzi",
-      "Laleh Seyyed-Kalantari"
+      "Laleh Seyyed Kalantari"
     ],
     "year": 2026,
     "conference": "acl",
@@ -496326,7 +496326,7 @@
     "authors": [
       "Huy Nghiem",
       "Advik Sachdeva",
-      "Hal Daumé Iii"
+      "Hal Daumé III"
     ],
     "year": 2026,
     "conference": "acl",
@@ -502326,7 +502326,7 @@
     "id": "2026.acl-long.285",
     "title": "U ni S pec: Training-Free Speculative Decoding for Robust LLM Acceleration Across Languages and Hardware",
     "authors": [
-      "Truong Dinh Do",
+      "Dinh-Truong Do",
       "Nguyen-Khang Le",
       "Le-Minh Nguyen"
     ],
@@ -503298,7 +503298,7 @@
   },
   {
     "id": "2026.acl-long.84",
-    "title": "Using Perspectival Words Is Harder Than Vocabulary Words for Humans —and E ven More So for Multimodal Language Models",
+    "title": "Using Perspectival Words Is Harder Than Vocabulary Words for Humans —and Even More So for Multimodal Language Models",
     "authors": [
       "Dota Tianai Dong",
       "Yifan Luo",
@@ -509231,8 +509231,7 @@
     "authors": [
       "Siheng Xiong",
       "Oguzhan Gungordu",
-      "Blair Johnson",
-      "James Clayton Kerce",
+      "James C. Kerce",
       "Faramarz Fekri"
     ],
     "year": 2026,
@@ -541654,11 +541653,11 @@
     "id": "2026.findings-emnlp.1505",
     "title": "Mitigating Object Hallucinations in Vision-Language Models via Head-Level Attribution and Counteractive Pruning",
     "authors": [
-      "Wu Liyan",
+      "Liyan Wu",
       "Xin Luo",
       "Fan Wu",
       "Yingen Liu",
-      "Wuxiaobin"
+      "Xiaobin Wu"
     ],
     "year": 2026,
     "conference": "emnlp",
@@ -559067,6 +559066,7 @@
     "title": "Text-Based Veracity Assessment of Verbal Statements in S wedish",
     "authors": [
       "Clara Gustafsson",
+      "Moa Lidén",
       "Joakim Nivre"
     ],
     "year": 2026,
@@ -570228,7 +570228,7 @@
     "title": "Anomaly Detection using Source-Reversed Flow Matching",
     "authors": [
       "Amine Youcef Khodja",
-      "Jeremie Pantin",
+      "Jéremie Pantin",
       "Gaël Dias",
       "Fabrice Maurel"
     ],
@@ -581035,9 +581035,9 @@
     "id": "2026.emnlp-main.413",
     "title": "D uo PRAG : Rank-Disentangled and Gated Knowledge-Reasoning Fusion",
     "authors": [
-      "Nakhyeon Choi",
+      "Nakhyun Choi",
       "Cheoneum Park",
-      "Seung-Hoon Na"
+      "Seung-hoon Na"
     ],
     "year": 2026,
     "conference": "emnlp",
@@ -602964,7 +602964,7 @@
       "Yingen Liu",
       "Lanfeng Wu",
       "Fan Wu",
-      "Wu Liyan",
+      "Liyan Wu",
       "Ruihui Li",
       "Zhuo Tang",
       "Eng Siong Chng",
@@ -611809,10 +611809,10 @@
   },
   {
     "id": "2026.emnlp-main.678",
-    "title": "R e F eed G raph: Graph-Grounded Reusable Feedback for Debate Improvement",
+    "title": "R e F eed G raph: Graph -Grounded Re usable Feed back for Debate Improvement",
     "authors": [
       "Priya Pitre",
-      "Omkar J. Joshi",
+      "Omkar Joshi",
       "Timon Ziegenbein",
       "Henning Wachsmuth"
     ],

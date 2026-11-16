@@ -87078,7 +87078,7 @@
       "Weixun Wang",
       "Xingyuan Bu",
       "Ge Zhang",
-      "Z.Y. Peng",
+      "Zhongyuan Peng",
       "Zhaoxiang Zhang",
       "Zhicheng Zheng",
       "Wenbo Su",
@@ -95183,7 +95183,7 @@
   },
   {
     "id": "2025.acl-long.122",
-    "title": "Did Translation Models Get More Robust Without Anyone E ven Noticing?",
+    "title": "Did Translation Models Get More Robust Without Anyone Even Noticing?",
     "authors": [
       "Ben Peters",
       "Andre Martins"
@@ -147031,7 +147031,7 @@
     "title": "SPECTRA : Faster Large Language Model Inference with Optimized Internal and External Speculation",
     "authors": [
       "Nguyen-Khang Le",
-      "Truong Dinh Do",
+      "Dinh-Truong Do",
       "Le-Minh Nguyen"
     ],
     "abstract": "Inference with modern Large Language Models (LLMs) is both computationally expensive and time-consuming. Speculative decoding has emerged as a promising solution, but existing approaches face key limitations: training-based methods require a draft model that is challenging to obtain and lacks generalizability, while training-free methods offer limited speedup gains. In this work, we present Spectra, a novel framework for accelerating LLM inference without the need for additional training or modification to the original LLM. Spectra introduces two new techniques for efficiently utilizing internal and external speculation, each outperforming corresponding state-of-the-art (SOTA) methods independently. When combined, these techniques achieve up to a 4.08x speedup across various benchmarks and LLM architectures, significantly surpassing existing training-free approaches. The implementation of Spectra is publicly available.",
