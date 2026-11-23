@@ -524466,8 +524466,8 @@
     "id": "2026.findings-emnlp.946",
     "title": "E go E rror VQA : Assess Egocentric Comprehension Capabilities through Procedural Errors for Ego-Agentic AI",
     "authors": [
-      "Junlong li",
-      "Junxi LI",
+      "Junlong Li",
+      "Junxi Li",
       "Jianjun Gao",
       "Chen Cai",
       "Lap-Pui Chau",
@@ -585828,7 +585828,7 @@
   },
   {
     "id": "2026.emnlp-main.673",
-    "title": "Encoder-only and decoder-only models exhibit distinct patterns of linguistic bias",
+    "title": "Encoder-only and decoder-only models understand abstract argument structure differently",
     "authors": [
       "Suet-Ying Lam",
       "Qingcheng Zeng",
